@@ -1,0 +1,2035 @@
+{
+"version": "2026-11-23",
+"questions": [
+{
+"id": "en-8cbf28ea",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"ABUNDANT\".",
+"o": [
+"Plentiful",
+"Scarce",
+"Rare",
+"Meagre"
+],
+"a": 0,
+"e": "Abundant = existing in large quantities."
+},
+{
+"id": "en-a245ad8b",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"CANDID\".",
+"o": [
+"Frank",
+"Secretive",
+"Cunning",
+"Polite"
+],
+"a": 0,
+"e": "Candid means honest and straightforward."
+},
+{
+"id": "en-3a61189c",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"METICULOUS\".",
+"o": [
+"Careful",
+"Careless",
+"Hasty",
+"Lazy"
+],
+"a": 0,
+"e": "Meticulous = showing great attention to detail."
+},
+{
+"id": "en-6b8fc24d",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"OBSOLETE\".",
+"o": [
+"Outdated",
+"Modern",
+"Useful",
+"Popular"
+],
+"a": 0,
+"e": "Obsolete = no longer produced or used."
+},
+{
+"id": "en-e425f2f4",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"VERBOSE\".",
+"o": [
+"Wordy",
+"Silent",
+"Brief",
+"Clear"
+],
+"a": 0,
+"e": "Verbose = using more words than needed."
+},
+{
+"id": "en-a2281472",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"BENEVOLENT\".",
+"o": [
+"Kind",
+"Cruel",
+"Greedy",
+"Proud"
+],
+"a": 0,
+"e": "Benevolent = well meaning and kindly."
+},
+{
+"id": "en-ea18e48c",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"EXPAND\".",
+"o": [
+"Contract",
+"Extend",
+"Grow",
+"Spread"
+],
+"a": 0,
+"e": "Expand = to become larger; contract = to become smaller."
+},
+{
+"id": "en-e6d24397",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"TRANSPARENT\".",
+"o": [
+"Opaque",
+"Clear",
+"Thin",
+"Bright"
+],
+"a": 0,
+"e": "Transparent lets light through; opaque does not."
+},
+{
+"id": "en-699ca260",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"ARDUOUS\".",
+"o": [
+"Easy",
+"Difficult",
+"Tiring",
+"Hard"
+],
+"a": 0,
+"e": "Arduous = demanding great effort."
+},
+{
+"id": "en-e7551224",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"GENUINE\".",
+"o": [
+"Fake",
+"Real",
+"Honest",
+"Original"
+],
+"a": 0,
+"e": "Genuine = authentic."
+},
+{
+"id": "en-3fff2001",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"ZENITH\".",
+"o": [
+"Nadir",
+"Peak",
+"Summit",
+"Apex"
+],
+"a": 0,
+"e": "Zenith is the highest point, nadir the lowest."
+},
+{
+"id": "en-0839371b",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"FRUGAL\".",
+"o": [
+"Extravagant",
+"Thrifty",
+"Careful",
+"Economical"
+],
+"a": 0,
+"e": "Frugal = sparing with money."
+},
+{
+"id": "en-71a16dbf",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"To burn the midnight oil\".",
+"o": [
+"To work late into the night",
+"To waste fuel",
+"To start a fire",
+"To sleep early"
+],
+"a": 0,
+"e": "Studying or working late at night."
+},
+{
+"id": "en-4d97f128",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"A blessing in disguise\".",
+"o": [
+"A good thing that seemed bad at first",
+"A hidden curse",
+"A religious act",
+"A plain gift"
+],
+"a": 0,
+"e": "Something good that is not immediately recognised."
+},
+{
+"id": "en-5ee80cf5",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"To cry wolf\".",
+"o": [
+"To raise a false alarm",
+"To be very sad",
+"To hunt",
+"To shout loudly"
+],
+"a": 0,
+"e": "From the fable of the boy who cried wolf."
+},
+{
+"id": "en-1cbc8428",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"Once in a blue moon\".",
+"o": [
+"Very rarely",
+"Every month",
+"At night",
+"Very often"
+],
+"a": 0,
+"e": "Blue moon is a rare event."
+},
+{
+"id": "en-b5d9b96f",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"To hit the nail on the head\".",
+"o": [
+"To say exactly the right thing",
+"To damage something",
+"To work hard",
+"To make a mistake"
+],
+"a": 0,
+"e": "To be exactly right about something."
+},
+{
+"id": "en-17e0b0b5",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"Beat around the bush\".",
+"o": [
+"To avoid the main point",
+"To hunt birds",
+"To clean a garden",
+"To speak directly"
+],
+"a": 0,
+"e": "To talk without coming to the point."
+},
+{
+"id": "en-3361ab38",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"The ball is in your court\".",
+"o": [
+"It is your turn to act",
+"You are winning",
+"You are cheating",
+"The game is over"
+],
+"a": 0,
+"e": "The next move is yours."
+},
+{
+"id": "en-99e4a2ad",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A person who loves books\".",
+"o": [
+"Bibliophile",
+"Philanthropist",
+"Misanthrope",
+"Bibliographer"
+],
+"a": 0,
+"e": "Biblio = book, phile = lover."
+},
+{
+"id": "en-7d3ea561",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"Fear of open spaces\".",
+"o": [
+"Agoraphobia",
+"Claustrophobia",
+"Hydrophobia",
+"Xenophobia"
+],
+"a": 0,
+"e": "Agora = marketplace/open space."
+},
+{
+"id": "en-3f5896b2",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A government by the people\".",
+"o": [
+"Democracy",
+"Autocracy",
+"Aristocracy",
+"Theocracy"
+],
+"a": 0,
+"e": "Demos = people, kratos = rule."
+},
+{
+"id": "en-5a473a96",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"One who knows everything\".",
+"o": [
+"Omniscient",
+"Omnipotent",
+"Omnipresent",
+"Omnivorous"
+],
+"a": 0,
+"e": "Omni = all, scient = knowing."
+},
+{
+"id": "en-33a7bdfe",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A speech delivered without preparation\".",
+"o": [
+"Extempore",
+"Soliloquy",
+"Monologue",
+"Sermon"
+],
+"a": 0,
+"e": "Extempore = unprepared, spontaneous."
+},
+{
+"id": "en-a282d608",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"Study of ancient things\".",
+"o": [
+"Archaeology",
+"Anthropology",
+"Geology",
+"Etymology"
+],
+"a": 0,
+"e": "Archaeology studies human history through remains."
+},
+{
+"id": "en-8f0842ac",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the correct sentence.",
+"o": [
+"He has been living here since 2015.",
+"He is living here since 2015.",
+"He lives here since 2015.",
+"He was living here since 2015."
+],
+"a": 0,
+"e": "\"Since\" with a point in time takes the present perfect continuous."
+},
+{
+"id": "en-8f0842ac",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the correct sentence.",
+"o": [
+"Each of the boys has finished his work.",
+"Each of the boys have finished his work.",
+"Each of the boys have finished their works.",
+"Each of the boy has finished his work."
+],
+"a": 0,
+"e": "\"Each\" takes a singular verb."
+},
+{
+"id": "en-8f0842ac",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the correct sentence.",
+"o": [
+"Neither of the two answers is correct.",
+"Neither of the two answers are correct.",
+"Neither of the two answer is correct.",
+"Neither the two answers is correct."
+],
+"a": 0,
+"e": "\"Neither\" takes a singular verb."
+},
+{
+"id": "en-8f0842ac",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the correct sentence.",
+"o": [
+"The news is good.",
+"The news are good.",
+"The news were good.",
+"The newses are good."
+],
+"a": 0,
+"e": "\"News\" is an uncountable noun taking a singular verb."
+},
+{
+"id": "en-8f0842ac",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the correct sentence.",
+"o": [
+"I have lived in Delhi for ten years.",
+"I have lived in Delhi since ten years.",
+"I am living in Delhi since ten years.",
+"I lived in Delhi since ten years."
+],
+"a": 0,
+"e": "\"For\" is used with a period of time."
+},
+{
+"id": "en-cb108b9d",
+"s": "english",
+"t": "Fill in the blank",
+"q": "He is senior ___ me in the office.",
+"o": [
+"to",
+"than",
+"from",
+"over"
+],
+"a": 0,
+"e": "\"Senior\" takes \"to\", not \"than\"."
+},
+{
+"id": "en-d23a6c4c",
+"s": "english",
+"t": "Fill in the blank",
+"q": "She is good ___ mathematics.",
+"o": [
+"at",
+"in",
+"on",
+"with"
+],
+"a": 0,
+"e": "\"Good at\" a subject."
+},
+{
+"id": "en-cf38366d",
+"s": "english",
+"t": "Fill in the blank",
+"q": "The thief was caught ___ the act.",
+"o": [
+"in",
+"at",
+"on",
+"with"
+],
+"a": 0,
+"e": "\"Caught in the act\"."
+},
+{
+"id": "en-f2e9d026",
+"s": "english",
+"t": "Fill in the blank",
+"q": "I prefer tea ___ coffee.",
+"o": [
+"to",
+"than",
+"over",
+"from"
+],
+"a": 0,
+"e": "\"Prefer X to Y\"."
+},
+{
+"id": "en-1fae71d5",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"The teacher praised the student.\"",
+"o": [
+"The student was praised by the teacher.",
+"The student is praised by the teacher.",
+"The student has been praised by the teacher.",
+"The teacher was praised by the student."
+],
+"a": 0,
+"e": "Simple past active becomes \"was/were + past participle\"."
+},
+{
+"id": "en-aafa6cac",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"They are building a bridge.\"",
+"o": [
+"A bridge is being built by them.",
+"A bridge is built by them.",
+"A bridge was being built by them.",
+"A bridge has been built by them."
+],
+"a": 0,
+"e": "Present continuous passive: is/are being + V3."
+},
+{
+"id": "en-4b6b5460",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: He said, \"I am tired.\"",
+"o": [
+"He said that he was tired.",
+"He said that he is tired.",
+"He said that I was tired.",
+"He said that he had tired."
+],
+"a": 0,
+"e": "Present tense moves back to past; pronoun changes."
+},
+{
+"id": "en-4dac1c4c",
+"s": "english",
+"t": "Spelling",
+"q": "Choose the correctly spelt word.",
+"o": [
+"Accommodation",
+"Accomodation",
+"Acommodation",
+"Acomodation"
+],
+"a": 0,
+"e": "Double c and double m."
+},
+{
+"id": "en-4dac1c4c",
+"s": "english",
+"t": "Spelling",
+"q": "Choose the correctly spelt word.",
+"o": [
+"Necessary",
+"Neccessary",
+"Necesary",
+"Neccesary"
+],
+"a": 0,
+"e": "One c, two s."
+},
+{
+"id": "en-4dac1c4c",
+"s": "english",
+"t": "Spelling",
+"q": "Choose the correctly spelt word.",
+"o": [
+"Embarrass",
+"Embarass",
+"Embarras",
+"Emmbarrass"
+],
+"a": 0,
+"e": "Double r and double s."
+},
+{
+"id": "en-4dac1c4c",
+"s": "english",
+"t": "Spelling",
+"q": "Choose the correctly spelt word.",
+"o": [
+"Separate",
+"Seperate",
+"Separete",
+"Seprate"
+],
+"a": 0,
+"e": "\"Separate\" has \"par\" in the middle."
+},
+{
+"id": "en-274eb874",
+"s": "english",
+"t": "Vocabulary",
+"q": "Choose the word that means \"to make less severe\".",
+"o": [
+"Mitigate",
+"Aggravate",
+"Obstruct",
+"Amplify"
+],
+"a": 0,
+"e": "Mitigate = to lessen the severity."
+},
+{
+"id": "en-a32a6d8b",
+"s": "english",
+"t": "Vocabulary",
+"q": "Choose the word that best fits: The minister gave an ___ reply, avoiding the question.",
+"o": [
+"evasive",
+"direct",
+"honest",
+"candid"
+],
+"a": 0,
+"e": "Evasive = avoiding a direct answer."
+},
+{
+"id": "en-bcf0cfc0",
+"s": "english",
+"t": "Phrasal Verbs",
+"q": "\"Call off\" means:",
+"o": [
+"Cancel",
+"Visit",
+"Shout at",
+"Postpone"
+],
+"a": 0,
+"e": "Call off = cancel."
+},
+{
+"id": "en-bf5fb90b",
+"s": "english",
+"t": "Phrasal Verbs",
+"q": "\"Put up with\" means:",
+"o": [
+"Tolerate",
+"Build",
+"Resist",
+"Display"
+],
+"a": 0,
+"e": "Put up with = tolerate."
+},
+{
+"id": "en-c8547540",
+"s": "english",
+"t": "Phrasal Verbs",
+"q": "\"Look into\" means:",
+"o": [
+"Investigate",
+"Ignore",
+"Admire",
+"Visit"
+],
+"a": 0,
+"e": "Look into = examine or investigate."
+},
+{
+"id": "en-2d9c8403",
+"s": "english",
+"t": "Articles",
+"q": "Fill in the blank: She is ___ university student.",
+"o": [
+"a",
+"an",
+"the",
+"no article"
+],
+"a": 0,
+"e": "\"University\" begins with a /j/ sound, so \"a\"."
+},
+{
+"id": "en-0e10187c",
+"s": "english",
+"t": "Articles",
+"q": "Fill in the blank: He waited for ___ hour.",
+"o": [
+"an",
+"a",
+"the",
+"no article"
+],
+"a": 0,
+"e": "\"Hour\" begins with a vowel sound."
+},
+{
+"id": "ga-d2ae36d6",
+"s": "ga",
+"t": "Polity",
+"q": "Who is known as the \"Father of the Indian Constitution\"?",
+"o": [
+"Dr B. R. Ambedkar",
+"Jawaharlal Nehru",
+"Rajendra Prasad",
+"Sardar Patel"
+],
+"a": 0,
+"e": "Ambedkar chaired the Drafting Committee."
+},
+{
+"id": "ga-31c2587c",
+"s": "ga",
+"t": "Polity",
+"q": "The Constitution of India was adopted on:",
+"o": [
+"26 November 1949",
+"26 January 1950",
+"15 August 1947",
+"2 October 1949"
+],
+"a": 0,
+"e": "It came into force on 26 January 1950."
+},
+{
+"id": "ga-948c7c4c",
+"s": "ga",
+"t": "Polity",
+"q": "Which Article of the Constitution deals with Right to Equality before law?",
+"o": [
+"Article 14",
+"Article 19",
+"Article 21",
+"Article 32"
+],
+"a": 0,
+"e": "Article 14: equality before law."
+},
+{
+"id": "ga-ba975eaa",
+"s": "ga",
+"t": "Polity",
+"q": "Right to Constitutional Remedies is under which Article?",
+"o": [
+"Article 32",
+"Article 14",
+"Article 21",
+"Article 226"
+],
+"a": 0,
+"e": "Called the \"heart and soul\" of the Constitution by Ambedkar."
+},
+{
+"id": "ga-e762b3dc",
+"s": "ga",
+"t": "Polity",
+"q": "The President of India is elected by:",
+"o": [
+"An electoral college of elected members of Parliament and State Assemblies",
+"Direct vote of the people",
+"Lok Sabha only",
+"Rajya Sabha only"
+],
+"a": 0,
+"e": "Article 54."
+},
+{
+"id": "ga-51abe585",
+"s": "ga",
+"t": "Polity",
+"q": "Minimum age to become a member of Lok Sabha is:",
+"o": [
+"25 years",
+"21 years",
+"30 years",
+"35 years"
+],
+"a": 0,
+"e": "Rajya Sabha needs 30."
+},
+{
+"id": "ga-8746f1b3",
+"s": "ga",
+"t": "Polity",
+"q": "Fundamental Duties were added by which Amendment?",
+"o": [
+"42nd Amendment",
+"44th Amendment",
+"1st Amendment",
+"73rd Amendment"
+],
+"a": 0,
+"e": "Added in 1976 on the Swaran Singh Committee recommendation."
+},
+{
+"id": "ga-216cff2e",
+"s": "ga",
+"t": "Polity",
+"q": "Who presides over the joint sitting of Parliament?",
+"o": [
+"Speaker of Lok Sabha",
+"President",
+"Vice-President",
+"Prime Minister"
+],
+"a": 0,
+"e": "Article 108."
+},
+{
+"id": "ga-03716f88",
+"s": "ga",
+"t": "Polity",
+"q": "The Panchayati Raj system was given constitutional status by which Amendment?",
+"o": [
+"73rd Amendment",
+"42nd Amendment",
+"74th Amendment",
+"61st Amendment"
+],
+"a": 0,
+"e": "73rd covers panchayats; 74th covers municipalities."
+},
+{
+"id": "ga-1dcc4102",
+"s": "ga",
+"t": "Polity",
+"q": "Which Article empowers the President to declare National Emergency?",
+"o": [
+"Article 352",
+"Article 356",
+"Article 360",
+"Article 370"
+],
+"a": 0,
+"e": "352 = national, 356 = state, 360 = financial."
+},
+{
+"id": "ga-3f73e2d3",
+"s": "ga",
+"t": "Polity",
+"q": "The Comptroller and Auditor General of India is appointed by:",
+"o": [
+"The President",
+"Prime Minister",
+"Chief Justice of India",
+"Lok Sabha Speaker"
+],
+"a": 0,
+"e": "Article 148."
+},
+{
+"id": "ga-fc0512b8",
+"s": "ga",
+"t": "Polity",
+"q": "How many Schedules does the Constitution of India currently have?",
+"o": [
+"12",
+"8",
+"10",
+"14"
+],
+"a": 0,
+"e": "The 12th Schedule (municipal functions) was added by the 74th Amendment."
+},
+{
+"id": "ga-3d956d3c",
+"s": "ga",
+"t": "History",
+"q": "Who founded the Maurya Empire?",
+"o": [
+"Chandragupta Maurya",
+"Ashoka",
+"Bindusara",
+"Harsha"
+],
+"a": 0,
+"e": "Founded around 321 BCE with Chanakya."
+},
+{
+"id": "ga-974ac8f8",
+"s": "ga",
+"t": "History",
+"q": "The First Battle of Panipat (1526) was fought between Babur and:",
+"o": [
+"Ibrahim Lodi",
+"Hemu",
+"Rana Sanga",
+"Akbar"
+],
+"a": 0,
+"e": "It established Mughal rule."
+},
+{
+"id": "ga-53de780c",
+"s": "ga",
+"t": "History",
+"q": "The Quit India Movement was launched in:",
+"o": [
+"1942",
+"1930",
+"1920",
+"1947"
+],
+"a": 0,
+"e": "On 8 August 1942 at Gowalia Tank, Bombay."
+},
+{
+"id": "ga-db037836",
+"s": "ga",
+"t": "History",
+"q": "Who founded the Indian National Congress in 1885 (as General Secretary)?",
+"o": [
+"A. O. Hume",
+"Dadabhai Naoroji",
+"Gopal Krishna Gokhale",
+"Bal Gangadhar Tilak"
+],
+"a": 0,
+"e": "Allan Octavian Hume; first president W. C. Bonnerjee."
+},
+{
+"id": "ga-605a7117",
+"s": "ga",
+"t": "History",
+"q": "The Jallianwala Bagh massacre took place in:",
+"o": [
+"1919",
+"1905",
+"1921",
+"1930"
+],
+"a": 0,
+"e": "On 13 April 1919 in Amritsar."
+},
+{
+"id": "ga-b491c6f4",
+"s": "ga",
+"t": "History",
+"q": "Who was the first Governor-General of independent India?",
+"o": [
+"Lord Mountbatten",
+"C. Rajagopalachari",
+"Lord Wavell",
+"Lord Curzon"
+],
+"a": 0,
+"e": "Rajagopalachari was the first Indian Governor-General."
+},
+{
+"id": "ga-6bd1a121",
+"s": "ga",
+"t": "History",
+"q": "The Dandi March (Salt Satyagraha) began in:",
+"o": [
+"1930",
+"1920",
+"1942",
+"1919"
+],
+"a": 0,
+"e": "On 12 March 1930 from Sabarmati Ashram."
+},
+{
+"id": "ga-a8472aa3",
+"s": "ga",
+"t": "History",
+"q": "Who wrote the Arthashastra?",
+"o": [
+"Kautilya (Chanakya)",
+"Kalidasa",
+"Banabhatta",
+"Vishakhadatta"
+],
+"a": 0,
+"e": "A treatise on statecraft and economics."
+},
+{
+"id": "ga-b5459cf0",
+"s": "ga",
+"t": "History",
+"q": "The Treaty of Allahabad (1765) gave the East India Company:",
+"o": [
+"Diwani rights of Bengal, Bihar and Orissa",
+"Control of Delhi",
+"Rights over Bombay",
+"Control over Mysore"
+],
+"a": 0,
+"e": "After the Battle of Buxar."
+},
+{
+"id": "ga-3ccca602",
+"s": "ga",
+"t": "Geography",
+"q": "Which is the longest river in India?",
+"o": [
+"Ganga",
+"Godavari",
+"Yamuna",
+"Brahmaputra"
+],
+"a": 0,
+"e": "The Ganga is the longest river flowing mainly within India."
+},
+{
+"id": "ga-9e33d352",
+"s": "ga",
+"t": "Geography",
+"q": "Which is the largest state of India by area?",
+"o": [
+"Rajasthan",
+"Madhya Pradesh",
+"Maharashtra",
+"Uttar Pradesh"
+],
+"a": 0,
+"e": "Rajasthan is about 3.42 lakh sq km."
+},
+{
+"id": "ga-ba1128aa",
+"s": "ga",
+"t": "Geography",
+"q": "The Tropic of Cancer passes through how many Indian states?",
+"o": [
+"8",
+"6",
+"7",
+"9"
+],
+"a": 0,
+"e": "Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram."
+},
+{
+"id": "ga-c017b08d",
+"s": "ga",
+"t": "Geography",
+"q": "Which is the highest peak in India?",
+"o": [
+"Kangchenjunga",
+"Kamet",
+"Nanda Devi",
+"Mount Everest"
+],
+"a": 0,
+"e": "Kangchenjunga (8,586 m) in Sikkim is the highest peak in India and third highest in the world."
+},
+{
+"id": "ga-40566a1c",
+"s": "ga",
+"t": "Geography",
+"q": "Chilika Lake is located in:",
+"o": [
+"Odisha",
+"Andhra Pradesh",
+"Tamil Nadu",
+"Kerala"
+],
+"a": 0,
+"e": "Asia's largest brackish water lagoon."
+},
+{
+"id": "ga-77e6e35a",
+"s": "ga",
+"t": "Geography",
+"q": "Which soil is best for cotton cultivation?",
+"o": [
+"Black soil",
+"Red soil",
+"Alluvial soil",
+"Laterite soil"
+],
+"a": 0,
+"e": "Also called regur soil."
+},
+{
+"id": "ga-9b2cf46b",
+"s": "ga",
+"t": "Geography",
+"q": "Which is the smallest continent by area?",
+"o": [
+"Australia",
+"Europe",
+"Antarctica",
+"South America"
+],
+"a": 0,
+"e": "Oceania/Australia is the smallest."
+},
+{
+"id": "ga-2bc259db",
+"s": "ga",
+"t": "Geography",
+"q": "The Deccan Plateau is bounded on the west by:",
+"o": [
+"Western Ghats",
+"Eastern Ghats",
+"Aravallis",
+"Vindhyas"
+],
+"a": 0,
+"e": "The Western Ghats form its western edge."
+},
+{
+"id": "ga-ec743201",
+"s": "ga",
+"t": "Economy",
+"q": "Who regulates the monetary policy in India?",
+"o": [
+"Reserve Bank of India",
+"SEBI",
+"Finance Ministry",
+"NITI Aayog"
+],
+"a": 0,
+"e": "The RBI Monetary Policy Committee sets the repo rate."
+},
+{
+"id": "ga-9dfd4017",
+"s": "ga",
+"t": "Economy",
+"q": "GST was implemented in India from:",
+"o": [
+"1 July 2017",
+"1 April 2016",
+"1 January 2018",
+"1 April 2017"
+],
+"a": 0,
+"e": "Under the 101st Constitutional Amendment."
+},
+{
+"id": "ga-2aeb5ead",
+"s": "ga",
+"t": "Economy",
+"q": "The headquarters of the Reserve Bank of India is in:",
+"o": [
+"Mumbai",
+"New Delhi",
+"Kolkata",
+"Chennai"
+],
+"a": 0,
+"e": "Established 1 April 1935."
+},
+{
+"id": "ga-08fe23b4",
+"s": "ga",
+"t": "Economy",
+"q": "The Finance Commission is constituted every:",
+"o": [
+"5 years",
+"3 years",
+"4 years",
+"10 years"
+],
+"a": 0,
+"e": "Under Article 280."
+},
+{
+"id": "ga-0c105d6c",
+"s": "ga",
+"t": "Economy",
+"q": "Which of the following is a direct tax?",
+"o": [
+"Income tax",
+"GST",
+"Customs duty",
+"Excise duty"
+],
+"a": 0,
+"e": "Burden cannot be shifted to others."
+},
+{
+"id": "ga-c9b6700a",
+"s": "ga",
+"t": "Economy",
+"q": "The term \"repo rate\" refers to:",
+"o": [
+"Rate at which RBI lends to commercial banks",
+"Rate banks pay on deposits",
+"Rate on housing loans",
+"Rate for foreign exchange"
+],
+"a": 0,
+"e": "Repurchase rate."
+},
+{
+"id": "ga-aa4adda0",
+"s": "ga",
+"t": "Economy",
+"q": "NITI Aayog replaced which body?",
+"o": [
+"Planning Commission",
+"Finance Commission",
+"National Development Council",
+"Election Commission"
+],
+"a": 0,
+"e": "Established 1 January 2015."
+},
+{
+"id": "ga-3315cbde",
+"s": "ga",
+"t": "Science",
+"q": "What is the chemical formula of common salt?",
+"o": [
+"NaCl",
+"KCl",
+"CaCO3",
+"NaOH"
+],
+"a": 0,
+"e": "Sodium chloride."
+},
+{
+"id": "ga-9e03d30a",
+"s": "ga",
+"t": "Science",
+"q": "Which gas is most abundant in Earth's atmosphere?",
+"o": [
+"Nitrogen",
+"Oxygen",
+"Carbon dioxide",
+"Argon"
+],
+"a": 0,
+"e": "About 78% by volume."
+},
+{
+"id": "ga-5ae53b95",
+"s": "ga",
+"t": "Science",
+"q": "The SI unit of force is:",
+"o": [
+"Newton",
+"Joule",
+"Pascal",
+"Watt"
+],
+"a": 0,
+"e": "1 N = 1 kg·m/s²."
+},
+{
+"id": "ga-c9dfea87",
+"s": "ga",
+"t": "Science",
+"q": "Which vitamin is produced in the skin by sunlight?",
+"o": [
+"Vitamin D",
+"Vitamin A",
+"Vitamin C",
+"Vitamin K"
+],
+"a": 0,
+"e": "Sunlight triggers vitamin D synthesis."
+},
+{
+"id": "ga-9aa469d6",
+"s": "ga",
+"t": "Science",
+"q": "The powerhouse of the cell is:",
+"o": [
+"Mitochondria",
+"Nucleus",
+"Ribosome",
+"Golgi body"
+],
+"a": 0,
+"e": "Produces ATP."
+},
+{
+"id": "ga-f353f663",
+"s": "ga",
+"t": "Science",
+"q": "The speed of light in vacuum is approximately:",
+"o": [
+"3 × 10^8 m/s",
+"3 × 10^6 m/s",
+"3 × 10^10 m/s",
+"3 × 10^5 m/s"
+],
+"a": 0,
+"e": "About 299,792 km/s."
+},
+{
+"id": "ga-c80bec39",
+"s": "ga",
+"t": "Science",
+"q": "pH of pure water at 25°C is:",
+"o": [
+"7",
+"0",
+"14",
+"1"
+],
+"a": 0,
+"e": "Neutral."
+},
+{
+"id": "ga-7aa14ed8",
+"s": "ga",
+"t": "Science",
+"q": "Which metal is liquid at room temperature?",
+"o": [
+"Mercury",
+"Sodium",
+"Zinc",
+"Lead"
+],
+"a": 0,
+"e": "Mercury is the only metal that is liquid at room temperature."
+},
+{
+"id": "ga-fb8534ab",
+"s": "ga",
+"t": "Science",
+"q": "Deficiency of Vitamin C causes:",
+"o": [
+"Scurvy",
+"Rickets",
+"Night blindness",
+"Beriberi"
+],
+"a": 0,
+"e": "Rickets = D; night blindness = A; beriberi = B1."
+},
+{
+"id": "ga-561ea3fa",
+"s": "ga",
+"t": "Static GK",
+"q": "Which is the national animal of India?",
+"o": [
+"Tiger",
+"Lion",
+"Elephant",
+"Leopard"
+],
+"a": 0,
+"e": "Bengal tiger."
+},
+{
+"id": "ga-5f4c2536",
+"s": "ga",
+"t": "Static GK",
+"q": "Which is the national river of India?",
+"o": [
+"Ganga",
+"Yamuna",
+"Narmada",
+"Godavari"
+],
+"a": 0,
+"e": "Declared in 2008."
+},
+{
+"id": "ga-bc47b681",
+"s": "ga",
+"t": "Static GK",
+"q": "The Ashoka Chakra on the national flag has how many spokes?",
+"o": [
+"24",
+"12",
+"16",
+"32"
+],
+"a": 0,
+"e": "Represents 24 hours of the day."
+},
+{
+"id": "ga-af5aa057",
+"s": "ga",
+"t": "Static GK",
+"q": "Who wrote the national song \"Vande Mataram\"?",
+"o": [
+"Bankim Chandra Chattopadhyay",
+"Rabindranath Tagore",
+"Iqbal",
+"Sarojini Naidu"
+],
+"a": 0,
+"e": "From the novel Anandamath."
+},
+{
+"id": "ga-55b087cc",
+"s": "ga",
+"t": "Static GK",
+"q": "Which Indian was the first Nobel Prize winner?",
+"o": [
+"Rabindranath Tagore",
+"C. V. Raman",
+"Amartya Sen",
+"Mother Teresa"
+],
+"a": 0,
+"e": "Literature, 1913."
+},
+{
+"id": "ga-cd4140fe",
+"s": "ga",
+"t": "Static GK",
+"q": "National Science Day in India is celebrated on:",
+"o": [
+"28 February",
+"11 May",
+"12 January",
+"5 September"
+],
+"a": 0,
+"e": "Commemorates the Raman Effect (1928)."
+},
+{
+"id": "ga-2379615c",
+"s": "ga",
+"t": "Static GK",
+"q": "The Sun Temple at Konark is in which state?",
+"o": [
+"Odisha",
+"Gujarat",
+"Tamil Nadu",
+"Karnataka"
+],
+"a": 0,
+"e": "UNESCO World Heritage Site."
+},
+{
+"id": "ga-8efa8162",
+"s": "ga",
+"t": "Static GK",
+"q": "Kuchipudi is a classical dance form of:",
+"o": [
+"Andhra Pradesh",
+"Kerala",
+"Odisha",
+"Manipur"
+],
+"a": 0,
+"e": "Originated in Kuchipudi village."
+},
+{
+"id": "ga-be6a4b1b",
+"s": "ga",
+"t": "International",
+"q": "The headquarters of the United Nations is in:",
+"o": [
+"New York",
+"Geneva",
+"Paris",
+"Vienna"
+],
+"a": 0,
+"e": "UNHQ is in Manhattan, New York."
+},
+{
+"id": "ga-d71c777b",
+"s": "ga",
+"t": "International",
+"q": "How many permanent members does the UN Security Council have?",
+"o": [
+"5",
+"10",
+"7",
+"15"
+],
+"a": 0,
+"e": "USA, UK, France, Russia, China."
+},
+{
+"id": "ga-0d3112a5",
+"s": "ga",
+"t": "International",
+"q": "The International Court of Justice is located in:",
+"o": [
+"The Hague",
+"Geneva",
+"Brussels",
+"New York"
+],
+"a": 0,
+"e": "Netherlands."
+},
+{
+"id": "ga-190106ac",
+"s": "ga",
+"t": "International",
+"q": "The headquarters of the World Trade Organization is in:",
+"o": [
+"Geneva",
+"Paris",
+"Washington DC",
+"New York"
+],
+"a": 0,
+"e": "Established 1995."
+},
+{
+"id": "ga-f2ee0b74",
+"s": "ga",
+"t": "International",
+"q": "The headquarters of the IMF is in:",
+"o": [
+"Washington, D.C.",
+"New York",
+"Geneva",
+"London"
+],
+"a": 0,
+"e": "Along with the World Bank."
+},
+{
+"id": "ga-af940134",
+"s": "ga",
+"t": "International",
+"q": "SAARC was established in:",
+"o": [
+"1985",
+"1971",
+"1992",
+"1967"
+],
+"a": 0,
+"e": "Charter adopted at Dhaka in December 1985; Secretariat in Kathmandu."
+},
+{
+"id": "ga-63aa3a34",
+"s": "ga",
+"t": "International",
+"q": "The Panchsheel Agreement between India and China was signed in:",
+"o": [
+"1954",
+"1947",
+"1962",
+"1971"
+],
+"a": 0,
+"e": "Five Principles of Peaceful Coexistence."
+},
+{
+"id": "ga-b4a089ab",
+"s": "ga",
+"t": "International",
+"q": "The Non-Aligned Movement was founded in Belgrade in:",
+"o": [
+"1961",
+"1947",
+"1955",
+"1971"
+],
+"a": 0,
+"e": "Nehru, Nasser, Tito, Sukarno and Nkrumah were key founders."
+},
+{
+"id": "ga-9f67f6b5",
+"s": "ga",
+"t": "International",
+"q": "ASEAN headquarters is in:",
+"o": [
+"Jakarta",
+"Bangkok",
+"Singapore",
+"Manila"
+],
+"a": 0,
+"e": "Indonesia."
+},
+{
+"id": "ga-0f1d8f81",
+"s": "ga",
+"t": "International",
+"q": "The Vienna Convention of 1961 deals with:",
+"o": [
+"Diplomatic relations",
+"Law of the sea",
+"Consular access only",
+"Human rights"
+],
+"a": 0,
+"e": "Sets out rules for diplomatic missions and immunity."
+},
+{
+"id": "ga-dc595e4c",
+"s": "ga",
+"t": "International",
+"q": "The Indian Foreign Service (IFS) was constituted in:",
+"o": [
+"1946",
+"1947",
+"1950",
+"1935"
+],
+"a": 0,
+"e": "Formed in October 1946, just before independence."
+},
+{
+"id": "ga-2d15b67d",
+"s": "ga",
+"t": "International",
+"q": "Which organisation has its headquarters in Paris and focuses on education, science and culture?",
+"o": [
+"UNESCO",
+"UNICEF",
+"WHO",
+"FAO"
+],
+"a": 0,
+"e": "UNESCO is in Paris; WHO is in Geneva; FAO is in Rome."
+},
+{
+"id": "ga-8deb6b0e",
+"s": "ga",
+"t": "International",
+"q": "The G20 summit was hosted by India in New Delhi in:",
+"o": [
+"2023",
+"2021",
+"2022",
+"2024"
+],
+"a": 0,
+"e": "Theme: One Earth, One Family, One Future."
+},
+{
+"id": "ga-d0974449",
+"s": "ga",
+"t": "International",
+"q": "The \"Line of Actual Control\" (LAC) is the de facto border between India and:",
+"o": [
+"China",
+"Pakistan",
+"Nepal",
+"Bangladesh"
+],
+"a": 0,
+"e": "The LoC is with Pakistan."
+},
+{
+"id": "ga-55eb4c11",
+"s": "ga",
+"t": "International",
+"q": "The Durand Line separates Pakistan and:",
+"o": [
+"Afghanistan",
+"India",
+"Iran",
+"China"
+],
+"a": 0,
+"e": "Drawn in 1893."
+},
+{
+"id": "ga-c4bf9699",
+"s": "ga",
+"t": "International",
+"q": "The International Solar Alliance was launched by India and which country at COP21 (2015)?",
+"o": [
+"France",
+"Germany",
+"Japan",
+"Brazil"
+],
+"a": 0,
+"e": "Headquarters at Gurugram, India."
+},
+{
+"id": "ga-13817d58",
+"s": "ga",
+"t": "International",
+"q": "BIMSTEC Secretariat is located in:",
+"o": [
+"Dhaka",
+"Kathmandu",
+"New Delhi",
+"Bangkok"
+],
+"a": 0,
+"e": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation."
+},
+{
+"id": "ga-6607806e",
+"s": "ga",
+"t": "International",
+"q": "Which city hosts NATO headquarters?",
+"o": [
+"Brussels",
+"Paris",
+"Berlin",
+"Geneva"
+],
+"a": 0,
+"e": "NATO HQ is in Brussels, Belgium."
+},
+{
+"id": "ga-8f711c2d",
+"s": "ga",
+"t": "International",
+"q": "The Indian Council for Cultural Relations (ICCR), working under the MEA, was founded by:",
+"o": [
+"Maulana Abul Kalam Azad",
+"Jawaharlal Nehru",
+"Rabindranath Tagore",
+"S. Radhakrishnan"
+],
+"a": 0,
+"e": "Founded in 1950 to promote cultural diplomacy."
+},
+{
+"id": "co-4a55b910",
+"s": "computer",
+"t": "Basics",
+"q": "1 byte equals how many bits?",
+"o": [
+"8",
+"4",
+"16",
+"2"
+],
+"a": 0,
+"e": "A byte is 8 bits."
+},
+{
+"id": "co-da3358ae",
+"s": "computer",
+"t": "Basics",
+"q": "Which of the following is volatile memory?",
+"o": [
+"RAM",
+"ROM",
+"Hard disk",
+"CD-ROM"
+],
+"a": 0,
+"e": "RAM loses data when power is off."
+},
+{
+"id": "co-e9f4822d",
+"s": "computer",
+"t": "Basics",
+"q": "The brain of the computer is the:",
+"o": [
+"CPU",
+"Monitor",
+"Keyboard",
+"Mouse"
+],
+"a": 0,
+"e": "Central Processing Unit."
+},
+{
+"id": "co-a69aa1b4",
+"s": "computer",
+"t": "Basics",
+"q": "Which of these is an operating system?",
+"o": [
+"Linux",
+"Oracle",
+"Chrome",
+"Python"
+],
+"a": 0,
+"e": "Linux is an OS kernel; Chrome is a browser."
+},
+{
+"id": "co-611d118e",
+"s": "computer",
+"t": "Basics",
+"q": "WWW was invented by:",
+"o": [
+"Tim Berners-Lee",
+"Bill Gates",
+"Vint Cerf",
+"Steve Jobs"
+],
+"a": 0,
+"e": "In 1989 at CERN."
+},
+{
+"id": "co-48aa8d26",
+"s": "computer",
+"t": "Basics",
+"q": "Full form of URL is:",
+"o": [
+"Uniform Resource Locator",
+"Universal Resource Link",
+"Uniform Reference Locator",
+"Unified Resource Line"
+],
+"a": 0,
+"e": "Address of a web resource."
+},
+{
+"id": "co-bba5fc81",
+"s": "computer",
+"t": "Basics",
+"q": "Which key combination is used to copy in Windows?",
+"o": [
+"Ctrl + C",
+"Ctrl + V",
+"Ctrl + X",
+"Ctrl + Z"
+],
+"a": 0,
+"e": "Ctrl+V pastes, Ctrl+X cuts, Ctrl+Z undoes."
+},
+{
+"id": "co-788a2049",
+"s": "computer",
+"t": "Basics",
+"q": "The default file extension of a Microsoft Word document is:",
+"o": [
+".docx",
+".xlsx",
+".pptx",
+".txt"
+],
+"a": 0,
+"e": ".doc in older versions."
+},
+{
+"id": "co-0d03363b",
+"s": "computer",
+"t": "Basics",
+"q": "Which one is an input device?",
+"o": [
+"Scanner",
+"Printer",
+"Monitor",
+"Speaker"
+],
+"a": 0,
+"e": "Scanners send data into the computer."
+},
+{
+"id": "co-d68624fa",
+"s": "computer",
+"t": "Basics",
+"q": "Which of these is the smallest unit of data?",
+"o": [
+"Bit",
+"Byte",
+"Nibble",
+"Kilobyte"
+],
+"a": 0,
+"e": "Binary digit: 0 or 1."
+},
+{
+"id": "co-18856406",
+"s": "computer",
+"t": "Excel",
+"q": "In MS Excel, the intersection of a row and a column is called:",
+"o": [
+"Cell",
+"Range",
+"Sheet",
+"Table"
+],
+"a": 0,
+"e": "Each cell has an address such as B3."
+},
+{
+"id": "co-8b207ebf",
+"s": "computer",
+"t": "Excel",
+"q": "Which function adds the numbers in a range in Excel?",
+"o": [
+"SUM",
+"COUNT",
+"ADD",
+"TOTAL"
+],
+"a": 0,
+"e": "=SUM(A1:A10)."
+},
+{
+"id": "co-3fc9733d",
+"s": "computer",
+"t": "Excel",
+"q": "Every formula in Excel begins with:",
+"o": [
+"=",
+"+",
+"#",
+"@"
+],
+"a": 0,
+"e": "The equals sign."
+},
+{
+"id": "co-bd4921ee",
+"s": "computer",
+"t": "Excel",
+"q": "Which shortcut saves a document in MS Office?",
+"o": [
+"Ctrl + S",
+"Ctrl + P",
+"Ctrl + N",
+"Ctrl + O"
+],
+"a": 0,
+"e": "P = print, N = new, O = open."
+},
+{
+"id": "co-9300b113",
+"s": "computer",
+"t": "Networking",
+"q": "IP stands for:",
+"o": [
+"Internet Protocol",
+"Internal Process",
+"Internet Provider",
+"Information Packet"
+],
+"a": 0,
+"e": "IPv4 uses 32-bit addresses."
+},
+{
+"id": "co-f1d6d4d6",
+"s": "computer",
+"t": "Networking",
+"q": "Which device connects different networks and routes packets?",
+"o": [
+"Router",
+"Hub",
+"Repeater",
+"Modem"
+],
+"a": 0,
+"e": "Operates at the network layer."
+},
+{
+"id": "co-04f2231a",
+"s": "computer",
+"t": "Networking",
+"q": "HTTPS differs from HTTP because it is:",
+"o": [
+"Encrypted and secure",
+"Faster",
+"Offline",
+"Free of cost"
+],
+"a": 0,
+"e": "Uses TLS encryption."
+},
+{
+"id": "co-7d80dce4",
+"s": "computer",
+"t": "Networking",
+"q": "A computer network confined to a building is called a:",
+"o": [
+"LAN",
+"WAN",
+"MAN",
+"PAN"
+],
+"a": 0,
+"e": "Local Area Network."
+},
+{
+"id": "co-5448464b",
+"s": "computer",
+"t": "Security",
+"q": "A program that replicates itself and harms files is a:",
+"o": [
+"Virus",
+"Firewall",
+"Browser",
+"Compiler"
+],
+"a": 0,
+"e": "Malicious software."
+},
+{
+"id": "co-5bce300c",
+"s": "computer",
+"t": "Security",
+"q": "Unsolicited bulk email is known as:",
+"o": [
+"Spam",
+"Phishing",
+"Spoofing",
+"Cookie"
+],
+"a": 0,
+"e": "Phishing is a fraud attempt to steal credentials."
+},
+{
+"id": "co-b9ae2442",
+"s": "computer",
+"t": "Security",
+"q": "Fraudulent emails that try to steal passwords are called:",
+"o": [
+"Phishing",
+"Spam",
+"Bloatware",
+"Hashing"
+],
+"a": 0,
+"e": "Social-engineering attack."
+},
+{
+"id": "co-e7773b37",
+"s": "computer",
+"t": "Security",
+"q": "Which of the following is a strong password practice?",
+"o": [
+"Mix letters, numbers and symbols",
+"Use your name",
+"Use 12345678",
+"Reuse one password everywhere"
+],
+"a": 0,
+"e": "Longer and varied passwords are harder to guess."
+},
+{
+"id": "co-e91f9cd2",
+"s": "computer",
+"t": "Basics",
+"q": "1 Kilobyte equals (binary convention):",
+"o": [
+"1024 bytes",
+"1000 bits",
+"100 bytes",
+"8 bytes"
+],
+"a": 0,
+"e": "1 KB = 2^10 bytes."
+},
+{
+"id": "co-76a59079",
+"s": "computer",
+"t": "Basics",
+"q": "Which language is used to create web pages?",
+"o": [
+"HTML",
+"SQL",
+"C++",
+"COBOL"
+],
+"a": 0,
+"e": "HyperText Markup Language."
+},
+{
+"id": "co-bd73811e",
+"s": "computer",
+"t": "Basics",
+"q": "Which of the following is a search engine?",
+"o": [
+"Google",
+"Windows",
+"Excel",
+"Linux"
+],
+"a": 0,
+"e": "Others are an OS and an application."
+}
+]
+}

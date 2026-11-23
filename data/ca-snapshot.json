@@ -1,0 +1,11 @@
+{
+  "generated": "2026-11-23T00:00:00Z",
+  "note": "Offline fallback. Only facts verified on 23 Nov 2026 are bundled. Live headlines load in the Live tab when online.",
+  "updates": [
+    {"d": "2026-11-04", "t": "CGL 2026: Tier-I ran 30 Sep to 30 Oct 2026. Result expected in November. Tier-II not yet scheduled; expected Dec 2026 or Jan 2027.", "src": "Adda247 (third party, confirm on ssc.gov.in)", "link": "https://www.adda247.com/exams/ssc/ssc-cgl-exam-date-2026-out/"},
+    {"d": "2026-07-22", "t": "CGL 2027: notification, application dates and exam date not yet announced. Two computer-based tiers expected.", "src": "Physics Wallah", "link": "https://www.pw.live/ssc/exams/ssc-cgl-2027"},
+    {"d": "2026-05-21", "t": "CGL 2026 notice released: Tier-I now has a strict 15-minute timer per section; Tier-II Paper-III (Finance & Economics) introduced for AAO/AAcO; application window 21 May to 22 Jun 2026.", "src": "Indian Govt News (quotes the official notice)", "link": "https://www.indiangovtnews.com/ssc-cgl-2026-exam-pattern-changes-new-rules-candidates-should-know/"},
+    {"d": "2026-05-21", "t": "Tier-II Paper-I marking: +3 per right answer, -1 per wrong. Merit total 390 marks (Maths + Reasoning + English + GA). Computer test is qualifying.", "src": "ProSyllabus", "link": "https://www.prosyllabus.com/hub/ssc-cgl-exam-pattern-tier-1-tier-2-paper-3-sectional-timer"}
+  ],
+  "feeds": {}
+}

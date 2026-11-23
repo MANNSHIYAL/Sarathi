@@ -1,0 +1,15 @@
+{
+  "name": "sarthi-cgl-2027",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SSC CGL 2027 exam simulator and live current affairs (ASO MEA track)",
+  "scripts": {
+    "start": "npx --yes serve . -l 8080",
+    "refresh": "node tools/update_content.mjs",
+    "bank": "python3 tools/build_bank.py",
+    "web": "mkdir -p www && cp -r index.html manifest.webmanifest sw.js css js data icons www/",
+    "android": "npm run web && npx cap add android && npx cap sync android && npx cap open android"
+  },
+  "dependencies": { "@capacitor/core": "6.1.2", "@capacitor/android": "6.1.2" },
+  "devDependencies": { "@capacitor/cli": "6.1.2" }
+}

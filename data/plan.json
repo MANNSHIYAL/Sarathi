@@ -1,0 +1,257 @@
+{
+ "daily": [
+  [
+   "Quant",
+   "60 min",
+   "One topic + 20 questions"
+  ],
+  [
+   "Reasoning",
+   "45 min",
+   "One topic + 20 questions"
+  ],
+  [
+   "English",
+   "45 min",
+   "Vocab 10 words, grammar set, 1 passage"
+  ],
+  [
+   "GA + Live updates",
+   "40 min",
+   "Static topic + daily current affairs"
+  ],
+  [
+   "Review",
+   "20 min",
+   "Wrong-answer notebook"
+  ]
+ ],
+ "phases": [
+  {
+   "id": "p1",
+   "name": "Foundation",
+   "share": 0.34,
+   "goal": "Build concepts. Untimed practice, accuracy first.",
+   "weeks": [
+    {
+     "q": "Percentages, ratio, averages",
+     "r": "Number series, analogy, odd one out",
+     "e": "Parts of speech, tenses, subject-verb agreement",
+     "g": "Indian Polity I: Constitution, rights, duties"
+    },
+    {
+     "q": "Profit & loss, discount",
+     "r": "Coding-decoding, alphabet tests",
+     "e": "Articles, prepositions, error spotting",
+     "g": "Indian Polity II: Union & State government"
+    },
+    {
+     "q": "Simple & compound interest",
+     "r": "Blood relations, direction sense",
+     "e": "Synonyms/antonyms (daily 15 words)",
+     "g": "Modern History: 1857 to Independence"
+    },
+    {
+     "q": "Time & work, pipes",
+     "r": "Ranking, calendar, clock",
+     "e": "Active-passive, direct-indirect speech",
+     "g": "Ancient & Medieval History"
+    },
+    {
+     "q": "Speed, distance, trains, boats",
+     "r": "Syllogism, Venn diagrams",
+     "e": "Idioms & phrases, one-word substitution",
+     "g": "Geography: India (physical, rivers, soils)"
+    },
+    {
+     "q": "Number system, HCF/LCM, simplification",
+     "r": "Mathematical operations, matrix",
+     "e": "Sentence improvement, para jumbles",
+     "g": "Geography: World & climate"
+    },
+    {
+     "q": "Algebra and identities",
+     "r": "Statement-conclusion, assumptions",
+     "e": "Reading comprehension (2 passages/day)",
+     "g": "Economy basics: banking, RBI, budget, GST"
+    },
+    {
+     "q": "Geometry: triangles, circles",
+     "r": "Figure counting, mirror/water images",
+     "e": "Cloze test, fill in the blanks",
+     "g": "General Science: physics, chemistry, biology (NCERT 6-10)"
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "name": "Core practice",
+   "share": 0.34,
+   "goal": "Timed sectional drills. Start Test-1 style tests every week.",
+   "weeks": [
+    {
+     "q": "Mensuration 2D and 3D",
+     "r": "Mixed series and coding sets",
+     "e": "Vocabulary 20 words/day + RC",
+     "g": "IR & MEA I: groupings, organisations, headquarters"
+    },
+    {
+     "q": "Trigonometry: ratios, heights and distances",
+     "r": "Puzzles and seating arrangement",
+     "e": "Error spotting timed sets",
+     "g": "IR & MEA II: India's neighbours, Act East, Neighbourhood First"
+    },
+    {
+     "q": "Data interpretation",
+     "r": "Logical reasoning mixed",
+     "e": "Para jumbles, sentence completion",
+     "g": "Static GK: awards, books, sports, days, parks"
+    },
+    {
+     "q": "Mixture, alligation, partnership",
+     "r": "Direction + ranking mixed",
+     "e": "Idioms + one-word revision",
+     "g": "Environment, ecology, summits"
+    },
+    {
+     "q": "Mixed arithmetic timed (25Q/15min)",
+     "r": "Mixed reasoning timed (25Q/15min)",
+     "e": "Mixed English timed (25Q/15min)",
+     "g": "Mixed GA timed (25Q/15min)"
+    },
+    {
+     "q": "Weak-topic repair (from your analysis)",
+     "r": "Weak-topic repair",
+     "e": "Weak-topic repair",
+     "g": "Current affairs: monthly revision"
+    },
+    {
+     "q": "Speed maths: tables, squares, fractions",
+     "r": "Speed reasoning",
+     "e": "Sentence rearrangement + fillers",
+     "g": "Computer knowledge: basics, MS Office, internet, security"
+    },
+    {
+     "q": "Test-1 style mocks: 2 this week",
+     "r": "Analyse every wrong answer",
+     "e": "Vocabulary notebook revision",
+     "g": "GA mixed + current affairs"
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "name": "Test-2 level",
+   "share": 0.2,
+   "goal": "Harder questions, longer English (45Q), +3 / -1 marking. Accuracy matters: wrong answers cost 1.",
+   "weeks": [
+    {
+     "q": "Test-2 Maths: advanced algebra & geometry",
+     "r": "Hard puzzles + non-verbal",
+     "e": "45-question English sets in 40 min",
+     "g": "GA 25Q in 20 min sets"
+    },
+    {
+     "q": "Test-2 Maths: trigonometry & mensuration",
+     "r": "Test-2 Reasoning sets (30Q/30min)",
+     "e": "Advanced RC + vocabulary",
+     "g": "Economy & govt schemes deep-dive"
+    },
+    {
+     "q": "Test-2 Maths: DI + arithmetic mix",
+     "r": "Reasoning accuracy drill",
+     "e": "Error spotting + cloze at pace",
+     "g": "IR deep-dive: MEA Annual Report themes"
+    },
+    {
+     "q": "Sectional Test-2 timers (30Q/30min)",
+     "r": "Sectional Test-2 timers",
+     "e": "Sectional (45Q/40min)",
+     "g": "Sectional (25Q/20min)"
+    },
+    {
+     "q": "Computer qualifying test: 20Q/15min",
+     "r": "Full Test-2 mock #1",
+     "e": "Full Test-2 mock #2",
+     "g": "Analyse mocks, fix weak areas"
+    },
+    {
+     "q": "Full Test-2 mock #3",
+     "r": "Mock analysis",
+     "e": "Mock #4",
+     "g": "Mock analysis"
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "name": "Mock & revision",
+   "share": 0.12,
+   "goal": "No new topics. Alternate Test-1 and Test-2 mocks, revise notes, protect sleep.",
+   "weeks": [
+    {
+     "q": "Test-1 mock + Test-2 mock",
+     "r": "Formula sheet revision",
+     "e": "Vocabulary revision",
+     "g": "Last 6 months current affairs"
+    },
+    {
+     "q": "Test-1 mock + Test-2 mock",
+     "r": "Error-log revision",
+     "e": "Idioms/one-word revision",
+     "g": "Static GK rapid revision"
+    },
+    {
+     "q": "Two full Test-2 mocks",
+     "r": "Weakest-section drill",
+     "e": "Light RC practice",
+     "g": "Computer + GA facts revision"
+    },
+    {
+     "q": "Taper: light practice only",
+     "r": "Rest and recall",
+     "e": "Rest and recall",
+     "g": "Re-read your wrong-answer notebook"
+    }
+   ]
+  }
+ ],
+ "resources": [
+  [
+   "SSC official site (notices, syllabus)",
+   "https://ssc.gov.in"
+  ],
+  [
+   "NCERT textbooks (free)",
+   "https://ncert.nic.in/textbook.php"
+  ],
+  [
+   "PIB press releases",
+   "https://pib.gov.in"
+  ],
+  [
+   "MEA: bilateral/multilateral relations",
+   "https://www.mea.gov.in"
+  ],
+  [
+   "MEA Annual Report",
+   "https://www.mea.gov.in/annual-reports.htm"
+  ],
+  [
+   "Union Budget documents",
+   "https://www.indiabudget.gov.in"
+  ],
+  [
+   "PRS Legislative Research",
+   "https://prsindia.org"
+  ],
+  [
+   "India Code (laws)",
+   "https://www.indiacode.nic.in"
+  ],
+  [
+   "Constitution of India (official)",
+   "https://legislative.gov.in/constitution-of-india/"
+  ]
+ ]
+}

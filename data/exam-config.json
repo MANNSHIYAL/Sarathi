@@ -1,0 +1,58 @@
+{
+  "_note": "Researched 23 Nov 2026 from third-party pages quoting the CGL 2026 notification (21 May 2026). Always verify on ssc.gov.in.",
+  "asOf": "2026-11-23",
+  "language": "English (Hindi not simulated). Tier-I questions are bilingual in the real exam, except English Comprehension.",
+  "tests": {
+    "test1": {
+      "id": "test1", "name": "Test-1 (Tier-I)", "role": "Screening only, not counted in final merit",
+      "correct": 2, "wrong": -0.5, "totalMinutes": 60, "sectionLock": true,
+      "sections": [
+        {"id": "reasoning", "name": "General Intelligence & Reasoning", "short": "Reasoning", "q": 25, "minutes": 15},
+        {"id": "ga", "name": "General Awareness", "short": "GA", "q": 25, "minutes": 15},
+        {"id": "quant", "name": "Quantitative Aptitude", "short": "Quant", "q": 25, "minutes": 15},
+        {"id": "english", "name": "English Comprehension", "short": "English", "q": 25, "minutes": 15}
+      ],
+      "qualifying": {"total": 200, "ur": 60, "obcEws": 50, "others": 40}
+    },
+    "test2": {
+      "id": "test2", "name": "Test-2 (Tier-II) Paper-I", "role": "Decides merit. Paper-I Sections I+II = 390 marks (this is what ASO MEA is ranked on)",
+      "correct": 3, "wrong": -1, "totalMinutes": 135, "sectionLock": true,
+      "sections": [
+        {"id": "quant", "name": "Section I-A: Mathematical Abilities", "short": "Maths", "q": 30, "minutes": 30, "group": "Section I"},
+        {"id": "reasoning", "name": "Section I-B: Reasoning & General Intelligence", "short": "Reasoning", "q": 30, "minutes": 30, "group": "Section I"},
+        {"id": "english", "name": "Section II-A: English Language & Comprehension", "short": "English", "q": 45, "minutes": 40, "group": "Section II"},
+        {"id": "ga", "name": "Section II-B: General Awareness", "short": "GA", "q": 25, "minutes": 20, "group": "Section II"},
+        {"id": "computer", "name": "Section III: Computer Knowledge Test (qualifying)", "short": "Computer", "q": 20, "minutes": 15, "group": "Section III", "qualifyingOnly": true}
+      ],
+      "qualifying": {
+        "section1": {"max": 180, "ur": 54, "obcEws": 45, "others": 36},
+        "section2": {"max": 210, "ur": 63, "obcEws": 52.5, "others": 42},
+        "computer": {"max": 60, "ur": 18, "obcEws": 15, "others": 12}
+      },
+      "meritMarks": 390
+    }
+  },
+  "otherPapers": "Paper-II Statistics (JSO/SI only) and Paper-III Finance & Economics (AAO/AAcO only, new in 2026) are not needed for ASO MEA. Section IV Data Entry Speed Test (15 min) is qualifying for some posts: check your notification.",
+  "asoMea": {
+    "post": "Assistant Section Officer, Ministry of External Affairs, post code B11 in CGL 2024",
+    "payLevel": "Level 7 (7th CPC): Rs 44,900 to 1,42,400 basic",
+    "age": "20 to 30 years (relaxations by category)",
+    "education": "Bachelor's degree from a recognised university",
+    "posting": "Starts at MEA HQ New Delhi; postings at missions abroad possible later",
+    "selectionNote": "Qualify Tier-I and Tier-II, put ASO MEA high in post preferences (preferences are final), clear document verification.",
+    "pastCutoff": {"year": 2024, "ur": 360.6925, "caution": "Third-party table (Adda247). CSS was 533.25 and IB 353.94 in the same table, so scales are not obviously comparable. Treat as a rough guide only."}
+  },
+  "timeline": {
+    "cgl2026": "Notification 21 May 2026. Tier-I 30 Sep to 30 Oct 2026. Result expected Nov 2026. Tier-II expected Dec 2026 or Jan 2027 (not officially scheduled as of 4 Nov 2026).",
+    "cgl2027": "Notification and dates not announced as of Jul 2026. Planning estimate used by the app: Tier-I around Jul 2027, Tier-II around Dec 2027, based on the CGL 2026 cycle. Change it in Settings once SSC announces."
+  },
+  "sources": [
+    ["Drishti SSC: new CGL pattern 2026", "https://www.sscdrishti.com/blog/ssc-cgl-new-exam-pattern-2026-whats-changed"],
+    ["ProSyllabus: Tier-I, Tier-II, sectional timers", "https://www.prosyllabus.com/hub/ssc-cgl-exam-pattern-tier-1-tier-2-paper-3-sectional-timer"],
+    ["Indian Govt News: CGL 2026 rule changes", "https://www.indiangovtnews.com/ssc-cgl-2026-exam-pattern-changes-new-rules-candidates-should-know/"],
+    ["Adda247: CGL 2026 exam dates", "https://www.adda247.com/exams/ssc/ssc-cgl-exam-date-2026-out/"],
+    ["Adda247: Tier-II cutoffs", "https://www.adda247.com/jobs/ssc-cgl-tier-2-cut-off"],
+    ["Oliveboard: how to become ASO in MEA", "https://www.oliveboard.in/blog/how-to-become-assistant-section-officer-in-mea"],
+    ["SSC official site", "https://ssc.gov.in"]
+  ]
+}

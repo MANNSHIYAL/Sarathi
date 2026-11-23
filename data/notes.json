@@ -1,0 +1,336 @@
+{
+ "formulas": [
+  [
+   "Percentage change",
+   "(New − Old) / Old × 100"
+  ],
+  [
+   "Successive change a%, b%",
+   "a + b + ab/100"
+  ],
+  [
+   "Profit %",
+   "(SP − CP)/CP × 100; SP = CP × (100+P)/100"
+  ],
+  [
+   "Successive discounts a, b",
+   "Net = a + b − ab/100"
+  ],
+  [
+   "Simple interest",
+   "SI = P×R×T/100"
+  ],
+  [
+   "Compound amount",
+   "A = P(1 + R/100)^T"
+  ],
+  [
+   "Time & work",
+   "Together = xy/(x+y); Work = rate × time"
+  ],
+  [
+   "km/h to m/s",
+   "Multiply by 5/18"
+  ],
+  [
+   "Average speed (equal distance)",
+   "2ab/(a+b)"
+  ],
+  [
+   "Relative speed",
+   "Opposite: add; same direction: subtract"
+  ],
+  [
+   "Train crossing a platform",
+   "(Train length + platform) / speed"
+  ],
+  [
+   "Boats",
+   "Downstream = u + v; Upstream = u − v"
+  ],
+  [
+   "Alligation",
+   "Cheaper : Dearer = (d − m) : (m − c)"
+  ],
+  [
+   "Circle",
+   "Area πr²; circumference 2πr"
+  ],
+  [
+   "Cylinder",
+   "Volume πr²h; curved surface 2πrh"
+  ],
+  [
+   "Cone",
+   "Volume ⅓πr²h; slant l = √(r²+h²)"
+  ],
+  [
+   "Sphere",
+   "Volume 4/3 πr³; surface 4πr²"
+  ],
+  [
+   "Equilateral triangle",
+   "Area = (√3/4)a²"
+  ],
+  [
+   "Interior angle, regular n-gon",
+   "(n − 2) × 180 / n"
+  ],
+  [
+   "Pythagorean triples",
+   "3-4-5, 5-12-13, 8-15-17, 7-24-25"
+  ],
+  [
+   "(a ± b)²",
+   "a² ± 2ab + b²"
+  ],
+  [
+   "a³ + b³",
+   "(a + b)(a² − ab + b²)"
+  ],
+  [
+   "If a + b + c = 0",
+   "a³ + b³ + c³ = 3abc"
+  ],
+  [
+   "x + 1/x = k",
+   "x² + 1/x² = k² − 2"
+  ],
+  [
+   "Trig identities",
+   "sin²θ + cos²θ = 1; 1 + tan²θ = sec²θ; 1 + cot²θ = cosec²θ"
+  ],
+  [
+   "Standard values",
+   "sin 30° = ½, cos 60° = ½, tan 45° = 1, sin 60° = √3/2, cos 30° = √3/2"
+  ],
+  [
+   "Sum of first n numbers",
+   "n(n+1)/2; squares n(n+1)(2n+1)/6; cubes [n(n+1)/2]²"
+  ],
+  [
+   "Divisibility",
+   "By 3: digit sum divisible by 3. By 9: digit sum by 9. By 11: alternate digit sum difference is 0 or 11k"
+  ]
+ ],
+ "glossary": [
+  [
+   "Agrément",
+   "Formal approval by the receiving state of a proposed ambassador, given before appointment."
+  ],
+  [
+   "Persona non grata",
+   "A diplomat declared unacceptable by the host state, who must then be recalled or dismissed."
+  ],
+  [
+   "Démarche",
+   "A formal representation made by one government to another to convey a position or protest."
+  ],
+  [
+   "Letters of Credence",
+   "Documents by which an ambassador is accredited to the head of state of the receiving country."
+  ],
+  [
+   "High Commission",
+   "The embassy-equivalent between Commonwealth countries, headed by a High Commissioner."
+  ],
+  [
+   "Consulate",
+   "An office in a city abroad for visas, passports, trade and citizen services; not the main diplomatic mission."
+  ],
+  [
+   "Chargé d'affaires",
+   "Diplomat who temporarily heads a mission when the ambassador is absent."
+  ],
+  [
+   "Diplomatic immunity",
+   "Protection of diplomats from the host country's jurisdiction, codified in the Vienna Convention 1961."
+  ],
+  [
+   "Diplomatic bag",
+   "Sealed bag carrying official correspondence, protected from search or seizure."
+  ],
+  [
+   "Extradition",
+   "Surrender of an accused or convicted person by one state to another for trial or punishment."
+  ],
+  [
+   "Note verbale",
+   "A formal, unsigned diplomatic note written in the third person."
+  ],
+  [
+   "Aide-mémoire",
+   "Informal written summary of a position handed over during a diplomatic meeting."
+  ],
+  [
+   "Joint communiqué",
+   "Official statement issued after talks, summarising what the parties agreed."
+  ],
+  [
+   "MoU",
+   "Memorandum of Understanding: a record of intent, usually not legally binding, unlike a treaty."
+  ],
+  [
+   "Track-II diplomacy",
+   "Unofficial dialogue between non-government experts, academics or former officials."
+  ],
+  [
+   "Soft power",
+   "Joseph Nye's term for influence through culture, values and attraction rather than force."
+  ],
+  [
+   "Apostille",
+   "A certificate under the 1961 Hague Convention that makes a public document valid in member countries; India is a member."
+  ],
+  [
+   "Panchsheel",
+   "Five Principles of Peaceful Coexistence, from the 1954 India–China agreement."
+  ],
+  [
+   "Gujral Doctrine",
+   "I. K. Gujral's 1996–97 policy of non-reciprocal goodwill towards India's smaller neighbours."
+  ],
+  [
+   "Act East Policy",
+   "India's engagement with Southeast and East Asia, upgraded from Look East in 2014."
+  ],
+  [
+   "Neighbourhood First",
+   "India's policy of priority to relations with immediate neighbours."
+  ],
+  [
+   "Strategic autonomy",
+   "Independence in foreign-policy choices without formal alliance with any bloc."
+  ],
+  [
+   "Bilateral / Multilateral",
+   "Between two states / among three or more states."
+  ],
+  [
+   "Ratification",
+   "Formal confirmation by a state that it consents to be bound by a treaty it has signed."
+  ]
+ ],
+ "vocab": [
+  [
+   "Ephemeral",
+   "Lasting a very short time"
+  ],
+  [
+   "Ubiquitous",
+   "Present everywhere"
+  ],
+  [
+   "Pragmatic",
+   "Practical rather than theoretical"
+  ],
+  [
+   "Ambiguous",
+   "Open to more than one meaning"
+  ],
+  [
+   "Lucid",
+   "Clear and easy to understand"
+  ],
+  [
+   "Alleviate",
+   "To make pain or a problem less severe"
+  ],
+  [
+   "Ostentatious",
+   "Showy, meant to impress"
+  ],
+  [
+   "Sagacious",
+   "Wise, with good judgement"
+  ],
+  [
+   "Taciturn",
+   "Reserved, saying very little"
+  ],
+  [
+   "Obdurate",
+   "Stubbornly refusing to change"
+  ],
+  [
+   "Magnanimous",
+   "Generous, forgiving"
+  ],
+  [
+   "Deleterious",
+   "Harmful"
+  ],
+  [
+   "Innocuous",
+   "Harmless"
+  ],
+  [
+   "Perfunctory",
+   "Done without care, merely routine"
+  ],
+  [
+   "Recalcitrant",
+   "Resisting authority or control"
+  ],
+  [
+   "Scrupulous",
+   "Very careful and honest"
+  ],
+  [
+   "Tenacious",
+   "Holding firm, persistent"
+  ],
+  [
+   "Vindicate",
+   "To clear of blame, to justify"
+  ],
+  [
+   "Equivocal",
+   "Deliberately vague, open to doubt"
+  ],
+  [
+   "Fastidious",
+   "Very hard to please, attentive to detail"
+  ],
+  [
+   "Capricious",
+   "Changing mood or behaviour suddenly"
+  ],
+  [
+   "Cogent",
+   "Clear, logical and convincing"
+  ],
+  [
+   "Diligent",
+   "Hard-working and careful"
+  ],
+  [
+   "Eloquent",
+   "Fluent and persuasive in speech"
+  ],
+  [
+   "Frugal",
+   "Careful with money"
+  ],
+  [
+   "Garrulous",
+   "Talking too much"
+  ],
+  [
+   "Hostile",
+   "Unfriendly, antagonistic"
+  ],
+  [
+   "Impetuous",
+   "Acting quickly without thought"
+  ],
+  [
+   "Jubilant",
+   "Joyful, triumphant"
+  ],
+  [
+   "Lethargic",
+   "Sluggish, lacking energy"
+  ]
+ ]
+}
