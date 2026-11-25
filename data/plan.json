@@ -37,49 +37,174 @@
      "q": "Percentages, ratio, averages",
      "r": "Number series, analogy, odd one out",
      "e": "Parts of speech, tenses, subject-verb agreement",
-     "g": "Indian Polity I: Constitution, rights, duties"
+     "g": "Indian Polity I: Constitution, rights, duties",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Percentage, Ratio & Proportion, Average",
+       "Kiran, SSC Maths Chapterwise Solved Papers: same chapters"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Series, Analogy, Classification"
+      ],
+      "e": [
+       "Wren & Martin, High School English Grammar & Composition: Parts of Speech, Tenses, Concord"
+      ],
+      "g": [
+       "M. Laxmikanth, Indian Polity: Ch. Historical Background, Making of the Constitution, Preamble, Fundamental Rights, DPSP, Fundamental Duties"
+      ]
+     }
     },
     {
      "q": "Profit & loss, discount",
      "r": "Coding-decoding, alphabet tests",
      "e": "Articles, prepositions, error spotting",
-     "g": "Indian Polity II: Union & State government"
+     "g": "Indian Polity II: Union & State government",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Profit & Loss, Discount",
+       "Rakesh Yadav, Advanced Maths (SSC): Profit & Loss"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Coding-Decoding, Alphabet Test"
+      ],
+      "e": [
+       "Wren & Martin, High School English Grammar & Composition: Articles, Prepositions",
+       "S.P. Bakshi, Objective General English (Arihant): Spotting Errors"
+      ],
+      "g": [
+       "M. Laxmikanth, Indian Polity: President, Prime Minister & Council of Ministers, Parliament, Supreme Court"
+      ]
+     }
     },
     {
      "q": "Simple & compound interest",
      "r": "Blood relations, direction sense",
      "e": "Synonyms/antonyms (daily 15 words)",
-     "g": "Modern History: 1857 to Independence"
+     "g": "Modern History: 1857 to Independence",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Simple & Compound Interest"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Blood Relations, Direction Sense, Ranking"
+      ],
+      "e": [
+       "Norman Lewis, Word Power Made Easy: first 10 chapters, 15 words a day",
+       "Wren & Martin, High School English Grammar & Composition: Synonyms/Antonyms exercises"
+      ],
+      "g": [
+       "Spectrum, A Brief History of Modern India: Advent of Europeans to 1857 Revolt; Socio-religious reform movements"
+      ]
+     }
     },
     {
      "q": "Time & work, pipes",
      "r": "Ranking, calendar, clock",
      "e": "Active-passive, direct-indirect speech",
-     "g": "Ancient & Medieval History"
+     "g": "Ancient & Medieval History",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Time & Work, Pipes & Cisterns"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Calendar, Clock, Mathematical Operations"
+      ],
+      "e": [
+       "Wren & Martin, High School English Grammar & Composition: Voice, Narration",
+       "S.P. Bakshi, Objective General English (Arihant): Active-Passive, Narration"
+      ],
+      "g": [
+       "Spectrum, A Brief History of Modern India: Freedom Struggle 1885-1947",
+       "NCERT Class 6-8 History (Our Pasts), Class 11 Themes in World History: Ancient & Medieval chapters"
+      ]
+     }
     },
     {
      "q": "Speed, distance, trains, boats",
      "r": "Syllogism, Venn diagrams",
      "e": "Idioms & phrases, one-word substitution",
-     "g": "Geography: India (physical, rivers, soils)"
+     "g": "Geography: India (physical, rivers, soils)",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Time & Distance, Problems on Trains, Boats & Streams"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Syllogism, Venn Diagrams"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Idioms & Phrases, One-Word Substitution",
+       "Neetu Singh, English for General Competitions (Kiran): Idioms & One-Word"
+      ],
+      "g": [
+       "NCERT Class 11 Fundamentals of Physical Geography & India: Physical Environment",
+       "Lucent's General Knowledge: Indian Geography"
+      ]
+     }
     },
     {
      "q": "Number system, HCF/LCM, simplification",
      "r": "Mathematical operations, matrix",
      "e": "Sentence improvement, para jumbles",
-     "g": "Geography: World & climate"
+     "g": "Geography: World & climate",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Number System, HCF & LCM, Simplification"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Matrix, Missing Number, Statement & Conclusion"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Sentence Improvement, Para Jumbles"
+      ],
+      "g": [
+       "NCERT Class 6-10 Geography (The Earth Our Habitat, Contemporary India)",
+       "Lucent's General Knowledge: World Geography"
+      ]
+     }
     },
     {
      "q": "Algebra and identities",
      "r": "Statement-conclusion, assumptions",
      "e": "Reading comprehension (2 passages/day)",
-     "g": "Economy basics: banking, RBI, budget, GST"
+     "g": "Economy basics: banking, RBI, budget, GST",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Algebra; Rakesh Yadav, Advanced Maths (SSC): Algebra"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Statement & Assumptions, Course of Action"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Reading Comprehension",
+       "The Hindu editorial page (daily): read 2 articles daily"
+      ],
+      "g": [
+       "NCERT Class 11 Indian Economic Development",
+       "NCERT Class 12 Macroeconomics: Money & Banking, Govt Budget",
+       "Budget at a Glance (indiabudget.gov.in)"
+      ]
+     }
     },
     {
      "q": "Geometry: triangles, circles",
      "r": "Figure counting, mirror/water images",
      "e": "Cloze test, fill in the blanks",
-     "g": "General Science: physics, chemistry, biology (NCERT 6-10)"
+     "g": "General Science: physics, chemistry, biology (NCERT 6-10)",
+     "ref": {
+      "q": [
+       "Rakesh Yadav, Advanced Maths (SSC): Geometry (Triangle, Circle); NCERT Maths, Class 9-10: Geometry"
+      ],
+      "r": [
+       "R.S. Aggarwal, Verbal & Non-Verbal Reasoning: Non-Verbal: Figure Counting, Mirror & Water Images"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Cloze Test, Fill in the Blanks"
+      ],
+      "g": [
+       "NCERT Class 6-10 Science: Physics, Chemistry, Biology chapters",
+       "Lucent's General Knowledge: General Science"
+      ]
+     }
     }
    ]
   },
@@ -93,49 +218,170 @@
      "q": "Mensuration 2D and 3D",
      "r": "Mixed series and coding sets",
      "e": "Vocabulary 20 words/day + RC",
-     "g": "IR & MEA I: groupings, organisations, headquarters"
+     "g": "IR & MEA I: groupings, organisations, headquarters",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Mensuration (2D & 3D)",
+       "Kiran, SSC Maths Chapterwise Solved Papers: Mensuration"
+      ],
+      "r": [
+       "Kiran, SSC Reasoning Chapterwise Solved Papers: Series & Coding mixed"
+      ],
+      "e": [
+       "Norman Lewis, Word Power Made Easy: next chapters, 20 words a day",
+       "Neetu Singh, English for General Competitions (Kiran): Vocabulary"
+      ],
+      "g": [
+       "MEA Annual Report (mea.gov.in): organisations, groupings",
+       "Lucent's General Knowledge: International Organisations & HQs"
+      ]
+     }
     },
     {
      "q": "Trigonometry: ratios, heights and distances",
      "r": "Puzzles and seating arrangement",
      "e": "Error spotting timed sets",
-     "g": "IR & MEA II: India's neighbours, Act East, Neighbourhood First"
+     "g": "IR & MEA II: India's neighbours, Act East, Neighbourhood First",
+     "ref": {
+      "q": [
+       "Rakesh Yadav, Advanced Maths (SSC): Trigonometry, Heights & Distances; NCERT Maths, Class 9-10: Trigonometry"
+      ],
+      "r": [
+       "M.K. Pandey, Analytical Reasoning: Puzzles, Seating Arrangement"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Error Spotting timed sets"
+      ],
+      "g": [
+       "MEA website: country pages for neighbours (Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives, Myanmar, Pakistan, China)",
+       "MEA Annual Report: Neighbourhood and Act East chapters"
+      ]
+     }
     },
     {
      "q": "Data interpretation",
      "r": "Logical reasoning mixed",
      "e": "Para jumbles, sentence completion",
-     "g": "Static GK: awards, books, sports, days, parks"
+     "g": "Static GK: awards, books, sports, days, parks",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Data Interpretation (Tables, Bar, Pie, Line)"
+      ],
+      "r": [
+       "Kiran, SSC Reasoning Chapterwise Solved Papers: Logical Reasoning mixed"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Para Jumbles, Sentence Completion"
+      ],
+      "g": [
+       "Lucent's General Knowledge: Awards, Books & Authors, Sports, National Parks, Important Days"
+      ]
+     }
     },
     {
      "q": "Mixture, alligation, partnership",
      "r": "Direction + ranking mixed",
      "e": "Idioms + one-word revision",
-     "g": "Environment, ecology, summits"
+     "g": "Environment, ecology, summits",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: Mixture & Alligation, Partnership"
+      ],
+      "r": [
+       "Kiran, SSC Reasoning Chapterwise Solved Papers: Direction + Ranking mixed"
+      ],
+      "e": [
+       "Neetu Singh, English for General Competitions (Kiran): Idioms + One-Word revision"
+      ],
+      "g": [
+       "NCERT Class 12 Biology: Ecology chapters",
+       "Environment summits and conventions (PIB explainers)"
+      ]
+     }
     },
     {
      "q": "Mixed arithmetic timed (25Q/15min)",
      "r": "Mixed reasoning timed (25Q/15min)",
      "e": "Mixed English timed (25Q/15min)",
-     "g": "Mixed GA timed (25Q/15min)"
+     "g": "Mixed GA timed (25Q/15min)",
+     "ref": {
+      "q": [
+       "Kiran, SSC Maths Chapterwise Solved Papers: 25Q timed sets"
+      ],
+      "r": [
+       "Kiran, SSC Reasoning Chapterwise Solved Papers: 25Q timed sets"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): 25Q timed sets"
+      ],
+      "g": [
+       "Lucent's General Knowledge: mixed GK 25Q timed sets",
+       "This app: Practice → sectional drills"
+      ]
+     }
     },
     {
      "q": "Weak-topic repair (from your analysis)",
      "r": "Weak-topic repair",
      "e": "Weak-topic repair",
-     "g": "Current affairs: monthly revision"
+     "g": "Current affairs: monthly revision",
+     "ref": {
+      "q": [
+       "Your wrong-answer notebook (this app)",
+       "Kiran, SSC Maths Chapterwise Solved Papers: your weak chapters"
+      ],
+      "r": [
+       "Your wrong-answer notebook (this app)"
+      ],
+      "e": [
+       "Your vocabulary notebook"
+      ],
+      "g": [
+       "PIB monthly current affairs summary",
+       "This app: Live tab, saved items"
+      ]
+     }
     },
     {
      "q": "Speed maths: tables, squares, fractions",
      "r": "Speed reasoning",
      "e": "Sentence rearrangement + fillers",
-     "g": "Computer knowledge: basics, MS Office, internet, security"
+     "g": "Computer knowledge: basics, MS Office, internet, security",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: tables to 30, squares to 30, cubes to 15 (speed maths)"
+      ],
+      "r": [
+       "Kiran/Arihant previous-year reasoning papers"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Sentence Rearrangement, Fillers"
+      ],
+      "g": [
+       "Computer Awareness: Arihant or Kiran Computer Awareness (current edition)",
+       "This app: Notes & flashcards"
+      ]
+     }
     },
     {
      "q": "Test-1 style mocks: 2 this week",
      "r": "Analyse every wrong answer",
      "e": "Vocabulary notebook revision",
-     "g": "GA mixed + current affairs"
+     "g": "GA mixed + current affairs",
+     "ref": {
+      "q": [
+       "This app: Mocks → Test-1, twice"
+      ],
+      "r": [
+       "Analyse every wrong answer"
+      ],
+      "e": [
+       "Vocabulary revision"
+      ],
+      "g": [
+       "This app: Live tab current affairs; revise GK notes"
+      ]
+     }
     }
    ]
   },
@@ -149,37 +395,126 @@
      "q": "Test-2 Maths: advanced algebra & geometry",
      "r": "Hard puzzles + non-verbal",
      "e": "45-question English sets in 40 min",
-     "g": "GA 25Q in 20 min sets"
+     "g": "GA 25Q in 20 min sets",
+     "ref": {
+      "q": [
+       "Rakesh Yadav, Advanced Maths (SSC): Algebra, Geometry (Test-2 level)"
+      ],
+      "r": [
+       "Previous-year Test-2 reasoning papers (SSC CGL Tier-II)"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): 45-question sets",
+       "The Hindu editorial page (daily): RC practice"
+      ],
+      "g": [
+       "Lucent's General Knowledge: GK 25Q sets"
+      ]
+     }
     },
     {
      "q": "Test-2 Maths: trigonometry & mensuration",
      "r": "Test-2 Reasoning sets (30Q/30min)",
      "e": "Advanced RC + vocabulary",
-     "g": "Economy & govt schemes deep-dive"
+     "g": "Economy & govt schemes deep-dive",
+     "ref": {
+      "q": [
+       "Rakesh Yadav, Advanced Maths (SSC): Trigonometry, Mensuration (advanced)"
+      ],
+      "r": [
+       "M.K. Pandey, Analytical Reasoning: harder puzzles and logic"
+      ],
+      "e": [
+       "Neetu Singh, English for General Competitions (Kiran): Vocabulary, RC advanced"
+      ],
+      "g": [
+       "NCERT Class 11-12 Economics",
+       "Economic Survey (latest) summary chapters"
+      ]
+     }
     },
     {
      "q": "Test-2 Maths: DI + arithmetic mix",
      "r": "Reasoning accuracy drill",
      "e": "Error spotting + cloze at pace",
-     "g": "IR deep-dive: MEA Annual Report themes"
+     "g": "IR deep-dive: MEA Annual Report themes",
+     "ref": {
+      "q": [
+       "R.S. Aggarwal, Quantitative Aptitude: DI advanced; Rakesh Yadav, Advanced Maths (SSC): Arithmetic mixed"
+      ],
+      "r": [
+       "Kiran, SSC Reasoning Chapterwise Solved Papers: accuracy drills"
+      ],
+      "e": [
+       "S.P. Bakshi, Objective General English (Arihant): Error Spotting, Cloze at pace"
+      ],
+      "g": [
+       "MEA Annual Report: major partners, multilateral engagements",
+       "MEA press briefings (mea.gov.in)"
+      ]
+     }
     },
     {
      "q": "Sectional Test-2 timers (30Q/30min)",
      "r": "Sectional Test-2 timers",
      "e": "Sectional (45Q/40min)",
-     "g": "Sectional (25Q/20min)"
+     "g": "Sectional (25Q/20min)",
+     "ref": {
+      "q": [
+       "Previous-year CGL Tier-II Maths papers",
+       "This app: Practice, 30Q in 30 min"
+      ],
+      "r": [
+       "This app: Practice, 30Q in 30 min"
+      ],
+      "e": [
+       "This app: Practice, 45Q in 40 min"
+      ],
+      "g": [
+       "This app: Practice, 25Q in 20 min"
+      ]
+     }
     },
     {
      "q": "Computer qualifying test: 20Q/15min",
      "r": "Full Test-2 mock #1",
      "e": "Full Test-2 mock #2",
-     "g": "Analyse mocks, fix weak areas"
+     "g": "Analyse mocks, fix weak areas",
+     "ref": {
+      "q": [
+       "Computer: Arihant/Kiran Computer Awareness, 20Q in 15 min",
+       "This app: Mocks → Test-2"
+      ],
+      "r": [
+       "This app: Mocks → Test-2"
+      ],
+      "e": [
+       "This app: Mocks → Test-2"
+      ],
+      "g": [
+       "Mock analysis in this app: Result → Wrong answers"
+      ]
+     }
     },
     {
      "q": "Full Test-2 mock #3",
      "r": "Mock analysis",
      "e": "Mock #4",
-     "g": "Mock analysis"
+     "g": "Mock analysis",
+     "ref": {
+      "q": [
+       "This app: Mocks → Test-2"
+      ],
+      "r": [
+       "Mock analysis"
+      ],
+      "e": [
+       "Mock analysis"
+      ],
+      "g": [
+       "Mock analysis"
+      ]
+     }
     }
    ]
   },
@@ -193,25 +528,81 @@
      "q": "Test-1 mock + Test-2 mock",
      "r": "Formula sheet revision",
      "e": "Vocabulary revision",
-     "g": "Last 6 months current affairs"
+     "g": "Last 6 months current affairs",
+     "ref": {
+      "q": [
+       "This app: Mocks → Test-1 and Test-2"
+      ],
+      "r": [
+       "Your formula sheet (More → Notes)"
+      ],
+      "e": [
+       "Your vocabulary notebook"
+      ],
+      "g": [
+       "Last 6 months of current affairs (Live tab saved items)"
+      ]
+     }
     },
     {
      "q": "Test-1 mock + Test-2 mock",
      "r": "Error-log revision",
      "e": "Idioms/one-word revision",
-     "g": "Static GK rapid revision"
+     "g": "Static GK rapid revision",
+     "ref": {
+      "q": [
+       "This app: Mocks → Test-1 and Test-2"
+      ],
+      "r": [
+       "Your error log"
+      ],
+      "e": [
+       "Idioms & one-word revision"
+      ],
+      "g": [
+       "Lucent's General Knowledge: rapid revision"
+      ]
+     }
     },
     {
      "q": "Two full Test-2 mocks",
      "r": "Weakest-section drill",
      "e": "Light RC practice",
-     "g": "Computer + GA facts revision"
+     "g": "Computer + GA facts revision",
+     "ref": {
+      "q": [
+       "This app: two full Test-2 mocks"
+      ],
+      "r": [
+       "Weakest-section drills"
+      ],
+      "e": [
+       "Light RC practice"
+      ],
+      "g": [
+       "Computer + GA facts revision"
+      ]
+     }
     },
     {
      "q": "Taper: light practice only",
      "r": "Rest and recall",
      "e": "Rest and recall",
-     "g": "Re-read your wrong-answer notebook"
+     "g": "Re-read your wrong-answer notebook",
+     "ref": {
+      "q": [
+       "Light practice only"
+      ],
+      "r": [
+       "Rest and recall"
+      ],
+      "e": [
+       "Rest and recall"
+      ],
+      "g": [
+       "Re-read your wrong-answer notebook"
+      ]
+     }
     }
    ]
   }
@@ -253,5 +644,32 @@
    "Constitution of India (official)",
    "https://legislative.gov.in/constitution-of-india/"
   ]
- ]
+ ],
+ "books": [
+  [
+   "Maths",
+   "R.S. Aggarwal, Quantitative Aptitude; Rakesh Yadav, Advanced Maths; Kiran SSC Maths Chapterwise Solved Papers"
+  ],
+  [
+   "Reasoning",
+   "R.S. Aggarwal, Verbal & Non-Verbal Reasoning; M.K. Pandey, Analytical Reasoning; Kiran Reasoning Chapterwise Papers"
+  ],
+  [
+   "English",
+   "Wren & Martin; S.P. Bakshi, Objective General English; Norman Lewis, Word Power Made Easy; Neetu Singh, English for General Competitions; The Hindu editorial page"
+  ],
+  [
+   "GA",
+   "M. Laxmikanth, Indian Polity; Spectrum, A Brief History of Modern India; Lucent's General Knowledge; NCERT Class 6-12 (History, Geography, Economics, Science)"
+  ],
+  [
+   "Computer",
+   "Arihant or Kiran Computer Awareness (any current edition)"
+  ],
+  [
+   "IR / MEA",
+   "MEA Annual Report and country pages on mea.gov.in; PIB releases"
+  ]
+ ],
+ "booksNote": "These are widely used SSC titles, not paid placements. Any current edition works. Free: NCERT textbooks at ncert.nic.in, MEA and PIB material online."
 }
