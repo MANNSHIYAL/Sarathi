@@ -4,13 +4,14 @@ import { config } from '../data.js';
 import { aiJSON } from '../ai.js';
 import { notesView } from './notes.js';
 import { statsView } from './stats.js';
+import { render as weekView } from './week.js';
 
 export async function buildPlan() {
   const P = await getJSON('data/plan.json'), st = settings.all();
   let start = st.planStart || store.get('plan-start', null); if (!start) { start = today(); store.set('plan-start', start); }
   const total = Math.max(8, Math.ceil((new Date(st.tier1Date) - new Date(start)) / (7 * 864e5)));
   const weeks = []; let left = total;
-  P.phases.forEach((ph, pi) => { const n = pi === P.phases.length - 1 ? left : Math.round(ph.share * total); left -= n; for (let i = 0; i < n; i++) weeks.push({ phase: ph.name, goal: ph.goal, w: ph.weeks[i % ph.weeks.length], cycle: i >= ph.weeks.length }); });
+  P.phases.forEach((ph, pi) => { const n = pi === P.phases.length - 1 ? left : Math.round(ph.share * total); left -= n; for (let i = 0; i < n; i++) weeks.push({ key: `${ph.id}-w${(i % ph.weeks.length) + 1}`, phase: ph.name, goal: ph.goal, w: ph.weeks[i % ph.weeks.length], cycle: i >= ph.weeks.length }); });
   return { P, weeks: weeks.slice(0, total), start, total };
 }
 export async function currentWeek() {
@@ -18,10 +19,12 @@ export async function currentWeek() {
 }
 const MENU = [['plan', 'Study plan', 'Weekly plan to your Test-1 date'], ['aso', 'ASO MEA track', 'Post facts, target calculator, IR reading'], ['notes', 'Notes & flashcards', 'Formulas, diplomacy terms, vocabulary'], ['stats', 'My analytics', 'Score trend and weak sections'], ['settings', 'Settings', 'Dates, AI key, backup'], ['sources', 'Exam facts & sources', 'What this app is based on']];
 
-export async function render(app, [sub]) {
+export async function render(app, args) {
+  const [sub] = args;
   if (!sub) { app.innerHTML = `<h1>More</h1><div class="card list">${MENU.map(m => `<a class="item" href="#/more/${m[0]}"><div class="t">${m[1]}</div><div class="m">${m[2]}</div></a>`).join('')}</div>`; return; }
   const back = `<a href="#/more" class="sub" style="text-decoration:none">← More</a>`;
   if (sub === 'plan') return plan(app, back);
+  if (sub === 'week') return weekView(app, args);
   if (sub === 'aso') return aso(app, back);
   if (sub === 'notes') return notesView(app, back);
   if (sub === 'stats') return statsView(app, back);
@@ -38,7 +41,7 @@ async function plan(app, back) {
   <div class="card"><h3>Every day</h3>${P.daily.map(d => `<div class="row" style="padding:3px 0"><b style="width:120px">${esc(d[0])}</b><span class="sp sub" style="margin:0">${esc(d[2])}</span><span class="chip">${esc(d[1])}</span></div>`).join('')}</div>
   ${weeks.map((w, i) => `${i === 0 || weeks[i - 1].phase !== w.phase ? `<h2>${esc(w.phase)}</h2><p class="sub">${esc(w.goal)}</p>` : ''}
   <details class="card" ${i + 1 === cur ? 'open' : ''}><summary style="cursor:pointer"><b>Week ${i + 1}</b> ${w.cycle ? '<span class="chip warn">Revision cycle</span>' : ''} ${i + 1 === cur ? '<span class="chip">Now</span>' : ''} ${done[i] ? '<span class="chip ok">Done</span>' : ''}</summary>
-  <div class="sub" style="margin-top:8px">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, n]) => `<b>${n}:</b> ${esc(w.w[k])}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}</div>`).join('')}`).join('<br>')}</div><button class="btn alt sm" data-w="${i}">${done[i] ? 'Mark not done' : 'Mark week done'}</button></details>`).join('')}
+  <div class="sub" style="margin-top:8px">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, n]) => `<b>${n}:</b> ${esc(w.w[k])}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}</div>`).join('')}`).join('<br>')}</div><a class="btn sm" href="#/more/week/${i + 1}" style="margin-right:6px">Open full lesson →</a><button class="btn alt sm" data-w="${i}">${done[i] ? 'Mark not done' : 'Mark week done'}</button></details>`).join('')}
   <h2>Free official resources</h2><div class="card list">${P.resources.map(r => `<a class="item" href="${esc(r[1])}" target="_blank" rel="noopener">${esc(r[0])} ↗</a>`).join('')}</div>`;
   $$('[data-w]').forEach(b => b.onclick = e => { e.preventDefault(); const d = store.get('plan-done', {}); d[b.dataset.w] ? delete d[b.dataset.w] : d[b.dataset.w] = 1; store.set('plan-done', d); plan(app, back); });
 }

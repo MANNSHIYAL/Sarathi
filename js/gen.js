@@ -1,5 +1,6 @@
 // Procedural Maths + Reasoning questions at SSC CGL level. Every answer is computed, so it is always correct.
 import { ri, pick, shuffle } from './util.js';
+const ord = n => n + (n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] || 'th');
 const f = n => { n = Math.round(n * 100) / 100; return Number.isInteger(n) ? String(n) : String(n); };
 let C = 0;
 function mc(sec, topic, q, correct, wrongs, expl, fmt = f) {
@@ -47,10 +48,25 @@ const Q = {
     return mc('reasoning', 'Number Series', `Find the next term: ${s.join(', ')}, ?`, ans, [ans + 2, ans - 3, ans + 10, ans * 2 - s[4]], ex); },
   coding() { const k = ri(1, 4), w = pick(['MOON', 'LAMP', 'BOOK', 'FARM', 'PINK', 'TIME', 'RAIN', 'DESK']), w2 = pick(['CAKE', 'WIND', 'GOLD', 'HAND', 'SEAT']); const sh = (s, n) => [...s].map(c => String.fromCharCode((c.charCodeAt(0) - 65 + n + 26) % 26 + 65)).join(''); const ans = sh(w2, k);
     return mc('reasoning', 'Coding-Decoding', `If ${w} is coded as ${sh(w, k)}, how will ${w2} be coded?`, ans, [sh(w2, k + 1), sh(w2, k - 1), sh(w2, -k), sh(w2, k + 2)], `Each letter is shifted ${k} place(s) forward`, String); },
-  direction() { const a = pick([3, 6, 8, 5]), b = pick([4, 8, 6, 12]), t = [[3, 4, 5], [6, 8, 10], [5, 12, 13], [8, 6, 10]].find(x => x[0] === a && x[1] === b) || [3, 4, 5]; const d = ri(3, 9);
-    return mc('reasoning', 'Direction Sense', `A man walks ${t[0]} km north, then ${t[1]} km east. How far is he from the starting point (km)?`, t[2], [t[0] + t[1], t[2] + 1, t[2] - 1, Math.abs(t[1] - t[0])], `√(${t[0]}²+${t[1]}²) = ${t[2]}`); },
+  direction() {
+    const T = [[3, 4, 5], [5, 12, 13], [8, 15, 17], [6, 8, 10], [9, 12, 15]], t = pick(T), k = pick([1, 1, 2]), a = t[0] * k, b = t[1] * k, h = t[2] * k;
+    const D = [['north', [0, 1]], ['east', [1, 0]], ['south', [0, -1]], ['west', [-1, 0]]], d0 = pick(D), turn = pick(['left', 'right']);
+    const i0 = D.indexOf(d0), d1 = D[(i0 + (turn === 'right' ? 1 : 3)) % 4];
+    const x = d0[1][0] * a + d1[1][0] * b, y = d0[1][1] * a + d1[1][1] * b;
+    const name = (y > 0 ? 'North' : y < 0 ? 'South' : '') + (y && x ? '-' : '') + (x > 0 ? 'East' : x < 0 ? 'West' : '');
+    const text = `A man walks ${a} km ${d0[0]}, turns ${turn} and walks ${b} km.`;
+    if (Math.random() < 0.5) return mc('reasoning', 'Direction Sense', `${text} How far is he from the starting point (km)?`, h, [a + b, h + 1, h - 1, Math.abs(a - b)], `Perpendicular legs: √(${a}² + ${b}²) = ${h}`);
+    const all = ['North-East', 'North-West', 'South-East', 'South-West'];
+    return mc('reasoning', 'Direction Sense', `${text} In which direction is he from the starting point?`, name, all.filter(z => z !== name), `${d0[0]} then ${d1[0]} puts him to the ${name} of the start`, String);
+  },
   rank() { const n = ri(30, 60), r = ri(5, 20); return mc('reasoning', 'Ranking', `${nm()} ranks ${r}th from the top in a class of ${n}. What is the rank from the bottom?`, n - r + 1, [n - r, n - r + 2, n + r, n - r - 1], `Bottom rank = ${n} − ${r} + 1 = ${n - r + 1}`); },
-  alphabet() { const p = ri(5, 22), L = String.fromCharCode(64 + p); return mc('reasoning', 'Alphabet', `Which letter is ${p}th from the left end of the English alphabet and what is its position from the right end?`, 27 - p, [26 - p, 28 - p, p, 27 - p + 2], `Position from right = 27 − ${p} = ${27 - p}`, n => `${L} (${n}th from right)`); },
+  alphabet() {
+    const t = ri(0, 3), L = n => String.fromCharCode(64 + n), p = ri(5, 22), q = ri(p + 3, 25);
+    if (t === 0) return mc('reasoning', 'Alphabet', `Which letter is the opposite of ${L(p)} in the English alphabet (A↔Z, B↔Y ...)?`, L(27 - p), [L(p + 1), L(26 - p), L(27 - p + 1), L(p - 1)].filter(z => z !== L(27 - p) && z.charCodeAt(0) >= 65 && z.charCodeAt(0) <= 90), `Opposite letter = 27 − ${p} = ${27 - p} = ${L(27 - p)}`, String);
+    if (t === 1) return mc('reasoning', 'Alphabet', `How many letters lie between ${L(p)} and ${L(q)} in the English alphabet?`, q - p - 1, [q - p, q - p + 1, q - p - 2, p], `${q} − ${p} − 1 = ${q - p - 1}`);
+    if (t === 2) { const n = ri(2, Math.min(6, p - 1)); return mc('reasoning', 'Alphabet', `Which letter is ${ord(n)} to the left of ${L(p)}?`, L(p - n), [L(p - n + 1), L(p - n - 1), L(p + n), L(p - n + 2)], `${p} − ${n} = ${p - n} = ${L(p - n)}`, String); }
+    return mc('reasoning', 'Alphabet', `Which letter is ${ord(p)} from the right end of the English alphabet?`, L(27 - p), [L(p), L(26 - p), L(28 - p), L(27 - p + 2)].filter(z => z !== L(27 - p) && z.charCodeAt(0) >= 65 && z.charCodeAt(0) <= 90), `Position from the left = 27 − ${p} = ${27 - p} = ${L(27 - p)}`, String);
+  },
   calendar() { const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], s = ri(0, 6), g = ri(8, 40); const ans = days[(s + g) % 7]; return mc('reasoning', 'Calendar', `If today is ${days[s]}, what day will it be after ${g} days?`, ans, [days[(s + g + 1) % 7], days[(s + g + 6) % 7], days[(s + g + 2) % 7], days[(s + g + 3) % 7]], `${g} mod 7 = ${g % 7}, so ${days[s]} + ${g % 7} = ${ans}`, String); },
   clock() { const h = ri(1, 11), m = pick([0, 10, 20, 30, 40, 50]); let a = Math.abs(30 * h - 5.5 * m); if (a > 180) a = 360 - a; return mc('reasoning', 'Clock', `Find the angle (degrees) between the hands of a clock at ${h}:${String(m).padStart(2, '0')}.`, a, [a + 15, Math.abs(a - 30), 360 - a, a + 30], `|30h − 5.5m| = |${30 * h} − ${5.5 * m}| = ${a}°`); },
   oddout() { const t = ri(0, 2); if (t === 0) { const pr = shuffle([2, 3, 5, 7, 11, 13, 17, 19, 23]).slice(0, 3), od = pick([9, 15, 21, 25, 27]); const o = shuffle([...pr, od]); return mc('reasoning', 'Odd One Out', `Find the odd one out: ${o.join(', ')}`, od, o.filter(x => x !== od), `${od} is composite; others are prime`, String); }
@@ -58,11 +74,24 @@ const Q = {
     const ev = shuffle([12, 18, 24, 30, 42, 54]).slice(0, 3), od = pick([15, 21, 27, 33]); const o = shuffle([...ev, od]); return mc('reasoning', 'Odd One Out', `Find the odd one out: ${o.join(', ')}`, od, o.filter(x => x !== od), `${od} is odd; the rest are even`, String); },
   analogy() { const e = pick([[2, 'square', n => n * n], [3, 'cube', n => n ** 3], [2, 'double', n => n * 2], [3, 'triple', n => n * 3]]); const a = ri(2, 7), b = ri(8, 12); const g = e[2]; return mc('reasoning', 'Analogy', `${a} : ${g(a)} :: ${b} : ?`, g(b), [g(b) + b, g(b) - b, g(b) + 2, g(b) * 2 - g(a)], `The second number is the ${e[1]} of the first`); },
   symbols() { const a = ri(4, 12), b = ri(2, 6), c = ri(2, 9); return mc('reasoning', 'Mathematical Operations', `If '+' means '×', '×' means '−', '−' means '÷' and '÷' means '+', find: ${a} + ${b} × ${c} − ${b}`, a * b - c / b, [a + b - c - b, a * b - c, a * b + c, a - b], `Replace symbols: ${a} × ${b} − ${c} ÷ ${b} = ${a * b} − ${f(c / b)} = ${f(a * b - c / b)}`); },
-  blood() { const t = pick([['pointing to a man, a woman says "He is the son of my mother\'s only brother." How is the man related to the woman?', 'Cousin', ['Brother', 'Uncle', 'Nephew'], "Mother's brother's son = maternal cousin"], ['A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?', 'Uncle', ['Father', 'Brother', 'Cousin'], 'A is C\'s brother, so D\'s paternal uncle'], ["Pointing to a girl, Raj says: \"She is the daughter of my father's only son.\" How is the girl related to Raj?", 'Daughter', ['Sister', 'Niece', 'Cousin'], "Father's only son = Raj himself"], ["X is the father of Y. Y is the sister of Z. Z is the mother of W. How is X related to W?", 'Grandfather', ['Father', 'Uncle', 'Brother'], 'X is Z\'s father, so W\'s maternal grandfather']]); return mc('reasoning', 'Blood Relations', t[0].charAt(0) === 'A' || t[0].charAt(0) === 'X' ? t[0] : t[0], t[1], t[2], t[3], String); },
+  blood() {
+    const T = [
+      ['Pointing to a man, a woman says "He is the son of my mother\'s only brother." How is the man related to the woman?', 'Cousin', ['Brother', 'Uncle', 'Nephew'], "Mother's brother's son is a maternal cousin"],
+      ['A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?', 'Uncle', ['Father', 'Brother', 'Cousin'], "A is C's brother, so D's uncle"],
+      ["Pointing to a girl, Raj says: \"She is the daughter of my father's only son.\" How is the girl related to Raj?", 'Daughter', ['Sister', 'Niece', 'Cousin'], "Father's only son is Raj himself"],
+      ['X is the father of Y. Y is the sister of Z. Z is the mother of W. How is X related to W?', 'Grandfather', ['Father', 'Uncle', 'Brother'], "X is Z's father, so W's grandfather"],
+      ['A is the father of B. B is the sister of C. C is the son of D. How is D related to A?', 'Wife', ['Sister', 'Mother', 'Daughter'], 'B and C are children of A and D, so D is the wife of A'],
+      ["A's mother is B's sister. How is A related to B?", 'Nephew or niece', ['Brother or sister', 'Son or daughter', 'Cousin'], "A is the child of B's sister"],
+      ['X is the mother of Y. Y is the sister of Z. Z is the father of W. How is X related to W?', 'Grandmother', ['Mother', 'Aunt', 'Sister'], "X is Z's mother, so W's grandmother"],
+      ['Pointing to a photograph, Rita says "He is the son of my mother\'s only son." Whose photograph is it?', 'Her nephew', ['Her brother', 'Her son', 'Her uncle'], "Mother's only son is Rita's brother; his son is her nephew"],
+      ['A is B\'s brother. C is A\'s mother. D is C\'s father. How is B related to D?', 'Grandchild', ['Child', 'Nephew', 'Brother'], "D is the father of B's mother, so B is D's grandchild"],
+      ["If P is the brother of Q and Q is the sister of R, how is R related to P?", 'Brother or sister', ['Cousin', 'Uncle', 'Son'], 'P and R are both siblings of Q']];
+    const t = pick(T); return mc('reasoning', 'Blood Relations', t[0], t[1], t[2], t[3], String);
+  },
   syllogism() { const t = pick([['All pens are books. All books are tables.', 'All pens are tables.', 'Yes'], ['Some cats are dogs. All dogs are birds.', 'Some cats are birds.', 'Yes'], ['All roses are flowers. Some flowers are red.', 'Some roses are red.', 'No'], ['No fish is a bird. All sparrows are birds.', 'No sparrow is a fish.', 'Yes']]); return mc('reasoning', 'Syllogism', `Statements: ${t[0]}\nConclusion: ${t[1]}\nDoes the conclusion definitely follow?`, t[2] === 'Yes' ? 'Follows' : 'Does not follow', ['Cannot say', t[2] === 'Yes' ? 'Does not follow' : 'Follows', 'Only possible'].filter(x => x), t[2] === 'Yes' ? 'It follows directly from the statements' : 'Not enough information to conclude it definitely', String); }
 };
 const QUANT = ['percent', 'percentChange', 'profit', 'loss', 'discount', 'ratio', 'si', 'ci', 'work', 'speed', 'avgSpeed', 'average', 'hcf', 'circle', 'rect', 'cyl', 'simplify', 'algebra', 'algebra2', 'trig', 'geometry', 'triangle', 'ages', 'mixture'];
-const REAS = ['series', 'coding', 'direction', 'rank', 'calendar', 'clock', 'oddout', 'analogy', 'symbols', 'blood', 'syllogism'];
+const REAS = ['series', 'coding', 'direction', 'rank', 'calendar', 'clock', 'oddout', 'analogy', 'symbols', 'blood', 'syllogism', 'alphabet'];
 let MAP = null;
 function topicMap() {
   if (MAP) return MAP; MAP = { quant: {}, reasoning: {} };

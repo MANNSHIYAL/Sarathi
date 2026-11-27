@@ -2,7 +2,7 @@
 "version": "2026-11-23",
 "questions": [
 {
-"id": "en-8cbf28ea",
+"id": "en-d1764387",
 "s": "english",
 "t": "Synonyms",
 "q": "Choose the synonym of \"ABUNDANT\".",
@@ -16,7 +16,7 @@
 "e": "Abundant = existing in large quantities."
 },
 {
-"id": "en-a245ad8b",
+"id": "en-db7a5af4",
 "s": "english",
 "t": "Synonyms",
 "q": "Choose the synonym of \"CANDID\".",
@@ -30,7 +30,7 @@
 "e": "Candid means honest and straightforward."
 },
 {
-"id": "en-3a61189c",
+"id": "en-493b483c",
 "s": "english",
 "t": "Synonyms",
 "q": "Choose the synonym of \"METICULOUS\".",
@@ -44,7 +44,7 @@
 "e": "Meticulous = showing great attention to detail."
 },
 {
-"id": "en-6b8fc24d",
+"id": "en-27180058",
 "s": "english",
 "t": "Synonyms",
 "q": "Choose the synonym of \"OBSOLETE\".",
@@ -58,7 +58,7 @@
 "e": "Obsolete = no longer produced or used."
 },
 {
-"id": "en-e425f2f4",
+"id": "en-2518640a",
 "s": "english",
 "t": "Synonyms",
 "q": "Choose the synonym of \"VERBOSE\".",
@@ -72,7 +72,7 @@
 "e": "Verbose = using more words than needed."
 },
 {
-"id": "en-a2281472",
+"id": "en-e8a215f0",
 "s": "english",
 "t": "Synonyms",
 "q": "Choose the synonym of \"BENEVOLENT\".",
@@ -86,7 +86,7 @@
 "e": "Benevolent = well meaning and kindly."
 },
 {
-"id": "en-ea18e48c",
+"id": "en-c8cd611c",
 "s": "english",
 "t": "Antonyms",
 "q": "Choose the antonym of \"EXPAND\".",
@@ -100,7 +100,7 @@
 "e": "Expand = to become larger; contract = to become smaller."
 },
 {
-"id": "en-e6d24397",
+"id": "en-2a82b858",
 "s": "english",
 "t": "Antonyms",
 "q": "Choose the antonym of \"TRANSPARENT\".",
@@ -114,7 +114,7 @@
 "e": "Transparent lets light through; opaque does not."
 },
 {
-"id": "en-699ca260",
+"id": "en-cd245406",
 "s": "english",
 "t": "Antonyms",
 "q": "Choose the antonym of \"ARDUOUS\".",
@@ -128,7 +128,7 @@
 "e": "Arduous = demanding great effort."
 },
 {
-"id": "en-e7551224",
+"id": "en-9b4bb495",
 "s": "english",
 "t": "Antonyms",
 "q": "Choose the antonym of \"GENUINE\".",
@@ -142,7 +142,7 @@
 "e": "Genuine = authentic."
 },
 {
-"id": "en-3fff2001",
+"id": "en-fe1a4582",
 "s": "english",
 "t": "Antonyms",
 "q": "Choose the antonym of \"ZENITH\".",
@@ -156,7 +156,7 @@
 "e": "Zenith is the highest point, nadir the lowest."
 },
 {
-"id": "en-0839371b",
+"id": "en-09ebd00a",
 "s": "english",
 "t": "Antonyms",
 "q": "Choose the antonym of \"FRUGAL\".",
@@ -170,7 +170,7 @@
 "e": "Frugal = sparing with money."
 },
 {
-"id": "en-71a16dbf",
+"id": "en-7ae2920d",
 "s": "english",
 "t": "Idioms",
 "q": "Meaning of the idiom \"To burn the midnight oil\".",
@@ -184,7 +184,7 @@
 "e": "Studying or working late at night."
 },
 {
-"id": "en-4d97f128",
+"id": "en-15ff1f1a",
 "s": "english",
 "t": "Idioms",
 "q": "Meaning of the idiom \"A blessing in disguise\".",
@@ -198,7 +198,7 @@
 "e": "Something good that is not immediately recognised."
 },
 {
-"id": "en-5ee80cf5",
+"id": "en-3fe2dcfa",
 "s": "english",
 "t": "Idioms",
 "q": "Meaning of the idiom \"To cry wolf\".",
@@ -212,7 +212,7 @@
 "e": "From the fable of the boy who cried wolf."
 },
 {
-"id": "en-1cbc8428",
+"id": "en-846054fa",
 "s": "english",
 "t": "Idioms",
 "q": "Meaning of the idiom \"Once in a blue moon\".",
@@ -226,7 +226,7 @@
 "e": "Blue moon is a rare event."
 },
 {
-"id": "en-b5d9b96f",
+"id": "en-f2036268",
 "s": "english",
 "t": "Idioms",
 "q": "Meaning of the idiom \"To hit the nail on the head\".",
@@ -240,7 +240,7 @@
 "e": "To be exactly right about something."
 },
 {
-"id": "en-17e0b0b5",
+"id": "en-7cdb710f",
 "s": "english",
 "t": "Idioms",
 "q": "Meaning of the idiom \"Beat around the bush\".",
@@ -254,7 +254,7 @@
 "e": "To talk without coming to the point."
 },
 {
-"id": "en-3361ab38",
+"id": "en-276b85b7",
 "s": "english",
 "t": "Idioms",
 "q": "Meaning of the idiom \"The ball is in your court\".",
@@ -268,7 +268,7 @@
 "e": "The next move is yours."
 },
 {
-"id": "en-99e4a2ad",
+"id": "en-e50032bc",
 "s": "english",
 "t": "One Word",
 "q": "One word for \"A person who loves books\".",
@@ -282,7 +282,7 @@
 "e": "Biblio = book, phile = lover."
 },
 {
-"id": "en-7d3ea561",
+"id": "en-296f71e9",
 "s": "english",
 "t": "One Word",
 "q": "One word for \"Fear of open spaces\".",
@@ -296,7 +296,7 @@
 "e": "Agora = marketplace/open space."
 },
 {
-"id": "en-3f5896b2",
+"id": "en-355627d5",
 "s": "english",
 "t": "One Word",
 "q": "One word for \"A government by the people\".",
@@ -310,7 +310,7 @@
 "e": "Demos = people, kratos = rule."
 },
 {
-"id": "en-5a473a96",
+"id": "en-5631f766",
 "s": "english",
 "t": "One Word",
 "q": "One word for \"One who knows everything\".",
@@ -324,7 +324,7 @@
 "e": "Omni = all, scient = knowing."
 },
 {
-"id": "en-33a7bdfe",
+"id": "en-942b17d4",
 "s": "english",
 "t": "One Word",
 "q": "One word for \"A speech delivered without preparation\".",
@@ -338,7 +338,7 @@
 "e": "Extempore = unprepared, spontaneous."
 },
 {
-"id": "en-a282d608",
+"id": "en-27f114cd",
 "s": "english",
 "t": "One Word",
 "q": "One word for \"Study of ancient things\".",
@@ -352,7 +352,7 @@
 "e": "Archaeology studies human history through remains."
 },
 {
-"id": "en-8f0842ac",
+"id": "en-d62f95d2",
 "s": "english",
 "t": "Error Spotting",
 "q": "Find the correct sentence.",
@@ -366,7 +366,7 @@
 "e": "\"Since\" with a point in time takes the present perfect continuous."
 },
 {
-"id": "en-8f0842ac",
+"id": "en-4861f26c",
 "s": "english",
 "t": "Error Spotting",
 "q": "Find the correct sentence.",
@@ -380,7 +380,7 @@
 "e": "\"Each\" takes a singular verb."
 },
 {
-"id": "en-8f0842ac",
+"id": "en-423e9a9e",
 "s": "english",
 "t": "Error Spotting",
 "q": "Find the correct sentence.",
@@ -394,7 +394,7 @@
 "e": "\"Neither\" takes a singular verb."
 },
 {
-"id": "en-8f0842ac",
+"id": "en-045b5e7e",
 "s": "english",
 "t": "Error Spotting",
 "q": "Find the correct sentence.",
@@ -408,7 +408,7 @@
 "e": "\"News\" is an uncountable noun taking a singular verb."
 },
 {
-"id": "en-8f0842ac",
+"id": "en-1a88ecd7",
 "s": "english",
 "t": "Error Spotting",
 "q": "Find the correct sentence.",
@@ -422,7 +422,7 @@
 "e": "\"For\" is used with a period of time."
 },
 {
-"id": "en-cb108b9d",
+"id": "en-84b739b0",
 "s": "english",
 "t": "Fill in the blank",
 "q": "He is senior ___ me in the office.",
@@ -436,7 +436,7 @@
 "e": "\"Senior\" takes \"to\", not \"than\"."
 },
 {
-"id": "en-d23a6c4c",
+"id": "en-9cff6412",
 "s": "english",
 "t": "Fill in the blank",
 "q": "She is good ___ mathematics.",
@@ -450,7 +450,7 @@
 "e": "\"Good at\" a subject."
 },
 {
-"id": "en-cf38366d",
+"id": "en-2c17b7be",
 "s": "english",
 "t": "Fill in the blank",
 "q": "The thief was caught ___ the act.",
@@ -464,7 +464,7 @@
 "e": "\"Caught in the act\"."
 },
 {
-"id": "en-f2e9d026",
+"id": "en-05c2e304",
 "s": "english",
 "t": "Fill in the blank",
 "q": "I prefer tea ___ coffee.",
@@ -478,7 +478,7 @@
 "e": "\"Prefer X to Y\"."
 },
 {
-"id": "en-1fae71d5",
+"id": "en-eceb1e4d",
 "s": "english",
 "t": "Voice",
 "q": "Change to passive voice: \"The teacher praised the student.\"",
@@ -492,7 +492,7 @@
 "e": "Simple past active becomes \"was/were + past participle\"."
 },
 {
-"id": "en-aafa6cac",
+"id": "en-17c3bc52",
 "s": "english",
 "t": "Voice",
 "q": "Change to passive voice: \"They are building a bridge.\"",
@@ -506,7 +506,7 @@
 "e": "Present continuous passive: is/are being + V3."
 },
 {
-"id": "en-4b6b5460",
+"id": "en-5ca63a6f",
 "s": "english",
 "t": "Narration",
 "q": "Change to indirect speech: He said, \"I am tired.\"",
@@ -520,7 +520,7 @@
 "e": "Present tense moves back to past; pronoun changes."
 },
 {
-"id": "en-4dac1c4c",
+"id": "en-02c3af71",
 "s": "english",
 "t": "Spelling",
 "q": "Choose the correctly spelt word.",
@@ -534,7 +534,7 @@
 "e": "Double c and double m."
 },
 {
-"id": "en-4dac1c4c",
+"id": "en-e0b9c91f",
 "s": "english",
 "t": "Spelling",
 "q": "Choose the correctly spelt word.",
@@ -548,7 +548,7 @@
 "e": "One c, two s."
 },
 {
-"id": "en-4dac1c4c",
+"id": "en-2397b7fb",
 "s": "english",
 "t": "Spelling",
 "q": "Choose the correctly spelt word.",
@@ -562,7 +562,7 @@
 "e": "Double r and double s."
 },
 {
-"id": "en-4dac1c4c",
+"id": "en-9cf09065",
 "s": "english",
 "t": "Spelling",
 "q": "Choose the correctly spelt word.",
@@ -576,7 +576,7 @@
 "e": "\"Separate\" has \"par\" in the middle."
 },
 {
-"id": "en-274eb874",
+"id": "en-5acdfd9e",
 "s": "english",
 "t": "Vocabulary",
 "q": "Choose the word that means \"to make less severe\".",
@@ -590,7 +590,7 @@
 "e": "Mitigate = to lessen the severity."
 },
 {
-"id": "en-a32a6d8b",
+"id": "en-1193520d",
 "s": "english",
 "t": "Vocabulary",
 "q": "Choose the word that best fits: The minister gave an ___ reply, avoiding the question.",
@@ -604,7 +604,7 @@
 "e": "Evasive = avoiding a direct answer."
 },
 {
-"id": "en-bcf0cfc0",
+"id": "en-5645a2a0",
 "s": "english",
 "t": "Phrasal Verbs",
 "q": "\"Call off\" means:",
@@ -618,7 +618,7 @@
 "e": "Call off = cancel."
 },
 {
-"id": "en-bf5fb90b",
+"id": "en-bbdf3888",
 "s": "english",
 "t": "Phrasal Verbs",
 "q": "\"Put up with\" means:",
@@ -632,7 +632,7 @@
 "e": "Put up with = tolerate."
 },
 {
-"id": "en-c8547540",
+"id": "en-3991fdfe",
 "s": "english",
 "t": "Phrasal Verbs",
 "q": "\"Look into\" means:",
@@ -646,7 +646,7 @@
 "e": "Look into = examine or investigate."
 },
 {
-"id": "en-2d9c8403",
+"id": "en-56ae2f66",
 "s": "english",
 "t": "Articles",
 "q": "Fill in the blank: She is ___ university student.",
@@ -660,7 +660,7 @@
 "e": "\"University\" begins with a /j/ sound, so \"a\"."
 },
 {
-"id": "en-0e10187c",
+"id": "en-fc3cec9b",
 "s": "english",
 "t": "Articles",
 "q": "Fill in the blank: He waited for ___ hour.",
@@ -674,7 +674,7 @@
 "e": "\"Hour\" begins with a vowel sound."
 },
 {
-"id": "ga-d2ae36d6",
+"id": "ga-7528f012",
 "s": "ga",
 "t": "Polity",
 "q": "Who is known as the \"Father of the Indian Constitution\"?",
@@ -688,7 +688,7 @@
 "e": "Ambedkar chaired the Drafting Committee."
 },
 {
-"id": "ga-31c2587c",
+"id": "ga-9539d483",
 "s": "ga",
 "t": "Polity",
 "q": "The Constitution of India was adopted on:",
@@ -702,7 +702,7 @@
 "e": "It came into force on 26 January 1950."
 },
 {
-"id": "ga-948c7c4c",
+"id": "ga-d6e8998f",
 "s": "ga",
 "t": "Polity",
 "q": "Which Article of the Constitution deals with Right to Equality before law?",
@@ -716,7 +716,7 @@
 "e": "Article 14: equality before law."
 },
 {
-"id": "ga-ba975eaa",
+"id": "ga-b32cb3e6",
 "s": "ga",
 "t": "Polity",
 "q": "Right to Constitutional Remedies is under which Article?",
@@ -730,7 +730,7 @@
 "e": "Called the \"heart and soul\" of the Constitution by Ambedkar."
 },
 {
-"id": "ga-e762b3dc",
+"id": "ga-7f73d035",
 "s": "ga",
 "t": "Polity",
 "q": "The President of India is elected by:",
@@ -744,7 +744,7 @@
 "e": "Article 54."
 },
 {
-"id": "ga-51abe585",
+"id": "ga-2d80dd0b",
 "s": "ga",
 "t": "Polity",
 "q": "Minimum age to become a member of Lok Sabha is:",
@@ -758,7 +758,7 @@
 "e": "Rajya Sabha needs 30."
 },
 {
-"id": "ga-8746f1b3",
+"id": "ga-ff607c29",
 "s": "ga",
 "t": "Polity",
 "q": "Fundamental Duties were added by which Amendment?",
@@ -772,7 +772,7 @@
 "e": "Added in 1976 on the Swaran Singh Committee recommendation."
 },
 {
-"id": "ga-216cff2e",
+"id": "ga-8641efa0",
 "s": "ga",
 "t": "Polity",
 "q": "Who presides over the joint sitting of Parliament?",
@@ -786,7 +786,7 @@
 "e": "Article 108."
 },
 {
-"id": "ga-03716f88",
+"id": "ga-285da412",
 "s": "ga",
 "t": "Polity",
 "q": "The Panchayati Raj system was given constitutional status by which Amendment?",
@@ -800,7 +800,7 @@
 "e": "73rd covers panchayats; 74th covers municipalities."
 },
 {
-"id": "ga-1dcc4102",
+"id": "ga-ab25c3aa",
 "s": "ga",
 "t": "Polity",
 "q": "Which Article empowers the President to declare National Emergency?",
@@ -814,7 +814,7 @@
 "e": "352 = national, 356 = state, 360 = financial."
 },
 {
-"id": "ga-3f73e2d3",
+"id": "ga-1243f931",
 "s": "ga",
 "t": "Polity",
 "q": "The Comptroller and Auditor General of India is appointed by:",
@@ -828,7 +828,7 @@
 "e": "Article 148."
 },
 {
-"id": "ga-fc0512b8",
+"id": "ga-fd855452",
 "s": "ga",
 "t": "Polity",
 "q": "How many Schedules does the Constitution of India currently have?",
@@ -842,7 +842,7 @@
 "e": "The 12th Schedule (municipal functions) was added by the 74th Amendment."
 },
 {
-"id": "ga-3d956d3c",
+"id": "ga-cde06118",
 "s": "ga",
 "t": "History",
 "q": "Who founded the Maurya Empire?",
@@ -856,7 +856,7 @@
 "e": "Founded around 321 BCE with Chanakya."
 },
 {
-"id": "ga-974ac8f8",
+"id": "ga-0fef2758",
 "s": "ga",
 "t": "History",
 "q": "The First Battle of Panipat (1526) was fought between Babur and:",
@@ -870,7 +870,7 @@
 "e": "It established Mughal rule."
 },
 {
-"id": "ga-53de780c",
+"id": "ga-a946103a",
 "s": "ga",
 "t": "History",
 "q": "The Quit India Movement was launched in:",
@@ -884,7 +884,7 @@
 "e": "On 8 August 1942 at Gowalia Tank, Bombay."
 },
 {
-"id": "ga-db037836",
+"id": "ga-bcb21fa5",
 "s": "ga",
 "t": "History",
 "q": "Who founded the Indian National Congress in 1885 (as General Secretary)?",
@@ -898,7 +898,7 @@
 "e": "Allan Octavian Hume; first president W. C. Bonnerjee."
 },
 {
-"id": "ga-605a7117",
+"id": "ga-401f5f20",
 "s": "ga",
 "t": "History",
 "q": "The Jallianwala Bagh massacre took place in:",
@@ -912,7 +912,7 @@
 "e": "On 13 April 1919 in Amritsar."
 },
 {
-"id": "ga-b491c6f4",
+"id": "ga-ec2e0884",
 "s": "ga",
 "t": "History",
 "q": "Who was the first Governor-General of independent India?",
@@ -926,7 +926,7 @@
 "e": "Rajagopalachari was the first Indian Governor-General."
 },
 {
-"id": "ga-6bd1a121",
+"id": "ga-69baa4ff",
 "s": "ga",
 "t": "History",
 "q": "The Dandi March (Salt Satyagraha) began in:",
@@ -940,7 +940,7 @@
 "e": "On 12 March 1930 from Sabarmati Ashram."
 },
 {
-"id": "ga-a8472aa3",
+"id": "ga-062c28cd",
 "s": "ga",
 "t": "History",
 "q": "Who wrote the Arthashastra?",
@@ -954,7 +954,7 @@
 "e": "A treatise on statecraft and economics."
 },
 {
-"id": "ga-b5459cf0",
+"id": "ga-3194ac18",
 "s": "ga",
 "t": "History",
 "q": "The Treaty of Allahabad (1765) gave the East India Company:",
@@ -968,7 +968,7 @@
 "e": "After the Battle of Buxar."
 },
 {
-"id": "ga-3ccca602",
+"id": "ga-62abba33",
 "s": "ga",
 "t": "Geography",
 "q": "Which is the longest river in India?",
@@ -982,7 +982,7 @@
 "e": "The Ganga is the longest river flowing mainly within India."
 },
 {
-"id": "ga-9e33d352",
+"id": "ga-21f8e5a7",
 "s": "ga",
 "t": "Geography",
 "q": "Which is the largest state of India by area?",
@@ -996,7 +996,7 @@
 "e": "Rajasthan is about 3.42 lakh sq km."
 },
 {
-"id": "ga-ba1128aa",
+"id": "ga-313a597e",
 "s": "ga",
 "t": "Geography",
 "q": "The Tropic of Cancer passes through how many Indian states?",
@@ -1010,7 +1010,7 @@
 "e": "Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram."
 },
 {
-"id": "ga-c017b08d",
+"id": "ga-e14d6e36",
 "s": "ga",
 "t": "Geography",
 "q": "Which is the highest peak in India?",
@@ -1024,7 +1024,7 @@
 "e": "Kangchenjunga (8,586 m) in Sikkim is the highest peak in India and third highest in the world."
 },
 {
-"id": "ga-40566a1c",
+"id": "ga-0b556e30",
 "s": "ga",
 "t": "Geography",
 "q": "Chilika Lake is located in:",
@@ -1038,7 +1038,7 @@
 "e": "Asia's largest brackish water lagoon."
 },
 {
-"id": "ga-77e6e35a",
+"id": "ga-cc9c2dbd",
 "s": "ga",
 "t": "Geography",
 "q": "Which soil is best for cotton cultivation?",
@@ -1052,7 +1052,7 @@
 "e": "Also called regur soil."
 },
 {
-"id": "ga-9b2cf46b",
+"id": "ga-ad90f70e",
 "s": "ga",
 "t": "Geography",
 "q": "Which is the smallest continent by area?",
@@ -1066,7 +1066,7 @@
 "e": "Oceania/Australia is the smallest."
 },
 {
-"id": "ga-2bc259db",
+"id": "ga-271e711c",
 "s": "ga",
 "t": "Geography",
 "q": "The Deccan Plateau is bounded on the west by:",
@@ -1080,7 +1080,7 @@
 "e": "The Western Ghats form its western edge."
 },
 {
-"id": "ga-ec743201",
+"id": "ga-2742ba5a",
 "s": "ga",
 "t": "Economy",
 "q": "Who regulates the monetary policy in India?",
@@ -1094,7 +1094,7 @@
 "e": "The RBI Monetary Policy Committee sets the repo rate."
 },
 {
-"id": "ga-9dfd4017",
+"id": "ga-f8b1df42",
 "s": "ga",
 "t": "Economy",
 "q": "GST was implemented in India from:",
@@ -1108,7 +1108,7 @@
 "e": "Under the 101st Constitutional Amendment."
 },
 {
-"id": "ga-2aeb5ead",
+"id": "ga-287212ca",
 "s": "ga",
 "t": "Economy",
 "q": "The headquarters of the Reserve Bank of India is in:",
@@ -1122,7 +1122,7 @@
 "e": "Established 1 April 1935."
 },
 {
-"id": "ga-08fe23b4",
+"id": "ga-2e7e3b4c",
 "s": "ga",
 "t": "Economy",
 "q": "The Finance Commission is constituted every:",
@@ -1136,7 +1136,7 @@
 "e": "Under Article 280."
 },
 {
-"id": "ga-0c105d6c",
+"id": "ga-d5414256",
 "s": "ga",
 "t": "Economy",
 "q": "Which of the following is a direct tax?",
@@ -1150,7 +1150,7 @@
 "e": "Burden cannot be shifted to others."
 },
 {
-"id": "ga-c9b6700a",
+"id": "ga-d0e95ae5",
 "s": "ga",
 "t": "Economy",
 "q": "The term \"repo rate\" refers to:",
@@ -1164,7 +1164,7 @@
 "e": "Repurchase rate."
 },
 {
-"id": "ga-aa4adda0",
+"id": "ga-433607ab",
 "s": "ga",
 "t": "Economy",
 "q": "NITI Aayog replaced which body?",
@@ -1178,7 +1178,7 @@
 "e": "Established 1 January 2015."
 },
 {
-"id": "ga-3315cbde",
+"id": "ga-b51c36d1",
 "s": "ga",
 "t": "Science",
 "q": "What is the chemical formula of common salt?",
@@ -1192,7 +1192,7 @@
 "e": "Sodium chloride."
 },
 {
-"id": "ga-9e03d30a",
+"id": "ga-cb8fe4c9",
 "s": "ga",
 "t": "Science",
 "q": "Which gas is most abundant in Earth's atmosphere?",
@@ -1206,7 +1206,7 @@
 "e": "About 78% by volume."
 },
 {
-"id": "ga-5ae53b95",
+"id": "ga-681f8815",
 "s": "ga",
 "t": "Science",
 "q": "The SI unit of force is:",
@@ -1220,7 +1220,7 @@
 "e": "1 N = 1 kg·m/s²."
 },
 {
-"id": "ga-c9dfea87",
+"id": "ga-073d8ae2",
 "s": "ga",
 "t": "Science",
 "q": "Which vitamin is produced in the skin by sunlight?",
@@ -1234,7 +1234,7 @@
 "e": "Sunlight triggers vitamin D synthesis."
 },
 {
-"id": "ga-9aa469d6",
+"id": "ga-b2061093",
 "s": "ga",
 "t": "Science",
 "q": "The powerhouse of the cell is:",
@@ -1248,7 +1248,7 @@
 "e": "Produces ATP."
 },
 {
-"id": "ga-f353f663",
+"id": "ga-7d98402c",
 "s": "ga",
 "t": "Science",
 "q": "The speed of light in vacuum is approximately:",
@@ -1262,7 +1262,7 @@
 "e": "About 299,792 km/s."
 },
 {
-"id": "ga-c80bec39",
+"id": "ga-adbbf95d",
 "s": "ga",
 "t": "Science",
 "q": "pH of pure water at 25°C is:",
@@ -1276,7 +1276,7 @@
 "e": "Neutral."
 },
 {
-"id": "ga-7aa14ed8",
+"id": "ga-f4ca2f74",
 "s": "ga",
 "t": "Science",
 "q": "Which metal is liquid at room temperature?",
@@ -1290,7 +1290,7 @@
 "e": "Mercury is the only metal that is liquid at room temperature."
 },
 {
-"id": "ga-fb8534ab",
+"id": "ga-d1a73b6a",
 "s": "ga",
 "t": "Science",
 "q": "Deficiency of Vitamin C causes:",
@@ -1304,7 +1304,7 @@
 "e": "Rickets = D; night blindness = A; beriberi = B1."
 },
 {
-"id": "ga-561ea3fa",
+"id": "ga-56cb4546",
 "s": "ga",
 "t": "Static GK",
 "q": "Which is the national animal of India?",
@@ -1318,7 +1318,7 @@
 "e": "Bengal tiger."
 },
 {
-"id": "ga-5f4c2536",
+"id": "ga-8928b9a1",
 "s": "ga",
 "t": "Static GK",
 "q": "Which is the national river of India?",
@@ -1332,7 +1332,7 @@
 "e": "Declared in 2008."
 },
 {
-"id": "ga-bc47b681",
+"id": "ga-48be6b13",
 "s": "ga",
 "t": "Static GK",
 "q": "The Ashoka Chakra on the national flag has how many spokes?",
@@ -1346,7 +1346,7 @@
 "e": "Represents 24 hours of the day."
 },
 {
-"id": "ga-af5aa057",
+"id": "ga-d37d3e19",
 "s": "ga",
 "t": "Static GK",
 "q": "Who wrote the national song \"Vande Mataram\"?",
@@ -1360,7 +1360,7 @@
 "e": "From the novel Anandamath."
 },
 {
-"id": "ga-55b087cc",
+"id": "ga-2fbdeb4e",
 "s": "ga",
 "t": "Static GK",
 "q": "Which Indian was the first Nobel Prize winner?",
@@ -1374,7 +1374,7 @@
 "e": "Literature, 1913."
 },
 {
-"id": "ga-cd4140fe",
+"id": "ga-c0b96387",
 "s": "ga",
 "t": "Static GK",
 "q": "National Science Day in India is celebrated on:",
@@ -1388,7 +1388,7 @@
 "e": "Commemorates the Raman Effect (1928)."
 },
 {
-"id": "ga-2379615c",
+"id": "ga-ab08f395",
 "s": "ga",
 "t": "Static GK",
 "q": "The Sun Temple at Konark is in which state?",
@@ -1402,7 +1402,7 @@
 "e": "UNESCO World Heritage Site."
 },
 {
-"id": "ga-8efa8162",
+"id": "ga-f0c9bfa6",
 "s": "ga",
 "t": "Static GK",
 "q": "Kuchipudi is a classical dance form of:",
@@ -1416,7 +1416,7 @@
 "e": "Originated in Kuchipudi village."
 },
 {
-"id": "ga-be6a4b1b",
+"id": "ga-ad9103f8",
 "s": "ga",
 "t": "International",
 "q": "The headquarters of the United Nations is in:",
@@ -1430,7 +1430,7 @@
 "e": "UNHQ is in Manhattan, New York."
 },
 {
-"id": "ga-d71c777b",
+"id": "ga-6d6f369e",
 "s": "ga",
 "t": "International",
 "q": "How many permanent members does the UN Security Council have?",
@@ -1444,7 +1444,7 @@
 "e": "USA, UK, France, Russia, China."
 },
 {
-"id": "ga-0d3112a5",
+"id": "ga-db3c7137",
 "s": "ga",
 "t": "International",
 "q": "The International Court of Justice is located in:",
@@ -1458,7 +1458,7 @@
 "e": "Netherlands."
 },
 {
-"id": "ga-190106ac",
+"id": "ga-6489fbfd",
 "s": "ga",
 "t": "International",
 "q": "The headquarters of the World Trade Organization is in:",
@@ -1472,7 +1472,7 @@
 "e": "Established 1995."
 },
 {
-"id": "ga-f2ee0b74",
+"id": "ga-02d64493",
 "s": "ga",
 "t": "International",
 "q": "The headquarters of the IMF is in:",
@@ -1486,7 +1486,7 @@
 "e": "Along with the World Bank."
 },
 {
-"id": "ga-af940134",
+"id": "ga-ad6cd9fd",
 "s": "ga",
 "t": "International",
 "q": "SAARC was established in:",
@@ -1500,7 +1500,7 @@
 "e": "Charter adopted at Dhaka in December 1985; Secretariat in Kathmandu."
 },
 {
-"id": "ga-63aa3a34",
+"id": "ga-172571ee",
 "s": "ga",
 "t": "International",
 "q": "The Panchsheel Agreement between India and China was signed in:",
@@ -1514,7 +1514,7 @@
 "e": "Five Principles of Peaceful Coexistence."
 },
 {
-"id": "ga-b4a089ab",
+"id": "ga-06206590",
 "s": "ga",
 "t": "International",
 "q": "The Non-Aligned Movement was founded in Belgrade in:",
@@ -1528,7 +1528,7 @@
 "e": "Nehru, Nasser, Tito, Sukarno and Nkrumah were key founders."
 },
 {
-"id": "ga-9f67f6b5",
+"id": "ga-a51f6743",
 "s": "ga",
 "t": "International",
 "q": "ASEAN headquarters is in:",
@@ -1542,7 +1542,7 @@
 "e": "Indonesia."
 },
 {
-"id": "ga-0f1d8f81",
+"id": "ga-f9b22079",
 "s": "ga",
 "t": "International",
 "q": "The Vienna Convention of 1961 deals with:",
@@ -1556,7 +1556,7 @@
 "e": "Sets out rules for diplomatic missions and immunity."
 },
 {
-"id": "ga-dc595e4c",
+"id": "ga-8b759b5a",
 "s": "ga",
 "t": "International",
 "q": "The Indian Foreign Service (IFS) was constituted in:",
@@ -1570,7 +1570,7 @@
 "e": "Formed in October 1946, just before independence."
 },
 {
-"id": "ga-2d15b67d",
+"id": "ga-4b616d97",
 "s": "ga",
 "t": "International",
 "q": "Which organisation has its headquarters in Paris and focuses on education, science and culture?",
@@ -1584,7 +1584,7 @@
 "e": "UNESCO is in Paris; WHO is in Geneva; FAO is in Rome."
 },
 {
-"id": "ga-8deb6b0e",
+"id": "ga-a0a5fbfc",
 "s": "ga",
 "t": "International",
 "q": "The G20 summit was hosted by India in New Delhi in:",
@@ -1598,7 +1598,7 @@
 "e": "Theme: One Earth, One Family, One Future."
 },
 {
-"id": "ga-d0974449",
+"id": "ga-b2f43954",
 "s": "ga",
 "t": "International",
 "q": "The \"Line of Actual Control\" (LAC) is the de facto border between India and:",
@@ -1612,7 +1612,7 @@
 "e": "The LoC is with Pakistan."
 },
 {
-"id": "ga-55eb4c11",
+"id": "ga-4ad52025",
 "s": "ga",
 "t": "International",
 "q": "The Durand Line separates Pakistan and:",
@@ -1626,7 +1626,7 @@
 "e": "Drawn in 1893."
 },
 {
-"id": "ga-c4bf9699",
+"id": "ga-5dc2ce0a",
 "s": "ga",
 "t": "International",
 "q": "The International Solar Alliance was launched by India and which country at COP21 (2015)?",
@@ -1640,7 +1640,7 @@
 "e": "Headquarters at Gurugram, India."
 },
 {
-"id": "ga-13817d58",
+"id": "ga-9c3b4722",
 "s": "ga",
 "t": "International",
 "q": "BIMSTEC Secretariat is located in:",
@@ -1654,7 +1654,7 @@
 "e": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation."
 },
 {
-"id": "ga-6607806e",
+"id": "ga-fa88bb73",
 "s": "ga",
 "t": "International",
 "q": "Which city hosts NATO headquarters?",
@@ -1668,7 +1668,7 @@
 "e": "NATO HQ is in Brussels, Belgium."
 },
 {
-"id": "ga-8f711c2d",
+"id": "ga-2ff8436c",
 "s": "ga",
 "t": "International",
 "q": "The Indian Council for Cultural Relations (ICCR), working under the MEA, was founded by:",
@@ -1682,7 +1682,7 @@
 "e": "Founded in 1950 to promote cultural diplomacy."
 },
 {
-"id": "co-4a55b910",
+"id": "co-9693b092",
 "s": "computer",
 "t": "Basics",
 "q": "1 byte equals how many bits?",
@@ -1696,7 +1696,7 @@
 "e": "A byte is 8 bits."
 },
 {
-"id": "co-da3358ae",
+"id": "co-5ed3b3e0",
 "s": "computer",
 "t": "Basics",
 "q": "Which of the following is volatile memory?",
@@ -1710,7 +1710,7 @@
 "e": "RAM loses data when power is off."
 },
 {
-"id": "co-e9f4822d",
+"id": "co-e3dc4512",
 "s": "computer",
 "t": "Basics",
 "q": "The brain of the computer is the:",
@@ -1724,7 +1724,7 @@
 "e": "Central Processing Unit."
 },
 {
-"id": "co-a69aa1b4",
+"id": "co-b40bf86f",
 "s": "computer",
 "t": "Basics",
 "q": "Which of these is an operating system?",
@@ -1738,7 +1738,7 @@
 "e": "Linux is an OS kernel; Chrome is a browser."
 },
 {
-"id": "co-611d118e",
+"id": "co-961c6dd1",
 "s": "computer",
 "t": "Basics",
 "q": "WWW was invented by:",
@@ -1752,7 +1752,7 @@
 "e": "In 1989 at CERN."
 },
 {
-"id": "co-48aa8d26",
+"id": "co-ebf68dbd",
 "s": "computer",
 "t": "Basics",
 "q": "Full form of URL is:",
@@ -1766,7 +1766,7 @@
 "e": "Address of a web resource."
 },
 {
-"id": "co-bba5fc81",
+"id": "co-da9f82a5",
 "s": "computer",
 "t": "Basics",
 "q": "Which key combination is used to copy in Windows?",
@@ -1780,7 +1780,7 @@
 "e": "Ctrl+V pastes, Ctrl+X cuts, Ctrl+Z undoes."
 },
 {
-"id": "co-788a2049",
+"id": "co-98f5503e",
 "s": "computer",
 "t": "Basics",
 "q": "The default file extension of a Microsoft Word document is:",
@@ -1794,7 +1794,7 @@
 "e": ".doc in older versions."
 },
 {
-"id": "co-0d03363b",
+"id": "co-49b8ee04",
 "s": "computer",
 "t": "Basics",
 "q": "Which one is an input device?",
@@ -1808,7 +1808,7 @@
 "e": "Scanners send data into the computer."
 },
 {
-"id": "co-d68624fa",
+"id": "co-7641f57b",
 "s": "computer",
 "t": "Basics",
 "q": "Which of these is the smallest unit of data?",
@@ -1822,7 +1822,7 @@
 "e": "Binary digit: 0 or 1."
 },
 {
-"id": "co-18856406",
+"id": "co-c7ecb925",
 "s": "computer",
 "t": "Excel",
 "q": "In MS Excel, the intersection of a row and a column is called:",
@@ -1836,7 +1836,7 @@
 "e": "Each cell has an address such as B3."
 },
 {
-"id": "co-8b207ebf",
+"id": "co-0058fd22",
 "s": "computer",
 "t": "Excel",
 "q": "Which function adds the numbers in a range in Excel?",
@@ -1850,7 +1850,7 @@
 "e": "=SUM(A1:A10)."
 },
 {
-"id": "co-3fc9733d",
+"id": "co-4305ba31",
 "s": "computer",
 "t": "Excel",
 "q": "Every formula in Excel begins with:",
@@ -1864,7 +1864,7 @@
 "e": "The equals sign."
 },
 {
-"id": "co-bd4921ee",
+"id": "co-502d2f6e",
 "s": "computer",
 "t": "Excel",
 "q": "Which shortcut saves a document in MS Office?",
@@ -1878,7 +1878,7 @@
 "e": "P = print, N = new, O = open."
 },
 {
-"id": "co-9300b113",
+"id": "co-70f98301",
 "s": "computer",
 "t": "Networking",
 "q": "IP stands for:",
@@ -1892,7 +1892,7 @@
 "e": "IPv4 uses 32-bit addresses."
 },
 {
-"id": "co-f1d6d4d6",
+"id": "co-321e8e54",
 "s": "computer",
 "t": "Networking",
 "q": "Which device connects different networks and routes packets?",
@@ -1906,7 +1906,7 @@
 "e": "Operates at the network layer."
 },
 {
-"id": "co-04f2231a",
+"id": "co-718842b8",
 "s": "computer",
 "t": "Networking",
 "q": "HTTPS differs from HTTP because it is:",
@@ -1920,7 +1920,7 @@
 "e": "Uses TLS encryption."
 },
 {
-"id": "co-7d80dce4",
+"id": "co-9ece17e1",
 "s": "computer",
 "t": "Networking",
 "q": "A computer network confined to a building is called a:",
@@ -1934,7 +1934,7 @@
 "e": "Local Area Network."
 },
 {
-"id": "co-5448464b",
+"id": "co-24bb19af",
 "s": "computer",
 "t": "Security",
 "q": "A program that replicates itself and harms files is a:",
@@ -1948,7 +1948,7 @@
 "e": "Malicious software."
 },
 {
-"id": "co-5bce300c",
+"id": "co-2ffc9af5",
 "s": "computer",
 "t": "Security",
 "q": "Unsolicited bulk email is known as:",
@@ -1962,7 +1962,7 @@
 "e": "Phishing is a fraud attempt to steal credentials."
 },
 {
-"id": "co-b9ae2442",
+"id": "co-b129526b",
 "s": "computer",
 "t": "Security",
 "q": "Fraudulent emails that try to steal passwords are called:",
@@ -1976,7 +1976,7 @@
 "e": "Social-engineering attack."
 },
 {
-"id": "co-e7773b37",
+"id": "co-0f757ec3",
 "s": "computer",
 "t": "Security",
 "q": "Which of the following is a strong password practice?",
@@ -1990,7 +1990,7 @@
 "e": "Longer and varied passwords are harder to guess."
 },
 {
-"id": "co-e91f9cd2",
+"id": "co-a440d698",
 "s": "computer",
 "t": "Basics",
 "q": "1 Kilobyte equals (binary convention):",
@@ -2004,7 +2004,7 @@
 "e": "1 KB = 2^10 bytes."
 },
 {
-"id": "co-76a59079",
+"id": "co-0bda86f2",
 "s": "computer",
 "t": "Basics",
 "q": "Which language is used to create web pages?",
@@ -2018,7 +2018,7 @@
 "e": "HyperText Markup Language."
 },
 {
-"id": "co-bd73811e",
+"id": "co-d43368dd",
 "s": "computer",
 "t": "Basics",
 "q": "Which of the following is a search engine?",
@@ -2030,6 +2030,1602 @@
 ],
 "a": 0,
 "e": "Others are an OS and an application."
+},
+{
+"id": "en-025446e3",
+"s": "english",
+"t": "Parts of Speech",
+"q": "In the sentence \"She sings beautifully\", the word \"beautifully\" is a/an:",
+"o": [
+"Adverb",
+"Adjective",
+"Noun",
+"Verb"
+],
+"a": 0,
+"e": "It modifies the verb \"sings\", so it is an adverb."
+},
+{
+"id": "en-90adca21",
+"s": "english",
+"t": "Parts of Speech",
+"q": "In \"Honesty is the best policy\", the word \"Honesty\" is a:",
+"o": [
+"Abstract noun",
+"Proper noun",
+"Collective noun",
+"Common noun"
+],
+"a": 0,
+"e": "A quality or idea you cannot touch is an abstract noun."
+},
+{
+"id": "en-077df9c3",
+"s": "english",
+"t": "Parts of Speech",
+"q": "Pick the adjective: \"The tall boy won the race quickly.\"",
+"o": [
+"tall",
+"boy",
+"won",
+"quickly"
+],
+"a": 0,
+"e": "\"Tall\" describes the noun \"boy\"."
+},
+{
+"id": "en-c8b90a45",
+"s": "english",
+"t": "Parts of Speech",
+"q": "In \"He works hard\", the word \"hard\" is a/an:",
+"o": [
+"Adverb",
+"Adjective",
+"Noun",
+"Preposition"
+],
+"a": 0,
+"e": "It tells how he works. In \"a hard task\" it would be an adjective."
+},
+{
+"id": "en-881aa0fc",
+"s": "english",
+"t": "Parts of Speech",
+"q": "Pick the conjunction: \"I wanted to go, but it was raining.\"",
+"o": [
+"but",
+"wanted",
+"go",
+"raining"
+],
+"a": 0,
+"e": "\"But\" joins two clauses."
+},
+{
+"id": "en-057d3dfd",
+"s": "english",
+"t": "Parts of Speech",
+"q": "Pick the preposition: \"The book is on the table.\"",
+"o": [
+"on",
+"book",
+"is",
+"table"
+],
+"a": 0,
+"e": "\"On\" shows the relation between the book and the table."
+},
+{
+"id": "en-391bcd69",
+"s": "english",
+"t": "Parts of Speech",
+"q": "Fill in the blank: \"The committee has announced ___ decision.\"",
+"o": [
+"its",
+"their",
+"his",
+"our"
+],
+"a": 0,
+"e": "A committee acting as one body takes \"its\"."
+},
+{
+"id": "en-f0e17a38",
+"s": "english",
+"t": "Parts of Speech",
+"q": "Pick the interjection: \"Alas! He failed again.\"",
+"o": [
+"Alas",
+"He",
+"failed",
+"again"
+],
+"a": 0,
+"e": "An interjection expresses sudden feeling."
+},
+{
+"id": "en-82bc5d69",
+"s": "english",
+"t": "Tenses",
+"q": "He ___ here since 2010.",
+"o": [
+"has been living",
+"is living",
+"lives",
+"was living"
+],
+"a": 0,
+"e": "\"Since\" + point in time takes the present perfect (continuous)."
+},
+{
+"id": "en-fd65e8a4",
+"s": "english",
+"t": "Tenses",
+"q": "The train ___ before we reached the station.",
+"o": [
+"had left",
+"has left",
+"left",
+"leaves"
+],
+"a": 0,
+"e": "The earlier of two past actions takes the past perfect."
+},
+{
+"id": "en-8ba55703",
+"s": "english",
+"t": "Tenses",
+"q": "I ___ him yesterday.",
+"o": [
+"met",
+"have met",
+"had met",
+"meet"
+],
+"a": 0,
+"e": "\"Yesterday\" is a finished time, so the simple past."
+},
+{
+"id": "en-41065036",
+"s": "english",
+"t": "Tenses",
+"q": "If I were you, I ___ accept the offer.",
+"o": [
+"would",
+"will",
+"shall",
+"had"
+],
+"a": 0,
+"e": "Second conditional: If + past, would + verb."
+},
+{
+"id": "en-d9a8f855",
+"s": "english",
+"t": "Tenses",
+"q": "She ___ for two hours when I called her.",
+"o": [
+"had been waiting",
+"has been waiting",
+"waits",
+"will wait"
+],
+"a": 0,
+"e": "Past perfect continuous: an action in progress up to a past moment."
+},
+{
+"id": "en-42b76200",
+"s": "english",
+"t": "Tenses",
+"q": "No sooner had he arrived ___ it began to rain.",
+"o": [
+"than",
+"when",
+"then",
+"that"
+],
+"a": 0,
+"e": "\"No sooner ... than\"."
+},
+{
+"id": "en-ef7d9e12",
+"s": "english",
+"t": "Tenses",
+"q": "By next June, they ___ the project.",
+"o": [
+"will have completed",
+"have completed",
+"completed",
+"are completing"
+],
+"a": 0,
+"e": "Future perfect with \"by + future time\"."
+},
+{
+"id": "en-14117a6e",
+"s": "english",
+"t": "Tenses",
+"q": "Hardly had I reached the station ___ the train left.",
+"o": [
+"when",
+"than",
+"then",
+"as"
+],
+"a": 0,
+"e": "\"Hardly ... when\"."
+},
+{
+"id": "en-838982b9",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "One of my friends ___ coming today.",
+"o": [
+"is",
+"are",
+"were",
+"have been"
+],
+"a": 0,
+"e": "\"One of the + plural\" takes a singular verb."
+},
+{
+"id": "en-823eb276",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "The number of students ___ increasing.",
+"o": [
+"is",
+"are",
+"were",
+"have"
+],
+"a": 0,
+"e": "\"The number of\" is singular."
+},
+{
+"id": "en-b58ef8e1",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "A number of students ___ absent today.",
+"o": [
+"are",
+"is",
+"was",
+"has"
+],
+"a": 0,
+"e": "\"A number of\" means \"many\" and is plural."
+},
+{
+"id": "en-3b10a960",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "The teacher along with the students ___ going on a trip.",
+"o": [
+"is",
+"are",
+"were",
+"have"
+],
+"a": 0,
+"e": "\"Along with\" does not change the subject; the verb agrees with \"teacher\"."
+},
+{
+"id": "en-82a8f4a1",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "Neither the manager nor his assistants ___ present.",
+"o": [
+"were",
+"was",
+"is",
+"has been"
+],
+"a": 0,
+"e": "With \"neither ... nor\" the verb agrees with the nearer subject (\"assistants\")."
+},
+{
+"id": "en-8d850cb7",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "Mathematics ___ my favourite subject.",
+"o": [
+"is",
+"are",
+"were",
+"have been"
+],
+"a": 0,
+"e": "Subjects ending in -ics take a singular verb."
+},
+{
+"id": "en-19870803",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "Each of the players ___ given a medal.",
+"o": [
+"was",
+"were",
+"have been",
+"are"
+],
+"a": 0,
+"e": "\"Each\" is singular."
+},
+{
+"id": "en-60c0ad0d",
+"s": "english",
+"t": "Subject-Verb Agreement",
+"q": "The furniture in the hall ___ old.",
+"o": [
+"is",
+"are",
+"were",
+"have"
+],
+"a": 0,
+"e": "\"Furniture\" is uncountable and singular."
+},
+{
+"id": "ga-d62cd6c2",
+"s": "ga",
+"t": "Polity",
+"q": "The Constituent Assembly held its first meeting on:",
+"o": [
+"9 December 1946",
+"26 January 1950",
+"15 August 1947",
+"26 November 1949"
+],
+"a": 0,
+"e": "Sachchidananda Sinha was the temporary chairman."
+},
+{
+"id": "ga-d37285c2",
+"s": "ga",
+"t": "Polity",
+"q": "Who was the permanent President of the Constituent Assembly?",
+"o": [
+"Dr Rajendra Prasad",
+"B. R. Ambedkar",
+"J. L. Nehru",
+"Sachchidananda Sinha"
+],
+"a": 0,
+"e": "Elected on 11 December 1946."
+},
+{
+"id": "ga-7606ab45",
+"s": "ga",
+"t": "Polity",
+"q": "The Objectives Resolution was moved in the Constituent Assembly by:",
+"o": [
+"Jawaharlal Nehru",
+"Sardar Patel",
+"B. R. Ambedkar",
+"K. M. Munshi"
+],
+"a": 0,
+"e": "Moved on 13 December 1946 and adopted on 22 January 1947."
+},
+{
+"id": "ga-42accea6",
+"s": "ga",
+"t": "Polity",
+"q": "The words \"Socialist\", \"Secular\" and \"Integrity\" were added to the Preamble by the:",
+"o": [
+"42nd Amendment",
+"44th Amendment",
+"1st Amendment",
+"86th Amendment"
+],
+"a": 0,
+"e": "Passed in 1976."
+},
+{
+"id": "ga-7ee05870",
+"s": "ga",
+"t": "Polity",
+"q": "Which Article abolishes untouchability?",
+"o": [
+"Article 17",
+"Article 14",
+"Article 15",
+"Article 21A"
+],
+"a": 0,
+"e": "Its practice in any form is forbidden."
+},
+{
+"id": "ga-8a85d25e",
+"s": "ga",
+"t": "Polity",
+"q": "The Right to Education for children aged 6 to 14 is under:",
+"o": [
+"Article 21A",
+"Article 19",
+"Article 45",
+"Article 51A"
+],
+"a": 0,
+"e": "Added by the 86th Amendment (2002)."
+},
+{
+"id": "ga-81e5c3f5",
+"s": "ga",
+"t": "Polity",
+"q": "Which writ literally means \"to have the body\"?",
+"o": [
+"Habeas Corpus",
+"Mandamus",
+"Certiorari",
+"Quo Warranto"
+],
+"a": 0,
+"e": "It protects against illegal detention."
+},
+{
+"id": "ga-741e8e88",
+"s": "ga",
+"t": "Polity",
+"q": "The Directive Principles of State Policy were borrowed from the Constitution of:",
+"o": [
+"Ireland",
+"USA",
+"Canada",
+"Australia"
+],
+"a": 0,
+"e": "Irish Constitution, with Gandhian and socialist additions."
+},
+{
+"id": "ga-e1e31b40",
+"s": "ga",
+"t": "Polity",
+"q": "The idea of Fundamental Duties was taken from the Constitution of:",
+"o": [
+"USSR",
+"USA",
+"Ireland",
+"Japan"
+],
+"a": 0,
+"e": "Added by the 42nd Amendment (1976)."
+},
+{
+"id": "ga-e527d8a1",
+"s": "ga",
+"t": "Polity",
+"q": "Which Article asks the State to promote international peace and security?",
+"o": [
+"Article 51",
+"Article 48A",
+"Article 44",
+"Article 40"
+],
+"a": 0,
+"e": "Article 51 is the last Directive Principle and is the base of India's foreign policy."
+},
+{
+"id": "ga-258335e1",
+"s": "ga",
+"t": "Polity",
+"q": "The Drafting Committee of the Constituent Assembly was set up on:",
+"o": [
+"29 August 1947",
+"9 December 1946",
+"26 January 1950",
+"13 December 1946"
+],
+"a": 0,
+"e": "Dr B. R. Ambedkar was its chairman."
+},
+{
+"id": "ga-2b9264d7",
+"s": "ga",
+"t": "Polity",
+"q": "Property ceased to be a Fundamental Right by the:",
+"o": [
+"44th Amendment",
+"42nd Amendment",
+"1st Amendment",
+"73rd Amendment"
+],
+"a": 0,
+"e": "It is now a legal right under Article 300A."
+},
+{
+"id": "en-1ce6aa82",
+"s": "english",
+"t": "Prepositions",
+"q": "She is fond ___ music.",
+"o": [
+"of",
+"for",
+"with",
+"on"
+],
+"a": 0,
+"e": "\"Fond of\"."
+},
+{
+"id": "en-6446aa9a",
+"s": "english",
+"t": "Prepositions",
+"q": "He was accused ___ theft.",
+"o": [
+"of",
+"for",
+"with",
+"on"
+],
+"a": 0,
+"e": "\"Accused of\"."
+},
+{
+"id": "en-3735c119",
+"s": "english",
+"t": "Prepositions",
+"q": "He is suffering ___ fever.",
+"o": [
+"from",
+"of",
+"with",
+"by"
+],
+"a": 0,
+"e": "\"Suffering from\"."
+},
+{
+"id": "en-ac2877dc",
+"s": "english",
+"t": "Prepositions",
+"q": "I have been waiting ___ you since morning.",
+"o": [
+"for",
+"to",
+"at",
+"on"
+],
+"a": 0,
+"e": "\"Wait for\"."
+},
+{
+"id": "en-9c52be1d",
+"s": "english",
+"t": "Prepositions",
+"q": "The train arrives ___ 5 pm.",
+"o": [
+"at",
+"on",
+"in",
+"by"
+],
+"a": 0,
+"e": "\"At\" with clock time."
+},
+{
+"id": "en-9f5d3458",
+"s": "english",
+"t": "Prepositions",
+"q": "He was born ___ 15 August 1990.",
+"o": [
+"on",
+"in",
+"at",
+"by"
+],
+"a": 0,
+"e": "\"On\" with a date."
+},
+{
+"id": "en-a170d1ff",
+"s": "english",
+"t": "Prepositions",
+"q": "She is married ___ a doctor.",
+"o": [
+"to",
+"with",
+"by",
+"for"
+],
+"a": 0,
+"e": "\"Married to\"."
+},
+{
+"id": "en-a57dd8ad",
+"s": "english",
+"t": "Prepositions",
+"q": "They divided the sweets ___ the three children.",
+"o": [
+"among",
+"between",
+"within",
+"amid"
+],
+"a": 0,
+"e": "\"Among\" for more than two; \"between\" for two."
+},
+{
+"id": "en-c98b69f6",
+"s": "english",
+"t": "Prepositions",
+"q": "He congratulated me ___ my success.",
+"o": [
+"on",
+"for",
+"at",
+"upon"
+],
+"a": 0,
+"e": "\"Congratulate on\"."
+},
+{
+"id": "en-a79c230d",
+"s": "english",
+"t": "Articles",
+"q": "He is ___ honest man.",
+"o": [
+"an",
+"a",
+"the",
+"no article"
+],
+"a": 0,
+"e": "\"Honest\" starts with a vowel sound."
+},
+{
+"id": "en-2ba71c57",
+"s": "english",
+"t": "Articles",
+"q": "She plays ___ violin.",
+"o": [
+"the",
+"a",
+"an",
+"no article"
+],
+"a": 0,
+"e": "Musical instruments take \"the\"."
+},
+{
+"id": "en-b1f1fbf3",
+"s": "english",
+"t": "Articles",
+"q": "___ Ganga is a holy river.",
+"o": [
+"The",
+"A",
+"An",
+"No article"
+],
+"a": 0,
+"e": "Rivers take \"the\"."
+},
+{
+"id": "en-e7284023",
+"s": "english",
+"t": "Articles",
+"q": "He is ___ European.",
+"o": [
+"a",
+"an",
+"the",
+"no article"
+],
+"a": 0,
+"e": "\"European\" begins with a /y/ sound."
+},
+{
+"id": "en-f575ff91",
+"s": "english",
+"t": "Articles",
+"q": "Honesty is ___ best policy.",
+"o": [
+"the",
+"a",
+"an",
+"no article"
+],
+"a": 0,
+"e": "Fixed phrase."
+},
+{
+"id": "en-96934695",
+"s": "english",
+"t": "Articles",
+"q": "I saw ___ one-eyed man.",
+"o": [
+"a",
+"an",
+"the",
+"no article"
+],
+"a": 0,
+"e": "\"One\" begins with a /w/ sound."
+},
+{
+"id": "en-45a34e2f",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"ENORMOUS\".",
+"o": [
+"Huge",
+"Tiny",
+"Weak",
+"Narrow"
+],
+"a": 0,
+"e": "Enormous = very large."
+},
+{
+"id": "en-64acc7ea",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"RAPID\".",
+"o": [
+"Swift",
+"Slow",
+"Calm",
+"Rough"
+],
+"a": 0,
+"e": "Rapid = fast."
+},
+{
+"id": "en-0b2f4a87",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"HOSTILE\".",
+"o": [
+"Unfriendly",
+"Friendly",
+"Humble",
+"Quiet"
+],
+"a": 0,
+"e": "Hostile = antagonistic."
+},
+{
+"id": "en-64cc9da3",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"DILIGENT\".",
+"o": [
+"Hardworking",
+"Lazy",
+"Careless",
+"Clever"
+],
+"a": 0,
+"e": "Diligent = showing steady effort."
+},
+{
+"id": "en-251e73d8",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"FRAGILE\".",
+"o": [
+"Delicate",
+"Strong",
+"Heavy",
+"Solid"
+],
+"a": 0,
+"e": "Fragile = easily broken."
+},
+{
+"id": "en-b35f8edc",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"PRUDENT\".",
+"o": [
+"Wise",
+"Foolish",
+"Rash",
+"Selfish"
+],
+"a": 0,
+"e": "Prudent = careful and sensible."
+},
+{
+"id": "en-42b5fef5",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"CONCEAL\".",
+"o": [
+"Hide",
+"Reveal",
+"Show",
+"Display"
+],
+"a": 0,
+"e": "Conceal = to hide."
+},
+{
+"id": "en-2889ab41",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"TRANQUIL\".",
+"o": [
+"Calm",
+"Noisy",
+"Angry",
+"Busy"
+],
+"a": 0,
+"e": "Tranquil = peaceful."
+},
+{
+"id": "en-9041df26",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"ADVERSITY\".",
+"o": [
+"Hardship",
+"Prosperity",
+"Fortune",
+"Luck"
+],
+"a": 0,
+"e": "Adversity = difficulty."
+},
+{
+"id": "en-4884f34d",
+"s": "english",
+"t": "Synonyms",
+"q": "Choose the synonym of \"SCARCE\".",
+"o": [
+"Rare",
+"Plentiful",
+"Common",
+"Abundant"
+],
+"a": 0,
+"e": "Scarce = in short supply."
+},
+{
+"id": "en-ca41cf68",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"VICTORY\".",
+"o": [
+"Defeat",
+"Triumph",
+"Success",
+"Win"
+],
+"a": 0,
+"e": "Victory vs defeat."
+},
+{
+"id": "en-90ef0dd7",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"ANCIENT\".",
+"o": [
+"Modern",
+"Old",
+"Antique",
+"Archaic"
+],
+"a": 0,
+"e": "Ancient = very old."
+},
+{
+"id": "en-12c65cce",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"ACCEPT\".",
+"o": [
+"Reject",
+"Receive",
+"Welcome",
+"Take"
+],
+"a": 0,
+"e": "Accept vs reject."
+},
+{
+"id": "en-d55f94f6",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"EXTERIOR\".",
+"o": [
+"Interior",
+"Outer",
+"Outside",
+"Surface"
+],
+"a": 0,
+"e": "Exterior = outside."
+},
+{
+"id": "en-2c2de965",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"GENEROUS\".",
+"o": [
+"Stingy",
+"Kind",
+"Liberal",
+"Noble"
+],
+"a": 0,
+"e": "Generous vs stingy."
+},
+{
+"id": "en-22bfd42c",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"OPTIMISTIC\".",
+"o": [
+"Pessimistic",
+"Hopeful",
+"Cheerful",
+"Positive"
+],
+"a": 0,
+"e": "Optimistic = hopeful."
+},
+{
+"id": "en-31aacc46",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"SHALLOW\".",
+"o": [
+"Deep",
+"Narrow",
+"Thin",
+"Flat"
+],
+"a": 0,
+"e": "Shallow vs deep."
+},
+{
+"id": "en-6e6d7764",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"PERMANENT\".",
+"o": [
+"Temporary",
+"Lasting",
+"Fixed",
+"Stable"
+],
+"a": 0,
+"e": "Permanent = lasting."
+},
+{
+"id": "en-f02522b1",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"CRUEL\".",
+"o": [
+"Kind",
+"Harsh",
+"Fierce",
+"Brutal"
+],
+"a": 0,
+"e": "Cruel vs kind."
+},
+{
+"id": "en-0ea39b20",
+"s": "english",
+"t": "Antonyms",
+"q": "Choose the antonym of \"INCREASE\".",
+"o": [
+"Decrease",
+"Expand",
+"Raise",
+"Grow"
+],
+"a": 0,
+"e": "Increase vs decrease."
+},
+{
+"id": "ga-fd522c7a",
+"s": "ga",
+"t": "Polity",
+"q": "The President of India is elected by an electoral college under Article:",
+"o": [
+"54",
+"52",
+"74",
+"356"
+],
+"a": 0,
+"e": "Article 54 gives the method of election."
+},
+{
+"id": "ga-1852c88c",
+"s": "ga",
+"t": "Polity",
+"q": "The Vice-President of India is the ex-officio Chairman of the:",
+"o": [
+"Rajya Sabha",
+"Lok Sabha",
+"Planning Commission",
+"Election Commission"
+],
+"a": 0,
+"e": "Article 64."
+},
+{
+"id": "ga-e841491f",
+"s": "ga",
+"t": "Polity",
+"q": "The maximum strength of the Lok Sabha under the Constitution is:",
+"o": [
+"550",
+"545",
+"552",
+"530"
+],
+"a": 0,
+"e": "530 from States and 20 from Union Territories (after the 104th Amendment removed Anglo-Indian seats)."
+},
+{
+"id": "ga-e38eb95b",
+"s": "ga",
+"t": "Polity",
+"q": "The maximum strength of the Rajya Sabha is:",
+"o": [
+"250",
+"245",
+"238",
+"300"
+],
+"a": 0,
+"e": "238 elected plus 12 nominated."
+},
+{
+"id": "ga-3aadd99c",
+"s": "ga",
+"t": "Polity",
+"q": "A Money Bill can be introduced only in the:",
+"o": [
+"Lok Sabha",
+"Rajya Sabha",
+"Either House",
+"Joint sitting"
+],
+"a": 0,
+"e": "Article 110 and 117."
+},
+{
+"id": "ga-2b69b5e7",
+"s": "ga",
+"t": "Polity",
+"q": "The Prime Minister of India is appointed by the:",
+"o": [
+"President",
+"Lok Sabha Speaker",
+"Rajya Sabha Chairman",
+"Chief Justice"
+],
+"a": 0,
+"e": "Article 75."
+},
+{
+"id": "ga-dbb645ae",
+"s": "ga",
+"t": "Polity",
+"q": "The Council of Ministers is collectively responsible to the:",
+"o": [
+"Lok Sabha",
+"Rajya Sabha",
+"President",
+"Supreme Court"
+],
+"a": 0,
+"e": "Article 75(3)."
+},
+{
+"id": "ga-01281fd1",
+"s": "ga",
+"t": "Polity",
+"q": "Who administers the oath of office to the President of India?",
+"o": [
+"Chief Justice of India",
+"Vice-President",
+"Prime Minister",
+"Speaker"
+],
+"a": 0,
+"e": "Article 60."
+},
+{
+"id": "ga-a76c3178",
+"s": "ga",
+"t": "Polity",
+"q": "The minimum age to be elected President of India is:",
+"o": [
+"35 years",
+"25 years",
+"30 years",
+"21 years"
+],
+"a": 0,
+"e": "Article 58."
+},
+{
+"id": "ga-11e2c539",
+"s": "ga",
+"t": "Polity",
+"q": "The Governor of a State is appointed by the:",
+"o": [
+"President",
+"Chief Minister",
+"State Legislature",
+"Prime Minister"
+],
+"a": 0,
+"e": "Article 155."
+},
+{
+"id": "ga-009c6cda",
+"s": "ga",
+"t": "Polity",
+"q": "Supreme Court judges retire at the age of:",
+"o": [
+"65 years",
+"62 years",
+"60 years",
+"70 years"
+],
+"a": 0,
+"e": "Article 124."
+},
+{
+"id": "ga-fc4b2a42",
+"s": "ga",
+"t": "Polity",
+"q": "High Court judges retire at the age of:",
+"o": [
+"62 years",
+"65 years",
+"60 years",
+"58 years"
+],
+"a": 0,
+"e": "Article 217."
+},
+{
+"id": "ga-9a9b23cd",
+"s": "ga",
+"t": "Polity",
+"q": "Article 356 deals with:",
+"o": [
+"President's Rule in a State",
+"National Emergency",
+"Financial Emergency",
+"Impeachment of the President"
+],
+"a": 0,
+"e": "Failure of constitutional machinery in a State."
+},
+{
+"id": "ga-18873403",
+"s": "ga",
+"t": "Polity",
+"q": "The Speaker of the Lok Sabha is elected by:",
+"o": [
+"Members of the Lok Sabha",
+"The President",
+"The Prime Minister",
+"The Rajya Sabha"
+],
+"a": 0,
+"e": "Article 93."
+},
+{
+"id": "ga-60faae86",
+"s": "ga",
+"t": "History",
+"q": "The Revolt of 1857 began at:",
+"o": [
+"Meerut",
+"Delhi",
+"Kanpur",
+"Jhansi"
+],
+"a": 0,
+"e": "On 10 May 1857."
+},
+{
+"id": "ga-d231d385",
+"s": "ga",
+"t": "History",
+"q": "Who was the Governor-General of India during the Revolt of 1857?",
+"o": [
+"Lord Canning",
+"Lord Dalhousie",
+"Lord Curzon",
+"Lord Ripon"
+],
+"a": 0,
+"e": "Canning became the first Viceroy in 1858."
+},
+{
+"id": "ga-945ccd05",
+"s": "ga",
+"t": "History",
+"q": "The Government of India Act 1858 transferred power from the East India Company to:",
+"o": [
+"The British Crown",
+"The Mughal emperor",
+"Indian princes",
+"The League of Nations"
+],
+"a": 0,
+"e": "Ended Company rule."
+},
+{
+"id": "ga-40889e4b",
+"s": "ga",
+"t": "History",
+"q": "Who was the first Viceroy of India?",
+"o": [
+"Lord Canning",
+"Lord Dalhousie",
+"Lord Mayo",
+"Lord Ripon"
+],
+"a": 0,
+"e": "After the Act of 1858."
+},
+{
+"id": "ga-d547c002",
+"s": "ga",
+"t": "History",
+"q": "The Brahmo Samaj was founded by Raja Ram Mohan Roy in:",
+"o": [
+"1828",
+"1857",
+"1875",
+"1885"
+],
+"a": 0,
+"e": "Founded in Calcutta."
+},
+{
+"id": "ga-bc574d6b",
+"s": "ga",
+"t": "History",
+"q": "The Arya Samaj was founded by Swami Dayanand Saraswati in:",
+"o": [
+"1875",
+"1828",
+"1885",
+"1893"
+],
+"a": 0,
+"e": "Founded in Bombay."
+},
+{
+"id": "ga-3f7de7cf",
+"s": "ga",
+"t": "History",
+"q": "The Ramakrishna Mission was founded by:",
+"o": [
+"Swami Vivekananda",
+"Dayanand Saraswati",
+"Raja Ram Mohan Roy",
+"Annie Besant"
+],
+"a": 0,
+"e": "Founded in 1897."
+},
+{
+"id": "ga-19ff5ca5",
+"s": "ga",
+"t": "History",
+"q": "The Partition of Bengal took place in:",
+"o": [
+"1905",
+"1911",
+"1919",
+"1885"
+],
+"a": 0,
+"e": "By Lord Curzon."
+},
+{
+"id": "ga-1c4ba786",
+"s": "ga",
+"t": "History",
+"q": "The Indian National Congress was founded in:",
+"o": [
+"1885",
+"1857",
+"1905",
+"1919"
+],
+"a": 0,
+"e": "First session in Bombay, presided over by W. C. Bonnerjee."
+},
+{
+"id": "ga-a5770157",
+"s": "ga",
+"t": "History",
+"q": "The Swadeshi Movement was launched in response to the:",
+"o": [
+"Partition of Bengal",
+"Rowlatt Act",
+"Simon Commission",
+"Cripps Mission"
+],
+"a": 0,
+"e": "Began in 1905."
+},
+{
+"id": "ga-f7db5448",
+"s": "ga",
+"t": "History",
+"q": "The Non-Cooperation Movement was launched in:",
+"o": [
+"1920",
+"1919",
+"1930",
+"1942"
+],
+"a": 0,
+"e": "Along with the Khilafat movement."
+},
+{
+"id": "ga-1d1f2f15",
+"s": "ga",
+"t": "History",
+"q": "The Chauri Chaura incident (1922) led Gandhi to withdraw the:",
+"o": [
+"Non-Cooperation Movement",
+"Civil Disobedience Movement",
+"Quit India Movement",
+"Swadeshi Movement"
+],
+"a": 0,
+"e": "Due to violence in Gorakhpur district."
+},
+{
+"id": "ga-d945bb7f",
+"s": "ga",
+"t": "History",
+"q": "The Simon Commission arrived in India in:",
+"o": [
+"1928",
+"1919",
+"1935",
+"1942"
+],
+"a": 0,
+"e": "It had no Indian member and was boycotted."
+},
+{
+"id": "ga-5251c0cc",
+"s": "ga",
+"t": "History",
+"q": "The Poona Pact (1932) was signed between Gandhi and:",
+"o": [
+"B. R. Ambedkar",
+"M. A. Jinnah",
+"Jawaharlal Nehru",
+"Bal Gangadhar Tilak"
+],
+"a": 0,
+"e": "It settled seats for the Depressed Classes."
+},
+{
+"id": "ga-24e6a32e",
+"s": "ga",
+"t": "History",
+"q": "The Cripps Mission came to India in:",
+"o": [
+"1942",
+"1946",
+"1932",
+"1928"
+],
+"a": 0,
+"e": "It offered Dominion status after the war."
+},
+{
+"id": "ga-246ce520",
+"s": "ga",
+"t": "History",
+"q": "The Cabinet Mission arrived in India in:",
+"o": [
+"1946",
+"1942",
+"1947",
+"1939"
+],
+"a": 0,
+"e": "It proposed a three-tier federal plan."
+},
+{
+"id": "ga-98428951",
+"s": "ga",
+"t": "History",
+"q": "Who gave the slogan \"Do or Die\" during the Quit India Movement?",
+"o": [
+"Mahatma Gandhi",
+"Subhas Chandra Bose",
+"Jawaharlal Nehru",
+"Sardar Patel"
+],
+"a": 0,
+"e": "On 8 August 1942."
+},
+{
+"id": "ga-2e9f02cb",
+"s": "ga",
+"t": "History",
+"q": "Who led the Azad Hind Fauj (INA) from 1943?",
+"o": [
+"Subhas Chandra Bose",
+"Mohan Singh",
+"Rash Behari Bose",
+"Lala Lajpat Rai"
+],
+"a": 0,
+"e": "He reorganised it in Singapore."
+},
+{
+"id": "en-4af9fe65",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"He is more taller than his brother.\"",
+"o": [
+"more taller",
+"He is",
+"than",
+"his brother"
+],
+"a": 0,
+"e": "Double comparison. Use \"taller\"."
+},
+{
+"id": "en-b6d96070",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"Neither of the boys have finished their homework.\"",
+"o": [
+"have finished",
+"Neither of the boys",
+"their homework",
+"No error"
+],
+"a": 0,
+"e": "\"Neither\" is singular: \"has finished\"."
+},
+{
+"id": "en-5f7ecacb",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"She has been working here since five years.\"",
+"o": [
+"since five years",
+"She has been working",
+"here",
+"No error"
+],
+"a": 0,
+"e": "Use \"for\" with a period of time."
+},
+{
+"id": "en-4c1e06f0",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"The news were broadcast at nine.\"",
+"o": [
+"were broadcast",
+"The news",
+"at nine",
+"No error"
+],
+"a": 0,
+"e": "\"News\" is singular: \"was broadcast\"."
+},
+{
+"id": "en-44e5d5c8",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"I prefer tea than coffee.\"",
+"o": [
+"than coffee",
+"I prefer",
+"tea",
+"No error"
+],
+"a": 0,
+"e": "\"Prefer X to Y\"."
+},
+{
+"id": "en-aa414e02",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"He gave me many advices.\"",
+"o": [
+"many advices",
+"He gave me",
+"No error",
+"He gave"
+],
+"a": 0,
+"e": "\"Advice\" is uncountable: \"much advice\" or \"many pieces of advice\"."
+},
+{
+"id": "en-dcfade63",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"Each of the students have passed.\"",
+"o": [
+"have passed",
+"Each of the",
+"students",
+"No error"
+],
+"a": 0,
+"e": "\"Each\" is singular: \"has passed\"."
+},
+{
+"id": "en-4e6de4eb",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"He is senior than me.\"",
+"o": [
+"senior than me",
+"He is",
+"No error",
+"He"
+],
+"a": 0,
+"e": "\"Senior to\", not \"than\"."
+},
+{
+"id": "en-2efab53c",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"The furniture are very costly.\"",
+"o": [
+"are very costly",
+"The furniture",
+"No error",
+"very"
+],
+"a": 0,
+"e": "\"Furniture\" is uncountable and singular."
+},
+{
+"id": "en-7bd99f8d",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"Hardly had he left than the phone rang.\"",
+"o": [
+"than the phone rang",
+"Hardly had he left",
+"the phone",
+"No error"
+],
+"a": 0,
+"e": "\"Hardly ... when\"."
+},
+{
+"id": "en-23c5bea3",
+"s": "english",
+"t": "Error Spotting",
+"q": "Find the part with the error: \"She plays the violin very well.\"",
+"o": [
+"No error",
+"She plays",
+"the violin",
+"very well"
+],
+"a": 0,
+"e": "The sentence is correct."
 }
 ]
 }

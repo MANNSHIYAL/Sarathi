@@ -152,10 +152,138 @@ Q=[
 (C,'Basics','Which language is used to create web pages?','HTML',['SQL','C++','COBOL'],'HyperText Markup Language.'),
 (C,'Basics','Which of the following is a search engine?','Google',['Windows','Excel','Linux'],'Others are an OS and an application.'),
 ]
+# ---- Week-lesson topic sets (added 26 Nov 2026) ----
+E2='english'
+Q+=[
+(E2,'Parts of Speech','In the sentence "She sings beautifully", the word "beautifully" is a/an:','Adverb',['Adjective','Noun','Verb'],'It modifies the verb "sings", so it is an adverb.'),
+(E2,'Parts of Speech','In "Honesty is the best policy", the word "Honesty" is a:','Abstract noun',['Proper noun','Collective noun','Common noun'],'A quality or idea you cannot touch is an abstract noun.'),
+(E2,'Parts of Speech','Pick the adjective: "The tall boy won the race quickly."','tall',['boy','won','quickly'],'"Tall" describes the noun "boy".'),
+(E2,'Parts of Speech','In "He works hard", the word "hard" is a/an:','Adverb',['Adjective','Noun','Preposition'],'It tells how he works. In "a hard task" it would be an adjective.'),
+(E2,'Parts of Speech','Pick the conjunction: "I wanted to go, but it was raining."','but',['wanted','go','raining'],'"But" joins two clauses.'),
+(E2,'Parts of Speech','Pick the preposition: "The book is on the table."','on',['book','is','table'],'"On" shows the relation between the book and the table.'),
+(E2,'Parts of Speech','Fill in the blank: "The committee has announced ___ decision."','its',['their','his','our'],'A committee acting as one body takes "its".'),
+(E2,'Parts of Speech','Pick the interjection: "Alas! He failed again."','Alas',['He','failed','again'],'An interjection expresses sudden feeling.'),
+(E2,'Tenses','He ___ here since 2010.','has been living',['is living','lives','was living'],'"Since" + point in time takes the present perfect (continuous).'),
+(E2,'Tenses','The train ___ before we reached the station.','had left',['has left','left','leaves'],'The earlier of two past actions takes the past perfect.'),
+(E2,'Tenses','I ___ him yesterday.','met',['have met','had met','meet'],'"Yesterday" is a finished time, so the simple past.'),
+(E2,'Tenses','If I were you, I ___ accept the offer.','would',['will','shall','had'],'Second conditional: If + past, would + verb.'),
+(E2,'Tenses','She ___ for two hours when I called her.','had been waiting',['has been waiting','waits','will wait'],'Past perfect continuous: an action in progress up to a past moment.'),
+(E2,'Tenses','No sooner had he arrived ___ it began to rain.','than',['when','then','that'],'"No sooner ... than".'),
+(E2,'Tenses','By next June, they ___ the project.','will have completed',['have completed','completed','are completing'],'Future perfect with "by + future time".'),
+(E2,'Tenses','Hardly had I reached the station ___ the train left.','when',['than','then','as'],'"Hardly ... when".'),
+(E2,'Subject-Verb Agreement','One of my friends ___ coming today.','is',['are','were','have been'],'"One of the + plural" takes a singular verb.'),
+(E2,'Subject-Verb Agreement','The number of students ___ increasing.','is',['are','were','have'],'"The number of" is singular.'),
+(E2,'Subject-Verb Agreement','A number of students ___ absent today.','are',['is','was','has'],'"A number of" means "many" and is plural.'),
+(E2,'Subject-Verb Agreement','The teacher along with the students ___ going on a trip.','is',['are','were','have'],'"Along with" does not change the subject; the verb agrees with "teacher".'),
+(E2,'Subject-Verb Agreement','Neither the manager nor his assistants ___ present.','were',['was','is','has been'],'With "neither ... nor" the verb agrees with the nearer subject ("assistants").'),
+(E2,'Subject-Verb Agreement','Mathematics ___ my favourite subject.','is',['are','were','have been'],'Subjects ending in -ics take a singular verb.'),
+(E2,'Subject-Verb Agreement','Each of the players ___ given a medal.','was',['were','have been','are'],'"Each" is singular.'),
+(E2,'Subject-Verb Agreement','The furniture in the hall ___ old.','is',['are','were','have'],'"Furniture" is uncountable and singular.'),
+('ga','Polity','The Constituent Assembly held its first meeting on:','9 December 1946',['26 January 1950','15 August 1947','26 November 1949'],'Sachchidananda Sinha was the temporary chairman.'),
+('ga','Polity','Who was the permanent President of the Constituent Assembly?','Dr Rajendra Prasad',['B. R. Ambedkar','J. L. Nehru','Sachchidananda Sinha'],'Elected on 11 December 1946.'),
+('ga','Polity','The Objectives Resolution was moved in the Constituent Assembly by:','Jawaharlal Nehru',['Sardar Patel','B. R. Ambedkar','K. M. Munshi'],'Moved on 13 December 1946 and adopted on 22 January 1947.'),
+('ga','Polity','The words "Socialist", "Secular" and "Integrity" were added to the Preamble by the:','42nd Amendment',['44th Amendment','1st Amendment','86th Amendment'],'Passed in 1976.'),
+('ga','Polity','Which Article abolishes untouchability?','Article 17',['Article 14','Article 15','Article 21A'],'Its practice in any form is forbidden.'),
+('ga','Polity','The Right to Education for children aged 6 to 14 is under:','Article 21A',['Article 19','Article 45','Article 51A'],'Added by the 86th Amendment (2002).'),
+('ga','Polity','Which writ literally means "to have the body"?','Habeas Corpus',['Mandamus','Certiorari','Quo Warranto'],'It protects against illegal detention.'),
+('ga','Polity','The Directive Principles of State Policy were borrowed from the Constitution of:','Ireland',['USA','Canada','Australia'],'Irish Constitution, with Gandhian and socialist additions.'),
+('ga','Polity','The idea of Fundamental Duties was taken from the Constitution of:','USSR',['USA','Ireland','Japan'],'Added by the 42nd Amendment (1976).'),
+('ga','Polity','Which Article asks the State to promote international peace and security?','Article 51',['Article 48A','Article 44','Article 40'],'Article 51 is the last Directive Principle and is the base of India\'s foreign policy.'),
+('ga','Polity','The Drafting Committee of the Constituent Assembly was set up on:','29 August 1947',['9 December 1946','26 January 1950','13 December 1946'],'Dr B. R. Ambedkar was its chairman.'),
+('ga','Polity','Property ceased to be a Fundamental Right by the:','44th Amendment',['42nd Amendment','1st Amendment','73rd Amendment'],'It is now a legal right under Article 300A.'),
+]
+# ---- Week 2-3 topic sets (added 27 Nov 2026) ----
+def A(sec,t,rows):
+    for q,c,w,e in rows: Q.append((sec,t,q,c,w,e))
+A('english','Prepositions',[
+('She is fond ___ music.','of',['for','with','on'],'"Fond of".'),
+('He was accused ___ theft.','of',['for','with','on'],'"Accused of".'),
+('He is suffering ___ fever.','from',['of','with','by'],'"Suffering from".'),
+('I have been waiting ___ you since morning.','for',['to','at','on'],'"Wait for".'),
+('The train arrives ___ 5 pm.','at',['on','in','by'],'"At" with clock time.'),
+('He was born ___ 15 August 1990.','on',['in','at','by'],'"On" with a date.'),
+('She is married ___ a doctor.','to',['with','by','for'],'"Married to".'),
+('They divided the sweets ___ the three children.','among',['between','within','amid'],'"Among" for more than two; "between" for two.'),
+('He congratulated me ___ my success.','on',['for','at','upon'],'"Congratulate on".')])
+A('english','Articles',[
+('He is ___ honest man.','an',['a','the','no article'],'"Honest" starts with a vowel sound.'),
+('She plays ___ violin.','the',['a','an','no article'],'Musical instruments take "the".'),
+('___ Ganga is a holy river.','The',['A','An','No article'],'Rivers take "the".'),
+('He is ___ European.','a',['an','the','no article'],'"European" begins with a /y/ sound.'),
+('Honesty is ___ best policy.','the',['a','an','no article'],'Fixed phrase.'),
+('I saw ___ one-eyed man.','a',['an','the','no article'],'"One" begins with a /w/ sound.')])
+A('english','Synonyms',[
+('Choose the synonym of "ENORMOUS".','Huge',['Tiny','Weak','Narrow'],'Enormous = very large.'),
+('Choose the synonym of "RAPID".','Swift',['Slow','Calm','Rough'],'Rapid = fast.'),
+('Choose the synonym of "HOSTILE".','Unfriendly',['Friendly','Humble','Quiet'],'Hostile = antagonistic.'),
+('Choose the synonym of "DILIGENT".','Hardworking',['Lazy','Careless','Clever'],'Diligent = showing steady effort.'),
+('Choose the synonym of "FRAGILE".','Delicate',['Strong','Heavy','Solid'],'Fragile = easily broken.'),
+('Choose the synonym of "PRUDENT".','Wise',['Foolish','Rash','Selfish'],'Prudent = careful and sensible.'),
+('Choose the synonym of "CONCEAL".','Hide',['Reveal','Show','Display'],'Conceal = to hide.'),
+('Choose the synonym of "TRANQUIL".','Calm',['Noisy','Angry','Busy'],'Tranquil = peaceful.'),
+('Choose the synonym of "ADVERSITY".','Hardship',['Prosperity','Fortune','Luck'],'Adversity = difficulty.'),
+('Choose the synonym of "SCARCE".','Rare',['Plentiful','Common','Abundant'],'Scarce = in short supply.')])
+A('english','Antonyms',[
+('Choose the antonym of "VICTORY".','Defeat',['Triumph','Success','Win'],'Victory vs defeat.'),
+('Choose the antonym of "ANCIENT".','Modern',['Old','Antique','Archaic'],'Ancient = very old.'),
+('Choose the antonym of "ACCEPT".','Reject',['Receive','Welcome','Take'],'Accept vs reject.'),
+('Choose the antonym of "EXTERIOR".','Interior',['Outer','Outside','Surface'],'Exterior = outside.'),
+('Choose the antonym of "GENEROUS".','Stingy',['Kind','Liberal','Noble'],'Generous vs stingy.'),
+('Choose the antonym of "OPTIMISTIC".','Pessimistic',['Hopeful','Cheerful','Positive'],'Optimistic = hopeful.'),
+('Choose the antonym of "SHALLOW".','Deep',['Narrow','Thin','Flat'],'Shallow vs deep.'),
+('Choose the antonym of "PERMANENT".','Temporary',['Lasting','Fixed','Stable'],'Permanent = lasting.'),
+('Choose the antonym of "CRUEL".','Kind',['Harsh','Fierce','Brutal'],'Cruel vs kind.'),
+('Choose the antonym of "INCREASE".','Decrease',['Expand','Raise','Grow'],'Increase vs decrease.')])
+A('ga','Polity',[
+('The President of India is elected by an electoral college under Article:','54',['52','74','356'],'Article 54 gives the method of election.'),
+('The Vice-President of India is the ex-officio Chairman of the:','Rajya Sabha',['Lok Sabha','Planning Commission','Election Commission'],'Article 64.'),
+('The maximum strength of the Lok Sabha under the Constitution is:','550',['545','552','530'],'530 from States and 20 from Union Territories (after the 104th Amendment removed Anglo-Indian seats).'),
+('The maximum strength of the Rajya Sabha is:','250',['245','238','300'],'238 elected plus 12 nominated.'),
+('A Money Bill can be introduced only in the:','Lok Sabha',['Rajya Sabha','Either House','Joint sitting'],'Article 110 and 117.'),
+('The Prime Minister of India is appointed by the:','President',['Lok Sabha Speaker','Rajya Sabha Chairman','Chief Justice'],'Article 75.'),
+('The Council of Ministers is collectively responsible to the:','Lok Sabha',['Rajya Sabha','President','Supreme Court'],'Article 75(3).'),
+('Who administers the oath of office to the President of India?','Chief Justice of India',['Vice-President','Prime Minister','Speaker'],'Article 60.'),
+('The minimum age to be elected President of India is:','35 years',['25 years','30 years','21 years'],'Article 58.'),
+('The Governor of a State is appointed by the:','President',['Chief Minister','State Legislature','Prime Minister'],'Article 155.'),
+('Supreme Court judges retire at the age of:','65 years',['62 years','60 years','70 years'],'Article 124.'),
+('High Court judges retire at the age of:','62 years',['65 years','60 years','58 years'],'Article 217.'),
+('Article 356 deals with:','President\'s Rule in a State',['National Emergency','Financial Emergency','Impeachment of the President'],'Failure of constitutional machinery in a State.'),
+('The Speaker of the Lok Sabha is elected by:','Members of the Lok Sabha',['The President','The Prime Minister','The Rajya Sabha'],'Article 93.')])
+A('ga','History',[
+('The Revolt of 1857 began at:','Meerut',['Delhi','Kanpur','Jhansi'],'On 10 May 1857.'),
+('Who was the Governor-General of India during the Revolt of 1857?','Lord Canning',['Lord Dalhousie','Lord Curzon','Lord Ripon'],'Canning became the first Viceroy in 1858.'),
+('The Government of India Act 1858 transferred power from the East India Company to:','The British Crown',['The Mughal emperor','Indian princes','The League of Nations'],'Ended Company rule.'),
+('Who was the first Viceroy of India?','Lord Canning',['Lord Dalhousie','Lord Mayo','Lord Ripon'],'After the Act of 1858.'),
+('The Brahmo Samaj was founded by Raja Ram Mohan Roy in:','1828',['1857','1875','1885'],'Founded in Calcutta.'),
+('The Arya Samaj was founded by Swami Dayanand Saraswati in:','1875',['1828','1885','1893'],'Founded in Bombay.'),
+('The Ramakrishna Mission was founded by:','Swami Vivekananda',['Dayanand Saraswati','Raja Ram Mohan Roy','Annie Besant'],'Founded in 1897.'),
+('The Partition of Bengal took place in:','1905',['1911','1919','1885'],'By Lord Curzon.'),
+('The Indian National Congress was founded in:','1885',['1857','1905','1919'],'First session in Bombay, presided over by W. C. Bonnerjee.'),
+('The Swadeshi Movement was launched in response to the:','Partition of Bengal',['Rowlatt Act','Simon Commission','Cripps Mission'],'Began in 1905.'),
+('The Non-Cooperation Movement was launched in:','1920',['1919','1930','1942'],'Along with the Khilafat movement.'),
+('The Chauri Chaura incident (1922) led Gandhi to withdraw the:','Non-Cooperation Movement',['Civil Disobedience Movement','Quit India Movement','Swadeshi Movement'],'Due to violence in Gorakhpur district.'),
+('The Simon Commission arrived in India in:','1928',['1919','1935','1942'],'It had no Indian member and was boycotted.'),
+('The Poona Pact (1932) was signed between Gandhi and:','B. R. Ambedkar',['M. A. Jinnah','Jawaharlal Nehru','Bal Gangadhar Tilak'],'It settled seats for the Depressed Classes.'),
+('The Cripps Mission came to India in:','1942',['1946','1932','1928'],'It offered Dominion status after the war.'),
+('The Cabinet Mission arrived in India in:','1946',['1942','1947','1939'],'It proposed a three-tier federal plan.'),
+('Who gave the slogan "Do or Die" during the Quit India Movement?','Mahatma Gandhi',['Subhas Chandra Bose','Jawaharlal Nehru','Sardar Patel'],'On 8 August 1942.'),
+('Who led the Azad Hind Fauj (INA) from 1943?','Subhas Chandra Bose',['Mohan Singh','Rash Behari Bose','Lala Lajpat Rai'],'He reorganised it in Singapore.')])
+A('english','Error Spotting',[
+('Find the part with the error: "He is more taller than his brother."','more taller',['He is','than','his brother'],'Double comparison. Use "taller".'),
+('Find the part with the error: "Neither of the boys have finished their homework."','have finished',['Neither of the boys','their homework','No error'],'"Neither" is singular: "has finished".'),
+('Find the part with the error: "She has been working here since five years."','since five years',['She has been working','here','No error'],'Use "for" with a period of time.'),
+('Find the part with the error: "The news were broadcast at nine."','were broadcast',['The news','at nine','No error'],'"News" is singular: "was broadcast".'),
+('Find the part with the error: "I prefer tea than coffee."','than coffee',['I prefer','tea','No error'],'"Prefer X to Y".'),
+('Find the part with the error: "He gave me many advices."','many advices',['He gave me','No error','He gave'],'"Advice" is uncountable: "much advice" or "many pieces of advice".'),
+('Find the part with the error: "Each of the students have passed."','have passed',['Each of the','students','No error'],'"Each" is singular: "has passed".'),
+('Find the part with the error: "He is senior than me."','senior than me',['He is','No error','He'],'"Senior to", not "than".'),
+('Find the part with the error: "The furniture are very costly."','are very costly',['The furniture','No error','very'],'"Furniture" is uncountable and singular.'),
+('Find the part with the error: "Hardly had he left than the phone rang."','than the phone rang',['Hardly had he left','the phone','No error'],'"Hardly ... when".'),
+('Find the part with the error: "She plays the violin very well."','No error',['She plays','the violin','very well'],'The sentence is correct.')])
 out=[]
 for sec,t,q,c,w,e in Q:
     if not q or len(w)!=3 or not c: continue
-    h=hashlib.md5((sec+q).encode()).hexdigest()[:8]
+    h=hashlib.md5((sec+q+c).encode()).hexdigest()[:8]
     out.append({"id":f"{sec[:2]}-{h}","s":sec,"t":t,"q":q,"o":[c]+w,"a":0,"e":e})
 json.dump({"version":"2026-11-23","questions":out},open('/home/claude/sarthi/data/qbank.json','w'),ensure_ascii=False,indent=0)
 from collections import Counter

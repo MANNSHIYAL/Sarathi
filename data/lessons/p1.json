@@ -1,0 +1,2426 @@
+{
+ "p1-w1": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Percentage",
+    "Ratio",
+    "Average"
+   ],
+   "reasoning": [
+    "Number Series",
+    "Analogy",
+    "Odd One Out"
+   ],
+   "english": [
+    "Parts of Speech",
+    "Tenses",
+    "Subject-Verb Agreement"
+   ],
+   "ga": [
+    "Polity"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Percentages, ratio, averages",
+    "parts": [
+     {
+      "name": "Part 1: Percentage basics",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Percentage': theory and solved examples (skip the exercises today)",
+        "why": "Standard textbook, solved examples in the first half of the chapter"
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Percentage': read the first 10 solved questions to see the SSC style",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Percent means 'out of 100'. x% of y = (x/100) × y, and x% of y = y% of x (so 8% of 50 = 50% of 8 = 4).",
+       "Learn these by heart: 1/2 = 50%, 1/3 = 33.33%, 1/4 = 25%, 1/5 = 20%, 1/6 = 16.67%, 1/7 = 14.28%, 1/8 = 12.5%, 1/9 = 11.11%, 1/10 = 10%, 1/11 = 9.09%, 1/12 = 8.33%, 1/15 = 6.67%, 1/16 = 6.25%.",
+       "Percentage change = (New − Old) / Old × 100.",
+       "If A is r% more than B, then B is r/(100+r) × 100 % less than A. If A is r% less than B, B is r/(100−r) × 100 % more than A. (20% more becomes 16.67% less.)",
+       "If price rises r%, to keep spending the same, consumption must fall by r/(100+r) × 100 %.",
+       "A number going from N to N×(100+r)/100 uses the multiplier method: 20% increase = ×1.2, 25% decrease = ×0.75."
+      ],
+      "examples": [
+       {
+        "q": "What is 35% of 240?",
+        "a": "84",
+        "s": "35% = 7/20, so 240 × 7/20 = 12 × 7 = 84."
+       },
+       {
+        "q": "28 is what percent of 80?",
+        "a": "35%",
+        "s": "28/80 × 100 = 35."
+       },
+       {
+        "q": "A number increased by 20% becomes 150. Find the number.",
+        "a": "125",
+        "s": "Number × 1.2 = 150, so number = 150/1.2 = 125."
+       },
+       {
+        "q": "Price of sugar rises by 25%. By what percent must a family cut consumption to keep spending the same?",
+        "a": "20%",
+        "s": "25/(100+25) × 100 = 20."
+       },
+       {
+        "q": "A's salary is 20% more than B's. By what percent is B's salary less than A's?",
+        "a": "16.67% (1/6)",
+        "s": "20/(100+20) × 100 = 16.67."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Percentage': solve the first 40 questions of the first exercise, in order. Tick the ones you got wrong."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Percentage': solve 25 questions, 45 seconds each. Skip any you cannot start in 10 seconds and come back."
+       },
+       {
+        "label": "App drill: build the speed",
+        "drill": {
+         "sec": "quant",
+         "topic": "Percentage",
+         "n": 20,
+         "min": 15,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Successive change and applications",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Same chapter 'Percentage': sections on population, successive changes, election and marks problems",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Percentage': next 15 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Two successive changes of a% and b%: net change = a + b + ab/100 (use negative for decrease). +10% then +20% = 10 + 20 + 2 = 32%.",
+       "+10% then −10% = 10 − 10 − 1 = −1%. A rise and equal fall is always a net loss.",
+       "Population: after n years at r% growth, P × (1 + r/100)^n. Use the multiplier: 10% growth twice = × 1.1 × 1.1 = × 1.21.",
+       "Marks and election problems: write what each % difference is worth in actual numbers, then scale up to 100%.",
+       "Shortcut: for 'fails by x marks' and 'passes with y extra marks', pass marks = obtained + x = obtained' − y. The difference in percentages equals x + y marks."
+      ],
+      "examples": [
+       {
+        "q": "Two successive increases of 10% and 20% equal what single increase?",
+        "a": "32%",
+        "s": "10 + 20 + (10×20)/100 = 32."
+       },
+       {
+        "q": "A town of 20,000 grows 10% then falls 10%. Find the final population.",
+        "a": "19,800",
+        "s": "20,000 × 1.1 × 0.9 = 19,800."
+       },
+       {
+        "q": "A candidate scores 35% and fails by 40 marks. Another scores 45% and gets 20 marks more than needed. Find the maximum marks and pass marks.",
+        "a": "Maximum 600, pass marks 250",
+        "s": "10% = 40 + 20 = 60 marks, so 100% = 600. Pass = 35% of 600 + 40 = 250. Check: 45% of 600 = 270 = 250 + 20."
+       },
+       {
+        "q": "In a two-candidate election the winner gets 58% of votes and wins by 1,600. How many votes were cast?",
+        "a": "10,000",
+        "s": "Winner − loser = 58% − 42% = 16% = 1,600, so 100% = 10,000."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Percentage': solve questions 41 to 80 of the first exercise, then the first 20 of the next exercise."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Percentage': solve 20 more questions. Write down one shortcut you learned."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Percentage",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Ratio, proportion and average",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapters 'Ratio & Proportion' and 'Average': theory and solved examples",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapters 'Ratio and Proportion' and 'Average': first 10 solved questions each",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Ratio a:b = a/b. To split an amount in ratio a:b:c, one part = Amount / (a+b+c).",
+       "Compound ratio: multiply. To join A:B = 3:4 and B:C = 6:7, make B equal: A:B:C = 9:12:14 (multiply first by 3, second by 2).",
+       "Average = Sum / Count. If a number is added or removed, new sum = old sum ± that number, then divide by the new count.",
+       "Average of n consecutive numbers (or an AP) = middle value = (first + last) / 2.",
+       "If every term changes by x, the average changes by x. If every term is multiplied by x, the average is multiplied by x.",
+       "Ratio of ages: write ages as multiples (3x, 5x), then use the given sum or difference."
+      ],
+      "examples": [
+       {
+        "q": "Divide ₹4,200 in the ratio 2 : 3 : 7.",
+        "a": "₹700, ₹1,050, ₹2,450",
+        "s": "Parts = 12, one part = 350. 2×350 = 700, 3×350 = 1,050, 7×350 = 2,450."
+       },
+       {
+        "q": "A : B = 3 : 4 and B : C = 6 : 7. Find A : B : C.",
+        "a": "9 : 12 : 14",
+        "s": "Multiply A:B by 3 → 9:12, and B:C by 2 → 12:14."
+       },
+       {
+        "q": "The average of 5 numbers is 27. If one number is removed the average of the rest is 25. Find the number removed.",
+        "a": "35",
+        "s": "Sum = 135, remaining sum = 4 × 25 = 100, removed = 35."
+       },
+       {
+        "q": "The average age of 30 students is 14. With the teacher the average becomes 15. Find the teacher's age.",
+        "a": "45",
+        "s": "31 × 15 − 30 × 14 = 465 − 420 = 45."
+       },
+       {
+        "q": "Two numbers are in the ratio 5 : 7 and their sum is 96. Find them.",
+        "a": "40 and 56",
+        "s": "One part = 96/12 = 8, so 5×8 = 40 and 7×8 = 56."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 75 minutes max",
+        "book": "RSA 'Ratio & Proportion': first 30 questions. RSA 'Average': first 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Ratio and Proportion': 15 questions. KM 'Average': 15 questions."
+       },
+       {
+        "label": "App drill: ratio",
+        "drill": {
+         "sec": "quant",
+         "topic": "Ratio",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       },
+       {
+        "label": "App drill: average",
+        "drill": {
+         "sec": "quant",
+         "topic": "Average",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Number series, analogy, odd one out",
+    "parts": [
+     {
+      "name": "Part 1: Number series",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Series Completion' (number series part only)",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Number Series': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Check in this order: (1) constant difference (AP), (2) constant ratio (GP), (3) differences that grow (+2, +4, +8 or +1, +2, +3), (4) squares or cubes (n² ± k, n³ ± k), (5) two interleaved series (odd and even positions), (6) primes, (7) multiply and add (×2 + 1).",
+       "Learn squares to 30 and cubes to 15. Most SSC series are built on them.",
+       "Write the differences under the series first. 70% of questions are solved by that single step.",
+       "If two numbers seem to jump randomly, test alternate terms separately."
+      ],
+      "examples": [
+       {
+        "q": "3, 7, 11, 15, 19, ?",
+        "a": "23",
+        "s": "Add 4 each time."
+       },
+       {
+        "q": "2, 6, 18, 54, ?",
+        "a": "162",
+        "s": "Multiply by 3."
+       },
+       {
+        "q": "2, 5, 10, 17, 26, ?",
+        "a": "37",
+        "s": "n² + 1: 1²+1=2 ... 6²+1 = 37."
+       },
+       {
+        "q": "3, 5, 9, 17, 33, ?",
+        "a": "65",
+        "s": "Differences 2, 4, 8, 16, so next difference 32."
+       },
+       {
+        "q": "1, 2, 6, 24, 120, ?",
+        "a": "720",
+        "s": "Multiply by 1, 2, 3, 4, 5, then 6."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 30 minutes",
+        "book": "RV 'Series Completion': first 30 number-series questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR 'Number Series': 20 questions, 40 seconds each."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Number Series",
+         "n": 20,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Analogy",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Analogy': number, letter and word analogies",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Analogy': first 20 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Find the relationship in the first pair, then apply it to the second pair. Say the relation in a sentence first.",
+       "Common word relations: worker to workplace, tool to function, part to whole, animal to young one or home, cause to effect, product to raw material.",
+       "Number analogies: square, cube, multiply, add, or a mix (a : a² + 1).",
+       "Letter analogies: write the alphabet positions (A=1 ... Z=26) and look at the shifts. Opposite letter of position n is 27 − n."
+      ],
+      "examples": [
+       {
+        "q": "8 : 64 :: 11 : ?",
+        "a": "121",
+        "s": "The second is the square of the first."
+       },
+       {
+        "q": "CAT : ECV :: DOG : ?",
+        "a": "FQI",
+        "s": "Each letter moves +2: D→F, O→Q, G→I."
+       },
+       {
+        "q": "Doctor : Hospital :: Teacher : ?",
+        "a": "School",
+        "s": "Worker to workplace."
+       },
+       {
+        "q": "Pen : Write :: Knife : ?",
+        "a": "Cut",
+        "s": "Tool to function."
+       },
+       {
+        "q": "7 : 343 :: 5 : ?",
+        "a": "125",
+        "s": "Cube of the first number."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 30 minutes",
+        "book": "RV 'Analogy': 30 questions covering number, letter and word types."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR 'Analogy': 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Analogy",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Odd one out (classification)",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Classification'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Classification': first 20 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Find the one property that three items share and one lacks. For numbers: prime, square, cube, multiple of k, odd or even, digit sum.",
+       "For letters: positions, vowels or consonants, skip pattern, reverse order.",
+       "For words: category (fruit, vegetable, bird, mammal), function, or a spelling pattern. Test two different rules before choosing."
+      ],
+      "examples": [
+       {
+        "q": "9, 16, 25, 36, 48",
+        "a": "48",
+        "s": "The others are perfect squares."
+       },
+       {
+        "q": "3, 5, 11, 14, 17",
+        "a": "14",
+        "s": "The others are prime."
+       },
+       {
+        "q": "Mango, Apple, Potato, Banana",
+        "a": "Potato",
+        "s": "A vegetable, the rest are fruits."
+       },
+       {
+        "q": "121, 144, 169, 200",
+        "a": "200",
+        "s": "The others are squares (11², 12², 13²)."
+       },
+       {
+        "q": "27, 64, 125, 150",
+        "a": "150",
+        "s": "The others are cubes."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 30 minutes",
+        "book": "RV 'Classification': 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR 'Classification': 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Odd One Out",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Parts of speech, tenses, subject-verb agreement",
+    "parts": [
+     {
+      "name": "Part 1: Parts of speech",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapters on Noun, Pronoun, Adjective, Verb, Adverb, Preposition and Conjunction (read the rules, skip long exercises)",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Parts of Speech' / 'Spotting Errors' sections on nouns, adjectives, adverbs",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Noun types: proper (Delhi), common (city), collective (team), abstract (honesty), material (gold).",
+       "Adjective describes a noun (tall boy). Adverb describes a verb, adjective or adverb (runs fast, very tall). Many words do both: hard, fast, early.",
+       "Good is an adjective; well is usually an adverb (He plays well). 'Well' is an adjective only for health (I am well).",
+       "A collective noun taken as one unit takes 'its': The committee has announced its decision.",
+       "Preposition links a noun to the rest of the sentence: on, in, at, by, for, with, of, to. Learn fixed pairs: good at, afraid of, senior to, prefer X to Y.",
+       "Conjunctions join: and, but, or, because, although, unless."
+      ],
+      "examples": [
+       {
+        "q": "'She sings beautifully.' What is 'beautifully'?",
+        "a": "Adverb",
+        "s": "It tells how she sings."
+       },
+       {
+        "q": "'Honesty is the best policy.' What is 'Honesty'?",
+        "a": "Abstract noun",
+        "s": "A quality, not a thing."
+       },
+       {
+        "q": "'He works hard.' What is 'hard'?",
+        "a": "Adverb",
+        "s": "It says how he works. In 'a hard task' it is an adjective."
+       },
+       {
+        "q": "Fill: 'The committee has announced ___ decision.'",
+        "a": "its",
+        "s": "Collective noun as one unit."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM: do the short exercises on adjectives, adverbs and prepositions (about 40 sentences)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Parts of Speech",
+         "n": 8,
+         "min": 8,
+         "target": "85%"
+        }
+       },
+       {
+        "label": "App drill: error spotting",
+        "drill": {
+         "sec": "english",
+         "topic": "Error Spotting",
+         "n": 8,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Tenses",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter 'The Verb: Tenses' and 'Sequence of Tenses'",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Tenses'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "12 tenses = 4 times (simple, continuous, perfect, perfect continuous) × 3 (present, past, future).",
+       "Simple past goes with finished time: yesterday, last year, in 2010, ago.",
+       "Present perfect (has/have + V3) goes with: since, for, already, yet, just, ever, never. Since + point in time; for + period of time.",
+       "Past perfect (had + V3) is the earlier of two past actions: The train had left before we reached.",
+       "Future perfect (will have + V3) goes with 'by + future time'.",
+       "Conditionals: 1st: If + present, will. 2nd: If + past (were), would. 3rd: If + had + V3, would have + V3.",
+       "'No sooner had ... than' and 'Hardly had ... when' both take past perfect, with inversion."
+      ],
+      "examples": [
+       {
+        "q": "He ___ here since 2010. (live)",
+        "a": "has been living",
+        "s": "'Since' + point in time → present perfect continuous."
+       },
+       {
+        "q": "The train ___ before we reached. (leave)",
+        "a": "had left",
+        "s": "Earlier past action."
+       },
+       {
+        "q": "If I were you, I ___ accept it.",
+        "a": "would",
+        "s": "Second conditional."
+       },
+       {
+        "q": "Hardly had I reached the station ___ the train left.",
+        "a": "when",
+        "s": "'Hardly ... when'."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM: tense exercises on present perfect, past perfect and sequence of tenses (about 40 sentences)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Tenses",
+         "n": 8,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Subject-verb agreement",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter 'Concord' (Agreement of the verb with its subject)",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Subject-Verb Agreement'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Each, every, either, neither, one of, anyone, everyone take a singular verb. 'One of the boys is'.",
+       "'The number of' is singular. 'A number of' is plural.",
+       "With 'along with', 'as well as', 'together with', 'with': the verb agrees with the FIRST subject.",
+       "With 'either ... or' and 'neither ... nor': the verb agrees with the NEARER subject.",
+       "Singular in form: news, mathematics, physics, economics, measles, furniture, advice, information, scenery.",
+       "Plural only: scissors, trousers, spectacles, people, police, cattle.",
+       "Two nouns for one person or idea take a singular verb: Bread and butter is my breakfast."
+      ],
+      "examples": [
+       {
+        "q": "One of my friends ___ coming today.",
+        "a": "is",
+        "s": "One of + plural → singular verb."
+       },
+       {
+        "q": "The number of students ___ increasing.",
+        "a": "is",
+        "s": "'The number of' is singular."
+       },
+       {
+        "q": "The teacher along with the students ___ going on a trip.",
+        "a": "is",
+        "s": "Verb follows 'teacher'."
+       },
+       {
+        "q": "Neither the manager nor his assistants ___ present.",
+        "a": "were",
+        "s": "Nearer subject 'assistants' is plural."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM 'Concord': all short exercises (about 40 sentences)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Subject-Verb Agreement",
+         "n": 8,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: Indian Polity I (Constitution, rights, duties)",
+    "parts": [
+     {
+      "name": "Part 1: Making of the Constitution and the Preamble",
+      "read": [
+       {
+        "book": "M. Laxmikanth, Indian Polity",
+        "where": "Chapters 'Historical Background', 'Making of the Constitution', 'Salient Features', 'Preamble'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 11, Indian Constitution at Work",
+        "where": "Chapter 1 'Constitution: Why and How?' (free at ncert.nic.in)",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Constituent Assembly: formed under the Cabinet Mission Plan 1946. First meeting 9 Dec 1946 (Sachchidananda Sinha temporary chairman). Dr Rajendra Prasad elected permanent president on 11 Dec 1946.",
+       "Objectives Resolution moved by Nehru on 13 Dec 1946, adopted 22 Jan 1947. Drafting Committee set up 29 Aug 1947, chairman Dr B. R. Ambedkar.",
+       "Constitution adopted 26 Nov 1949 (took 2 years 11 months 18 days) and came into force 26 Jan 1950. Originally 395 Articles, 22 Parts, 8 Schedules. Now 12 Schedules.",
+       "Preamble keywords: Sovereign, Socialist, Secular, Democratic, Republic; Justice, Liberty, Equality, Fraternity. 'Socialist', 'Secular' and 'Integrity' added by the 42nd Amendment (1976).",
+       "Berubari Union case (1960): Preamble is not part of the Constitution. Kesavananda Bharati case (1973): Preamble IS part of the Constitution.",
+       "Sources borrowed: UK: parliamentary system, rule of law. USA: Fundamental Rights, judicial review, Vice-President. Ireland: DPSP, Rajya Sabha nominations. Canada: strong Centre, residuary powers. Australia: Concurrent List, joint sitting. USSR: Fundamental Duties. Weimar Germany: emergency provisions. South Africa: amendment procedure."
+      ],
+      "examples": [
+       {
+        "q": "Who moved the Objectives Resolution?",
+        "a": "Jawaharlal Nehru (13 Dec 1946)",
+        "s": ""
+       },
+       {
+        "q": "Which Amendment added 'Socialist' and 'Secular' to the Preamble?",
+        "a": "42nd Amendment (1976)",
+        "s": ""
+       },
+       {
+        "q": "From which country did India take the Concurrent List?",
+        "a": "Australia",
+        "s": ""
+       },
+       {
+        "q": "Chairman of the Drafting Committee?",
+        "a": "Dr B. R. Ambedkar",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a one-page chart",
+        "book": "On a sheet, write dates and names from the notes above. Cover and recite twice."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Polity",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Fundamental Rights (Articles 12 to 35)",
+      "read": [
+       {
+        "book": "M. Laxmikanth, Indian Polity",
+        "where": "Chapter 'Fundamental Rights' (all)",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 11, Indian Constitution at Work",
+        "where": "Chapter 2 'Rights in the Indian Constitution'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Six rights: Equality (14-18), Freedom (19-22), Exploitation (23-24), Religion (25-28), Cultural and Educational (29-30), Constitutional Remedies (32).",
+       "Art 14 equality before law. 15 no discrimination. 16 equal opportunity in public jobs. 17 abolishes untouchability. 18 abolishes titles.",
+       "Art 19: freedom of speech, assembly (peaceful, without arms), association, movement, residence, profession. Property was removed from FR by the 44th Amendment (1978); it is now Art 300A, a legal right.",
+       "Art 20: no ex post facto law, no double jeopardy, no self-incrimination. Art 21: life and personal liberty. Art 21A: education for ages 6-14 (86th Amendment, 2002). Art 22: safeguards on arrest.",
+       "Art 23: ban on forced labour and trafficking. Art 24: no child (under 14) in factories or hazardous work.",
+       "Art 32: Right to move the Supreme Court (Dr Ambedkar called it the 'heart and soul'). Art 226 gives High Courts similar writ power.",
+       "Five writs: Habeas Corpus (produce the person), Mandamus (we command), Prohibition, Certiorari, Quo Warranto (by what authority)."
+      ],
+      "examples": [
+       {
+        "q": "Which Article abolishes untouchability?",
+        "a": "Article 17",
+        "s": ""
+       },
+       {
+        "q": "Which Article is 'Right to Constitutional Remedies'?",
+        "a": "Article 32",
+        "s": ""
+       },
+       {
+        "q": "Which writ literally means 'to have the body'?",
+        "a": "Habeas Corpus",
+        "s": ""
+       },
+       {
+        "q": "Property is now under which Article?",
+        "a": "Article 300A (legal right)",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "Write the six rights with their Article ranges, then one Article for each (14, 17, 19, 21, 23, 25, 29, 32). Cover and recall."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Polity",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: DPSP and Fundamental Duties",
+      "read": [
+       {
+        "book": "M. Laxmikanth, Indian Polity",
+        "where": "Chapters 'Directive Principles of State Policy' and 'Fundamental Duties'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 11, Indian Constitution at Work",
+        "where": "Chapter 2 sections on DPSP and duties",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "DPSP: Part IV, Articles 36-51. Not justiciable (cannot be enforced in court). Borrowed from Ireland.",
+       "Three groups: Socialistic, Gandhian (Art 40 village panchayats, Art 43 cottage industries, Art 47 prohibition), Liberal-intellectual (Art 44 Uniform Civil Code, Art 50 separation of judiciary from executive, Art 51 international peace).",
+       "Art 39A free legal aid, Art 43A workers in management, Art 48A environment: added by the 42nd Amendment (1976).",
+       "Art 51 (international peace and respect for treaties) is the basis of India's foreign policy: useful for MEA.",
+       "Fundamental Duties: Part IVA, Article 51A, added by the 42nd Amendment (1976) on the Swaran Singh Committee. Originally 10. The 11th (parents/guardians to provide education for ages 6-14) was added by the 86th Amendment (2002).",
+       "FR vs DPSP: FR are justiciable and protect individuals; DPSP are not justiciable and guide the State."
+      ],
+      "examples": [
+       {
+        "q": "Which Article asks the State to promote international peace?",
+        "a": "Article 51",
+        "s": ""
+       },
+       {
+        "q": "Which Article deals with the Uniform Civil Code?",
+        "a": "Article 44",
+        "s": ""
+       },
+       {
+        "q": "From which country were Fundamental Duties borrowed?",
+        "a": "USSR",
+        "s": ""
+       },
+       {
+        "q": "How many Fundamental Duties are there now?",
+        "a": "11",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a comparison chart",
+        "book": "FR vs DPSP vs FD: three columns, five lines each from the notes."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Polity",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "p1-w2": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Profit & Loss",
+    "Discount"
+   ],
+   "reasoning": [
+    "Coding-Decoding",
+    "Alphabet"
+   ],
+   "english": [
+    "Articles",
+    "Prepositions",
+    "Error Spotting"
+   ],
+   "ga": [
+    "Polity"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Profit & loss, discount",
+    "parts": [
+     {
+      "name": "Part 1: Profit and loss basics",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Profit and Loss': theory and solved examples",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Profit and Loss': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Profit = SP − CP. Loss = CP − SP. Profit % and Loss % are always on CP.",
+       "SP = CP × (100 + P)/100 for profit, CP × (100 − L)/100 for loss. CP = SP × 100/(100 ± %).",
+       "Fraction trick: profit 25% = 1/4, so SP : CP = 5 : 4. Profit 12.5% = 1/8, so SP : CP = 9 : 8. Loss 20% = 1/5, so SP : CP = 4 : 5.",
+       "If CP of x articles = SP of y articles, profit % = (x − y)/y × 100.",
+       "Two articles sold at the same price, one at p% gain and the other at p% loss: overall loss = p²/100 %.",
+       "Sold in a chain (A to B to C): multiply the multipliers. 20% profit then 25% profit = × 1.2 × 1.25 = × 1.5."
+      ],
+      "examples": [
+       {
+        "q": "CP ₹800, profit 25%. Find SP.",
+        "a": "₹1,000",
+        "s": "800 × 125/100 = 1,000."
+       },
+       {
+        "q": "An article is sold for ₹1,080 at a 10% loss. Find CP.",
+        "a": "₹1,200",
+        "s": "1,080 × 100/90 = 1,200."
+       },
+       {
+        "q": "A shopkeeper marks goods 20% above cost and gives 10% discount. Find profit %.",
+        "a": "8%",
+        "s": "1.2 × 0.9 = 1.08, so 8% profit."
+       },
+       {
+        "q": "Two articles are sold at ₹1,000 each, one at 20% gain and one at 20% loss. Find overall result.",
+        "a": "4% loss",
+        "s": "p²/100 = 400/100 = 4% loss."
+       },
+       {
+        "q": "CP of 15 articles = SP of 12 articles. Find profit %.",
+        "a": "25%",
+        "s": "(15 − 12)/12 × 100 = 25."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Profit and Loss': first 40 questions of the first exercise."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Profit and Loss': 25 questions, 45 seconds each."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Profit & Loss",
+         "n": 20,
+         "min": 15,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Discount and marked price",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Discount' (and the discount section of Profit & Loss)",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Discount': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Discount is always on Marked Price (MP). SP = MP × (100 − d)/100.",
+       "Successive discounts a% and b%: single equivalent = a + b − ab/100. 20% and 10% = 28%.",
+       "To find MP when profit and discount are given: CP → SP (profit) → MP = SP × 100/(100 − d).",
+       "Discount % = (MP − SP)/MP × 100.",
+       "Trick: if a trader gives d% discount and still earns profit p%, markup % = (100 + p)/(100 − d) × 100 − 100."
+      ],
+      "examples": [
+       {
+        "q": "MP ₹2,500, discount 12%. Find SP.",
+        "a": "₹2,200",
+        "s": "2,500 × 88/100 = 2,200."
+       },
+       {
+        "q": "A trader gets 20% profit after a 10% discount on MP. CP is ₹900. Find MP.",
+        "a": "₹1,200",
+        "s": "SP = 900 × 1.2 = 1,080. MP = 1,080/0.9 = 1,200."
+       },
+       {
+        "q": "Single discount equal to successive 15% and 20%?",
+        "a": "32%",
+        "s": "15 + 20 − 3 = 32."
+       },
+       {
+        "q": "An article marked ₹500 is sold at ₹425. Find discount %.",
+        "a": "15%",
+        "s": "75/500 × 100 = 15."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Discount': first 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Discount': 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Discount",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Dishonest dealing and chains",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Profit and Loss: false weights and successive transaction questions",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Profit and Loss': questions 26 to 50",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "False weight: gain % = (True weight − False weight)/False weight × 100 (when sold at cost).",
+       "Equation method: write CP as 100%, then everything else as % of CP. If an extra ₹x changes the result from −a% to +b%, then (a + b)% of CP = x.",
+       "Chain deals: CP of first = Final price / (multiplier 1 × multiplier 2)."
+      ],
+      "examples": [
+       {
+        "q": "A shopkeeper uses a 900 g weight for 1 kg and sells at cost. Find gain %.",
+        "a": "11.11%",
+        "s": "100/900 × 100 = 11.11."
+       },
+       {
+        "q": "Selling at 5% loss. If SP were ₹100 more, it would be a 5% gain. Find CP.",
+        "a": "₹1,000",
+        "s": "10% of CP = 100, so CP = 1,000."
+       },
+       {
+        "q": "A sells to B at 20% profit, B sells to C at 25% profit. C pays ₹1,500. Find A's CP.",
+        "a": "₹1,000",
+        "s": "1,500 / (1.25 × 1.2) = 1,000."
+       },
+       {
+        "q": "SP ₹480 gives 20% loss. What SP gives 10% gain?",
+        "a": "₹660",
+        "s": "CP = 480/0.8 = 600. SP = 600 × 1.1 = 660."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Profit and Loss': next 30 questions (harder exercise)."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Profit and Loss': 20 more questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Profit & Loss",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Coding-decoding, alphabet tests",
+    "parts": [
+     {
+      "name": "Part 1: Letter coding",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Coding-Decoding': letter coding",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Coding-Decoding': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Write A=1, B=2 ... Z=26. Memorise EJOTY (5, 10, 15, 20, 25).",
+       "Opposite letter of position n is 27 − n (A↔Z, B↔Y, F↔U). Position from the right = 27 − position from the left.",
+       "Check shift (+1, +2, −1), reverse alphabet, and alternating shifts (+1, −1, +2, −2).",
+       "Compare the first coded word letter by letter before choosing; do not guess from the first letter alone."
+      ],
+      "examples": [
+       {
+        "q": "If MOON is coded NPPO, how is STAR coded?",
+        "a": "TUBS",
+        "s": "Each letter +1."
+       },
+       {
+        "q": "Opposite letter of F?",
+        "a": "U",
+        "s": "27 − 6 = 21 = U."
+       },
+       {
+        "q": "If CAT = 24, find DOG (sum of letter positions).",
+        "a": "26",
+        "s": "D4 + O15 + G7 = 26."
+       },
+       {
+        "q": "Which letter is 7th to the right of the 12th from the left?",
+        "a": "S",
+        "s": "12 + 7 = 19 = S."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 30 minutes",
+        "book": "RV 'Coding-Decoding': 30 letter-coding questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Coding-Decoding",
+         "n": 20,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Number and reverse-alphabet coding",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Coding-Decoding': number and substitution coding",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Coding-Decoding': questions 16 to 35",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Reverse alphabet code: A=Z, B=Y ... so CAT becomes XZG.",
+       "Number coding: add letter positions, or each letter becomes its position or its square.",
+       "Substitution: a word is replaced by another word. Find which word stands for which code by comparing two sentences with one common word."
+      ],
+      "examples": [
+       {
+        "q": "If A=Z, B=Y, how is CAT written?",
+        "a": "XZG",
+        "s": "C→X, A→Z, T→G."
+       },
+       {
+        "q": "If 'good red apple' = 'se na ki' and 'red big ball' = 'na po lu', what is the code for 'red'?",
+        "a": "na",
+        "s": "'Red' is the common word and 'na' the common code."
+       },
+       {
+        "q": "If A=1, B=2, ..., find BAD.",
+        "a": "7",
+        "s": "2 + 1 + 4 = 7."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 30 minutes",
+        "book": "RV: 30 questions of number and substitution coding."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Coding-Decoding",
+         "n": 20,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Alphabet tests",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Alphabet Test'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Alphabet Test': first 20 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Count between two letters: positions difference − 1. Between D (4) and N (14): 9 letters.",
+       "n-th to the left of position p = p − n. n-th to the right = p + n.",
+       "Questions on rearranged words: write position numbers under each letter first."
+      ],
+      "examples": [
+       {
+        "q": "How many letters lie between D and N?",
+        "a": "9",
+        "s": "14 − 4 − 1 = 9."
+       },
+       {
+        "q": "Which letter is 5th to the left of the 15th from the left?",
+        "a": "J",
+        "s": "15 − 5 = 10 = J."
+       },
+       {
+        "q": "Which letter is 9th from the right end?",
+        "a": "R",
+        "s": "27 − 9 = 18 = R."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 30 minutes",
+        "book": "RV 'Alphabet Test': 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Alphabet",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Articles, prepositions, error spotting",
+    "parts": [
+     {
+      "name": "Part 1: Articles",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter 'The Article'",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Articles'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "'A' before a consonant SOUND (a university, a European, a one-rupee note). 'An' before a vowel SOUND (an hour, an honest man, an MBA).",
+       "'The' for specific or unique things: the sun, the Ganga, the Himalayas, the Gita, the Times of India, the poor, the best.",
+       "No article before proper names, languages, meals, games, subjects in general (English, lunch, cricket).",
+       "'The' with musical instruments: She plays the violin. No article with games: He plays cricket.",
+       "'A few' = some. 'Few' = hardly any. 'A little' = some. 'Little' = hardly any."
+      ],
+      "examples": [
+       {
+        "q": "He is ___ honest man.",
+        "a": "an",
+        "s": "Honest starts with a vowel sound."
+       },
+       {
+        "q": "___ Ganga is a holy river.",
+        "a": "The",
+        "s": "Rivers take 'the'."
+       },
+       {
+        "q": "He is ___ European.",
+        "a": "a",
+        "s": "European begins with a /y/ sound."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM 'The Article': all short exercises."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Articles",
+         "n": 6,
+         "min": 6,
+         "target": "85%"
+        }
+       },
+       {
+        "label": "App drill: error spotting",
+        "drill": {
+         "sec": "english",
+         "topic": "Error Spotting",
+         "n": 8,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Prepositions",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter 'The Preposition'",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Prepositions'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Time: at 5 pm, at night, on Monday, on 15 August, in 2020, in the morning, in March.",
+       "Place: at the station (point), in Delhi (inside), on the table (surface).",
+       "Between = two things. Among = more than two. Since = point in time. For = period of time.",
+       "Fixed pairs: good at, fond of, afraid of, accused of, suffering from, married to, interested in, congratulate on, prefer X to Y, senior to, junior to, angry with a person / at a thing.",
+       "By = agent or deadline (by 5 pm). With = instrument (cut with a knife)."
+      ],
+      "examples": [
+       {
+        "q": "She is fond ___ music.",
+        "a": "of",
+        "s": "Fond of."
+       },
+       {
+        "q": "He was born ___ 15 August 1990.",
+        "a": "on",
+        "s": "On with dates."
+       },
+       {
+        "q": "They divided the sweets ___ the three children.",
+        "a": "among",
+        "s": "More than two."
+       },
+       {
+        "q": "He congratulated me ___ my success.",
+        "a": "on",
+        "s": "Congratulate on."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM 'The Preposition': exercises (about 40 sentences)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Prepositions",
+         "n": 9,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Error spotting method",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Spotting Errors': read the full method and rules",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Revise concord, tense, pronoun and preposition chapters quickly",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Read the sentence in its four parts. Most errors are in ONE of these: subject-verb agreement, tense, preposition, article, pronoun case, adjective/adverb, word order.",
+       "Check each part in this order: verb with subject, tense clue words (yesterday, since), preposition after the verb, article before the noun.",
+       "'Less' for uncountable (less water), 'fewer' for countable (fewer people). 'Many' countable, 'much' uncountable.",
+       "'Each other' for two, 'one another' for more than two. 'Neither' for two, 'none' for more.",
+       "No double comparison: not 'more better' or 'most unkindest'.",
+       "If every part seems right, the answer is usually 'No error' (about 1 in 5 questions)."
+      ],
+      "examples": [
+       {
+        "q": "Find the error: 'He is (a) more taller (b) than his brother (c).'",
+        "a": "'more taller'",
+        "s": "Double comparison. Use 'taller'."
+       },
+       {
+        "q": "Find the error: 'Neither of the boys (a) have finished (b) their homework (c).'",
+        "a": "'have'",
+        "s": "'Neither' is singular, so 'has'."
+       },
+       {
+        "q": "Find the error: 'She has been working (a) here since (b) five years (c).'",
+        "a": "'since'",
+        "s": "'For' goes with a period."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "SB 'Spotting Errors': 40 sentences, 40 seconds each."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Error Spotting",
+         "n": 8,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: Indian Polity II (Union and State government)",
+    "parts": [
+     {
+      "name": "Part 1: President, Vice-President, PM and Council of Ministers",
+      "read": [
+       {
+        "book": "M. Laxmikanth, Indian Polity",
+        "where": "Chapters 'President', 'Vice-President', 'Prime Minister', 'Central Council of Ministers'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 11, Indian Constitution at Work",
+        "where": "Chapter 4 'Executive' (free at ncert.nic.in)",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "President: Article 52. Elected by an electoral college (Art 54) of elected MPs and MLAs. Minimum age 35. Term 5 years. Oath by the Chief Justice of India.",
+       "Vice-President: Article 63. Ex-officio Chairman of Rajya Sabha (Art 64). Elected by members of both Houses (Art 66).",
+       "PM: Article 75. Appointed by the President; leader of the majority party in Lok Sabha. Council of Ministers is collectively responsible to Lok Sabha (Art 75(3)).",
+       "President can issue ordinances (Art 123) when Parliament is not in session; they must be approved within 6 weeks of reassembly.",
+       "Emergencies: Art 352 National, Art 356 President's Rule in a State, Art 360 Financial.",
+       "Pardoning power of the President: Art 72."
+      ],
+      "examples": [
+       {
+        "q": "Who administers the President's oath?",
+        "a": "Chief Justice of India",
+        "s": ""
+       },
+       {
+        "q": "Which Article gives the President power to make ordinances?",
+        "a": "Article 123",
+        "s": ""
+       },
+       {
+        "q": "To whom is the Council of Ministers collectively responsible?",
+        "a": "Lok Sabha",
+        "s": ""
+       },
+       {
+        "q": "Minimum age to be President?",
+        "a": "35 years",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a one-page chart",
+        "book": "Columns: Post / Article / Elected by / Term / Minimum age / Oath by. Fill from the notes and cover and recite."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Polity",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Parliament and the Judiciary",
+      "read": [
+       {
+        "book": "M. Laxmikanth, Indian Polity",
+        "where": "Chapters 'Parliament', 'Parliamentary Committees' (skim), 'Supreme Court', 'High Court'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 11, Indian Constitution at Work",
+        "where": "Chapters 5 'Legislature' and 6 'Judiciary'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Lok Sabha: maximum 550 (530 States + 20 UTs); term 5 years; Speaker elected by its members. Rajya Sabha: maximum 250 (238 elected + 12 nominated); permanent House; one-third retire every 2 years; Vice-President is its Chairman.",
+       "Money Bill: introduced only in Lok Sabha (Art 110). Rajya Sabha can only recommend changes within 14 days.",
+       "Joint sitting (Art 108) presided over by the Speaker. Never used for a Money Bill or Constitutional amendment.",
+       "Supreme Court: Art 124; retirement age 65; original, appellate, advisory (Art 143) jurisdiction. High Courts: Art 214; retirement age 62.",
+       "Judges are removed by impeachment: a special majority in both Houses.",
+       "Public Interest Litigation (PIL): introduced by the Supreme Court; any citizen can file."
+      ],
+      "examples": [
+       {
+        "q": "Where can a Money Bill be introduced?",
+        "a": "Lok Sabha only",
+        "s": ""
+       },
+       {
+        "q": "Maximum strength of Rajya Sabha?",
+        "a": "250",
+        "s": ""
+       },
+       {
+        "q": "Retirement age of Supreme Court judges?",
+        "a": "65 years",
+        "s": ""
+       },
+       {
+        "q": "Which Article allows the President to take the Supreme Court's advice?",
+        "a": "Article 143",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a chart",
+        "book": "Lok Sabha vs Rajya Sabha: strength, term, presiding officer, special powers."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Polity",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: State government and Panchayati Raj",
+      "read": [
+       {
+        "book": "M. Laxmikanth, Indian Polity",
+        "where": "Chapters 'Governor', 'Chief Minister', 'State Legislature', 'Panchayati Raj'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 11, Indian Constitution at Work",
+        "where": "Chapter 8 'Local Governments'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Governor: Art 153. Appointed by the President; 5-year term; must be 35 or older. Chief Minister is appointed by the Governor and is collectively responsible to the Legislative Assembly (Art 164).",
+       "Governor's discretionary powers: reserving a Bill for the President (Art 200), recommending President's Rule (Art 356).",
+       "State legislature: Legislative Assembly (60 to 500 members), Legislative Council in 6 states (Andhra Pradesh, Telangana, Bihar, Karnataka, Maharashtra, Uttar Pradesh).",
+       "Panchayati Raj: 73rd Amendment 1992, in force 1993, Part IX, Articles 243 to 243O, 11th Schedule. Three tiers: Gram Panchayat, Panchayat Samiti, Zila Parishad. 5-year term; reservation for women (one-third).",
+       "Municipalities: 74th Amendment, Part IXA, 12th Schedule.",
+       "Balwant Rai Mehta Committee (1957) recommended a three-tier Panchayati Raj."
+      ],
+      "examples": [
+       {
+        "q": "Which Amendment gave constitutional status to Panchayati Raj?",
+        "a": "73rd Amendment",
+        "s": ""
+       },
+       {
+        "q": "Which Article deals with President's Rule in a State?",
+        "a": "Article 356",
+        "s": ""
+       },
+       {
+        "q": "Which Schedule lists Panchayat subjects?",
+        "a": "11th Schedule",
+        "s": ""
+       },
+       {
+        "q": "Who appoints the Chief Minister?",
+        "a": "The Governor",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a chart",
+        "book": "73rd vs 74th Amendment: part, articles, schedule, bodies."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Polity",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "p1-w3": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Interest"
+   ],
+   "reasoning": [
+    "Blood Relations",
+    "Direction Sense"
+   ],
+   "english": [
+    "Synonyms",
+    "Antonyms"
+   ],
+   "ga": [
+    "History"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Simple and compound interest",
+    "parts": [
+     {
+      "name": "Part 1: Simple interest",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Simple Interest': theory and solved examples",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Simple Interest': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "SI = P × R × T / 100. Amount A = P + SI = P(1 + RT/100). T is in years; convert months (9 months = 0.75).",
+       "A sum becomes double at SI in 100/R years, triple in 200/R years.",
+       "If the same sum is lent to two persons at different rates, add the separate interests: SI total = P × (R1 T1 + R2 T2)/100.",
+       "Banker's tip: for 1 year, 10% of P is P/10; for 2 years at 5%, it is also P/10."
+      ],
+      "examples": [
+       {
+        "q": "Find the simple interest on ₹6,000 at 8% for 3 years.",
+        "a": "₹1,440",
+        "s": "6,000 × 8 × 3 / 100 = 1,440."
+       },
+       {
+        "q": "At what rate does ₹5,000 become ₹6,200 in 4 years (SI)?",
+        "a": "6%",
+        "s": "SI = 1,200 = 5,000 × R × 4 / 100, so R = 6."
+       },
+       {
+        "q": "In how many years does a sum double at 12.5% SI?",
+        "a": "8 years",
+        "s": "100 / 12.5 = 8."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Simple Interest': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Simple Interest': 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Interest",
+         "n": 20,
+         "min": 15,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Compound interest",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Compound Interest'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Compound Interest': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Amount A = P (1 + R/100)^T. CI = A − P.",
+       "Half-yearly: rate R/2, time 2T. Quarterly: rate R/4, time 4T.",
+       "CI − SI for 2 years = P (R/100)². For 3 years = P (R/100)² (3 + R/100).",
+       "Memorise the multipliers: 10% two years = 1.21; 20% two years = 1.44; 5% two years = 1.1025; 10% three years = 1.331."
+      ],
+      "examples": [
+       {
+        "q": "Find CI on ₹10,000 at 10% for 2 years.",
+        "a": "₹2,100",
+        "s": "10,000 × 1.21 = 12,100; CI = 2,100."
+       },
+       {
+        "q": "Difference between CI and SI on ₹8,000 at 5% for 2 years?",
+        "a": "₹20",
+        "s": "8,000 × (5/100)² = 20."
+       },
+       {
+        "q": "CI on ₹16,000 at 10% per annum, compounded half-yearly, for 1 year?",
+        "a": "₹1,640",
+        "s": "Rate 5% for 2 periods: 16,000 × 1.1025 = 17,640; CI = 1,640."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Compound Interest': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Compound Interest': 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Interest",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Mixed SI and CI problems",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Mixed exercises in both chapters",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Both chapters: questions 11 to 30",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Instalments: if a loan is repaid in equal instalments with SI, set total repaid = P + SI.",
+       "A sum invested in two parts at different rates for the same time: use the alligation rule on the rates.",
+       "In 'sum becomes N times', for CI use the multiplier method: if it doubles in 3 years at CI, then in 6 years it becomes 4 times.",
+       "Population and depreciation use the same CI formulas (depreciation: use the minus sign)."
+      ],
+      "examples": [
+       {
+        "q": "A sum doubles in 5 years at CI. In how many years does it become 8 times?",
+        "a": "15 years",
+        "s": "Doubling every 5 years: 2 → 4 → 8 takes 3 × 5 = 15 years."
+       },
+       {
+        "q": "A machine of ₹40,000 depreciates 10% a year. Value after 2 years?",
+        "a": "₹32,400",
+        "s": "40,000 × 0.9 × 0.9 = 32,400."
+       },
+       {
+        "q": "Find SI on ₹4,500 for 8 months at 9%.",
+        "a": "₹270",
+        "s": "4,500 × 9 × (8/12) / 100 = 270."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA: next 30 questions of the harder exercises in both chapters."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM: 20 questions mixed."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Interest",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Blood relations and direction sense",
+    "parts": [
+     {
+      "name": "Part 1: Blood relations (basic)",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Blood Relations': theory and first exercise",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Blood Relations': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Draw a family tree. Use □ for male, ○ for female, = for married, vertical lines for children.",
+       "Mother's brother = maternal uncle. Father's brother = paternal uncle (chacha/tau). Mother's sister = maternal aunt (mausi). Father's sister = paternal aunt (bua).",
+       "Father's father = paternal grandfather. Mother's father = maternal grandfather. Brother's wife = sister-in-law. Wife's brother = brother-in-law.",
+       "Son of mother's brother or sister = cousin. Wife's mother = mother-in-law.",
+       "When a sentence says 'my father's only son', that is the speaker himself (if male)."
+      ],
+      "examples": [
+       {
+        "q": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+        "a": "Granddaughter",
+        "s": "C is A's mother; D is C's father, so D is A's grandfather."
+       },
+       {
+        "q": "Pointing to a lady, a man says, 'Her son is my son's maternal uncle.' How is the lady related to the man?",
+        "a": "Mother-in-law",
+        "s": "Her son is the brother of the man's wife, so she is the wife's mother."
+       },
+       {
+        "q": "A is brother of B, B is sister of C, C is father of D. How is A related to D?",
+        "a": "Uncle",
+        "s": "A is C's brother, so D's uncle."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV 'Blood Relations': 30 questions, drawing a tree for each."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Blood Relations",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Blood relations (coded)",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Blood Relations': coded relation exercises",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Questions 16 to 35 of the chapter",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "In coded relations, write each symbol's meaning at the top and rewrite the statement as a chain.",
+       "Example code: A + B = A is mother of B; A − B = A is brother of B; A × B = A is father of B.",
+       "Convert to a family tree before answering, never guess from the symbols."
+      ],
+      "examples": [
+       {
+        "q": "A + B means A is mother of B; A − B means A is brother of B; A × B means A is father of B. What does P × Q − R mean?",
+        "a": "P is father of R",
+        "s": "P is father of Q; Q is brother of R, so P is also R's father."
+       },
+       {
+        "q": "With the same code, what does P + Q × R mean?",
+        "a": "P is grandmother of R",
+        "s": "P is mother of Q; Q is father of R."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV: 20 coded blood-relation questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 15 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Blood Relations",
+         "n": 15,
+         "min": 12,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Direction sense",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Direction Sense Test'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Direction Sense Test': first 20 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Draw a map from the starting point. Take north as up. A right turn from north is east; from east is south.",
+       "Shortest distance = √(a² + b²) for perpendicular legs. Learn triples: 3-4-5, 5-12-13, 8-15-17.",
+       "In the morning the shadow falls to the west; in the evening to the east (the Sun is in the east in the morning).",
+       "Left turn rotates 90° anticlockwise. Facing north and turning right then left then left ends facing west."
+      ],
+      "examples": [
+       {
+        "q": "A man walks 5 km north and then 12 km east. How far is he from the start?",
+        "a": "13 km",
+        "s": "√(5² + 12²) = 13."
+       },
+       {
+        "q": "Facing north, you turn right, then left, then left. Which way do you face?",
+        "a": "West",
+        "s": "North → East → North → West."
+       },
+       {
+        "q": "Rahul goes 10 m south, turns left and walks 20 m, then turns left and walks 10 m. Where is he from the start?",
+        "a": "20 m east",
+        "s": "South 10, east 20, north 10 brings him level with the start, 20 m east."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV 'Direction Sense': 30 questions with a sketch for each."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Direction Sense",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Synonyms and antonyms (15 words a day)",
+    "parts": [
+     {
+      "name": "Part 1: Words A (abate to adhere)",
+      "read": [
+       {
+        "book": "Norman Lewis, Word Power Made Easy",
+        "where": "Read the next 2 chapters at a slow pace and underline new words",
+        "why": ""
+       },
+       {
+        "book": "Neetu Singh, English for General Competitions (Kiran)",
+        "where": "Vocabulary chapter: the matching word list",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Learn 15 words with meanings. Write each on a card (word on the front, meaning and a sentence on the back). Revise cards the next morning.",
+       "abate: lessen",
+       "abdicate: give up a throne or duty",
+       "aberration: a departure from the normal",
+       "abhor: hate strongly",
+       "abject: miserable",
+       "abolish: end officially",
+       "abrupt: sudden",
+       "absolve: free from blame",
+       "abstain: hold back from",
+       "abundant: plentiful",
+       "accomplice: partner in a crime",
+       "acquit: declare not guilty",
+       "adamant: firm, unyielding",
+       "adept: skilled",
+       "adhere: stick to",
+       "Method: say the word, give a synonym, then an antonym, then use it in a sentence."
+      ],
+      "examples": [
+       {
+        "q": "Synonym of 'abate'?",
+        "a": "decrease",
+        "s": "Abate means lessen."
+       },
+       {
+        "q": "Antonym of 'abundant'?",
+        "a": "scarce",
+        "s": "Abundant means plentiful."
+       },
+       {
+        "q": "Synonym of 'adamant'?",
+        "a": "stubborn / firm",
+        "s": "Adamant means unyielding."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Flashcards, 20 minutes",
+        "book": "Write the 15 words on cards. Test yourself twice today and once tomorrow."
+       },
+       {
+        "label": "Book practice, 20 minutes",
+        "book": "Neetu Singh (Kiran) vocabulary exercises on these words, or 20 synonym/antonym questions from the book."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Synonyms",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Antonyms",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Words B (adversary to benign)",
+      "read": [
+       {
+        "book": "Norman Lewis, Word Power Made Easy",
+        "where": "Read the next 2 chapters at a slow pace and underline new words",
+        "why": ""
+       },
+       {
+        "book": "Neetu Singh, English for General Competitions (Kiran)",
+        "where": "Vocabulary chapter: the matching word list",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Learn 15 words with meanings. Write each on a card (word on the front, meaning and a sentence on the back). Revise cards the next morning.",
+       "adversary: opponent",
+       "affluent: wealthy",
+       "alleviate: relieve",
+       "ambiguous: unclear, two meanings",
+       "ameliorate: improve",
+       "anonymous: with no name given",
+       "antagonist: opponent",
+       "apathy: lack of interest",
+       "arrogant: proud, overbearing",
+       "audacious: bold",
+       "austere: strict, plain",
+       "authentic: genuine",
+       "banish: send away, exile",
+       "barren: unproductive",
+       "benign: harmless, kind",
+       "Method: say the word, give a synonym, then an antonym, then use it in a sentence."
+      ],
+      "examples": [
+       {
+        "q": "Synonym of 'adversary'?",
+        "a": "opponent",
+        "s": "Someone you compete or fight against."
+       },
+       {
+        "q": "Antonym of 'benign'?",
+        "a": "harmful",
+        "s": "Benign means kind or harmless."
+       },
+       {
+        "q": "Synonym of 'ameliorate'?",
+        "a": "improve",
+        "s": "Make better."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Flashcards, 20 minutes",
+        "book": "Write the 15 words on cards. Test yourself twice today and once tomorrow."
+       },
+       {
+        "label": "Book practice, 20 minutes",
+        "book": "Neetu Singh (Kiran) vocabulary exercises on these words, or 20 synonym/antonym questions from the book."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Synonyms",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Antonyms",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Words C (bewilder to concise)",
+      "read": [
+       {
+        "book": "Norman Lewis, Word Power Made Easy",
+        "where": "Read the next 2 chapters at a slow pace and underline new words",
+        "why": ""
+       },
+       {
+        "book": "Neetu Singh, English for General Competitions (Kiran)",
+        "where": "Vocabulary chapter: the matching word list",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Learn 15 words with meanings. Write each on a card (word on the front, meaning and a sentence on the back). Revise cards the next morning.",
+       "bewilder: confuse",
+       "blunt: frank; not sharp",
+       "bogus: fake",
+       "brevity: shortness",
+       "brittle: easily broken",
+       "callous: insensitive",
+       "candid: honest, frank",
+       "catastrophe: disaster",
+       "censure: criticise strongly",
+       "chaos: disorder",
+       "clemency: mercy",
+       "coerce: force",
+       "commence: begin",
+       "compassion: pity, sympathy",
+       "concise: brief and clear",
+       "Method: say the word, give a synonym, then an antonym, then use it in a sentence."
+      ],
+      "examples": [
+       {
+        "q": "Synonym of 'commence'?",
+        "a": "begin",
+        "s": "Start."
+       },
+       {
+        "q": "Antonym of 'candid'?",
+        "a": "secretive / evasive",
+        "s": "Candid means frank."
+       },
+       {
+        "q": "Synonym of 'clemency'?",
+        "a": "mercy",
+        "s": "Leniency."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Flashcards, 20 minutes",
+        "book": "Write the 15 words on cards. Test yourself twice today and once tomorrow."
+       },
+       {
+        "label": "Book practice, 20 minutes",
+        "book": "Neetu Singh (Kiran) vocabulary exercises on these words, or 20 synonym/antonym questions from the book."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Synonyms",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Antonyms",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: Modern History I (1757 to 1947)",
+    "parts": [
+     {
+      "name": "Part 1: Company rule to the Revolt of 1857",
+      "read": [
+       {
+        "book": "Spectrum, A Brief History of Modern India",
+        "where": "Chapters on 'Advent of Europeans', 'Expansion of British Power', 'Revolt of 1857'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 8, Our Pasts III (History)",
+        "where": "Chapters 1 to 6, quick read (free at ncert.nic.in)",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Battle of Plassey 23 June 1757: Robert Clive beat Siraj-ud-Daulah. Battle of Buxar 22 Oct 1764: Hector Munro beat Mir Qasim, Shuja-ud-Daulah and Shah Alam II. Treaty of Allahabad 1765: Diwani of Bengal, Bihar and Orissa to the Company.",
+       "Subsidiary Alliance (Wellesley): Hyderabad first (1798). Doctrine of Lapse (Dalhousie): Satara first (1848), then Jhansi, Nagpur.",
+       "Land revenue: Permanent Settlement 1793 (Cornwallis, zamindars). Ryotwari (Thomas Munro, Madras). Mahalwari (Holt Mackenzie, 1822, North-West).",
+       "Revolt of 1857: started at Meerut on 10 May 1857. Leaders: Bahadur Shah Zafar (Delhi), Nana Sahib (Kanpur), Rani Lakshmibai (Jhansi), Begum Hazrat Mahal (Lucknow), Kunwar Singh (Bihar). Lord Canning was Governor-General.",
+       "After 1857: Government of India Act 1858 ended Company rule. Queen's Proclamation 1 Nov 1858. Canning became the first Viceroy."
+      ],
+      "examples": [
+       {
+        "q": "Where did the Revolt of 1857 begin?",
+        "a": "Meerut",
+        "s": ""
+       },
+       {
+        "q": "Who started the Subsidiary Alliance?",
+        "a": "Lord Wellesley",
+        "s": ""
+       },
+       {
+        "q": "Which Act ended Company rule?",
+        "a": "Government of India Act 1858",
+        "s": ""
+       },
+       {
+        "q": "Who was the first Viceroy?",
+        "a": "Lord Canning",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a timeline",
+        "book": "Write 1757, 1764, 1765, 1793, 1798, 1848, 1857, 1858 with one line each. Recite twice."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "History",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Reform movements and the Congress",
+      "read": [
+       {
+        "book": "Spectrum, A Brief History of Modern India",
+        "where": "Chapters 'Socio-Religious Reform Movements' and 'Early Nationalists / Moderates and Extremists'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 8, Our Pasts III",
+        "where": "Chapter on 'Women, Caste and Reform'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Brahmo Samaj 1828 (Raja Ram Mohan Roy; sati banned 1829 under Bentinck). Arya Samaj 1875 (Dayanand Saraswati). Ramakrishna Mission 1897 (Vivekananda). Satyashodhak Samaj 1873 (Jyotiba Phule). Prarthana Samaj 1867 (Atmaram Pandurang). Aligarh movement: Sir Syed Ahmad Khan, MAO College 1875.",
+       "INC founded Dec 1885 in Bombay; A. O. Hume; first president W. C. Bonnerjee. Moderates: Dadabhai Naoroji, Gokhale. Extremists: Lal-Bal-Pal.",
+       "Partition of Bengal Oct 1905 (Curzon) led to Swadeshi. Muslim League founded 1906 at Dhaka. Surat split 1907. Morley-Minto Reforms 1909 introduced separate electorates. Delhi Durbar 1911: capital moved from Calcutta to Delhi."
+      ],
+      "examples": [
+       {
+        "q": "Who founded the Brahmo Samaj?",
+        "a": "Raja Ram Mohan Roy (1828)",
+        "s": ""
+       },
+       {
+        "q": "Who founded the Arya Samaj?",
+        "a": "Swami Dayanand Saraswati (1875)",
+        "s": ""
+       },
+       {
+        "q": "Who was the first Congress president?",
+        "a": "W. C. Bonnerjee",
+        "s": ""
+       },
+       {
+        "q": "Which reform introduced separate electorates?",
+        "a": "Morley-Minto Reforms 1909",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "Organisation / Year / Founder, 8 rows from the notes. Cover and recall."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "History",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: The Gandhian era to Independence",
+      "read": [
+       {
+        "book": "Spectrum, A Brief History of Modern India",
+        "where": "Chapters on 'Gandhian Phase', 'Civil Disobedience', 'Quit India', 'Towards Independence'",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 12, Themes in Indian History III",
+        "where": "Chapter 'Mahatma Gandhi and the Nationalist Movement' (free at ncert.nic.in)",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Gandhi returned 1915. Champaran 1917, Ahmedabad mill strike 1918, Kheda 1918. Rowlatt Act 1919. Jallianwala Bagh 13 Apr 1919.",
+       "Non-Cooperation 1920-22 (withdrawn after Chauri Chaura 1922). Simon Commission 1928. Purna Swaraj resolution Lahore Dec 1929. Dandi March 12 Mar 1930. Gandhi-Irwin Pact 1931. Poona Pact 1932 (Gandhi and Ambedkar). Government of India Act 1935.",
+       "Cripps Mission 1942. Quit India 8 Aug 1942 ('Do or Die'). INA led by Subhas Chandra Bose from 1943. Cabinet Mission 1946. Mountbatten Plan 3 June 1947. Indian Independence Act July 1947. Independence 15 Aug 1947."
+      ],
+      "examples": [
+       {
+        "q": "In which year was the Dandi March?",
+        "a": "1930",
+        "s": ""
+       },
+       {
+        "q": "Which pact settled seats for the Depressed Classes?",
+        "a": "Poona Pact 1932",
+        "s": ""
+       },
+       {
+        "q": "Which mission came in 1946?",
+        "a": "Cabinet Mission",
+        "s": ""
+       },
+       {
+        "q": "When was the Quit India Movement launched?",
+        "a": "8 August 1942",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a timeline",
+        "book": "1915 to 1947 with 15 events. Recite twice."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "History",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}
