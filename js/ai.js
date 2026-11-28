@@ -23,3 +23,19 @@ Return JSON: {"questions":[{"q":"...","o":["A","B","C","D"],"a":0,"e":"...","t":
   const known = new Set(bankAI.map(x => x.id)); store.set('ai-bank', [...made.filter(m => !known.has(m.id)), ...bankAI].slice(0, 800)); resetBank();
   return made;
 }
+export async function aiChat({ system, messages, image }) {
+  const key = settings.get('geminiKey'); if (!key) throw new Error('Add your free Gemini key in More → Settings first.');
+  const model = settings.get('geminiModel') || 'gemini-2.5-flash';
+  const contents = messages.map((m, i) => {
+    const parts = [{ text: m.text }];
+    if (image && i === messages.length - 1 && m.role === 'user') parts.push({ inlineData: { mimeType: image.mime, data: image.data } });
+    return { role: m.role === 'user' ? 'user' : 'model', parts };
+  });
+  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
+    body: JSON.stringify({ systemInstruction: { parts: [{ text: system }] }, contents, generationConfig: { temperature: 0.5 } })
+  });
+  if (!r.ok) { let m = ''; try { m = (await r.json()).error.message; } catch { } throw new Error('AI error ' + r.status + ' ' + m.slice(0, 160)); }
+  const j = await r.json(); const t = j.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '';
+  if (!t) throw new Error('The tutor returned no answer. Try again.'); return t;
+}

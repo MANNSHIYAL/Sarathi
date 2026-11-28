@@ -3,7 +3,7 @@ import { settings } from './store.js';
 const routes = {
   home: () => import('./views/home.js'), mock: () => import('./views/mock.js'), practice: () => import('./views/practice.js'),
   news: () => import('./views/news.js'), more: () => import('./views/more.js'), result: () => import('./views/result.js'),
-  exam: () => import('./exam.js')
+  exam: () => import('./exam.js'), tutor: () => import('./views/tutor.js'), dest: () => import('./views/dest.js')
 };
 let cleanup = null;
 async function route() {
@@ -11,7 +11,7 @@ async function route() {
   const key = routes[name] ? name : 'home';
   if (cleanup) { try { cleanup(); } catch { } cleanup = null; }
   document.body.classList.toggle('exam-mode', key === 'exam');
-  $$('#tabbar a').forEach(a => a.classList.toggle('on', a.dataset.t === (key === 'exam' || key === 'result' ? 'mock' : key)));
+  $$('#tabbar a').forEach(a => a.classList.toggle('on', a.dataset.t === (key === 'exam' || key === 'result' || key === 'dest' ? 'mock' : key)));
   const app = $('#app'); app.innerHTML = '<p class="sub">Loading…</p>';
   try {
     const mod = await routes[key]();

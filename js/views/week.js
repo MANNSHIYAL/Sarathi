@@ -1,7 +1,7 @@
 import { esc, $, $$, toast, getJSON } from '../util.js';
 import { store } from '../store.js';
 import { buildPlan } from './more.js';
-import { loadBooks, bookLinks } from '../books.js';
+import { loadBooks, bookLinks, freeLinks, myLinksHtml, bindMyLinks } from '../books.js';
 import { pickQuestions, customPaper } from '../data.js';
 import { startExam } from '../exam.js';
 
@@ -36,7 +36,7 @@ export async function render(app, [, num]) {
   if (!L) {
     app.innerHTML = `${back}<h1>Week ${n} · ${esc(w.phase)}</h1><p class="sub">${esc(w.goal)}</p>
     <div class="note">The full day-by-day lesson for this week is not written yet. It is being added week by week. Until then, use the topics and books below.</div>
-    <div class="card"><div class="sub">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, nm]) => `<b>${nm}:</b> ${esc(w.w[k])}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}${bookLinks(x)}</div>`).join('')}`).join('<br>')}</div></div>`;
+    <div class="card"><div class="sub">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, nm]) => `<b>${nm}:</b> ${esc(w.w[k])}${freeLinks(w.w[k], k)}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}${bookLinks(x)}</div>`).join('')}`).join('<br>')}</div></div>`;
     return;
   }
   const drawDay = () => {
@@ -45,8 +45,8 @@ export async function render(app, [, num]) {
       const U = L.units[k], P = U.parts[p]; const id = s => `${w.key}:${p}:${k}:${s}`; let cnt = 0, tot = 0;
       const chk = (kk) => { tot++; const on = !!done()[kk]; if (on) cnt++; return `<input type="checkbox" data-ck="${kk}" ${on ? 'checked' : ''} style="width:20px;height:20px;margin:2px 10px 0 0;flex:none">`; };
       const html = `
-      <h4 class="bh">📖 Read</h4>${P.read.map((r, i) => `<div class="row" style="align-items:flex-start;padding:4px 0">${chk(id('r' + i))}<div><b>${esc(r.book)}</b><div class="sub" style="margin:0">${esc(r.where)}</div>${bookLinks(r.book + ' ' + r.where)}</div></div>`).join('')}
-      <h4 class="bh">🧠 Notes to learn</h4><ul class="kp">${P.notes.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
+      <a class="btn sm" href="#/tutor/week/${n}/${k}/${p}" style="margin:6px 0">🎓 Ask AI tutor to teach this part</a><h4 class="bh">📖 Read</h4>${P.read.map((r, i) => `<div class="row" style="align-items:flex-start;padding:4px 0">${chk(id('r' + i))}<div><b>${esc(r.book)}</b><div class="sub" style="margin:0">${esc(r.where)}</div>${bookLinks(r.book + ' ' + r.where)}</div></div>`).join('')}
+      <div style="margin:4px 0"><div class="sub" style="margin:0">Free resources for this part:</div>${freeLinks(U.title + ' ' + P.name, k)}${myLinksHtml(w.key + ':' + k + ':' + p)}</div><h4 class="bh">🧠 Notes to learn</h4><ul class="kp">${P.notes.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
       <h4 class="bh">✏️ Worked examples (try first, then tap)</h4>${P.examples.map(e => `<details class="ex"><summary>${esc(e.q)}</summary><div class="expl"><b>Answer: ${esc(e.a)}</b>${e.s ? '<br>' + esc(e.s) : ''}</div></details>`).join('')}
       <h4 class="bh">🎯 Solve exactly this</h4>${P.solve.map((s, i) => `<div class="row" style="align-items:flex-start;padding:5px 0">${chk(id('s' + i))}<div class="sp"><b>${esc(s.label)}</b>${s.book ? `<div class="sub" style="margin:0">${esc(s.book)}</div>${bookLinks(s.book)}` : ''}${s.drill ? `<div class="sub" style="margin:0">${s.drill.n} questions in ${s.drill.min} min. Target: ${esc(s.drill.target)} accuracy.</div><button class="btn sm" data-dr='${esc(JSON.stringify(s.drill))}' style="margin-top:4px">Start in app</button>` : ''}</div></div>`).join('')}`;
       return `<details class="card" open><summary style="cursor:pointer"><b>${esc(SUB[k][0])}</b> · ${esc(P.name)} <span class="chip" data-cnt="${k}${p}"></span></summary>${html}</details>`.replace('data-cnt', `data-t="${tot}" data-c="${cnt}" data-cnt`);
@@ -59,6 +59,7 @@ export async function render(app, [, num]) {
     $('#wkbody').innerHTML = body;
     $$('#wkbody [data-t]').forEach(c => c.textContent = c.dataset.c + '/' + c.dataset.t);
     $$('[data-ck]').forEach(c => c.onchange = () => { tick(c.dataset.ck); drawDay(); });
+    bindMyLinks($('#wkbody'), drawDay);
     $$('[data-dr]').forEach(b => b.onclick = () => startDrill(JSON.parse(b.dataset.dr)));
     const wt = $('#wt'); if (wt) wt.onclick = async () => { wt.disabled = true; wt.textContent = 'Preparing…'; await weeklyTest(L, n); };
     $$('#dtabs button').forEach((b, i) => b.classList.toggle('on', i === day));

@@ -15,3 +15,9 @@
 ## Request 3, Step B (weeks 4-5): DONE
 - data/lessons/p1.json now has p1-w1..w5. Next: Step C (AI tutor), then p1-w6..w8, p2, p3, p4 lessons.
 - Added tools/lessons/p1_w4.py, p1_w5.py; bank topics and generators for weeks 4-5.
+
+## Request 4 (29 Nov): steps
+- Step 1 DONE: Data entry test (#/dest, js/views/dest.js, data/dest.json, card on Mocks tab, sw v5).
+- Step 2 DONE: AI tutor (#/tutor, js/views/tutor.js, aiChat in js/ai.js, 'Ask AI tutor' button in each lesson part, More menu entry, sw v6).
+- Step 3 DONE: free-resource chips (video/notes/practice/NCERT, search links) + 'My links' add/remove per lesson part and per plan week (js/books.js freeLinks, myLinksHtml, bindMyLinks; stored in 'mylinks'). Existing Buy/Borrow links unchanged. sw v7.
+- Then lessons p1-w6.. onward.
