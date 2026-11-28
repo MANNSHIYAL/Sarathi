@@ -3626,6 +3626,1042 @@
 ],
 "a": 0,
 "e": "The sentence is correct."
+},
+{
+"id": "en-0d76be3e",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"She wrote a letter.\"",
+"o": [
+"A letter was written by her.",
+"A letter is written by her.",
+"A letter has been written by her.",
+"A letter was being written by her."
+],
+"a": 0,
+"e": "Simple past: was/were + V3."
+},
+{
+"id": "en-8f801fb9",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"Open the door.\"",
+"o": [
+"Let the door be opened.",
+"The door is opened.",
+"The door was opened.",
+"Door should open."
+],
+"a": 0,
+"e": "Imperative: Let + object + be + V3."
+},
+{
+"id": "en-2f4cff9d",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"The police arrested the thief.\"",
+"o": [
+"The thief was arrested by the police.",
+"The thief is arrested by the police.",
+"The thief had arrested the police.",
+"The thief was being arrested by police."
+],
+"a": 0,
+"e": "Simple past passive."
+},
+{
+"id": "en-00b90eb1",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"Who wrote this book?\"",
+"o": [
+"By whom was this book written?",
+"Who was this book written?",
+"By whom is this book written?",
+"Whom was this book written by?"
+],
+"a": 0,
+"e": "\"Who\" becomes \"By whom\" in the passive."
+},
+{
+"id": "en-6c54313e",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"They have completed the work.\"",
+"o": [
+"The work has been completed by them.",
+"The work was completed by them.",
+"The work had been completed by them.",
+"The work is completed by them."
+],
+"a": 0,
+"e": "Present perfect: has/have been + V3."
+},
+{
+"id": "en-e02dfeaa",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"The boy is flying a kite.\"",
+"o": [
+"A kite is being flown by the boy.",
+"A kite is flown by the boy.",
+"A kite was being flown by the boy.",
+"A kite has been flown by the boy."
+],
+"a": 0,
+"e": "Present continuous: is/are being + V3."
+},
+{
+"id": "en-218e2cf3",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"He will finish the work tomorrow.\"",
+"o": [
+"The work will be finished by him tomorrow.",
+"The work would be finished by him tomorrow.",
+"The work will have been finished by him tomorrow.",
+"The work is finished by him tomorrow."
+],
+"a": 0,
+"e": "Future: will be + V3."
+},
+{
+"id": "en-23c5e590",
+"s": "english",
+"t": "Voice",
+"q": "Change to passive voice: \"I know him.\"",
+"o": [
+"He is known to me.",
+"He is known by me.",
+"He was known to me.",
+"I am known to him."
+],
+"a": 0,
+"e": "\"Know\" takes \"to\" in the passive."
+},
+{
+"id": "en-9f376656",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: He said, \"I am busy.\"",
+"o": [
+"He said that he was busy.",
+"He said that he is busy.",
+"He said that I was busy.",
+"He said that he had busy."
+],
+"a": 0,
+"e": "Present tense moves to past; pronoun changes."
+},
+{
+"id": "en-62b232b5",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: She said, \"I will go tomorrow.\"",
+"o": [
+"She said that she would go the next day.",
+"She said that she will go tomorrow.",
+"She said that she would go tomorrow.",
+"She said that she had gone the next day."
+],
+"a": 0,
+"e": "will to would; tomorrow to the next day."
+},
+{
+"id": "en-1fbde159",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: He said to me, \"What are you doing?\"",
+"o": [
+"He asked me what I was doing.",
+"He asked me what was I doing.",
+"He told me what I was doing.",
+"He asked me what am I doing."
+],
+"a": 0,
+"e": "Questions: asked + normal word order."
+},
+{
+"id": "en-297f56a1",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: The teacher said, \"The earth moves round the sun.\"",
+"o": [
+"The teacher said that the earth moves round the sun.",
+"The teacher said that the earth moved round the sun.",
+"The teacher said that the earth had moved round the sun.",
+"The teacher said that the earth would move round the sun."
+],
+"a": 0,
+"e": "A universal truth keeps the present tense."
+},
+{
+"id": "en-a2d38686",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: He said to her, \"Please wait.\"",
+"o": [
+"He requested her to wait.",
+"He told her to please wait.",
+"He asked her that she wait.",
+"He ordered her wait."
+],
+"a": 0,
+"e": "Request: requested + to + verb."
+},
+{
+"id": "en-38dc6181",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: She said, \"Alas! I am ruined.\"",
+"o": [
+"She exclaimed with sorrow that she was ruined.",
+"She said alas that she is ruined.",
+"She told alas that she was ruined.",
+"She exclaimed that alas she was ruined."
+],
+"a": 0,
+"e": "Exclamation: exclaimed with sorrow that."
+},
+{
+"id": "en-ff4ba19d",
+"s": "english",
+"t": "Narration",
+"q": "Change to indirect speech: He said, \"I have finished my work.\"",
+"o": [
+"He said that he had finished his work.",
+"He said that he has finished his work.",
+"He said that he finished his work.",
+"He said that I have finished my work."
+],
+"a": 0,
+"e": "Present perfect moves to past perfect."
+},
+{
+"id": "en-44e102db",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"a piece of cake\".",
+"o": [
+"Very easy",
+"A small sweet",
+"A gift",
+"A hard task"
+],
+"a": 0,
+"e": "Something very easy to do."
+},
+{
+"id": "en-3f2ef9c8",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"break the ice\".",
+"o": [
+"To start a conversation in a social setting",
+"To break something",
+"To end a talk",
+"To feel cold"
+],
+"a": 0,
+"e": "To ease the tension at the start."
+},
+{
+"id": "en-6cf8aa19",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"spill the beans\".",
+"o": [
+"To reveal a secret",
+"To waste food",
+"To cook",
+"To make a mess"
+],
+"a": 0,
+"e": "To let out a secret."
+},
+{
+"id": "en-00a35059",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"under the weather\".",
+"o": [
+"Feeling unwell",
+"In the rain",
+"Very happy",
+"Outdoors"
+],
+"a": 0,
+"e": "Slightly ill."
+},
+{
+"id": "en-a3db7e8f",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"bite the bullet\".",
+"o": [
+"To face a difficult situation bravely",
+"To eat quickly",
+"To hurt oneself",
+"To run away"
+],
+"a": 0,
+"e": "To accept something unpleasant."
+},
+{
+"id": "en-a7e3a605",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"cost an arm and a leg\".",
+"o": [
+"To be very expensive",
+"To injure oneself",
+"To be cheap",
+"To be free"
+],
+"a": 0,
+"e": "Extremely costly."
+},
+{
+"id": "en-febad547",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"let the cat out of the bag\".",
+"o": [
+"To reveal a secret by mistake",
+"To free an animal",
+"To buy a pet",
+"To hide something"
+],
+"a": 0,
+"e": "Accidentally disclose a secret."
+},
+{
+"id": "en-8992235e",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"the last straw\".",
+"o": [
+"The final provocation that makes one lose patience",
+"A drinking straw",
+"The first problem",
+"A lucky chance"
+],
+"a": 0,
+"e": "The last of many troubles."
+},
+{
+"id": "en-7c6eb942",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"add insult to injury\".",
+"o": [
+"To make a bad situation worse",
+"To hurt someone",
+"To apologise",
+"To praise"
+],
+"a": 0,
+"e": "Worsen an already bad situation."
+},
+{
+"id": "en-f1cd3883",
+"s": "english",
+"t": "Idioms",
+"q": "Meaning of the idiom \"hit the nail on the head\".",
+"o": [
+"To say exactly the right thing",
+"To damage something",
+"To work hard",
+"To make a mistake"
+],
+"a": 0,
+"e": "To be exactly right."
+},
+{
+"id": "en-82861de8",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"One who walks in sleep\".",
+"o": [
+"Somnambulist",
+"Insomniac",
+"Pedestrian",
+"Somniloquist"
+],
+"a": 0,
+"e": "Somnambulist = sleepwalker."
+},
+{
+"id": "en-d941617c",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"Murder of a king\".",
+"o": [
+"Regicide",
+"Homicide",
+"Suicide",
+"Genocide"
+],
+"a": 0,
+"e": "Regi = king."
+},
+{
+"id": "en-c8168a72",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"The study of birds\".",
+"o": [
+"Ornithology",
+"Zoology",
+"Entomology",
+"Ecology"
+],
+"a": 0,
+"e": "Ornitho = bird."
+},
+{
+"id": "en-a6dc4703",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A place where birds are kept\".",
+"o": [
+"Aviary",
+"Apiary",
+"Aquarium",
+"Nursery"
+],
+"a": 0,
+"e": "Apiary is for bees."
+},
+{
+"id": "en-3008b2ed",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"That which cannot be read\".",
+"o": [
+"Illegible",
+"Inaudible",
+"Invisible",
+"Incredible"
+],
+"a": 0,
+"e": "Cannot be read clearly."
+},
+{
+"id": "en-6e7ac63a",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"Fear of water\".",
+"o": [
+"Hydrophobia",
+"Claustrophobia",
+"Acrophobia",
+"Xenophobia"
+],
+"a": 0,
+"e": "Hydro = water."
+},
+{
+"id": "en-0732a465",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A person who loves mankind\".",
+"o": [
+"Philanthropist",
+"Misanthrope",
+"Philatelist",
+"Pedestrian"
+],
+"a": 0,
+"e": "Phil = love, anthropos = man."
+},
+{
+"id": "en-9b902e86",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A person who collects stamps\".",
+"o": [
+"Philatelist",
+"Numismatist",
+"Bibliophile",
+"Cartographer"
+],
+"a": 0,
+"e": "A numismatist collects coins."
+},
+{
+"id": "en-8770c3a5",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"Hater of mankind\".",
+"o": [
+"Misanthrope",
+"Philanthropist",
+"Optimist",
+"Egoist"
+],
+"a": 0,
+"e": "Miso = hate."
+},
+{
+"id": "en-7315ddb7",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A speech made by one person alone on stage\".",
+"o": [
+"Soliloquy",
+"Dialogue",
+"Epilogue",
+"Prologue"
+],
+"a": 0,
+"e": "Solo + loquy (speak)."
+},
+{
+"id": "en-e24dbb87",
+"s": "english",
+"t": "One Word",
+"q": "One word for \"A person who knows many languages\".",
+"o": [
+"Polyglot",
+"Bilingual",
+"Monolingual",
+"Orator"
+],
+"a": 0,
+"e": "Poly = many, glot = tongue."
+},
+{
+"id": "ga-a9bd32bc",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Great Bath of the Indus Valley Civilisation was found at:",
+"o": [
+"Mohenjo-daro",
+"Harappa",
+"Lothal",
+"Kalibangan"
+],
+"a": 0,
+"e": "In present-day Sindh, Pakistan."
+},
+{
+"id": "ga-813752ee",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The ancient dockyard of the Indus Valley Civilisation was found at:",
+"o": [
+"Lothal",
+"Harappa",
+"Kalibangan",
+"Dholavira"
+],
+"a": 0,
+"e": "Lothal is in Gujarat."
+},
+{
+"id": "ga-ac31a441",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "How many mandalas (books) does the Rigveda have?",
+"o": [
+"10",
+"8",
+"12",
+"4"
+],
+"a": 0,
+"e": "It has 1,028 hymns."
+},
+{
+"id": "ga-663d3b7b",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "Gautama Buddha gave his first sermon at:",
+"o": [
+"Sarnath",
+"Bodh Gaya",
+"Lumbini",
+"Kushinagar"
+],
+"a": 0,
+"e": "Called Dhammachakkappavattana."
+},
+{
+"id": "ga-c39441a0",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The 24th and last Tirthankara of Jainism was:",
+"o": [
+"Mahavira",
+"Parshvanatha",
+"Rishabhanatha",
+"Neminatha"
+],
+"a": 0,
+"e": "Born near Vaishali."
+},
+{
+"id": "ga-486030e6",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Kalinga war, which changed Ashoka, was fought around:",
+"o": [
+"261 BCE",
+"321 BCE",
+"185 BCE",
+"72 CE"
+],
+"a": 0,
+"e": "After it Ashoka adopted Dhamma."
+},
+{
+"id": "ga-810d3044",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Gupta period is often called the:",
+"o": [
+"Golden Age of India",
+"Dark Age",
+"Age of Reason",
+"Iron Age"
+],
+"a": 0,
+"e": "For its art, science and literature."
+},
+{
+"id": "ga-053b8e6c",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "Who wrote \"Indica\"?",
+"o": [
+"Megasthenes",
+"Fa-Hien",
+"Kalhana",
+"Banabhatta"
+],
+"a": 0,
+"e": "Greek ambassador at Chandragupta Maurya's court."
+},
+{
+"id": "ga-5a679202",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Chinese pilgrim who visited India in the time of Chandragupta II was:",
+"o": [
+"Fa-Hien",
+"Hiuen Tsang",
+"I-Tsing",
+"Marco Polo"
+],
+"a": 0,
+"e": "Hiuen Tsang came in Harsha's time."
+},
+{
+"id": "ga-e3b9603d",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "Harshacharita, the biography of Harshavardhana, was written by:",
+"o": [
+"Banabhatta",
+"Kalidasa",
+"Kalhana",
+"Bhasa"
+],
+"a": 0,
+"e": "Banabhatta was Harsha's court poet."
+},
+{
+"id": "ga-667db09d",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Brihadisvara Temple at Thanjavur was built by:",
+"o": [
+"Rajaraja I",
+"Rajendra I",
+"Karikala",
+"Vijayalaya"
+],
+"a": 0,
+"e": "A Chola temple, completed around 1010 CE."
+},
+{
+"id": "ga-cef65775",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Delhi Sultanate was founded in 1206 by:",
+"o": [
+"Qutb-ud-din Aibak",
+"Iltutmish",
+"Balban",
+"Alauddin Khilji"
+],
+"a": 0,
+"e": "Founder of the Slave (Mamluk) dynasty."
+},
+{
+"id": "ga-53295775",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "Construction of the Qutub Minar was started by:",
+"o": [
+"Qutb-ud-din Aibak",
+"Iltutmish",
+"Akbar",
+"Shah Jahan"
+],
+"a": 0,
+"e": "Iltutmish completed it."
+},
+{
+"id": "ga-d19eaa4c",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "Market (price control) reforms were introduced by:",
+"o": [
+"Alauddin Khilji",
+"Muhammad bin Tughlaq",
+"Firoz Shah Tughlaq",
+"Balban"
+],
+"a": 0,
+"e": "To support a large standing army."
+},
+{
+"id": "ga-1f5df142",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Battle of Haldighati (1576) was fought between Akbar and:",
+"o": [
+"Maharana Pratap",
+"Rana Sanga",
+"Hemu",
+"Shivaji"
+],
+"a": 0,
+"e": "Mughal forces were led by Man Singh."
+},
+{
+"id": "ga-aca7a8c1",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Taj Mahal was built by:",
+"o": [
+"Shah Jahan",
+"Akbar",
+"Jahangir",
+"Aurangzeb"
+],
+"a": 0,
+"e": "In memory of Mumtaz Mahal."
+},
+{
+"id": "ga-840ab1c5",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Mansabdari system was introduced by:",
+"o": [
+"Akbar",
+"Babur",
+"Humayun",
+"Shah Jahan"
+],
+"a": 0,
+"e": "A ranking system for officials."
+},
+{
+"id": "ga-7e5b2c2e",
+"s": "ga",
+"t": "Ancient & Medieval History",
+"q": "The Vijayanagara Empire was founded in 1336 by:",
+"o": [
+"Harihara and Bukka",
+"Krishnadevaraya",
+"Rajaraja",
+"Pulakeshin II"
+],
+"a": 0,
+"e": "Capital at Hampi."
+},
+{
+"id": "ga-8984663c",
+"s": "ga",
+"t": "Geography",
+"q": "The highest peak in Peninsular India is:",
+"o": [
+"Anamudi",
+"Doddabetta",
+"Mahendragiri",
+"Dhupgarh"
+],
+"a": 0,
+"e": "Anamudi (2,695 m) in Kerala."
+},
+{
+"id": "ga-46e4e319",
+"s": "ga",
+"t": "Geography",
+"q": "The river Narmada flows into the:",
+"o": [
+"Arabian Sea",
+"Bay of Bengal",
+"Gulf of Mannar",
+"Laccadive Sea"
+],
+"a": 0,
+"e": "It drains through the Gulf of Khambhat."
+},
+{
+"id": "ga-86f2854d",
+"s": "ga",
+"t": "Geography",
+"q": "Which river is called the \"Sorrow of Bihar\"?",
+"o": [
+"Kosi",
+"Gandak",
+"Son",
+"Ghaghara"
+],
+"a": 0,
+"e": "For its frequent floods."
+},
+{
+"id": "ga-90c2fce8",
+"s": "ga",
+"t": "Geography",
+"q": "Which river is called the \"Dakshin Ganga\"?",
+"o": [
+"Godavari",
+"Krishna",
+"Kaveri",
+"Mahanadi"
+],
+"a": 0,
+"e": "It is the longest peninsular river."
+},
+{
+"id": "ga-77cf5fb8",
+"s": "ga",
+"t": "Geography",
+"q": "The Thar Desert lies mainly in:",
+"o": [
+"Rajasthan",
+"Gujarat",
+"Haryana",
+"Punjab"
+],
+"a": 0,
+"e": "The Great Indian Desert."
+},
+{
+"id": "ga-18c75232",
+"s": "ga",
+"t": "Geography",
+"q": "The Palk Strait separates India and:",
+"o": [
+"Sri Lanka",
+"Maldives",
+"Myanmar",
+"Bangladesh"
+],
+"a": 0,
+"e": "Between Tamil Nadu and Sri Lanka."
+},
+{
+"id": "ga-6b631f50",
+"s": "ga",
+"t": "Geography",
+"q": "The largest freshwater lake in India is:",
+"o": [
+"Wular Lake",
+"Dal Lake",
+"Chilika Lake",
+"Loktak Lake"
+],
+"a": 0,
+"e": "In Jammu and Kashmir; Chilika is a brackish lagoon."
+},
+{
+"id": "ga-808c7d02",
+"s": "ga",
+"t": "Geography",
+"q": "Which Indian state has the longest coastline?",
+"o": [
+"Gujarat",
+"Andhra Pradesh",
+"Tamil Nadu",
+"Maharashtra"
+],
+"a": 0,
+"e": "About 1,600 km."
+},
+{
+"id": "ga-efd59645",
+"s": "ga",
+"t": "Geography",
+"q": "The Ganga is known as the Padma in:",
+"o": [
+"Bangladesh",
+"Nepal",
+"Bhutan",
+"Myanmar"
+],
+"a": 0,
+"e": "After joining the Jamuna (Brahmaputra)."
+},
+{
+"id": "ga-949faf07",
+"s": "ga",
+"t": "Geography",
+"q": "The Sundarbans delta is formed by the Ganga and the:",
+"o": [
+"Brahmaputra",
+"Yamuna",
+"Mahanadi",
+"Kosi"
+],
+"a": 0,
+"e": "The largest delta in the world."
+},
+{
+"id": "ga-473119b7",
+"s": "ga",
+"t": "Geography",
+"q": "Which pass connects Srinagar and Leh?",
+"o": [
+"Zoji La",
+"Nathu La",
+"Shipki La",
+"Bomdi La"
+],
+"a": 0,
+"e": "In the Zanskar range."
+},
+{
+"id": "ga-0f42f564",
+"s": "ga",
+"t": "Geography",
+"q": "The largest river island in India is:",
+"o": [
+"Majuli",
+"Sriharikota",
+"Diu",
+"Elephanta"
+],
+"a": 0,
+"e": "In the Brahmaputra, Assam."
+},
+{
+"id": "ga-0f60895f",
+"s": "ga",
+"t": "Geography",
+"q": "The longest river of Peninsular India is:",
+"o": [
+"Godavari",
+"Krishna",
+"Kaveri",
+"Narmada"
+],
+"a": 0,
+"e": "About 1,465 km."
+},
+{
+"id": "ga-86338431",
+"s": "ga",
+"t": "Geography",
+"q": "The Tropic of Cancer does NOT pass through:",
+"o": [
+"Odisha",
+"Gujarat",
+"Rajasthan",
+"Chhattisgarh"
+],
+"a": 0,
+"e": "It passes through eight states."
+},
+{
+"id": "re-0e9d7265",
+"s": "reasoning",
+"t": "Venn Diagrams",
+"q": "In a class of 50, 30 like tea, 25 like coffee and 10 like both. How many like neither?",
+"o": [
+"5",
+"10",
+"15",
+"0"
+],
+"a": 0,
+"e": "50 − (30 + 25 − 10) = 5."
+},
+{
+"id": "re-c400a7c5",
+"s": "reasoning",
+"t": "Venn Diagrams",
+"q": "Of 100 people, 60 read The Hindu, 50 read the Times and 20 read both. How many read only The Hindu?",
+"o": [
+"40",
+"30",
+"50",
+"20"
+],
+"a": 0,
+"e": "60 − 20 = 40."
+},
+{
+"id": "re-d1d15736",
+"s": "reasoning",
+"t": "Venn Diagrams",
+"q": "Of 80 students, 45 play cricket, 35 play football and 15 play both. How many play at least one game?",
+"o": [
+"65",
+"80",
+"75",
+"50"
+],
+"a": 0,
+"e": "45 + 35 − 15 = 65."
+},
+{
+"id": "re-cf113423",
+"s": "reasoning",
+"t": "Venn Diagrams",
+"q": "In a town 70% like apples, 60% like oranges and 40% like both. What % like neither?",
+"o": [
+"10%",
+"20%",
+"30%",
+"0%"
+],
+"a": 0,
+"e": "100 − (70 + 60 − 40) = 10."
+},
+{
+"id": "re-34228bc4",
+"s": "reasoning",
+"t": "Venn Diagrams",
+"q": "Which set relation fits Dog, Animal, Cat?",
+"o": [
+"Dog and Cat are separate circles inside the larger circle Animal",
+"Dog and Cat overlap inside Animal",
+"Three separate circles",
+"Animal inside Dog"
+],
+"a": 0,
+"e": "Dogs and cats are different animals."
+},
+{
+"id": "re-7ea6ee89",
+"s": "reasoning",
+"t": "Venn Diagrams",
+"q": "Which set relation fits Fruits, Apples, Vegetables?",
+"o": [
+"Apples inside Fruits; Vegetables separate",
+"Apples inside Vegetables",
+"Fruits inside Apples",
+"Three overlapping circles"
+],
+"a": 0,
+"e": "Apples are fruits, not vegetables."
 }
 ]
 }

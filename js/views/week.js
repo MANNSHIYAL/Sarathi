@@ -1,6 +1,7 @@
 import { esc, $, $$, toast, getJSON } from '../util.js';
 import { store } from '../store.js';
 import { buildPlan } from './more.js';
+import { loadBooks, bookLinks } from '../books.js';
 import { pickQuestions, customPaper } from '../data.js';
 import { startExam } from '../exam.js';
 
@@ -27,6 +28,7 @@ async function weeklyTest(L, n) {
 }
 
 export async function render(app, [, num]) {
+  await loadBooks();
   const { weeks, start } = await buildPlan(), n = Math.min(Math.max(+num || 1, 1), weeks.length), w = weeks[n - 1];
   const L = await lesson(w.key), back = `<a href="#/more/plan" class="sub" style="text-decoration:none">← Study plan</a>`;
   const done = () => store.get('lesson-done', {}), tick = k => { const d = done(); d[k] ? delete d[k] : d[k] = 1; store.set('lesson-done', d); };
@@ -34,7 +36,7 @@ export async function render(app, [, num]) {
   if (!L) {
     app.innerHTML = `${back}<h1>Week ${n} · ${esc(w.phase)}</h1><p class="sub">${esc(w.goal)}</p>
     <div class="note">The full day-by-day lesson for this week is not written yet. It is being added week by week. Until then, use the topics and books below.</div>
-    <div class="card"><div class="sub">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, nm]) => `<b>${nm}:</b> ${esc(w.w[k])}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}</div>`).join('')}`).join('<br>')}</div></div>`;
+    <div class="card"><div class="sub">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, nm]) => `<b>${nm}:</b> ${esc(w.w[k])}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}${bookLinks(x)}</div>`).join('')}`).join('<br>')}</div></div>`;
     return;
   }
   const drawDay = () => {
@@ -43,10 +45,10 @@ export async function render(app, [, num]) {
       const U = L.units[k], P = U.parts[p]; const id = s => `${w.key}:${p}:${k}:${s}`; let cnt = 0, tot = 0;
       const chk = (kk) => { tot++; const on = !!done()[kk]; if (on) cnt++; return `<input type="checkbox" data-ck="${kk}" ${on ? 'checked' : ''} style="width:20px;height:20px;margin:2px 10px 0 0;flex:none">`; };
       const html = `
-      <h4 class="bh">📖 Read</h4>${P.read.map((r, i) => `<div class="row" style="align-items:flex-start;padding:4px 0">${chk(id('r' + i))}<div><b>${esc(r.book)}</b><div class="sub" style="margin:0">${esc(r.where)}</div></div></div>`).join('')}
+      <h4 class="bh">📖 Read</h4>${P.read.map((r, i) => `<div class="row" style="align-items:flex-start;padding:4px 0">${chk(id('r' + i))}<div><b>${esc(r.book)}</b><div class="sub" style="margin:0">${esc(r.where)}</div>${bookLinks(r.book + ' ' + r.where)}</div></div>`).join('')}
       <h4 class="bh">🧠 Notes to learn</h4><ul class="kp">${P.notes.map(x => `<li>${esc(x)}</li>`).join('')}</ul>
       <h4 class="bh">✏️ Worked examples (try first, then tap)</h4>${P.examples.map(e => `<details class="ex"><summary>${esc(e.q)}</summary><div class="expl"><b>Answer: ${esc(e.a)}</b>${e.s ? '<br>' + esc(e.s) : ''}</div></details>`).join('')}
-      <h4 class="bh">🎯 Solve exactly this</h4>${P.solve.map((s, i) => `<div class="row" style="align-items:flex-start;padding:5px 0">${chk(id('s' + i))}<div class="sp"><b>${esc(s.label)}</b>${s.book ? `<div class="sub" style="margin:0">${esc(s.book)}</div>` : ''}${s.drill ? `<div class="sub" style="margin:0">${s.drill.n} questions in ${s.drill.min} min. Target: ${esc(s.drill.target)} accuracy.</div><button class="btn sm" data-dr='${esc(JSON.stringify(s.drill))}' style="margin-top:4px">Start in app</button>` : ''}</div></div>`).join('')}`;
+      <h4 class="bh">🎯 Solve exactly this</h4>${P.solve.map((s, i) => `<div class="row" style="align-items:flex-start;padding:5px 0">${chk(id('s' + i))}<div class="sp"><b>${esc(s.label)}</b>${s.book ? `<div class="sub" style="margin:0">${esc(s.book)}</div>${bookLinks(s.book)}` : ''}${s.drill ? `<div class="sub" style="margin:0">${s.drill.n} questions in ${s.drill.min} min. Target: ${esc(s.drill.target)} accuracy.</div><button class="btn sm" data-dr='${esc(JSON.stringify(s.drill))}' style="margin-top:4px">Start in app</button>` : ''}</div></div>`).join('')}`;
       return `<details class="card" open><summary style="cursor:pointer"><b>${esc(SUB[k][0])}</b> · ${esc(P.name)} <span class="chip" data-cnt="${k}${p}"></span></summary>${html}</details>`.replace('data-cnt', `data-t="${tot}" data-c="${cnt}" data-cnt`);
     };
     if (day <= 2) body = ['q', 'r', 'e', 'g'].map(k => sess(k, day)).join('');

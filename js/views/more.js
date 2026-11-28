@@ -5,6 +5,7 @@ import { aiJSON } from '../ai.js';
 import { notesView } from './notes.js';
 import { statsView } from './stats.js';
 import { render as weekView } from './week.js';
+import { loadBooks, bookLinks } from '../books.js';
 
 export async function buildPlan() {
   const P = await getJSON('data/plan.json'), st = settings.all();
@@ -33,15 +34,16 @@ export async function render(app, args) {
 }
 
 async function plan(app, back) {
+  await loadBooks();
   const { P, weeks, start, total } = await buildPlan(), done = store.get('plan-done', {}), cur = Math.floor((Date.now() - new Date(start + 'T00:00:00')) / (7 * 864e5)) + 1;
   const nd = Object.keys(done).length;
   app.innerHTML = `${back}<h1>Study plan</h1><p class="sub">${total} weeks from ${dfmt(start)} to your estimated Test-1 date. Tap a week to expand.</p>
   <div class="card"><div class="row"><b class="sp">${nd}/${total} weeks done</b></div><div class="bar" style="margin-top:6px"><i style="width:${100 * nd / total}%"></i></div></div>
-  <details class="card"><summary style="cursor:pointer"><b>Core books for the whole plan</b></summary>${(P.books || []).map(b => `<div style="margin-top:8px"><b>${esc(b[0])}</b><div class="sub" style="margin:0">${esc(b[1])}</div></div>`).join('')}<div class="note">${esc(P.booksNote || '')}</div></details>
+  <details class="card"><summary style="cursor:pointer"><b>Core books for the whole plan</b></summary>${(P.books || []).map(b => `<div style="margin-top:8px"><b>${esc(b[0])}</b><div class="sub" style="margin:0">${esc(b[1])}</div>${bookLinks(b[1])}</div>`).join('')}<div class="note">${esc(P.booksNote || '')}</div></details>
   <div class="card"><h3>Every day</h3>${P.daily.map(d => `<div class="row" style="padding:3px 0"><b style="width:120px">${esc(d[0])}</b><span class="sp sub" style="margin:0">${esc(d[2])}</span><span class="chip">${esc(d[1])}</span></div>`).join('')}</div>
   ${weeks.map((w, i) => `${i === 0 || weeks[i - 1].phase !== w.phase ? `<h2>${esc(w.phase)}</h2><p class="sub">${esc(w.goal)}</p>` : ''}
   <details class="card" ${i + 1 === cur ? 'open' : ''}><summary style="cursor:pointer"><b>Week ${i + 1}</b> ${w.cycle ? '<span class="chip warn">Revision cycle</span>' : ''} ${i + 1 === cur ? '<span class="chip">Now</span>' : ''} ${done[i] ? '<span class="chip ok">Done</span>' : ''}</summary>
-  <div class="sub" style="margin-top:8px">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, n]) => `<b>${n}:</b> ${esc(w.w[k])}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}</div>`).join('')}`).join('<br>')}</div><a class="btn sm" href="#/more/week/${i + 1}" style="margin-right:6px">Open full lesson →</a><button class="btn alt sm" data-w="${i}">${done[i] ? 'Mark not done' : 'Mark week done'}</button></details>`).join('')}
+  <div class="sub" style="margin-top:8px">${[['q', 'Quant'], ['r', 'Reasoning'], ['e', 'English'], ['g', 'GA']].map(([k, n]) => `<b>${n}:</b> ${esc(w.w[k])}${(w.w.ref?.[k] || []).map(x => `<div style="margin:2px 0 6px 10px">📖 ${esc(x)}${bookLinks(x)}</div>`).join('')}`).join('<br>')}</div><a class="btn sm" href="#/more/week/${i + 1}" style="margin-right:6px">Open full lesson →</a><button class="btn alt sm" data-w="${i}">${done[i] ? 'Mark not done' : 'Mark week done'}</button></details>`).join('')}
   <h2>Free official resources</h2><div class="card list">${P.resources.map(r => `<a class="item" href="${esc(r[1])}" target="_blank" rel="noopener">${esc(r[0])} ↗</a>`).join('')}</div>`;
   $$('[data-w]').forEach(b => b.onclick = e => { e.preventDefault(); const d = store.get('plan-done', {}); d[b.dataset.w] ? delete d[b.dataset.w] : d[b.dataset.w] = 1; store.set('plan-done', d); plan(app, back); });
 }

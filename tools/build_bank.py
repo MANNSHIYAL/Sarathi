@@ -280,6 +280,89 @@ A('english','Error Spotting',[
 ('Find the part with the error: "The furniture are very costly."','are very costly',['The furniture','No error','very'],'"Furniture" is uncountable and singular.'),
 ('Find the part with the error: "Hardly had he left than the phone rang."','than the phone rang',['Hardly had he left','the phone','No error'],'"Hardly ... when".'),
 ('Find the part with the error: "She plays the violin very well."','No error',['She plays','the violin','very well'],'The sentence is correct.')])
+# ---- Week 4-5 topic sets (added 28 Nov 2026) ----
+def idm(rows): return [('Meaning of the idiom "'+a+'".',b,c,d) for a,b,c,d in rows]
+A('english','Voice',[
+('Change to passive voice: "She wrote a letter."','A letter was written by her.',['A letter is written by her.','A letter has been written by her.','A letter was being written by her.'],'Simple past: was/were + V3.'),
+('Change to passive voice: "Open the door."','Let the door be opened.',['The door is opened.','The door was opened.','Door should open.'],'Imperative: Let + object + be + V3.'),
+('Change to passive voice: "The police arrested the thief."','The thief was arrested by the police.',['The thief is arrested by the police.','The thief had arrested the police.','The thief was being arrested by police.'],'Simple past passive.'),
+('Change to passive voice: "Who wrote this book?"','By whom was this book written?',['Who was this book written?','By whom is this book written?','Whom was this book written by?'],'"Who" becomes "By whom" in the passive.'),
+('Change to passive voice: "They have completed the work."','The work has been completed by them.',['The work was completed by them.','The work had been completed by them.','The work is completed by them.'],'Present perfect: has/have been + V3.'),
+('Change to passive voice: "The boy is flying a kite."','A kite is being flown by the boy.',['A kite is flown by the boy.','A kite was being flown by the boy.','A kite has been flown by the boy.'],'Present continuous: is/are being + V3.'),
+('Change to passive voice: "He will finish the work tomorrow."','The work will be finished by him tomorrow.',['The work would be finished by him tomorrow.','The work will have been finished by him tomorrow.','The work is finished by him tomorrow.'],'Future: will be + V3.'),
+('Change to passive voice: "I know him."','He is known to me.',['He is known by me.','He was known to me.','I am known to him.'],'"Know" takes "to" in the passive.')])
+A('english','Narration',[
+('Change to indirect speech: He said, "I am busy."','He said that he was busy.',['He said that he is busy.','He said that I was busy.','He said that he had busy.'],'Present tense moves to past; pronoun changes.'),
+('Change to indirect speech: She said, "I will go tomorrow."','She said that she would go the next day.',['She said that she will go tomorrow.','She said that she would go tomorrow.','She said that she had gone the next day.'],'will to would; tomorrow to the next day.'),
+('Change to indirect speech: He said to me, "What are you doing?"','He asked me what I was doing.',['He asked me what was I doing.','He told me what I was doing.','He asked me what am I doing.'],'Questions: asked + normal word order.'),
+('Change to indirect speech: The teacher said, "The earth moves round the sun."','The teacher said that the earth moves round the sun.',['The teacher said that the earth moved round the sun.','The teacher said that the earth had moved round the sun.','The teacher said that the earth would move round the sun.'],'A universal truth keeps the present tense.'),
+('Change to indirect speech: He said to her, "Please wait."','He requested her to wait.',['He told her to please wait.','He asked her that she wait.','He ordered her wait.'],'Request: requested + to + verb.'),
+('Change to indirect speech: She said, "Alas! I am ruined."','She exclaimed with sorrow that she was ruined.',['She said alas that she is ruined.','She told alas that she was ruined.','She exclaimed that alas she was ruined.'],'Exclamation: exclaimed with sorrow that.'),
+('Change to indirect speech: He said, "I have finished my work."','He said that he had finished his work.',['He said that he has finished his work.','He said that he finished his work.','He said that I have finished my work.'],'Present perfect moves to past perfect.')])
+A('english','Idioms',idm([
+('a piece of cake','Very easy',['A small sweet','A gift','A hard task'],'Something very easy to do.'),
+('break the ice','To start a conversation in a social setting',['To break something','To end a talk','To feel cold'],'To ease the tension at the start.'),
+('spill the beans','To reveal a secret',['To waste food','To cook','To make a mess'],'To let out a secret.'),
+('under the weather','Feeling unwell',['In the rain','Very happy','Outdoors'],'Slightly ill.'),
+('bite the bullet','To face a difficult situation bravely',['To eat quickly','To hurt oneself','To run away'],'To accept something unpleasant.'),
+('cost an arm and a leg','To be very expensive',['To injure oneself','To be cheap','To be free'],'Extremely costly.'),
+('let the cat out of the bag','To reveal a secret by mistake',['To free an animal','To buy a pet','To hide something'],'Accidentally disclose a secret.'),
+('the last straw','The final provocation that makes one lose patience',['A drinking straw','The first problem','A lucky chance'],'The last of many troubles.'),
+('add insult to injury','To make a bad situation worse',['To hurt someone','To apologise','To praise'],'Worsen an already bad situation.'),
+('hit the nail on the head','To say exactly the right thing',['To damage something','To work hard','To make a mistake'],'To be exactly right.')]))
+A('english','One Word',[
+('One word for "One who walks in sleep".','Somnambulist',['Insomniac','Pedestrian','Somniloquist'],'Somnambulist = sleepwalker.'),
+('One word for "Murder of a king".','Regicide',['Homicide','Suicide','Genocide'],'Regi = king.'),
+('One word for "The study of birds".','Ornithology',['Zoology','Entomology','Ecology'],'Ornitho = bird.'),
+('One word for "A place where birds are kept".','Aviary',['Apiary','Aquarium','Nursery'],'Apiary is for bees.'),
+('One word for "That which cannot be read".','Illegible',['Inaudible','Invisible','Incredible'],'Cannot be read clearly.'),
+('One word for "Fear of water".','Hydrophobia',['Claustrophobia','Acrophobia','Xenophobia'],'Hydro = water.'),
+('One word for "A person who loves mankind".','Philanthropist',['Misanthrope','Philatelist','Pedestrian'],'Phil = love, anthropos = man.'),
+('One word for "A person who collects stamps".','Philatelist',['Numismatist','Bibliophile','Cartographer'],'A numismatist collects coins.'),
+('One word for "Hater of mankind".','Misanthrope',['Philanthropist','Optimist','Egoist'],'Miso = hate.'),
+('One word for "A speech made by one person alone on stage".','Soliloquy',['Dialogue','Epilogue','Prologue'],'Solo + loquy (speak).'),
+('One word for "A person who knows many languages".','Polyglot',['Bilingual','Monolingual','Orator'],'Poly = many, glot = tongue.')])
+A('ga','Ancient & Medieval History',[
+('The Great Bath of the Indus Valley Civilisation was found at:','Mohenjo-daro',['Harappa','Lothal','Kalibangan'],'In present-day Sindh, Pakistan.'),
+('The ancient dockyard of the Indus Valley Civilisation was found at:','Lothal',['Harappa','Kalibangan','Dholavira'],'Lothal is in Gujarat.'),
+('How many mandalas (books) does the Rigveda have?','10',['8','12','4'],'It has 1,028 hymns.'),
+('Gautama Buddha gave his first sermon at:','Sarnath',['Bodh Gaya','Lumbini','Kushinagar'],'Called Dhammachakkappavattana.'),
+('The 24th and last Tirthankara of Jainism was:','Mahavira',['Parshvanatha','Rishabhanatha','Neminatha'],'Born near Vaishali.'),
+('The Kalinga war, which changed Ashoka, was fought around:','261 BCE',['321 BCE','185 BCE','72 CE'],'After it Ashoka adopted Dhamma.'),
+('The Gupta period is often called the:','Golden Age of India',['Dark Age','Age of Reason','Iron Age'],'For its art, science and literature.'),
+('Who wrote "Indica"?','Megasthenes',['Fa-Hien','Kalhana','Banabhatta'],'Greek ambassador at Chandragupta Maurya\'s court.'),
+('The Chinese pilgrim who visited India in the time of Chandragupta II was:','Fa-Hien',['Hiuen Tsang','I-Tsing','Marco Polo'],'Hiuen Tsang came in Harsha\'s time.'),
+('Harshacharita, the biography of Harshavardhana, was written by:','Banabhatta',['Kalidasa','Kalhana','Bhasa'],'Banabhatta was Harsha\'s court poet.'),
+('The Brihadisvara Temple at Thanjavur was built by:','Rajaraja I',['Rajendra I','Karikala','Vijayalaya'],'A Chola temple, completed around 1010 CE.'),
+('The Delhi Sultanate was founded in 1206 by:','Qutb-ud-din Aibak',['Iltutmish','Balban','Alauddin Khilji'],'Founder of the Slave (Mamluk) dynasty.'),
+('Construction of the Qutub Minar was started by:','Qutb-ud-din Aibak',['Iltutmish','Akbar','Shah Jahan'],'Iltutmish completed it.'),
+('Market (price control) reforms were introduced by:','Alauddin Khilji',['Muhammad bin Tughlaq','Firoz Shah Tughlaq','Balban'],'To support a large standing army.'),
+('The Battle of Haldighati (1576) was fought between Akbar and:','Maharana Pratap',['Rana Sanga','Hemu','Shivaji'],'Mughal forces were led by Man Singh.'),
+('The Taj Mahal was built by:','Shah Jahan',['Akbar','Jahangir','Aurangzeb'],'In memory of Mumtaz Mahal.'),
+('The Mansabdari system was introduced by:','Akbar',['Babur','Humayun','Shah Jahan'],'A ranking system for officials.'),
+('The Vijayanagara Empire was founded in 1336 by:','Harihara and Bukka',['Krishnadevaraya','Rajaraja','Pulakeshin II'],'Capital at Hampi.')])
+A('ga','Geography',[
+('The highest peak in Peninsular India is:','Anamudi',['Doddabetta','Mahendragiri','Dhupgarh'],'Anamudi (2,695 m) in Kerala.'),
+('The river Narmada flows into the:','Arabian Sea',['Bay of Bengal','Gulf of Mannar','Laccadive Sea'],'It drains through the Gulf of Khambhat.'),
+('Which river is called the "Sorrow of Bihar"?','Kosi',['Gandak','Son','Ghaghara'],'For its frequent floods.'),
+('Which river is called the "Dakshin Ganga"?','Godavari',['Krishna','Kaveri','Mahanadi'],'It is the longest peninsular river.'),
+('The Thar Desert lies mainly in:','Rajasthan',['Gujarat','Haryana','Punjab'],'The Great Indian Desert.'),
+('The Palk Strait separates India and:','Sri Lanka',['Maldives','Myanmar','Bangladesh'],'Between Tamil Nadu and Sri Lanka.'),
+('The largest freshwater lake in India is:','Wular Lake',['Dal Lake','Chilika Lake','Loktak Lake'],'In Jammu and Kashmir; Chilika is a brackish lagoon.'),
+('Which Indian state has the longest coastline?','Gujarat',['Andhra Pradesh','Tamil Nadu','Maharashtra'],'About 1,600 km.'),
+('The Ganga is known as the Padma in:','Bangladesh',['Nepal','Bhutan','Myanmar'],'After joining the Jamuna (Brahmaputra).'),
+('The Sundarbans delta is formed by the Ganga and the:','Brahmaputra',['Yamuna','Mahanadi','Kosi'],'The largest delta in the world.'),
+('Which pass connects Srinagar and Leh?','Zoji La',['Nathu La','Shipki La','Bomdi La'],'In the Zanskar range.'),
+('The largest river island in India is:','Majuli',['Sriharikota','Diu','Elephanta'],'In the Brahmaputra, Assam.'),
+('The longest river of Peninsular India is:','Godavari',['Krishna','Kaveri','Narmada'],'About 1,465 km.'),
+('The Tropic of Cancer does NOT pass through:','Odisha',['Gujarat','Rajasthan','Chhattisgarh'],'It passes through eight states.')])
+A('reasoning','Venn Diagrams',[
+('In a class of 50, 30 like tea, 25 like coffee and 10 like both. How many like neither?','5',['10','15','0'],'50 − (30 + 25 − 10) = 5.'),
+('Of 100 people, 60 read The Hindu, 50 read the Times and 20 read both. How many read only The Hindu?','40',['30','50','20'],'60 − 20 = 40.'),
+('Of 80 students, 45 play cricket, 35 play football and 15 play both. How many play at least one game?','65',['80','75','50'],'45 + 35 − 15 = 65.'),
+('In a town 70% like apples, 60% like oranges and 40% like both. What % like neither?','10%',['20%','30%','0%'],'100 − (70 + 60 − 40) = 10.'),
+('Which set relation fits Dog, Animal, Cat?','Dog and Cat are separate circles inside the larger circle Animal',['Dog and Cat overlap inside Animal','Three separate circles','Animal inside Dog'],'Dogs and cats are different animals.'),
+('Which set relation fits Fruits, Apples, Vegetables?','Apples inside Fruits; Vegetables separate',['Apples inside Vegetables','Fruits inside Apples','Three overlapping circles'],'Apples are fruits, not vegetables.')])
 out=[]
 for sec,t,q,c,w,e in Q:
     if not q or len(w)!=3 or not c: continue

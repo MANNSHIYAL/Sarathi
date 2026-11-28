@@ -2422,5 +2422,1457 @@
     ]
    }
   }
+ },
+ "p1-w4": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Time & Work"
+   ],
+   "reasoning": [
+    "Ranking",
+    "Calendar",
+    "Clock"
+   ],
+   "english": [
+    "Voice",
+    "Narration"
+   ],
+   "ga": [
+    "Ancient & Medieval History"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Time and work, pipes and cisterns",
+    "parts": [
+     {
+      "name": "Part 1: Time and work",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Time and Work': theory and solved examples",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Time and Work': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "If A does a job in x days, A's one-day work = 1/x. A and B together: 1/x + 1/y = (x + y)/xy, so time = xy/(x + y).",
+       "LCM method: take total work = LCM of the days. Efficiency = work ÷ days. Time together = total work ÷ sum of efficiencies. (A in 12 days, B in 24: work = 24, A = 2/day, B = 1/day, together 3/day = 8 days.)",
+       "If A is n times as efficient as B, A takes 1/n of B's time.",
+       "Man-days rule: M1 × D1 × H1 / W1 = M2 × D2 × H2 / W2.",
+       "If A and B together take t days and A alone takes a days: B alone = at/(a − t)."
+      ],
+      "examples": [
+       {
+        "q": "A can do a job in 12 days and B in 24 days. In how many days together?",
+        "a": "8",
+        "s": "12 × 24/(12 + 24) = 8."
+       },
+       {
+        "q": "A and B together finish in 12 days. A alone takes 20 days. B alone?",
+        "a": "30 days",
+        "s": "1/12 − 1/20 = 1/30."
+       },
+       {
+        "q": "10 men build a wall in 15 days. How long will 6 men take?",
+        "a": "25 days",
+        "s": "10 × 15 = 150 man-days, 150/6 = 25."
+       },
+       {
+        "q": "A is twice as efficient as B. Together they take 18 days. A alone?",
+        "a": "27 days",
+        "s": "B alone = 54, A alone = 27."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Time and Work': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Time and Work': 25 questions, 45 seconds each."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Time & Work",
+         "n": 20,
+         "min": 15,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Pipes and cisterns",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Pipes and Cisterns'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Pipes and Cisterns': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Inlet pipes do positive work, outlet pipes and leaks do negative work. Net rate = sum of all rates.",
+       "A fills in x hours, B empties in y hours (y > x): time to fill = xy/(y − x).",
+       "Leak: if a tank fills in a hours normally and b hours with a leak, the leak empties a full tank in ab/(b − a) hours.",
+       "Use the LCM method with a capacity in litres: work = capacity, efficiency = litres per hour."
+      ],
+      "examples": [
+       {
+        "q": "Pipe A fills a tank in 6 h, pipe B empties it in 9 h. Both open: time to fill?",
+        "a": "18 hours",
+        "s": "6 × 9/(9 − 6) = 18."
+       },
+       {
+        "q": "A fills in 20 min, B in 30 min. Together?",
+        "a": "12 minutes",
+        "s": "20 × 30/50 = 12."
+       },
+       {
+        "q": "A tank fills in 6 h. A leak makes it 7 h. How long does the leak take to empty it?",
+        "a": "42 hours",
+        "s": "6 × 7/(7 − 6) = 42."
+       },
+       {
+        "q": "A and B fill in 10 h and 15 h; C empties in 30 h. All open: time to fill?",
+        "a": "7.5 hours",
+        "s": "1/10 + 1/15 − 1/30 = 4/30."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Pipes and Cisterns': first 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Pipes and Cisterns': 15 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Time & Work",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Leaving, alternate days and wages",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Time and Work: harder exercises (leaving midway, alternate days, wages)",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Time and Work': questions 26 to 50",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Work done so far + work left = 1. Write the fraction done before computing what remains.",
+       "Alternate days (A first, then B): find the work done in two days, then multiply to cover the cycles.",
+       "Wages are shared in proportion to work done (efficiency × days), not days alone.",
+       "If x and y are the times for two persons, their efficiencies are in the ratio y : x."
+      ],
+      "examples": [
+       {
+        "q": "A takes 20 days, B takes 30. They work together 6 days, then A leaves. B alone finishes in?",
+        "a": "15 days",
+        "s": "6 × (1/12) = 1/2 done; B needs 1/2 ÷ (1/30) = 15."
+       },
+       {
+        "q": "A and B do a job in 8 and 12 days. Total wage ₹1,000. Find A's share.",
+        "a": "₹600",
+        "s": "Efficiencies 3 : 2, so A gets 3/5 of 1,000 = 600."
+       },
+       {
+        "q": "A in 10 days, B in 15 days, working on alternate days starting with A. Total time?",
+        "a": "12 days",
+        "s": "In 2 days they do 1/10 + 1/15 = 1/6; 6 cycles = 12 days."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Time and Work': questions 41 to 70."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM: 20 more questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Time & Work",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Ranking, calendar, clock",
+    "parts": [
+     {
+      "name": "Part 1: Ranking and order",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Ranking Test' / 'Order and Ranking'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Ranking': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Total = rank from top + rank from bottom − 1. Rank from bottom = total − rank from top + 1.",
+       "Persons between two positions = difference of ranks − 1.",
+       "If a person moves up or down, recompute both ranks. Draw a line and mark positions.",
+       "In a row: total = (position from left) + (position from right) − 1."
+      ],
+      "examples": [
+       {
+        "q": "Ravi is 7th from the top in a class of 40. What is his rank from the bottom?",
+        "a": "34",
+        "s": "40 − 7 + 1 = 34."
+       },
+       {
+        "q": "Anil is 12th from the left and 15th from the right in a row. How many persons?",
+        "a": "26",
+        "s": "12 + 15 − 1 = 26."
+       },
+       {
+        "q": "A is 5th from the top and B is 18th from the top. How many are between them?",
+        "a": "12",
+        "s": "18 − 5 − 1 = 12."
+       },
+       {
+        "q": "In a class of 45, Meena is 18th from the top and Seema is 10 places below her. Seema's rank from the bottom?",
+        "a": "18",
+        "s": "Seema is 28th from top, 45 − 28 + 1 = 18."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV 'Ranking Test': 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Ranking",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Calendar",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Calendar'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Calendar': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Odd days: ordinary year = 1, leap year = 2. 100 years = 5, 200 = 3, 300 = 1, 400 = 0.",
+       "Leap year: divisible by 4; century years only if divisible by 400 (2000 is, 2100 is not).",
+       "Code: Sun 0, Mon 1, Tue 2, Wed 3, Thu 4, Fri 5, Sat 6.",
+       "Month odd days (ordinary year): Jan 3, Feb 0, Mar 3, Apr 2, May 3, Jun 2, Jul 3, Aug 3, Sep 2, Oct 3, Nov 2, Dec 3.",
+       "Same calendar repeats after 6, 11, 5 or 28 years depending on the leap-year positions.",
+       "Reference dates: 15 Aug 1947 was a Friday. 26 Jan 1950 was a Thursday."
+      ],
+      "examples": [
+       {
+        "q": "Today is Monday. What day is it after 45 days?",
+        "a": "Thursday",
+        "s": "45 mod 7 = 3, Monday + 3 = Thursday."
+       },
+       {
+        "q": "15 Aug 1947 was a Friday. What day was 15 Aug 1948?",
+        "a": "Sunday",
+        "s": "1948 is a leap year, so 366 days = 2 odd days: Friday + 2 = Sunday."
+       },
+       {
+        "q": "Is 2100 a leap year?",
+        "a": "No",
+        "s": "A century year must be divisible by 400."
+       },
+       {
+        "q": "28 Nov 2026 is a Saturday. What day is 1 Jan 2027?",
+        "a": "Friday",
+        "s": "34 days later: 34 mod 7 = 6, Saturday + 6 = Friday."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV 'Calendar': 25 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 15 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Calendar",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Clock",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Clocks'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Clock': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Minute hand moves 6° per minute; hour hand 0.5° per minute. Angle = |30h − 5.5m|; if more than 180°, subtract from 360°.",
+       "Hands coincide 11 times in 12 hours (22 times a day). They are at right angles 22 times in 12 hours and opposite 11 times in 12 hours.",
+       "Hands coincide at 12:00, then every 65 5/11 minutes.",
+       "To find the time when the hands coincide after h o'clock: minutes = 60h/11."
+      ],
+      "examples": [
+       {
+        "q": "Angle between the hands at 3:30?",
+        "a": "75°",
+        "s": "|90 − 165| = 75."
+       },
+       {
+        "q": "Angle at 4:20?",
+        "a": "10°",
+        "s": "|120 − 110| = 10."
+       },
+       {
+        "q": "When do the hands coincide after 4 o'clock?",
+        "a": "4:21 9/11",
+        "s": "60 × 4/11 = 21 9/11 minutes."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV 'Clocks': 25 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KR: 15 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Clock",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Active-passive and direct-indirect speech",
+    "parts": [
+     {
+      "name": "Part 1: Active and passive voice (basic tenses)",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter 'Voice' (Active and Passive)",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Active and Passive Voice'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Active: subject + verb + object. Passive: object + be-verb + V3 + by + subject.",
+       "Simple present: is/am/are + V3. Simple past: was/were + V3. Simple future: will be + V3.",
+       "Present continuous: is/am/are being + V3. Past continuous: was/were being + V3.",
+       "Present perfect: has/have been + V3. Past perfect: had been + V3.",
+       "Pronouns change: I→me, we→us, he→him, she→her, they→them (and back)."
+      ],
+      "examples": [
+       {
+        "q": "Passive: 'She wrote a letter.'",
+        "a": "A letter was written by her.",
+        "s": ""
+       },
+       {
+        "q": "Passive: 'They have completed the work.'",
+        "a": "The work has been completed by them.",
+        "s": ""
+       },
+       {
+        "q": "Passive: 'The boy is flying a kite.'",
+        "a": "A kite is being flown by the boy.",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM 'Voice': exercises (about 40 sentences)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Voice",
+         "n": 8,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Passive voice special cases",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Voice: imperative, interrogative and modal sections",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Active-passive: special rules",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Imperative: 'Open the door' → 'Let the door be opened.' Request: 'Please help me' → 'You are requested to help me.'",
+       "'Who wrote this?' → 'By whom was this written?' 'What do you want?' → 'What is wanted by you?'",
+       "Modals: can/may/must/should + be + V3. 'He can do it' → 'It can be done by him.'",
+       "'I know him' → 'He is known to me.' 'The news pleased me' → 'I was pleased with the news.'"
+      ],
+      "examples": [
+       {
+        "q": "Passive: 'Open the door.'",
+        "a": "Let the door be opened.",
+        "s": ""
+       },
+       {
+        "q": "Passive: 'Who wrote this book?'",
+        "a": "By whom was this book written?",
+        "s": ""
+       },
+       {
+        "q": "Passive: 'I know him.'",
+        "a": "He is known to me.",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM 'Voice': the harder exercises on interrogative and imperative."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Voice",
+         "n": 8,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Direct and indirect speech",
+      "read": [
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter 'Narration' (Direct and Indirect Speech)",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Narration'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Reporting verbs: statements → said that / told; questions → asked / enquired (use if or whether for yes-no questions); commands → told / ordered / requested / advised + to + verb.",
+       "Tense moves back: am/is → was; will → would; has/have → had; simple past → past perfect. A universal truth or habitual fact keeps its tense.",
+       "Pronouns change to fit the reporter. Time words: now → then; today → that day; tomorrow → the next day; yesterday → the previous day; here → there; this → that.",
+       "Questions become statements in order: 'He asked me what I was doing' (not 'what was I doing').",
+       "Exclamations: exclaimed with joy / sorrow / surprise that."
+      ],
+      "examples": [
+       {
+        "q": "Indirect: He said, 'I am busy.'",
+        "a": "He said that he was busy.",
+        "s": ""
+       },
+       {
+        "q": "Indirect: She said, 'I will go tomorrow.'",
+        "a": "She said that she would go the next day.",
+        "s": ""
+       },
+       {
+        "q": "Indirect: He said to me, 'What are you doing?'",
+        "a": "He asked me what I was doing.",
+        "s": ""
+       },
+       {
+        "q": "Indirect: He said to her, 'Please wait.'",
+        "a": "He requested her to wait.",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "WM 'Narration': exercises (about 40 sentences)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Narration",
+         "n": 7,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: Ancient and medieval history",
+    "parts": [
+     {
+      "name": "Part 1: Indus Valley, Vedic age, Buddhism, Jainism, Mauryas",
+      "read": [
+       {
+        "book": "NCERT Class 6-8 Social Science (History): Our Pasts I-III",
+        "where": "Quick read of the early chapters (free at ncert.nic.in)",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "History: Ancient India",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 6, Our Pasts I",
+        "where": "Chapters on Harappa, Vedic age, Mahajanapadas, Mauryas",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Indus Valley: Harappa (found by Dayaram Sahni, 1921), Mohenjo-daro (Great Bath), Lothal (dockyard), Dholavira, Kalibangan, Rakhigarhi. Bronze age, planned towns.",
+       "Rigveda: 10 mandalas, 1,028 hymns. Early Vedic (pastoral) then Later Vedic (iron, kingdoms). 16 Mahajanapadas: Magadha rose first.",
+       "Buddha: born at Lumbini, enlightenment at Bodh Gaya, first sermon at Sarnath, death at Kushinagar. Mahavira: 24th Tirthankara.",
+       "Mauryas: Chandragupta (c. 321 BCE, with Chanakya; Megasthenes wrote Indica). Ashoka: Kalinga war c. 261 BCE, Dhamma, rock edicts in Brahmi. James Prinsep deciphered Brahmi in 1837."
+      ],
+      "examples": [
+       {
+        "q": "Where is the Great Bath?",
+        "a": "Mohenjo-daro",
+        "s": ""
+       },
+       {
+        "q": "Who wrote Indica?",
+        "a": "Megasthenes",
+        "s": ""
+       },
+       {
+        "q": "Where did Buddha give his first sermon?",
+        "a": "Sarnath",
+        "s": ""
+       },
+       {
+        "q": "When was the Kalinga war?",
+        "a": "About 261 BCE",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a timeline",
+        "book": "Write 8 key events with dates from the notes. Recite twice."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Ancient & Medieval History",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Guptas, Harsha and South India",
+      "read": [
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "History: Gupta and post-Gupta period",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 6, Our Pasts I",
+        "where": "Chapters on Guptas, Cholas and temples",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Gupta: Chandragupta I (319-320 CE start). Samudragupta (Allahabad Pillar inscription by Harishena, called 'Napoleon of India'). Chandragupta II Vikramaditya (Fa-Hien visited). Golden Age: Kalidasa, Aryabhata.",
+       "Harsha (606-647 CE): Hiuen Tsang visited; court poet Banabhatta wrote Harshacharita. Pulakeshin II of the Chalukyas stopped Harsha on the Narmada.",
+       "Pallavas: Mahabalipuram rock temples. Cholas: Rajaraja I built Brihadisvara Temple, Thanjavur (c. 1010 CE); Rajendra I founded Gangaikondacholapuram. Uttaramerur inscriptions show village self-government."
+      ],
+      "examples": [
+       {
+        "q": "Who wrote Harshacharita?",
+        "a": "Banabhatta",
+        "s": ""
+       },
+       {
+        "q": "Which Chinese pilgrim came in Chandragupta II's time?",
+        "a": "Fa-Hien",
+        "s": ""
+       },
+       {
+        "q": "Who built the Brihadisvara Temple?",
+        "a": "Rajaraja I",
+        "s": ""
+       },
+       {
+        "q": "Who is called the 'Napoleon of India'?",
+        "a": "Samudragupta",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "King / Dynasty / Famous for, 8 rows from the notes."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Ancient & Medieval History",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Delhi Sultanate, Mughals and Vijayanagara",
+      "read": [
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "History: Medieval India",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 7, Our Pasts II",
+        "where": "Chapters on the Delhi Sultanate, Mughals, Vijayanagara",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Delhi Sultanate: Slave dynasty 1206 (Qutb-ud-din Aibak; Iltutmish completed Qutub Minar), Khilji (Alauddin: market reforms), Tughlaq (Muhammad bin Tughlaq: token currency, moved capital to Daulatabad), Sayyid, Lodi. Timur invaded 1398.",
+       "Mughals: Babur won First Battle of Panipat 1526. Sher Shah Suri: rupee, Grand Trunk Road. Akbar (1556-1605): Mansabdari system, Todar Mal, Din-i-Ilahi, Haldighati 1576 against Maharana Pratap. Shah Jahan built the Taj Mahal. Aurangzeb ruled to 1707.",
+       "Vijayanagara: founded 1336 by Harihara and Bukka; capital Hampi; Krishnadevaraya was its greatest ruler. Bahmani kingdom: 1347."
+      ],
+      "examples": [
+       {
+        "q": "Who started the Qutub Minar?",
+        "a": "Qutb-ud-din Aibak",
+        "s": ""
+       },
+       {
+        "q": "Which Mughal started the Mansabdari system?",
+        "a": "Akbar",
+        "s": ""
+       },
+       {
+        "q": "Who introduced token currency?",
+        "a": "Muhammad bin Tughlaq",
+        "s": ""
+       },
+       {
+        "q": "Who founded Vijayanagara?",
+        "a": "Harihara and Bukka (1336)",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a timeline",
+        "book": "1206 to 1707, 12 events with rulers. Recite twice."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Ancient & Medieval History",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "p1-w5": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Speed & Distance",
+    "Boats & Streams"
+   ],
+   "reasoning": [
+    "Syllogism",
+    "Venn Diagrams"
+   ],
+   "english": [
+    "Idioms",
+    "One Word"
+   ],
+   "ga": [
+    "Geography"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Speed, trains, boats and streams",
+    "parts": [
+     {
+      "name": "Part 1: Speed, time, distance",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Time and Distance'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Time and Distance': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Distance = speed × time. km/h to m/s: multiply by 5/18. m/s to km/h: multiply by 18/5.",
+       "Same distance, speeds in ratio a : b means times in ratio b : a.",
+       "Average speed over equal distances at speeds x and y = 2xy/(x + y). It is not the simple average.",
+       "Relative speed: same direction subtract, opposite directions add."
+      ],
+      "examples": [
+       {
+        "q": "Convert 72 km/h to m/s.",
+        "a": "20 m/s",
+        "s": "72 × 5/18 = 20."
+       },
+       {
+        "q": "Go at 40 km/h and return at 60 km/h. Average speed?",
+        "a": "48 km/h",
+        "s": "2 × 40 × 60/100 = 48."
+       },
+       {
+        "q": "A man covers 120 km in 3 h. Time for 200 km at the same speed?",
+        "a": "5 hours",
+        "s": "Speed 40 km/h, 200/40 = 5."
+       },
+       {
+        "q": "Two cars 300 km apart move towards each other at 40 and 60 km/h. When do they meet?",
+        "a": "3 hours",
+        "s": "300/100 = 3."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Time and Distance': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM: 25 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Speed & Distance",
+         "n": 20,
+         "min": 15,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Trains",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Problems on Trains'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Trains': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Train passing a pole or a man: distance = length of train.",
+       "Train passing a platform or bridge: distance = train length + platform length.",
+       "Two trains in opposite directions: relative speed = sum; same direction: difference. Distance = sum of both lengths.",
+       "Always convert km/h to m/s first when lengths are in metres."
+      ],
+      "examples": [
+       {
+        "q": "A 150 m train at 54 km/h crosses a pole. Time?",
+        "a": "10 s",
+        "s": "54 km/h = 15 m/s; 150/15 = 10."
+       },
+       {
+        "q": "A 200 m train at 72 km/h crosses a 300 m platform. Time?",
+        "a": "25 s",
+        "s": "500/20 = 25."
+       },
+       {
+        "q": "Trains 100 m and 120 m at 60 and 40 km/h run in opposite directions. Time to cross?",
+        "a": "7.92 s",
+        "s": "220 m ÷ (100 × 5/18 = 27.78 m/s) = 7.92 s."
+       },
+       {
+        "q": "Same trains, same direction. Time to cross?",
+        "a": "39.6 s",
+        "s": "220 ÷ (20 × 5/18 = 5.56) = 39.6 s."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Problems on Trains': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Trains': 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Speed & Distance",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Boats and streams",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Boats and Streams'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Boats and Streams': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Downstream speed D = u + v. Upstream speed U = u − v (u = boat in still water, v = stream).",
+       "u = (D + U)/2 and v = (D − U)/2.",
+       "Time for a round trip over distance d: d/(u + v) + d/(u − v).",
+       "Same drill as trains: draw the two speeds first, then use distance/speed."
+      ],
+      "examples": [
+       {
+        "q": "Boat 10 km/h in still water, stream 2 km/h. Downstream speed?",
+        "a": "12 km/h",
+        "s": ""
+       },
+       {
+        "q": "Downstream 15 km/h, upstream 9 km/h. Boat speed and stream speed?",
+        "a": "12 and 3 km/h",
+        "s": "(15 + 9)/2 = 12; (15 − 9)/2 = 3."
+       },
+       {
+        "q": "A boat goes 24 km downstream in 2 h and returns in 3 h. Stream speed?",
+        "a": "2 km/h",
+        "s": "D = 12, U = 8, v = 2."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "RSA 'Boats and Streams': first 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM: 15 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Boats & Streams",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Syllogism and Venn diagrams",
+    "parts": [
+     {
+      "name": "Part 1: Syllogism basics",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Syllogism'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Syllogism': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Four statement types: All A are B (universal positive), No A is B (universal negative), Some A are B (particular positive), Some A are not B (particular negative).",
+       "All + All → All. All + No → No. Some + All → Some. No + All → Some not.",
+       "Draw Venn circles for every statement. A conclusion is correct only if it is true in every diagram.",
+       "'Some' always converts to 'Some' (Some A are B means Some B are A). 'No' converts to 'No'."
+      ],
+      "examples": [
+       {
+        "q": "All cats are dogs. All dogs are rats. Conclusion: All cats are rats?",
+        "a": "True",
+        "s": "All + All → All."
+       },
+       {
+        "q": "Some pens are books. All books are tables. Conclusion: Some pens are tables?",
+        "a": "True",
+        "s": "Some + All → Some."
+       },
+       {
+        "q": "No bag is a box. All boxes are boats. Conclusion: No bag is a boat?",
+        "a": "Not necessarily",
+        "s": "No + All → only 'Some boats are not bags' is certain."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV 'Syllogism': 30 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Syllogism",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Either-or and possibility",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Syllogism: 'Either-Or' and 'Possibility' sections",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Syllogism: questions 16 to 35",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "If two conclusions involve the same subject and predicate and form a complementary pair (Some A are B and No A is B, or All A are B and Some A are not B), the answer is 'either-or'.",
+       "A possibility conclusion ('Some A can be B') is true if no statement rules it out in some diagram.",
+       "Check both conclusions separately first, then look for either-or."
+      ],
+      "examples": [
+       {
+        "q": "Statements: Some roses are red. Conclusions: (I) All roses are red. (II) Some roses are not red.",
+        "a": "Either I or II",
+        "s": "They are complementary but neither is certain alone."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV: either-or and possibility exercises."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Syllogism",
+         "n": 15,
+         "min": 10,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Venn diagrams",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Venn Diagrams'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Venn Diagram': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Pick a circle for each group. Circles inside means 'is a subset of' (Dogs inside Animals). Overlapping means 'some may be both'. Separate means 'no overlap'.",
+       "Three-group diagrams: ask whether each pair overlaps. Example: Doctors, Teachers, Males (all three overlap partly); Mother, Sister, Woman (Woman contains both; Mother and Sister can overlap or not).",
+       "Count questions: total = A + B − both. Fill from the centre outward."
+      ],
+      "examples": [
+       {
+        "q": "Which diagram fits Pen, Pencil, Stationery?",
+        "a": "Two separate circles inside a larger one",
+        "s": "Pen and Pencil are different but both are stationery."
+       },
+       {
+        "q": "In a class 30 play cricket, 20 play tennis, 10 play both. How many play at least one?",
+        "a": "40",
+        "s": "30 + 20 − 10 = 40."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "RV 'Venn Diagrams': 25 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Venn Diagrams",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Idioms and one-word substitution",
+    "parts": [
+     {
+      "name": "Part 1: Idioms and phrases A to H",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Idioms and Phrases': A to H",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Idioms section",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Learn 10 idioms a day with a one-line story each. Say the meaning aloud, then use it in a sentence.",
+       "Examples: 'A blessing in disguise' = a good thing that seemed bad at first. 'At daggers drawn' = bitter enemies. 'Bolt from the blue' = sudden shock. 'Cry over spilt milk' = regret the past. 'Beat about the bush' = avoid the point.",
+       "Revise yesterday's 10 before learning new ones."
+      ],
+      "examples": [
+       {
+        "q": "'A bolt from the blue' means",
+        "a": "A sudden unexpected event",
+        "s": ""
+       },
+       {
+        "q": "'At daggers drawn' means",
+        "a": "Bitterly hostile",
+        "s": ""
+       },
+       {
+        "q": "'Beat about the bush' means",
+        "a": "Avoid the main point",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Learn",
+        "book": "SB: 30 idioms from A to H into a notebook."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Idioms",
+         "n": 10,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Idioms I to Z",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Idioms and Phrases': I to Z",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Idioms: remaining section",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Examples: 'Once in a blue moon' = very rarely. 'Piece of cake' = very easy. 'Spill the beans' = reveal a secret. 'The last straw' = final provocation. 'Wild goose chase' = futile search. 'Under the weather' = unwell.",
+       "Make flashcards: idiom on one side, meaning on the other."
+      ],
+      "examples": [
+       {
+        "q": "'Once in a blue moon' means",
+        "a": "Very rarely",
+        "s": ""
+       },
+       {
+        "q": "'Spill the beans' means",
+        "a": "Reveal a secret",
+        "s": ""
+       },
+       {
+        "q": "'Under the weather' means",
+        "a": "Feeling ill",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Learn",
+        "book": "SB: 30 idioms from I to Z into a notebook."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Idioms",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: One-word substitution",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'One Word Substitution'",
+        "why": ""
+       },
+       {
+        "book": "Norman Lewis, Word Power Made Easy",
+        "where": "Chapters 1 to 3 for root words",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Learn by category. People: Philanthropist (loves mankind), Misanthrope (hates mankind), Atheist (no belief in God), Egoist (self-centred), Pedestrian (walks), Optimist.",
+       "Fear: Claustrophobia (closed spaces), Acrophobia (heights), Hydrophobia (water). Rule: Autocracy (rule by one), Democracy (by the people), Aristocracy (by nobles), Bureaucracy (officials).",
+       "Others: Omnipotent (all-powerful), Omniscient (all-knowing), Bibliophile (book lover), Somniloquist (talks in sleep), Monolingual (one language)."
+      ],
+      "examples": [
+       {
+        "q": "One who loves mankind",
+        "a": "Philanthropist",
+        "s": ""
+       },
+       {
+        "q": "Fear of closed spaces",
+        "a": "Claustrophobia",
+        "s": ""
+       },
+       {
+        "q": "Government by nobles",
+        "a": "Aristocracy",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Learn",
+        "book": "SB: 40 one-word substitutions into a notebook."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "One Word",
+         "n": 10,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: Indian geography",
+    "parts": [
+     {
+      "name": "Part 1: Physical features and mountains",
+      "read": [
+       {
+        "book": "NCERT Class 6-8 Social Science (Geography) and Class 11, Fundamentals of Physical Geography",
+        "where": "NCERT Class 11, Fundamentals of Physical Geography, Chapters 1 to 5",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "Geography: India, physical features",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Himalayas: Himadri (Greater), Himachal (Lesser), Shivalik (Outer). Kanchenjunga (8,586 m) is the highest peak in India; Mount Everest is in Nepal.",
+       "Peninsular plateau: Deccan. Western Ghats (Sahyadri) are higher than the Eastern Ghats. Anamudi (2,695 m) is the highest peak of South India; Doddabetta is in the Nilgiris.",
+       "Thar Desert is in Rajasthan. Sunderbans delta (Ganga-Brahmaputra) is the largest delta in the world.",
+       "Standard meridian: 82°30′E (passes near Mirzapur). The Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram."
+      ],
+      "examples": [
+       {
+        "q": "Highest peak in India?",
+        "a": "Kanchenjunga",
+        "s": ""
+       },
+       {
+        "q": "Tropic of Cancer passes through how many states?",
+        "a": "8",
+        "s": ""
+       },
+       {
+        "q": "Highest peak of South India?",
+        "a": "Anamudi",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Map work",
+        "book": "Draw India's outline and mark 5 ranges, 5 plateaus and the 8 states on the Tropic of Cancer."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Geography",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Rivers and lakes",
+      "read": [
+       {
+        "book": "NCERT Class 6-8 Social Science (Geography) and Class 11, Fundamentals of Physical Geography",
+        "where": "NCERT Class 9, Contemporary India I, Chapter 'Drainage'",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "Geography: Rivers, lakes",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Himalayan rivers are perennial: Ganga (2,525 km, from Gangotri as Bhagirathi), Yamuna, Brahmaputra (Tsangpo in Tibet, Siang in Arunachal), Indus.",
+       "Peninsular rivers are seasonal: Godavari (longest peninsular river, called 'Dakshin Ganga'), Krishna, Kaveri, Mahanadi. Narmada and Tapi flow west into the Arabian Sea through rift valleys.",
+       "Lakes: Chilika (largest coastal lagoon, Odisha), Wular (largest freshwater lake, J&K), Sambhar (largest inland salt lake, Rajasthan), Loktak (Manipur), Pulicat (Andhra-Tamil Nadu border).",
+       "Confluences: Devprayag (Alaknanda and Bhagirathi form the Ganga), Prayagraj (Ganga, Yamuna, and the hidden Saraswati)."
+      ],
+      "examples": [
+       {
+        "q": "Longest peninsular river?",
+        "a": "Godavari",
+        "s": ""
+       },
+       {
+        "q": "Largest freshwater lake in India?",
+        "a": "Wular Lake",
+        "s": ""
+       },
+       {
+        "q": "Largest coastal lagoon?",
+        "a": "Chilika",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Map work",
+        "book": "Mark 8 rivers with their source and the sea they fall into."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Geography",
+         "n": 15,
+         "min": 10,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Soils, climate and agriculture",
+      "read": [
+       {
+        "book": "NCERT Class 6-8 Social Science (Geography) and Class 11, Fundamentals of Physical Geography",
+        "where": "NCERT Class 9, Contemporary India I, Chapters on climate, soils, agriculture",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "Geography: Soils, crops",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Soils: Alluvial (most widespread, rice, wheat, sugarcane), Black or regur (cotton, from basalt), Red (iron oxide), Laterite (heavy rain, cashew), Desert (Rajasthan).",
+       "Monsoon arrives at Kerala around 1 June. Rainfall is highest at Mawsynram (Meghalaya). Rabi crops (wheat, mustard, gram) are sown in winter; Kharif crops (rice, maize, cotton, jowar) in the monsoon; Zaid in summer.",
+       "Top producers: Rice (West Bengal, UP), Wheat (UP), Cotton (Gujarat, Maharashtra), Tea (Assam), Coffee (Karnataka), Sugarcane (UP)."
+      ],
+      "examples": [
+       {
+        "q": "Which soil suits cotton?",
+        "a": "Black soil",
+        "s": ""
+       },
+       {
+        "q": "Where is the highest rainfall in India?",
+        "a": "Mawsynram",
+        "s": ""
+       },
+       {
+        "q": "Which crop is a Rabi crop: rice or wheat?",
+        "a": "Wheat",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "Soil / Where found / Crop, 5 rows."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Geography",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

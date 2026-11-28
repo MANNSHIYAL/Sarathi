@@ -1,0 +1,26 @@
+{
+ "_note": "Links open a search for the book on Amazon.in and the Internet Archive (a lending library), or an official free page. Titles and editions change; pick the latest edition.",
+ "books": [
+  {"m": ["R\\.S\\. Aggarwal,? Quantitative", "\\bRSA\\b"], "title": "R.S. Aggarwal, Quantitative Aptitude", "q": "RS Aggarwal Quantitative Aptitude for Competitive Examinations"},
+  {"m": ["Rakesh Yadav"], "title": "Rakesh Yadav, Advanced Maths", "q": "Rakesh Yadav Advanced Maths for SSC"},
+  {"m": ["Kiran,? SSC Maths", "\\bKM\\b"], "title": "Kiran, SSC Maths Chapterwise Solved Papers", "q": "Kiran SSC Maths Chapterwise Solved Papers"},
+  {"m": ["R\\.S\\. Aggarwal,? Verbal", "\\bRV\\b"], "title": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning", "q": "RS Aggarwal Verbal and Non-Verbal Reasoning"},
+  {"m": ["Kiran,? SSC Reasoning", "\\bKR\\b", "Kiran Reasoning"], "title": "Kiran, SSC Reasoning Chapterwise Solved Papers", "q": "Kiran SSC Reasoning Chapterwise Solved Papers"},
+  {"m": ["M\\.K\\. Pandey"], "title": "M.K. Pandey, Analytical Reasoning", "q": "MK Pandey Analytical Reasoning"},
+  {"m": ["Wren (&|and) Martin", "\\bWM\\b"], "title": "Wren & Martin, High School English Grammar & Composition", "q": "Wren and Martin High School English Grammar and Composition"},
+  {"m": ["S\\.P\\. Bakshi", "\\bSB\\b"], "title": "S.P. Bakshi, Objective General English", "q": "SP Bakshi Objective General English Arihant"},
+  {"m": ["Norman Lewis"], "title": "Norman Lewis, Word Power Made Easy", "q": "Norman Lewis Word Power Made Easy"},
+  {"m": ["Neetu Singh"], "title": "Neetu Singh, English for General Competitions", "q": "Neetu Singh English for General Competitions Kiran"},
+  {"m": ["Laxmikanth"], "title": "M. Laxmikanth, Indian Polity", "q": "Laxmikanth Indian Polity McGraw Hill"},
+  {"m": ["Spectrum"], "title": "Spectrum, A Brief History of Modern India", "q": "Spectrum A Brief History of Modern India"},
+  {"m": ["Lucent"], "title": "Lucent's General Knowledge", "q": "Lucent General Knowledge"},
+  {"m": ["Computer Awareness"], "title": "Computer Awareness (Arihant / Kiran)", "q": "Objective Computer Awareness for competitive exams"},
+  {"m": ["NCERT"], "title": "NCERT textbooks", "free": "https://ncert.nic.in/textbook.php", "freeLabel": "Free NCERT PDFs"},
+  {"m": ["MEA Annual Report"], "title": "MEA Annual Report", "free": "https://www.mea.gov.in/annual-reports.htm", "freeLabel": "Official site"},
+  {"m": ["MEA website", "mea\\.gov\\.in"], "title": "MEA website", "free": "https://www.mea.gov.in", "freeLabel": "Official site"},
+  {"m": ["The Hindu"], "title": "The Hindu editorial page", "free": "https://www.thehindu.com/opinion/editorial/", "freeLabel": "Read online"},
+  {"m": ["Economic Survey"], "title": "Economic Survey", "free": "https://www.indiabudget.gov.in/economicsurvey/", "freeLabel": "Official site"},
+  {"m": ["Budget at a Glance", "indiabudget"], "title": "Budget at a Glance", "free": "https://www.indiabudget.gov.in", "freeLabel": "Official site"},
+  {"m": ["PIB"], "title": "PIB", "free": "https://pib.gov.in", "freeLabel": "Official site"}
+ ]
+}
