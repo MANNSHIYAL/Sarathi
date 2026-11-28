@@ -8,7 +8,7 @@ import { startExam } from '../exam.js';
 export async function render(app) {
   let cur = store.get('news-tab', 'ssc');
   const saved = () => store.get('saved-news', []);
-  app.innerHTML = `<div class="row"><h1 class="sp">Live updates</h1><button class="btn alt sm" id="dgb">Section digest</button><button class="btn alt sm" id="rf" style="margin-left:6px">Refresh</button></div><p class="sub">Exam notices and current affairs, fetched live when you are online.</p>
+  app.innerHTML = `<div class="row"><h1 class="sp">Live updates</h1><a class="btn alt sm" id="tut" href="#/tutor/live/${cur}" style="margin-right:6px">🎓 Tutor</a><button class="btn alt sm" id="dgb">Section digest</button><button class="btn alt sm" id="rf" style="margin-left:6px">Refresh</button></div><p class="sub">Exam notices and current affairs, fetched live when you are online.</p>
   <div id="eu"></div><div class="tabs" id="tb">${FEEDS.map(f => `<button data-f="${f.id}" class="${f.id === cur ? 'on' : ''}">${f.name}</button>`).join('')}<button data-f="__saved" class="${cur === '__saved' ? 'on' : ''}">Saved</button></div><div id="st" class="sub"></div><div id="dg"></div><div class="card list" id="lst"></div><div id="qz"></div>`;
   examUpdates().then(u => { $('#eu').innerHTML = `<div class="card"><h3>SSC CGL: verified updates</h3><div class="list">${(u.updates || []).map(x => `<a class="item" href="${esc(x.link)}" target="_blank" rel="noopener"><div class="t">${esc(x.t)}</div><div class="m">${dfmt(x.d)} · ${esc(x.src)}</div></a>`).join('')}</div><div class="note">Confirm everything on <a href="https://ssc.gov.in" target="_blank" rel="noopener">ssc.gov.in</a>.</div></div>`; });
   let items = [];
@@ -43,7 +43,7 @@ export async function render(app) {
     try { const r = await loadFeed(cur, force); items = r.items; $('#st').textContent = r.live ? `Live · updated ${ago(r.at)}${r.via ? ' via ' + r.via : ''}` : r.snapshot ? 'Offline: no live data reachable and nothing cached yet.' : `Offline copy from ${ago(r.at)}`; } catch (e) { $('#st').textContent = 'Could not load: ' + e.message; }
     list();
   }
-  $$('#tb button').forEach(b => b.onclick = () => { cur = b.dataset.f; store.set('news-tab', cur); $$('#tb button').forEach(x => x.classList.toggle('on', x === b)); load(false); });
+  $$('#tb button').forEach(b => b.onclick = () => { cur = b.dataset.f; { const t = document.getElementById('tut'); if (t) t.href = '#/tutor/live/' + (cur === '__saved' ? 'ssc' : cur); } store.set('news-tab', cur); $$('#tb button').forEach(x => x.classList.toggle('on', x === b)); load(false); });
   $('#rf').onclick = () => load(true);
   $('#dgb').onclick = digest;
   load(false);

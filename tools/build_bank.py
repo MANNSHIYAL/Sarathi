@@ -363,6 +363,109 @@ A('reasoning','Venn Diagrams',[
 ('In a town 70% like apples, 60% like oranges and 40% like both. What % like neither?','10%',['20%','30%','0%'],'100 − (70 + 60 − 40) = 10.'),
 ('Which set relation fits Dog, Animal, Cat?','Dog and Cat are separate circles inside the larger circle Animal',['Dog and Cat overlap inside Animal','Three separate circles','Animal inside Dog'],'Dogs and cats are different animals.'),
 ('Which set relation fits Fruits, Apples, Vegetables?','Apples inside Fruits; Vegetables separate',['Apples inside Vegetables','Fruits inside Apples','Three overlapping circles'],'Apples are fruits, not vegetables.')])
+A('english','Sentence Improvement',[
+('Improve: "He is senior than me."','senior to me',['senior from me','senior of me','No improvement'],'"Senior/junior" take "to".'),
+('Improve: "She prefers tea than coffee."','tea to coffee',['tea from coffee','tea over than coffee','No improvement'],'"Prefer ... to".'),
+('Improve: "He did not came yesterday."','did not come',['did not came','does not came','No improvement'],'After "did not" use the base verb.'),
+('Improve: "Each of the boys have a book."','Each of the boys has',['Each of the boys have','Each of the boy have','No improvement'],'"Each" takes a singular verb.'),
+('Improve: "I have been knowing him for ten years."','I have known him',['I am knowing him','I know him since','No improvement'],'"Know" is a stative verb, not used in continuous form.'),
+('Improve: "Hardly had he reached than it rained."','Hardly had he reached when it rained',['Hardly had he reached before it rained','Hardly he reached when it rained','No improvement'],'"Hardly ... when".'),
+('Improve: "The news are good."','The news is good',['The news were good','The news have good','No improvement'],'"News" is singular.'),
+('Improve: "He is good in Mathematics."','good at Mathematics',['good on Mathematics','good with Mathematics','No improvement'],'"Good at" a subject.')])
+A('english','Para Jumbles',[
+('Order P, Q, R, S to form a sentence: P: the monsoon / Q: arrives in June / R: in Kerala / S: usually','P S Q R',['Q R P S','R S P Q','S R Q P'],'"The monsoon usually arrives in June in Kerala".'),
+('Which sentence should come first in a paragraph about a river? (1) It then enters the sea. (2) The Ganga rises in the Himalayas. (3) It flows through the plains.','(2)',['(1)','(3)','All are equal'],'The source comes first: (2), (3), (1).'),
+('Order the steps: (A) He paid the fee. (B) He filled the form. (C) He got the ticket. (D) He reached the counter.','D B A C',['B A C D','A B C D','D A B C'],'Counter, form, fee, ticket.'),
+('In a para jumble, the opening sentence usually','Introduces the topic without pronouns that need an earlier noun',['Begins with "However"','Begins with "He" or "It"','Is the longest sentence'],'The first sentence must stand on its own.'),
+('Which linker usually signals contrast?','However',['Therefore','Moreover','Hence'],'However = contrast.'),
+('Which sentence is the logical LAST in a para about a decision? (1) The committee met. (2) It studied the proposal. (3) Finally, it approved the plan.','(3)',['(1)','(2)','Any'],'"Finally" signals the end.')])
+A('english','Reading Comprehension',[
+('Passage: "Rivers carry silt that makes plains fertile, so ancient cities grew along them." What is the main idea?','Rivers support settlement through fertile land',['Cities destroy rivers','Silt is harmful','Plains are always dry'],'The passage links rivers, silt and cities.'),
+('Passage: "Although the road was closed, the bus reached on time." The word "Although" shows','Contrast',['Cause','Addition','Time'],'Although marks contrast.'),
+('Passage: "The committee deferred the decision." "Deferred" means','Postponed',['Approved','Rejected','Announced'],'Defer = postpone.'),
+('In RC, the best way to find a detail answer is to','Scan the passage for the keyword from the question',['Guess','Read only the last line','Pick the longest option'],'Locate the keyword.'),
+('An "inference" question asks for','What the passage suggests without saying it directly',['A word-for-word line','The title','The author name'],'Inference = implied meaning.'),
+('Passage: "He never complained, though the work was hard." The tone is','Patient',['Angry','Careless','Playful'],'Not complaining despite hardship shows patience.')])
+A('english','Cloze Test',[
+('She has lived here ___ 2010.','since',['for','from','by'],'Since + a point in time.'),
+('He was tired, ___ he kept working.','yet',['so','because','hence'],'Contrast needs "yet".'),
+('The meeting was cancelled ___ heavy rain.','due to',['because','owing','since'],'"Due to" + noun.'),
+('Neither the teacher nor the students ___ present.','were',['was','is','has'],'The nearer subject (students) decides the verb.'),
+('If I ___ you, I would apologise.','were',['am','was','will be'],'Unreal condition uses "were".'),
+('He insisted ___ paying the bill.','on',['for','to','at'],'"Insist on".'),
+('The government has taken a ___ decision to reduce prices.','firm',['fern','firmly','firmness'],'An adjective is needed before "decision".'),
+('By next June, she ___ her degree.','will have completed',['will complete','has completed','completes'],'Future perfect for completion before a time.')])
+A('ga','Geography',[
+('The longest river in the world by most measures is:','Nile',['Amazon','Yangtze','Mississippi'],'The Nile is usually given as the longest.'),
+('The largest ocean is:','Pacific',['Atlantic','Indian','Arctic'],'The Pacific covers about a third of the Earth.'),
+('The Equator passes through which continent?','Africa',['Europe','Australia','Antarctica'],'It crosses Africa, South America and Asia.'),
+('The deepest point of the oceans, the Mariana Trench, is in the:','Pacific Ocean',['Atlantic Ocean','Indian Ocean','Arctic Ocean'],'Challenger Deep, western Pacific.'),
+('The Sahara is a desert of:','Africa',['Asia','Australia','South America'],'The largest hot desert is in Africa.'),
+('The International Date Line is near:','180° longitude',['0° longitude','90° E','90° W'],'It broadly follows 180°.'),
+('Which is the smallest continent by area?','Australia',['Europe','Antarctica','South America'],'Australia (Oceania).'),
+('Prime Meridian passes through:','Greenwich',['Paris','Rome','Delhi'],'0° longitude, near London.')])
+A('ga','Economy',[
+('The central bank of India is:','Reserve Bank of India',['SBI','NABARD','SEBI'],'The RBI was set up in 1935 and nationalised in 1949.'),
+('GST came into force in India on:','1 July 2017',['1 April 2016','1 January 2018','15 August 2017'],'Goods and Services Tax, 1 July 2017.'),
+('The Union Budget is presented in Parliament by the:','Finance Minister',['President','Prime Minister','RBI Governor'],'Under Article 112 it is laid before Parliament.'),
+('The Repo rate is the rate at which:','RBI lends short-term to banks',['Banks lend to the public','Banks lend to RBI','RBI lends to the government'],'Repo = repurchase option.'),
+('Which is a direct tax?','Income tax',['GST','Excise duty','Customs duty'],'The burden falls directly on the taxpayer.'),
+('The fiscal year in India runs from:','1 April to 31 March',['1 January to 31 December','1 July to 30 June','1 October to 30 September'],'April to March.'),
+('Inflation means:','A general rise in prices',['A fall in prices','A rise in wages only','A fall in money supply'],'Sustained rise in the general price level.'),
+('NITI Aayog replaced the:','Planning Commission',['Finance Commission','Election Commission','CAG'],'Replaced in 2015.'),
+('SEBI regulates:','The securities market',['Banks','Insurance','Mutual aid funds only'],'Securities and Exchange Board of India.'),
+('The first Five Year Plan began in:','1951',['1947','1950','1956'],'1951 to 1956.'),
+('RBI Governor is appointed by the:','Central Government',['President alone','Parliament','Finance Commission'],'On the Central Government’s advice.'),
+('Which of these is a regulator of insurance?','IRDAI',['SEBI','PFRDA','NABARD'],'Insurance Regulatory and Development Authority of India.')])
+A('ga','Science',[
+('The SI unit of force is:','Newton',['Joule','Watt','Pascal'],'1 N = 1 kg m/s².'),
+('The SI unit of energy is:','Joule',['Newton','Watt','Pascal'],'Work and energy use the joule.'),
+('The chemical formula of common salt is:','NaCl',['KCl','NaOH','CaCO3'],'Sodium chloride.'),
+('Which gas do plants take in for photosynthesis?','Carbon dioxide',['Oxygen','Nitrogen','Hydrogen'],'CO2 + water + light → glucose + oxygen.'),
+('The powerhouse of the cell is the:','Mitochondria',['Nucleus','Ribosome','Golgi body'],'It produces ATP.'),
+('Vitamin C deficiency causes:','Scurvy',['Rickets','Beriberi','Night blindness'],'Scurvy: bleeding gums.'),
+('The pH of pure water is about:','7',['0','14','1'],'Neutral.'),
+('Which is the lightest gas?','Hydrogen',['Helium','Oxygen','Nitrogen'],'Hydrogen is the lightest element.'),
+('The speed of light in vacuum is about:','3 × 10^8 m/s',['3 × 10^6 m/s','3 × 10^5 m/s','3 × 10^10 m/s'],'About 300,000 km/s.'),
+('Blood group considered the universal donor:','O negative',['AB positive','A positive','B negative'],'O negative red cells.'),
+('The hardest natural substance is:','Diamond',['Graphite','Quartz','Iron'],'Carbon in a crystal lattice.'),
+('Rusting of iron needs:','Oxygen and moisture',['Oxygen only','Moisture only','Nitrogen'],'Both are needed.'),
+('Which organ produces insulin?','Pancreas',['Liver','Kidney','Stomach'],'Beta cells of the pancreas.'),
+('Sound cannot travel through:','Vacuum',['Water','Steel','Air'],'It needs a medium.')])
+A('reasoning','Statement & Conclusion',[
+('Statement: All books are pens. Some pens are pencils. Conclusion: Some books are pencils.','Does not follow',['Follows','Follows only partly','Cannot say'],'No link between books and pencils is certain.'),
+('Statement: The government has banned plastic bags. Conclusion I: Plastic bags harm the environment. Conclusion II: People will stop using plastic.','Neither follows',['Only I follows','Only II follows','Both follow'],'Neither is stated or certain.'),
+('Statement: All doctors are graduates. Conclusion: Some graduates are doctors.','Follows',['Does not follow','Cannot say','Opposite follows'],'All A are B gives Some B are A.'),
+('Statement: Some cars are red. Conclusion: All cars are red.','Does not follow',['Follows','Cannot say','Always true'],'"Some" never gives "All".'),
+('Statement: No fish is a bird. Conclusion: No bird is a fish.','Follows',['Does not follow','Cannot say','Only partly'],'No A is B converts to No B is A.'),
+('Statement: Only students got the prize. Conclusion: Everyone who got the prize is a student.','Follows',['Does not follow','Cannot say','Partly'],'"Only students" means all winners are students.')])
+A('reasoning','Statement & Assumptions',[
+('Statement: "Use ABC soap for a glowing skin." Assumption: People want glowing skin.','Is implicit',['Is not implicit','Cannot say','Is false'],'An advert assumes the audience wants the benefit.'),
+('Statement: "Please do not park here." Assumption: People may park there otherwise.','Is implicit',['Is not implicit','Cannot say','Is false'],'The request assumes parking is possible.'),
+('A valid assumption is something that is','Taken as true for the statement to make sense',['Stated in the statement','Opposite to the statement','Proved by the statement'],'An assumption is unstated but needed.'),
+('Statement: "Take an umbrella; it may rain." Assumption: An umbrella protects from rain.','Is implicit',['Is not implicit','Cannot say','Is false'],'The advice relies on it.'),
+('Statement: "The school will give a prize to the best student." Assumption: All students are equal.','Is not implicit',['Is implicit','Cannot say','Is true'],'Choosing the best requires differences.'),
+('Words like "all", "only", "always" in an assumption often make it','Too strong, so usually not implicit',['Always correct','Always implicit','Irrelevant'],'Extreme words are risky.')])
+A('reasoning','Matrix',[
+('Find the missing number: row1 2 3 5; row2 4 6 10; row3 6 9 ?','15',['12','14','16'],'Third = sum of first two: 6 + 9 = 15.'),
+('Find the missing number: 3 9 27; 2 4 8; 5 25 ?','125',['100','75','50'],'Each row is x, x², x³: 5, 25, 125.'),
+('Find the missing number: row1 1 4 9; row2 16 25 36; row3 49 64 ?','81',['72','90','100'],'Squares of 1 to 9.'),
+('Find the missing number: 2 3 6; 4 5 20; 6 7 ?','42',['13','36','48'],'Third = product: 6 × 7 = 42.'),
+('Find the missing number: 12 4 3; 18 6 3; 20 10 ?','2',['5','4','10'],'Row: a ÷ b = c: 20 ÷ 10 = 2.')])
+A('reasoning','Mirror & Water Images',[
+('The mirror image of a clock showing 3:00 looks like:','9:00',['3:00','6:00','12:00'],'Mirror time = 12:00 minus the shown time (11:60 − time). 11:60 − 3:00 = 8:60 = 9:00.'),
+('The mirror image of a clock showing 4:00 looks like:','8:00',['4:00','6:00','10:00'],'11:60 − 4:00 = 7:60 = 8:00.'),
+('In a vertical mirror, the left side of an object appears on the','Right side',['Left side','Top','Bottom'],'A vertical mirror flips left and right.'),
+('In a water image (reflection in water below), the top of the figure appears at the','Bottom',['Top','Left','Right'],'Water image flips top and bottom.'),
+('The mirror image of the word "MOM" (vertical mirror at the right) reads:','MOM',['WOW','OMO','MWM'],'M, O are symmetric about a vertical axis, so MOM reads the same (reversed order is MOM).'),
+('Which letter looks the same in a vertical mirror?','A',['B','F','R'],'A is symmetric about a vertical axis.')])
+A('reasoning','Figure Counting',[
+('How many triangles are in a triangle with one line from the apex to the base?','3',['2','4','5'],'Two small plus one whole.'),
+('How many triangles are in a triangle with 2 lines from the apex to the base?','6',['4','5','8'],'3 lines make 3 + 2 + 1 = 6.'),
+('How many squares in a 2 × 2 grid?','5',['4','6','8'],'4 small + 1 large.'),
+('How many squares in a 3 × 3 grid?','14',['9','10','13'],'9 + 4 + 1 = 14.'),
+('How many rectangles in a 2 × 2 grid?','9',['4','6','8'],'3 × 3 = 9.')])
+
 out=[]
 for sec,t,q,c,w,e in Q:
     if not q or len(w)!=3 or not c: continue

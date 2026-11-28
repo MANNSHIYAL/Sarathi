@@ -3874,5 +3874,1967 @@
     ]
    }
   }
+ },
+ "p1-w6": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Number System",
+    "Simplification"
+   ],
+   "reasoning": [
+    "Mathematical Operations",
+    "Matrix",
+    "Statement & Conclusion"
+   ],
+   "english": [
+    "Sentence Improvement",
+    "Para Jumbles"
+   ],
+   "ga": [
+    "Geography"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Number system, HCF-LCM, simplification",
+    "parts": [
+     {
+      "name": "Part 1: Number system",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapters 'Numbers' and 'Divisibility'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Number System': first 15 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Divisibility: 2 (last digit even), 3 (digit sum divisible by 3), 4 (last two digits), 5, 6 (2 and 3), 8 (last three digits), 9 (digit sum), 11 (difference of odd-place and even-place digit sums is 0 or a multiple of 11).",
+       "Unit digit of a power: cycles of 4 for 2, 3, 7, 8; cycles of 2 for 4 and 9; 0, 1, 5, 6 never change. Divide the power by 4 and use the remainder (0 means the 4th number of the cycle).",
+       "Number of factors of N = p^a × q^b is (a + 1)(b + 1). Sum of first n natural numbers = n(n + 1)/2; sum of first n odd numbers = n².",
+       "Dividend = Divisor × Quotient + Remainder. Remainder of a sum or product = sum or product of the remainders, then reduced."
+      ],
+      "examples": [
+       {
+        "q": "Unit digit of 7^45?",
+        "a": "7",
+        "s": "Cycle of 7 is 7, 9, 3, 1. 45 mod 4 = 1, so the first: 7."
+       },
+       {
+        "q": "Is 528176 divisible by 11?",
+        "a": "Yes",
+        "s": "Digits at odd places 5 + 8 + 7 = 20, at even places 2 + 1 + 6 = 9. The difference is 11, so yes."
+       },
+       {
+        "q": "Number of factors of 360?",
+        "a": "24",
+        "s": "360 = 2³ × 3² × 5, so (3 + 1)(2 + 1)(1 + 1) = 24."
+       },
+       {
+        "q": "Remainder when 17 × 23 is divided by 5?",
+        "a": "1",
+        "s": "17 leaves 2, 23 leaves 3, 2 × 3 = 6 leaves 1."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude 'Numbers': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Number System': 25 questions, 45 seconds each."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Number System",
+         "n": 20,
+         "min": 15,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: HCF and LCM",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'H.C.F. and L.C.M. of Numbers'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'HCF and LCM': first 10 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "For two numbers: HCF × LCM = product of the numbers. HCF divides every number; LCM is divisible by every number.",
+       "Greatest number that divides a, b, c leaving remainders r1, r2, r3 = HCF of (a − r1), (b − r2), (c − r3). Smallest number leaving the same remainder r = LCM + r.",
+       "Bells ringing together again, or runners meeting again, after the LCM of their times.",
+       "HCF of fractions = HCF of numerators ÷ LCM of denominators. LCM of fractions = LCM of numerators ÷ HCF of denominators."
+      ],
+      "examples": [
+       {
+        "q": "HCF of 12 and 18 is 6. Find their LCM.",
+        "a": "36",
+        "s": "12 × 18 / 6 = 36."
+       },
+       {
+        "q": "Greatest number that divides 70 and 52 leaving remainder 4 each?",
+        "a": "6",
+        "s": "HCF of (70 − 4) and (52 − 4) = HCF(66, 48) = 6."
+       },
+       {
+        "q": "Smallest number which leaves remainder 2 when divided by 6, 8 and 12?",
+        "a": "26",
+        "s": "LCM = 24, plus 2 = 26."
+       },
+       {
+        "q": "Three bells ring every 6, 8 and 12 minutes. After how long do they ring together?",
+        "a": "24 minutes",
+        "s": "LCM = 24."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude 'HCF and LCM': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'HCF and LCM': 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Number System",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Simplification and approximation",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapters 'Simplification', 'Square roots and cube roots', 'Surds and indices'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Simplification': first 15 solved questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "BODMAS: Brackets (in the order ( ) { } [ ]), Of, Division, Multiplication, Addition, Subtraction. Do 'of' before division.",
+       "Squares 1 to 30 and cubes 1 to 15 by heart. (a + b)² = a² + 2ab + b². a² − b² = (a + b)(a − b).",
+       "Indices: a^m × a^n = a^(m + n); a^m ÷ a^n = a^(m − n); (a^m)^n = a^(mn); a^0 = 1.",
+       "Approximation: round each number to a convenient value, calculate, pick the closest option. Do not compute exactly."
+      ],
+      "examples": [
+       {
+        "q": "Simplify 18 ÷ 3 × 2 + 4.",
+        "a": "16",
+        "s": "18 ÷ 3 = 6, × 2 = 12, + 4 = 16."
+       },
+       {
+        "q": "Value of (25)² − (24)²?",
+        "a": "49",
+        "s": "(25 + 24)(25 − 24) = 49."
+       },
+       {
+        "q": "Value of 2^5 × 2^3 ÷ 2^6?",
+        "a": "4",
+        "s": "2^(5 + 3 − 6) = 2² = 4."
+       },
+       {
+        "q": "Approximate 49.9 × 20.1 ÷ 5.",
+        "a": "About 200",
+        "s": "50 × 20 ÷ 5 = 200."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude 'Simplification': first 50 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Simplification': 30 questions, 30 seconds each."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Simplification",
+         "n": 20,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Mathematical operations, matrix, statement and conclusion",
+    "parts": [
+     {
+      "name": "Part 1: Mathematical operations",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Mathematical Operations'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Mathematical Operations': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Two kinds: (1) symbols replaced by other operations, (2) letters standing for operations. First rewrite the expression with the real signs, then apply BODMAS.",
+       "Swap carefully: if '+' means '−' and '×' means '÷', change each sign once and do not change again.",
+       "Do the substitution on a fresh line before calculating. Check one answer by plugging back."
+      ],
+      "examples": [
+       {
+        "q": "If + means −, − means ×, × means ÷, find 8 + 6 − 3 × 3.",
+        "a": "2",
+        "s": "Rewrite: 8 − 6 × 3 ÷ 3. BODMAS: 6 × 3 ÷ 3 = 6, then 8 − 6 = 2."
+       },
+       {
+        "q": "If A means +, B means −, find 12 A 8 B 5.",
+        "a": "15",
+        "s": "12 + 8 − 5 = 15."
+       },
+       {
+        "q": "If 'a' means ×, 'b' means ÷, find 20 b 5 a 3.",
+        "a": "12",
+        "s": "20 ÷ 5 × 3 = 12."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning 'Mathematical Operations': 30 questions (shorten to 40 min)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Mathematical Operations",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Matrix and missing number",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Completing the Matrix' / 'Missing Number'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Missing Number': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Check rows first, then columns, then diagonals. A common rule: third number = first + second, first × second, or first² + second.",
+       "If a rule fails for one row, try a different operation on that row, but the same rule must work for all rows.",
+       "Squares and cubes are common: 4, 9, 16, 25 and 8, 27, 64, 125 should be recognised instantly."
+      ],
+      "examples": [
+       {
+        "q": "2 3 5; 4 6 10; 6 9 ?",
+        "a": "15",
+        "s": "Third = first + second."
+       },
+       {
+        "q": "3 9 27; 2 4 8; 5 25 ?",
+        "a": "125",
+        "s": "x, x², x³."
+       },
+       {
+        "q": "2 3 6; 4 5 20; 6 7 ?",
+        "a": "42",
+        "s": "Third = first × second."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning 'Missing Number': 30 questions (shorten to 40 min)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Matrix",
+         "n": 5,
+         "min": 5,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Statement and conclusion",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Statement and Conclusions'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Statement and Conclusion': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "A conclusion follows only if it is a certain consequence of the statement itself, not of your own knowledge.",
+       "'All' to 'Some': All A are B gives Some B are A. 'Some' never gives 'All'.",
+       "'Only' statements: Only students got the prize means every winner is a student.",
+       "If both conclusions are doubtful and form a pair, the answer is 'Either I or II follows'."
+      ],
+      "examples": [
+       {
+        "q": "All doctors are graduates. Conclusion: Some graduates are doctors.",
+        "a": "Follows",
+        "s": "Conversion of All."
+       },
+       {
+        "q": "Some cars are red. Conclusion: All cars are red.",
+        "a": "Does not follow",
+        "s": "Some does not give All."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning 'Statement and Conclusions': 30 questions (shorten to 40 min)."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Statement & Conclusion",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Sentence improvement and para jumbles",
+    "parts": [
+     {
+      "name": "Part 1: Sentence improvement, common errors",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Sentence Improvement'",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Revise: prepositions and verbs sections",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Read the underlined part, then each option in the full sentence. Choose 'No improvement' only when the sentence is truly correct.",
+       "Common traps: 'prefer … to' (not 'than'); 'senior/junior to'; 'hardly … when'; 'no sooner … than'; 'good at'; 'each/every + singular verb'.",
+       "Stative verbs (know, want, like, belong, believe) are not used in continuous tenses."
+      ],
+      "examples": [
+       {
+        "q": "Improve: He is senior than me.",
+        "a": "senior to me",
+        "s": "Senior/junior take 'to'."
+       },
+       {
+        "q": "Improve: She prefers tea than coffee.",
+        "a": "tea to coffee",
+        "s": "Prefer … to."
+       },
+       {
+        "q": "Improve: Each of the boys have a book.",
+        "a": "Each of the boys has",
+        "s": "Each takes a singular verb."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "S.P. Bakshi, Objective General English 'Sentence Improvement': 40 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Sentence Improvement",
+         "n": 8,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Sentence improvement, harder patterns",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Sentence improvement: second exercise set",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter on conditionals and tenses",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Check subject-verb agreement, tense consistency, article use and word order together.",
+       "Conditionals: If + past, would + verb (unreal). 'If I were you' not 'If I was you'.",
+       "'News', 'mathematics', 'physics' look plural but are singular."
+      ],
+      "examples": [
+       {
+        "q": "Improve: The news are good.",
+        "a": "The news is good",
+        "s": "'News' is singular."
+       },
+       {
+        "q": "Improve: I have been knowing him for ten years.",
+        "a": "I have known him",
+        "s": "Stative verb, no continuous."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "S.P. Bakshi, Objective General English 'Sentence Improvement': another 40 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Sentence Improvement",
+         "n": 8,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Para jumbles",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Para Jumbles' / 'Sentence Arrangement'",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Chapter on composition: linking words",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Find the opening sentence first: it introduces the subject and has no pronoun that needs an earlier noun.",
+       "Look for mandatory pairs: noun then pronoun, 'however' after a point, question then answer.",
+       "Linkers: however, but, yet = contrast; therefore, hence, so = result; also, moreover = addition; finally = end.",
+       "Test your order by reading the whole paragraph once at the end."
+      ],
+      "examples": [
+       {
+        "q": "Order: P the monsoon / Q arrives in June / R in Kerala / S usually.",
+        "a": "P S Q R",
+        "s": "The monsoon usually arrives in June in Kerala."
+       },
+       {
+        "q": "Which comes first? (1) It then enters the sea. (2) The Ganga rises in the Himalayas. (3) It flows through the plains.",
+        "a": "(2), (3), (1)",
+        "s": "Source, journey, end."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "S.P. Bakshi, Objective General English 'Para Jumbles': 25 sets."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Para Jumbles",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: World geography",
+    "parts": [
+     {
+      "name": "Part 1: Earth, continents and oceans",
+      "read": [
+       {
+        "book": "NCERT Class 6 'The Earth Our Habitat' and Class 11 Fundamentals of Physical Geography",
+        "where": "Class 6 'The Earth in the Solar System', 'Globe: Latitudes and Longitudes', 'Motions of the Earth'",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "Geography: The Universe, the Earth",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Seven continents by size: Asia, Africa, North America, South America, Antarctica, Europe, Australia. Five oceans: Pacific (largest and deepest, Mariana Trench), Atlantic, Indian, Southern, Arctic (smallest).",
+       "Equator 0°; Tropic of Cancer 23.5°N; Tropic of Capricorn 23.5°S; Prime Meridian 0° at Greenwich; International Date Line near 180°. Earth rotates west to east in 24 hours and revolves round the Sun in about 365¼ days.",
+       "Longest river: Nile; largest hot desert: Sahara; highest peak: Everest (8,849 m); lowest point on land: Dead Sea shore."
+      ],
+      "examples": [
+       {
+        "q": "Which is the smallest continent?",
+        "a": "Australia",
+        "s": ""
+       },
+       {
+        "q": "Where is the Mariana Trench?",
+        "a": "Pacific Ocean",
+        "s": ""
+       },
+       {
+        "q": "Which line passes through Greenwich?",
+        "a": "Prime Meridian",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Map work",
+        "book": "Outline the continents and oceans, mark the Equator, both tropics and the Prime Meridian."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Geography",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Climate and winds",
+      "read": [
+       {
+        "book": "NCERT Class 6 'The Earth Our Habitat' and Class 11 Fundamentals of Physical Geography",
+        "where": "Class 11 Fundamentals of Physical Geography, chapters on atmosphere, winds and climate",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "Geography: Atmosphere, climate",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Layers of the atmosphere: Troposphere (weather), Stratosphere (ozone layer), Mesosphere, Thermosphere (ionosphere), Exosphere.",
+       "Winds: trade winds blow towards the Equator, westerlies at 30-60° and polar easterlies. Monsoon = seasonal reversal of winds.",
+       "Climate zones: tropical (hot, wet), arid desert, temperate, polar. Equatorial regions get rain all year (Amazon, Congo)."
+      ],
+      "examples": [
+       {
+        "q": "In which layer does weather occur?",
+        "a": "Troposphere",
+        "s": ""
+       },
+       {
+        "q": "Which layer holds the ozone?",
+        "a": "Stratosphere",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "Layer / Height / Famous for. Five rows."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Geography",
+         "n": 15,
+         "min": 10,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Resources, rivers and deserts of the world",
+      "read": [
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "World Geography: rivers, lakes, deserts, mountains",
+        "why": ""
+       },
+       {
+        "book": "NCERT Class 6 'The Earth Our Habitat' and Class 11 Fundamentals of Physical Geography",
+        "where": "Class 7 Our Environment and Class 8 Resources and Development",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Rivers: Nile (longest, Egypt), Amazon (largest by volume), Yangtze (Asia), Mississippi, Danube. Lakes: Caspian (largest), Superior (largest freshwater by area), Baikal (deepest).",
+       "Deserts: Sahara (Africa), Arabian, Gobi (Mongolia and China), Atacama (driest, Chile), Thar (India).",
+       "Mountains: Himalayas (Asia), Andes (South America), Rockies (North America), Alps (Europe)."
+      ],
+      "examples": [
+       {
+        "q": "Driest desert in the world?",
+        "a": "Atacama",
+        "s": ""
+       },
+       {
+        "q": "Deepest lake?",
+        "a": "Lake Baikal",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Map work",
+        "book": "Mark 6 rivers, 4 deserts, 4 mountain ranges on a world map."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Geography",
+         "n": 15,
+         "min": 10,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "p1-w7": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Algebra"
+   ],
+   "reasoning": [
+    "Statement & Conclusion",
+    "Statement & Assumptions"
+   ],
+   "english": [
+    "Reading Comprehension"
+   ],
+   "ga": [
+    "Economy"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Algebra and identities",
+    "parts": [
+     {
+      "name": "Part 1: Identities and factorisation",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapters 'Algebraic Identities' and 'Factorization'",
+        "why": ""
+       },
+       {
+        "book": "Rakesh Yadav, Advanced Maths (SSC)",
+        "where": "Chapter 'Algebra': identities section",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "(a + b)² = a² + 2ab + b². (a − b)² = a² − 2ab + b². a² − b² = (a + b)(a − b).",
+       "(a + b)³ = a³ + b³ + 3ab(a + b). a³ + b³ = (a + b)(a² − ab + b²). a³ − b³ = (a − b)(a² + ab + b²).",
+       "If x + 1/x = k then x² + 1/x² = k² − 2 and x³ + 1/x³ = k³ − 3k.",
+       "a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca). If a + b + c = 0 then a³ + b³ + c³ = 3abc."
+      ],
+      "examples": [
+       {
+        "q": "a + b = 5, ab = 6. Find a² + b².",
+        "a": "13",
+        "s": "25 − 12 = 13."
+       },
+       {
+        "q": "a + b = 5, ab = 6. Find a³ + b³.",
+        "a": "35",
+        "s": "125 − 3 × 6 × 5 = 35."
+       },
+       {
+        "q": "x + 1/x = 3. Find x² + 1/x².",
+        "a": "7",
+        "s": "9 − 2 = 7."
+       },
+       {
+        "q": "x + 1/x = 3. Find x³ + 1/x³.",
+        "a": "18",
+        "s": "27 − 9 = 18."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude 'Algebraic Identities': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Algebra': 25 questions, 45 seconds each."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Algebra",
+         "n": 20,
+         "min": 15,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Linear equations and word problems",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Linear Equations' and 'Problems on Numbers'",
+        "why": ""
+       },
+       {
+        "book": "Rakesh Yadav, Advanced Maths (SSC)",
+        "where": "Linear equations in two variables",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Two equations, two unknowns: add or subtract to remove one variable (elimination), or substitute.",
+       "Parallel lines: a1/a2 = b1/b2 ≠ c1/c2 gives no solution; all three ratios equal gives infinitely many.",
+       "Translate words: 'sum' +, 'difference' −, 'product' ×, 'is' =, 'more than' +, 'less than' reversed (5 less than x = x − 5)."
+      ],
+      "examples": [
+       {
+        "q": "x + y = 10 and x − y = 2. Find x and y.",
+        "a": "6 and 4",
+        "s": "Add: 2x = 12."
+       },
+       {
+        "q": "2x + 3y = 12 and x − y = 1. Find x and y.",
+        "a": "3 and 2",
+        "s": "y = x − 1, 2x + 3x − 3 = 12, x = 3."
+       },
+       {
+        "q": "Sum of two numbers is 40, difference 10. Larger?",
+        "a": "25",
+        "s": "(40 + 10)/2 = 25."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude 'Linear Equations': first 40 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Algebra",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Quadratics and special cases",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Quadratic Equations'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Maths Chapterwise Solved Papers",
+        "where": "Chapter 'Algebra': questions 26 to 50",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "For ax² + bx + c = 0: sum of roots = −b/a, product = c/a. Discriminant D = b² − 4ac: D > 0 two real roots, D = 0 equal roots, D < 0 none.",
+       "Factor method: find two numbers with product c and sum b.",
+       "Quick check by substitution is faster than solving when options are given."
+      ],
+      "examples": [
+       {
+        "q": "Roots of x² − 5x + 6 = 0?",
+        "a": "2 and 3",
+        "s": "(x − 2)(x − 3)."
+       },
+       {
+        "q": "Sum and product of roots of x² − 7x + 12 = 0?",
+        "a": "7 and 12",
+        "s": "−b/a = 7, c/a = 12."
+       },
+       {
+        "q": "Nature of roots of x² + 2x + 5 = 0?",
+        "a": "No real roots",
+        "s": "D = 4 − 20 = −16 < 0."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude 'Quadratic Equations': 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Algebra",
+         "n": 20,
+         "min": 15,
+         "target": "85%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Statement and assumptions, conclusion",
+    "parts": [
+     {
+      "name": "Part 1: Statement and assumption",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Chapter 'Statement and Assumptions'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Statement and Assumption': first 15 questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "An assumption is something taken for granted that the statement needs in order to make sense. It is not stated.",
+       "Advertisements, instructions and advice assume the audience wants the result and the method works.",
+       "Extreme words (all, only, always, never) usually make an assumption NOT implicit.",
+       "Ask: 'If this assumption were false, would the statement still make sense?' If no, it is implicit."
+      ],
+      "examples": [
+       {
+        "q": "'Use ABC soap for a glowing skin.' Assumption: people want glowing skin.",
+        "a": "Implicit",
+        "s": ""
+       },
+       {
+        "q": "'Please do not park here.' Assumption: people may park there otherwise.",
+        "a": "Implicit",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning 'Statement and Assumptions': 30 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Statement & Assumptions",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Statement and conclusion, mixed",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Statement and Conclusions: second exercise",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Statement and Conclusion': questions 16 to 35",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "A conclusion must follow from the statement alone, not from general knowledge.",
+       "Syllogism-style statements: convert All → Some, No → No. 'Some are' and 'Some are not' can be a complementary pair giving 'either-or'.",
+       "Rule out conclusions that add new facts, extend the scope or use stronger words."
+      ],
+      "examples": [
+       {
+        "q": "No fish is a bird. Conclusion: No bird is a fish.",
+        "a": "Follows",
+        "s": "No converts to No."
+       },
+       {
+        "q": "Only students got the prize. Conclusion: every winner is a student.",
+        "a": "Follows",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning 'Statement and Conclusions': 30 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Statement & Conclusion",
+         "n": 6,
+         "min": 6,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Mixed practice and timing",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Mixed exercises on verbal reasoning",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Previous-year mixed set",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Target: 25 seconds per question. If stuck after 30 seconds, mark and move on.",
+       "Keep an error log: the statement, your answer, the correct answer, and the rule you missed.",
+       "Re-attempt every wrong question from this week after two days."
+      ],
+      "examples": [
+       {
+        "q": "Which is stronger: 'some' or 'all'?",
+        "a": "All",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Mixed drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Statement & Assumptions",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       },
+       {
+        "label": "Mixed drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Statement & Conclusion",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Reading comprehension",
+    "parts": [
+     {
+      "name": "Part 1: Reading strategy",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Reading Comprehension': strategy section",
+        "why": ""
+       },
+       {
+        "book": "The Hindu, editorial page (thehindu.com/opinion/editorial)",
+        "where": "Pick any one editorial and read it in 8 minutes",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Read the questions first, then the passage. Mark the keyword of each question.",
+       "Read the first and last lines of each paragraph: they carry the main idea.",
+       "Detail questions: find the keyword in the passage, read the line before and after, then answer.",
+       "Do not use outside knowledge. The answer must come from the passage."
+      ],
+      "examples": [
+       {
+        "q": "Main idea of 'Rivers carry silt that makes plains fertile, so ancient cities grew along them.'",
+        "a": "Rivers support settlement through fertile land",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "S.P. Bakshi, Objective General English 'Reading Comprehension': 4 passages."
+       },
+       {
+        "label": "Daily habit",
+        "book": "Read 2 editorials in The Hindu and write the main idea of each in one line."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Reading Comprehension",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Vocabulary and inference",
+      "read": [
+       {
+        "book": "Norman Lewis, Word Power Made Easy",
+        "where": "Chapters 4 to 6",
+        "why": ""
+       },
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Reading comprehension: inference questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Inference = what the passage suggests without saying it directly. Tone words: patient, critical, optimistic, sarcastic.",
+       "Vocabulary in context: replace the word with each option and read the sentence.",
+       "Connector words: although/though/yet = contrast; therefore = result; moreover = addition."
+      ],
+      "examples": [
+       {
+        "q": "'He never complained, though the work was hard.' Tone?",
+        "a": "Patient",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "S.P. Bakshi, Objective General English 'Reading Comprehension': 4 more passages."
+       },
+       {
+        "label": "Word list",
+        "book": "Write 10 new words from this week's passages with meanings."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Reading Comprehension",
+         "n": 6,
+         "min": 6,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Timed passages",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Reading comprehension: mock passages",
+        "why": ""
+       },
+       {
+        "book": "The Hindu, editorial page (thehindu.com/opinion/editorial)",
+        "where": "Pick a different editorial",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Target: 8 minutes for one passage with 5 questions in the exam. Practise with a timer.",
+       "Skip a passage that looks too technical and return to it last.",
+       "After each passage, note why each wrong option was wrong."
+      ],
+      "examples": [
+       {
+        "q": "In RC, the best way to find a detail is to",
+        "a": "Scan for the keyword from the question",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Timed practice",
+        "book": "Do 3 passages in 24 minutes, one editorial summary after."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Reading Comprehension",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: Indian economy basics",
+    "parts": [
+     {
+      "name": "Part 1: Basic concepts",
+      "read": [
+       {
+        "book": "NCERT Class 11 Indian Economic Development; NCERT Class 12 Macroeconomics",
+        "where": "Introductory chapters",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "Economics: basic concepts",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "GDP = total value of goods and services produced inside a country in a year. GNP = GDP + net income from abroad.",
+       "Inflation = sustained rise in the general price level, measured by CPI and WPI. Deflation = fall in prices.",
+       "Sectors: primary (agriculture), secondary (industry), tertiary (services). Services contribute the largest share of India's GDP.",
+       "Planning Commission was set up in 1950 and replaced by NITI Aayog in 2015. The first Five Year Plan ran from 1951. Fiscal year: 1 April to 31 March."
+      ],
+      "examples": [
+       {
+        "q": "What replaced the Planning Commission?",
+        "a": "NITI Aayog (2015)",
+        "s": ""
+       },
+       {
+        "q": "India's fiscal year runs?",
+        "a": "1 April to 31 March",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make flashcards",
+        "book": "10 flashcards for the terms above."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Economy",
+         "n": 10,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Banking and the RBI",
+      "read": [
+       {
+        "book": "NCERT Class 11 Indian Economic Development; NCERT Class 12 Macroeconomics",
+        "where": "Chapters on money and banking",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "Economics: banking",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "RBI: set up 1 April 1935, nationalised 1 January 1949, headquarters Mumbai. It issues currency notes (except the one-rupee note), is the banker to the government and controls credit.",
+       "Repo rate: rate at which RBI lends short-term to banks. Reverse repo: rate at which RBI borrows from banks. CRR: share of deposits banks must keep with RBI. SLR: share kept in liquid assets with themselves.",
+       "Regulators: SEBI (securities), IRDAI (insurance), PFRDA (pensions), NABARD (agriculture and rural credit), SIDBI (small industries).",
+       "RBI Governor is appointed by the Central Government."
+      ],
+      "examples": [
+       {
+        "q": "Which body regulates the securities market?",
+        "a": "SEBI",
+        "s": ""
+       },
+       {
+        "q": "What is the repo rate?",
+        "a": "The rate at which RBI lends short-term to banks",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "Regulator / Full name / Sector. Five rows."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Economy",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Budget and taxes",
+      "read": [
+       {
+        "book": "NCERT Class 11 Indian Economic Development; NCERT Class 12 Macroeconomics",
+        "where": "Chapters on government budget",
+        "why": ""
+       },
+       {
+        "book": "Budget at a Glance (indiabudget.gov.in)",
+        "where": "Read the latest summary page",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "The Union Budget is laid before Parliament under Article 112 (Annual Financial Statement) and is presented by the Finance Minister. The Economic Survey is tabled a day earlier.",
+       "Revenue deficit = revenue expenditure − revenue receipts. Fiscal deficit = total expenditure − total receipts excluding borrowing.",
+       "Direct taxes: income tax, corporate tax. Indirect taxes: GST, customs duty. GST came into force on 1 July 2017, and the GST Council is headed by the Union Finance Minister.",
+       "Money Bills can be introduced only in the Lok Sabha."
+      ],
+      "examples": [
+       {
+        "q": "Which is a direct tax?",
+        "a": "Income tax",
+        "s": ""
+       },
+       {
+        "q": "When did GST start?",
+        "a": "1 July 2017",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "Tax / Direct or indirect. Six rows."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Economy",
+         "n": 10,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "p1-w8": {
+  "hours": "About 3.5 hours a day: Quant 60 min, Reasoning 45, English 45, GA 40, review 20. Saturday is the weekly test.",
+  "testTopics": {
+   "quant": [
+    "Geometry"
+   ],
+   "reasoning": [
+    "Figure Counting",
+    "Mirror & Water Images"
+   ],
+   "english": [
+    "Cloze Test"
+   ],
+   "ga": [
+    "Science"
+   ]
+  },
+  "units": {
+   "q": {
+    "title": "Quant: Geometry, triangles and circles",
+    "parts": [
+     {
+      "name": "Part 1: Triangles",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapters 'Triangles and their properties'",
+        "why": ""
+       },
+       {
+        "book": "Rakesh Yadav, Advanced Maths (SSC)",
+        "where": "Geometry: Triangle section",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Angle sum of a triangle = 180°. Exterior angle = sum of the two opposite interior angles.",
+       "Centroid divides each median 2 : 1. Incentre is where angle bisectors meet (centre of the inscribed circle). Circumcentre is where perpendicular bisectors meet. Orthocentre is where altitudes meet.",
+       "Pythagoras: a² + b² = c². Triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25.",
+       "Right triangle: circumradius = hypotenuse/2; inradius = (a + b − c)/2. If angle A = x then angle BOC (incentre O) = 90° + x/2."
+      ],
+      "examples": [
+       {
+        "q": "Angles of a triangle in ratio 2 : 3 : 4. Find the largest.",
+        "a": "80°",
+        "s": "180 × 4/9 = 80."
+       },
+       {
+        "q": "Right triangle with legs 6 and 8. Circumradius and inradius?",
+        "a": "5 and 2",
+        "s": "Hypotenuse 10; (6 + 8 − 10)/2 = 2."
+       },
+       {
+        "q": "Angle A = 50° and O is the incentre. Find angle BOC.",
+        "a": "115°",
+        "s": "90 + 25 = 115."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude Triangles: first 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Geometry': 25 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Geometry",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Circles",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapter 'Circles'",
+        "why": ""
+       },
+       {
+        "book": "Rakesh Yadav, Advanced Maths (SSC)",
+        "where": "Geometry: Circle section",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Angle at the centre = 2 × angle at the circumference on the same arc. Angle in a semicircle = 90°.",
+       "A perpendicular from the centre bisects a chord. Tangent is perpendicular to the radius at the point of contact. Tangents from an external point are equal: length = √(d² − r²).",
+       "Cyclic quadrilateral: opposite angles add to 180°.",
+       "Two circles touching externally: distance between centres = r1 + r2; internally: r1 − r2."
+      ],
+      "examples": [
+       {
+        "q": "Tangent from a point 13 cm from the centre, radius 5. Find its length.",
+        "a": "12 cm",
+        "s": "√(169 − 25) = 12."
+       },
+       {
+        "q": "A chord of 8 cm lies 3 cm from the centre. Find the radius.",
+        "a": "5 cm",
+        "s": "Half chord 4, 3-4-5."
+       },
+       {
+        "q": "Angle at the circumference is 40°. What is the angle at the centre?",
+        "a": "80°",
+        "s": "2 × 40."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude Circles: first 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM 'Geometry': 20 more questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Geometry",
+         "n": 15,
+         "min": 12,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Similarity and mixed geometry",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Quantitative Aptitude",
+        "where": "Chapters 'Similar triangles' and 'Congruency'",
+        "why": ""
+       },
+       {
+        "book": "Rakesh Yadav, Advanced Maths (SSC)",
+        "where": "Geometry: Similar triangles",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Similar triangles: corresponding angles equal, sides in proportion. Ratio of areas = square of ratio of sides.",
+       "Basic proportionality theorem: if DE ∥ BC then AD/DB = AE/EC.",
+       "Angle bisector theorem: the bisector divides the opposite side in the ratio of the other two sides."
+      ],
+      "examples": [
+       {
+        "q": "Two similar triangles have sides in the ratio 3 : 5. Ratio of areas?",
+        "a": "9 : 25",
+        "s": ""
+       },
+       {
+        "q": "In triangle ABC, DE ∥ BC, AD = 4, DB = 6, AE = 6. Find EC.",
+        "a": "9",
+        "s": "4/6 = 6/EC, EC = 9."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 60 minutes max",
+        "book": "R.S. Aggarwal, Quantitative Aptitude Similarity: 30 questions."
+       },
+       {
+        "label": "Previous-year questions",
+        "book": "KM: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "quant",
+         "topic": "Geometry",
+         "n": 15,
+         "min": 12,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "r": {
+    "title": "Reasoning: Figure counting, mirror and water images",
+    "parts": [
+     {
+      "name": "Part 1: Figure counting",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Non-Verbal: 'Counting of Figures'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Counting of Figures'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Triangles in a triangle with n lines from the apex to the base: (n + 2)(n + 1)/2 (with 1 line: 3, 2 lines: 6).",
+       "Squares in an n × n grid = n(n + 1)(2n + 1)/6 (2 × 2: 5, 3 × 3: 14). Rectangles in an n × n grid = [n(n + 1)/2]² (2 × 2: 9).",
+       "Count systematically: single pieces first, then pairs, then larger groups."
+      ],
+      "examples": [
+       {
+        "q": "Squares in a 3 × 3 grid?",
+        "a": "14",
+        "s": "9 + 4 + 1."
+       },
+       {
+        "q": "Rectangles in a 2 × 2 grid?",
+        "a": "9",
+        "s": "3 × 3."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning Counting of figures: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Figure Counting",
+         "n": 5,
+         "min": 5,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Mirror images",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Non-Verbal: 'Mirror Images'",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Chapter 'Mirror and Water Image'",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Vertical mirror: left and right swap. Horizontal mirror: top and bottom swap.",
+       "Clocks: mirror time = 11:60 − shown time (3:00 becomes 9:00). If the result goes below zero add 12.",
+       "Letters like A, H, I, M, O, T, U, V, W, X, Y look the same in a vertical mirror."
+      ],
+      "examples": [
+       {
+        "q": "Mirror image of a clock showing 4:00?",
+        "a": "8:00",
+        "s": "11:60 − 4:00 = 7:60 = 8:00."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 40 minutes",
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning Mirror images: 20 questions."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Mirror & Water Images",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Water images and revision",
+      "read": [
+       {
+        "book": "R.S. Aggarwal, Verbal & Non-Verbal Reasoning",
+        "where": "Water images section",
+        "why": ""
+       },
+       {
+        "book": "Kiran, SSC Reasoning Chapterwise Solved Papers",
+        "where": "Previous-year non-verbal questions",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Water image: top and bottom swap, like reflection in water below.",
+       "For letters and numbers write the figure on paper and turn the paper over for a mirror image, upside down for a water image.",
+       "Revise the week by solving 10 questions each of figure counting and mirror images."
+      ],
+      "examples": [
+       {
+        "q": "In a water image, the top of the figure appears at the",
+        "a": "Bottom",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Mixed drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Figure Counting",
+         "n": 5,
+         "min": 5,
+         "target": "80%"
+        }
+       },
+       {
+        "label": "Mixed drill",
+        "drill": {
+         "sec": "reasoning",
+         "topic": "Mirror & Water Images",
+         "n": 6,
+         "min": 6,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "e": {
+    "title": "English: Cloze test and fill in the blanks",
+    "parts": [
+     {
+      "name": "Part 1: Connectors and prepositions",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Chapter 'Cloze Test'",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Prepositions and conjunctions sections",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Read the whole passage once, then the sentence around the blank. Decide the part of speech needed.",
+       "Time: since + point in time, for + duration. Cause: due to + noun, because + clause. Contrast: but, yet, although.",
+       "Fixed prepositions: insist on, depend on, good at, interested in."
+      ],
+      "examples": [
+       {
+        "q": "She has lived here ___ 2010.",
+        "a": "since",
+        "s": ""
+       },
+       {
+        "q": "The meeting was cancelled ___ heavy rain.",
+        "a": "due to",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "S.P. Bakshi, Objective General English 'Cloze Test': 8 passages."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Cloze Test",
+         "n": 8,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Verbs, tenses and agreement",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Cloze test: verb based exercises",
+        "why": ""
+       },
+       {
+        "book": "Wren & Martin, High School English Grammar & Composition",
+        "where": "Tenses and agreement chapters",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Neither/nor: the verb agrees with the nearer subject. If + past, would + verb.",
+       "Future perfect (will have + V3) is used for something completed before a future time: 'By next June she will have completed her degree.'",
+       "Look for time clues: yesterday (past), by tomorrow (future perfect), since (present perfect)."
+      ],
+      "examples": [
+       {
+        "q": "Neither the teacher nor the students ___ present.",
+        "a": "were",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Book practice, 45 minutes",
+        "book": "S.P. Bakshi, Objective General English Cloze test: 8 more passages."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Cloze Test",
+         "n": 8,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Vocabulary based cloze and timing",
+      "read": [
+       {
+        "book": "S.P. Bakshi, Objective General English",
+        "where": "Cloze test: vocabulary exercises",
+        "why": ""
+       },
+       {
+        "book": "Norman Lewis, Word Power Made Easy",
+        "where": "Chapters 7 to 9",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Try each option in the blank and read the whole sentence. Eliminate options with the wrong part of speech first.",
+       "Words with similar sense but different usage (affect and effect, principal and principle) are exam favourites.",
+       "Target: 40 seconds per blank."
+      ],
+      "examples": [
+       {
+        "q": "The government has taken a ___ decision to reduce prices. (firm / fern / firmly / firmness)",
+        "a": "firm",
+        "s": "An adjective is needed."
+       }
+      ],
+      "solve": [
+       {
+        "label": "Timed practice",
+        "book": "10 cloze blanks in 7 minutes."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "english",
+         "topic": "Cloze Test",
+         "n": 8,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "g": {
+    "title": "GA: General science",
+    "parts": [
+     {
+      "name": "Part 1: Physics",
+      "read": [
+       {
+        "book": "NCERT Class 6-10 Science",
+        "where": "Class 8 Force and Pressure, Light, Sound; Class 10 Electricity",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "General Science: Physics",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "SI units: force newton, energy joule, power watt, pressure pascal, frequency hertz, charge coulomb, resistance ohm.",
+       "Ohm's law V = IR. Speed of light about 3 × 10^8 m/s; sound needs a medium and cannot travel in a vacuum.",
+       "Reflection: angle of incidence = angle of reflection. Concave mirror: used in torches and shaving; convex mirror: vehicle rear view.",
+       "Newton's laws: inertia, F = ma, action and reaction."
+      ],
+      "examples": [
+       {
+        "q": "SI unit of force?",
+        "a": "Newton",
+        "s": ""
+       },
+       {
+        "q": "Which mirror is used as a rear view mirror?",
+        "a": "Convex",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Learn",
+        "book": "Write the SI unit table and Newton's three laws from memory."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Science",
+         "n": 10,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 2: Chemistry",
+      "read": [
+       {
+        "book": "NCERT Class 6-10 Science",
+        "where": "Class 8 Chemical Effects, Class 10 Acids, Bases and Salts; Metals and Non-metals",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "General Science: Chemistry",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "pH below 7 is acidic, 7 neutral, above 7 basic. Pure water pH is about 7.",
+       "Common names: baking soda NaHCO3, washing soda Na2CO3, common salt NaCl, quicklime CaO, slaked lime Ca(OH)2, marble CaCO3.",
+       "Rusting needs oxygen and moisture. Hydrogen is the lightest gas. Diamond is the hardest natural substance."
+      ],
+      "examples": [
+       {
+        "q": "Formula of common salt?",
+        "a": "NaCl",
+        "s": ""
+       },
+       {
+        "q": "What does rusting need?",
+        "a": "Oxygen and moisture",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make a table",
+        "book": "Common name / Chemical name / Formula. Six rows."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Science",
+         "n": 10,
+         "min": 8,
+         "target": "85%"
+        }
+       }
+      ]
+     },
+     {
+      "name": "Part 3: Biology and human body",
+      "read": [
+       {
+        "book": "NCERT Class 6-10 Science",
+        "where": "Class 8 Cell, Class 10 Life Processes, Control and Coordination",
+        "why": ""
+       },
+       {
+        "book": "Lucent's General Knowledge",
+        "where": "General Science: Biology",
+        "why": ""
+       }
+      ],
+      "notes": [
+       "Vitamins: A (night blindness), B1 (beriberi), C (scurvy), D (rickets), K (blood clotting).",
+       "Mitochondria are the powerhouse of the cell. Photosynthesis uses carbon dioxide, water and light and releases oxygen.",
+       "The pancreas produces insulin. Skin is the largest organ; the liver is the largest gland. O negative is the universal donor group. Human body has 206 bones and 46 chromosomes.",
+       "Malaria is carried by the female Anopheles mosquito; dengue by Aedes."
+      ],
+      "examples": [
+       {
+        "q": "Deficiency of vitamin C causes?",
+        "a": "Scurvy",
+        "s": ""
+       },
+       {
+        "q": "Which organ makes insulin?",
+        "a": "Pancreas",
+        "s": ""
+       }
+      ],
+      "solve": [
+       {
+        "label": "Make flashcards",
+        "book": "10 flashcards: vitamin, deficiency disease."
+       },
+       {
+        "label": "App drill",
+        "drill": {
+         "sec": "ga",
+         "topic": "Science",
+         "n": 10,
+         "min": 8,
+         "target": "80%"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
  }
 }

@@ -4662,6 +4662,1266 @@
 ],
 "a": 0,
 "e": "Apples are fruits, not vegetables."
+},
+{
+"id": "en-f0b2aea7",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"He is senior than me.\"",
+"o": [
+"senior to me",
+"senior from me",
+"senior of me",
+"No improvement"
+],
+"a": 0,
+"e": "\"Senior/junior\" take \"to\"."
+},
+{
+"id": "en-cd8c658b",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"She prefers tea than coffee.\"",
+"o": [
+"tea to coffee",
+"tea from coffee",
+"tea over than coffee",
+"No improvement"
+],
+"a": 0,
+"e": "\"Prefer ... to\"."
+},
+{
+"id": "en-ef09c63a",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"He did not came yesterday.\"",
+"o": [
+"did not come",
+"did not came",
+"does not came",
+"No improvement"
+],
+"a": 0,
+"e": "After \"did not\" use the base verb."
+},
+{
+"id": "en-7f37fbd4",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"Each of the boys have a book.\"",
+"o": [
+"Each of the boys has",
+"Each of the boys have",
+"Each of the boy have",
+"No improvement"
+],
+"a": 0,
+"e": "\"Each\" takes a singular verb."
+},
+{
+"id": "en-30e57ad8",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"I have been knowing him for ten years.\"",
+"o": [
+"I have known him",
+"I am knowing him",
+"I know him since",
+"No improvement"
+],
+"a": 0,
+"e": "\"Know\" is a stative verb, not used in continuous form."
+},
+{
+"id": "en-64973abc",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"Hardly had he reached than it rained.\"",
+"o": [
+"Hardly had he reached when it rained",
+"Hardly had he reached before it rained",
+"Hardly he reached when it rained",
+"No improvement"
+],
+"a": 0,
+"e": "\"Hardly ... when\"."
+},
+{
+"id": "en-242dcf1a",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"The news are good.\"",
+"o": [
+"The news is good",
+"The news were good",
+"The news have good",
+"No improvement"
+],
+"a": 0,
+"e": "\"News\" is singular."
+},
+{
+"id": "en-d40c86d9",
+"s": "english",
+"t": "Sentence Improvement",
+"q": "Improve: \"He is good in Mathematics.\"",
+"o": [
+"good at Mathematics",
+"good on Mathematics",
+"good with Mathematics",
+"No improvement"
+],
+"a": 0,
+"e": "\"Good at\" a subject."
+},
+{
+"id": "en-30a4eca9",
+"s": "english",
+"t": "Para Jumbles",
+"q": "Order P, Q, R, S to form a sentence: P: the monsoon / Q: arrives in June / R: in Kerala / S: usually",
+"o": [
+"P S Q R",
+"Q R P S",
+"R S P Q",
+"S R Q P"
+],
+"a": 0,
+"e": "\"The monsoon usually arrives in June in Kerala\"."
+},
+{
+"id": "en-3c40fb7f",
+"s": "english",
+"t": "Para Jumbles",
+"q": "Which sentence should come first in a paragraph about a river? (1) It then enters the sea. (2) The Ganga rises in the Himalayas. (3) It flows through the plains.",
+"o": [
+"(2)",
+"(1)",
+"(3)",
+"All are equal"
+],
+"a": 0,
+"e": "The source comes first: (2), (3), (1)."
+},
+{
+"id": "en-2cf6ce9b",
+"s": "english",
+"t": "Para Jumbles",
+"q": "Order the steps: (A) He paid the fee. (B) He filled the form. (C) He got the ticket. (D) He reached the counter.",
+"o": [
+"D B A C",
+"B A C D",
+"A B C D",
+"D A B C"
+],
+"a": 0,
+"e": "Counter, form, fee, ticket."
+},
+{
+"id": "en-658db9d3",
+"s": "english",
+"t": "Para Jumbles",
+"q": "In a para jumble, the opening sentence usually",
+"o": [
+"Introduces the topic without pronouns that need an earlier noun",
+"Begins with \"However\"",
+"Begins with \"He\" or \"It\"",
+"Is the longest sentence"
+],
+"a": 0,
+"e": "The first sentence must stand on its own."
+},
+{
+"id": "en-8553d8d0",
+"s": "english",
+"t": "Para Jumbles",
+"q": "Which linker usually signals contrast?",
+"o": [
+"However",
+"Therefore",
+"Moreover",
+"Hence"
+],
+"a": 0,
+"e": "However = contrast."
+},
+{
+"id": "en-74b22c84",
+"s": "english",
+"t": "Para Jumbles",
+"q": "Which sentence is the logical LAST in a para about a decision? (1) The committee met. (2) It studied the proposal. (3) Finally, it approved the plan.",
+"o": [
+"(3)",
+"(1)",
+"(2)",
+"Any"
+],
+"a": 0,
+"e": "\"Finally\" signals the end."
+},
+{
+"id": "en-efc705f5",
+"s": "english",
+"t": "Reading Comprehension",
+"q": "Passage: \"Rivers carry silt that makes plains fertile, so ancient cities grew along them.\" What is the main idea?",
+"o": [
+"Rivers support settlement through fertile land",
+"Cities destroy rivers",
+"Silt is harmful",
+"Plains are always dry"
+],
+"a": 0,
+"e": "The passage links rivers, silt and cities."
+},
+{
+"id": "en-3a6b3d2e",
+"s": "english",
+"t": "Reading Comprehension",
+"q": "Passage: \"Although the road was closed, the bus reached on time.\" The word \"Although\" shows",
+"o": [
+"Contrast",
+"Cause",
+"Addition",
+"Time"
+],
+"a": 0,
+"e": "Although marks contrast."
+},
+{
+"id": "en-d77281ab",
+"s": "english",
+"t": "Reading Comprehension",
+"q": "Passage: \"The committee deferred the decision.\" \"Deferred\" means",
+"o": [
+"Postponed",
+"Approved",
+"Rejected",
+"Announced"
+],
+"a": 0,
+"e": "Defer = postpone."
+},
+{
+"id": "en-25989e85",
+"s": "english",
+"t": "Reading Comprehension",
+"q": "In RC, the best way to find a detail answer is to",
+"o": [
+"Scan the passage for the keyword from the question",
+"Guess",
+"Read only the last line",
+"Pick the longest option"
+],
+"a": 0,
+"e": "Locate the keyword."
+},
+{
+"id": "en-e7ce7713",
+"s": "english",
+"t": "Reading Comprehension",
+"q": "An \"inference\" question asks for",
+"o": [
+"What the passage suggests without saying it directly",
+"A word-for-word line",
+"The title",
+"The author name"
+],
+"a": 0,
+"e": "Inference = implied meaning."
+},
+{
+"id": "en-4231046b",
+"s": "english",
+"t": "Reading Comprehension",
+"q": "Passage: \"He never complained, though the work was hard.\" The tone is",
+"o": [
+"Patient",
+"Angry",
+"Careless",
+"Playful"
+],
+"a": 0,
+"e": "Not complaining despite hardship shows patience."
+},
+{
+"id": "en-70f91340",
+"s": "english",
+"t": "Cloze Test",
+"q": "She has lived here ___ 2010.",
+"o": [
+"since",
+"for",
+"from",
+"by"
+],
+"a": 0,
+"e": "Since + a point in time."
+},
+{
+"id": "en-a020dcd9",
+"s": "english",
+"t": "Cloze Test",
+"q": "He was tired, ___ he kept working.",
+"o": [
+"yet",
+"so",
+"because",
+"hence"
+],
+"a": 0,
+"e": "Contrast needs \"yet\"."
+},
+{
+"id": "en-6984d575",
+"s": "english",
+"t": "Cloze Test",
+"q": "The meeting was cancelled ___ heavy rain.",
+"o": [
+"due to",
+"because",
+"owing",
+"since"
+],
+"a": 0,
+"e": "\"Due to\" + noun."
+},
+{
+"id": "en-c754be5d",
+"s": "english",
+"t": "Cloze Test",
+"q": "Neither the teacher nor the students ___ present.",
+"o": [
+"were",
+"was",
+"is",
+"has"
+],
+"a": 0,
+"e": "The nearer subject (students) decides the verb."
+},
+{
+"id": "en-90fa08a5",
+"s": "english",
+"t": "Cloze Test",
+"q": "If I ___ you, I would apologise.",
+"o": [
+"were",
+"am",
+"was",
+"will be"
+],
+"a": 0,
+"e": "Unreal condition uses \"were\"."
+},
+{
+"id": "en-943989a1",
+"s": "english",
+"t": "Cloze Test",
+"q": "He insisted ___ paying the bill.",
+"o": [
+"on",
+"for",
+"to",
+"at"
+],
+"a": 0,
+"e": "\"Insist on\"."
+},
+{
+"id": "en-2f0b0c98",
+"s": "english",
+"t": "Cloze Test",
+"q": "The government has taken a ___ decision to reduce prices.",
+"o": [
+"firm",
+"fern",
+"firmly",
+"firmness"
+],
+"a": 0,
+"e": "An adjective is needed before \"decision\"."
+},
+{
+"id": "en-8bc70e3c",
+"s": "english",
+"t": "Cloze Test",
+"q": "By next June, she ___ her degree.",
+"o": [
+"will have completed",
+"will complete",
+"has completed",
+"completes"
+],
+"a": 0,
+"e": "Future perfect for completion before a time."
+},
+{
+"id": "ga-64118414",
+"s": "ga",
+"t": "Geography",
+"q": "The longest river in the world by most measures is:",
+"o": [
+"Nile",
+"Amazon",
+"Yangtze",
+"Mississippi"
+],
+"a": 0,
+"e": "The Nile is usually given as the longest."
+},
+{
+"id": "ga-8c9af69e",
+"s": "ga",
+"t": "Geography",
+"q": "The largest ocean is:",
+"o": [
+"Pacific",
+"Atlantic",
+"Indian",
+"Arctic"
+],
+"a": 0,
+"e": "The Pacific covers about a third of the Earth."
+},
+{
+"id": "ga-ba54075f",
+"s": "ga",
+"t": "Geography",
+"q": "The Equator passes through which continent?",
+"o": [
+"Africa",
+"Europe",
+"Australia",
+"Antarctica"
+],
+"a": 0,
+"e": "It crosses Africa, South America and Asia."
+},
+{
+"id": "ga-0b5b65e9",
+"s": "ga",
+"t": "Geography",
+"q": "The deepest point of the oceans, the Mariana Trench, is in the:",
+"o": [
+"Pacific Ocean",
+"Atlantic Ocean",
+"Indian Ocean",
+"Arctic Ocean"
+],
+"a": 0,
+"e": "Challenger Deep, western Pacific."
+},
+{
+"id": "ga-2028c2de",
+"s": "ga",
+"t": "Geography",
+"q": "The Sahara is a desert of:",
+"o": [
+"Africa",
+"Asia",
+"Australia",
+"South America"
+],
+"a": 0,
+"e": "The largest hot desert is in Africa."
+},
+{
+"id": "ga-24c067b2",
+"s": "ga",
+"t": "Geography",
+"q": "The International Date Line is near:",
+"o": [
+"180° longitude",
+"0° longitude",
+"90° E",
+"90° W"
+],
+"a": 0,
+"e": "It broadly follows 180°."
+},
+{
+"id": "ga-ad90f70e",
+"s": "ga",
+"t": "Geography",
+"q": "Which is the smallest continent by area?",
+"o": [
+"Australia",
+"Europe",
+"Antarctica",
+"South America"
+],
+"a": 0,
+"e": "Australia (Oceania)."
+},
+{
+"id": "ga-97f8de2a",
+"s": "ga",
+"t": "Geography",
+"q": "Prime Meridian passes through:",
+"o": [
+"Greenwich",
+"Paris",
+"Rome",
+"Delhi"
+],
+"a": 0,
+"e": "0° longitude, near London."
+},
+{
+"id": "ga-791f7871",
+"s": "ga",
+"t": "Economy",
+"q": "The central bank of India is:",
+"o": [
+"Reserve Bank of India",
+"SBI",
+"NABARD",
+"SEBI"
+],
+"a": 0,
+"e": "The RBI was set up in 1935 and nationalised in 1949."
+},
+{
+"id": "ga-fc84172d",
+"s": "ga",
+"t": "Economy",
+"q": "GST came into force in India on:",
+"o": [
+"1 July 2017",
+"1 April 2016",
+"1 January 2018",
+"15 August 2017"
+],
+"a": 0,
+"e": "Goods and Services Tax, 1 July 2017."
+},
+{
+"id": "ga-fc7fee4e",
+"s": "ga",
+"t": "Economy",
+"q": "The Union Budget is presented in Parliament by the:",
+"o": [
+"Finance Minister",
+"President",
+"Prime Minister",
+"RBI Governor"
+],
+"a": 0,
+"e": "Under Article 112 it is laid before Parliament."
+},
+{
+"id": "ga-10af8b0f",
+"s": "ga",
+"t": "Economy",
+"q": "The Repo rate is the rate at which:",
+"o": [
+"RBI lends short-term to banks",
+"Banks lend to the public",
+"Banks lend to RBI",
+"RBI lends to the government"
+],
+"a": 0,
+"e": "Repo = repurchase option."
+},
+{
+"id": "ga-865601fa",
+"s": "ga",
+"t": "Economy",
+"q": "Which is a direct tax?",
+"o": [
+"Income tax",
+"GST",
+"Excise duty",
+"Customs duty"
+],
+"a": 0,
+"e": "The burden falls directly on the taxpayer."
+},
+{
+"id": "ga-f7ae6447",
+"s": "ga",
+"t": "Economy",
+"q": "The fiscal year in India runs from:",
+"o": [
+"1 April to 31 March",
+"1 January to 31 December",
+"1 July to 30 June",
+"1 October to 30 September"
+],
+"a": 0,
+"e": "April to March."
+},
+{
+"id": "ga-8265ef05",
+"s": "ga",
+"t": "Economy",
+"q": "Inflation means:",
+"o": [
+"A general rise in prices",
+"A fall in prices",
+"A rise in wages only",
+"A fall in money supply"
+],
+"a": 0,
+"e": "Sustained rise in the general price level."
+},
+{
+"id": "ga-51e74728",
+"s": "ga",
+"t": "Economy",
+"q": "NITI Aayog replaced the:",
+"o": [
+"Planning Commission",
+"Finance Commission",
+"Election Commission",
+"CAG"
+],
+"a": 0,
+"e": "Replaced in 2015."
+},
+{
+"id": "ga-f7925575",
+"s": "ga",
+"t": "Economy",
+"q": "SEBI regulates:",
+"o": [
+"The securities market",
+"Banks",
+"Insurance",
+"Mutual aid funds only"
+],
+"a": 0,
+"e": "Securities and Exchange Board of India."
+},
+{
+"id": "ga-7b912365",
+"s": "ga",
+"t": "Economy",
+"q": "The first Five Year Plan began in:",
+"o": [
+"1951",
+"1947",
+"1950",
+"1956"
+],
+"a": 0,
+"e": "1951 to 1956."
+},
+{
+"id": "ga-10158e80",
+"s": "ga",
+"t": "Economy",
+"q": "RBI Governor is appointed by the:",
+"o": [
+"Central Government",
+"President alone",
+"Parliament",
+"Finance Commission"
+],
+"a": 0,
+"e": "On the Central Government’s advice."
+},
+{
+"id": "ga-259db295",
+"s": "ga",
+"t": "Economy",
+"q": "Which of these is a regulator of insurance?",
+"o": [
+"IRDAI",
+"SEBI",
+"PFRDA",
+"NABARD"
+],
+"a": 0,
+"e": "Insurance Regulatory and Development Authority of India."
+},
+{
+"id": "ga-681f8815",
+"s": "ga",
+"t": "Science",
+"q": "The SI unit of force is:",
+"o": [
+"Newton",
+"Joule",
+"Watt",
+"Pascal"
+],
+"a": 0,
+"e": "1 N = 1 kg m/s²."
+},
+{
+"id": "ga-272549d9",
+"s": "ga",
+"t": "Science",
+"q": "The SI unit of energy is:",
+"o": [
+"Joule",
+"Newton",
+"Watt",
+"Pascal"
+],
+"a": 0,
+"e": "Work and energy use the joule."
+},
+{
+"id": "ga-5dcce13f",
+"s": "ga",
+"t": "Science",
+"q": "The chemical formula of common salt is:",
+"o": [
+"NaCl",
+"KCl",
+"NaOH",
+"CaCO3"
+],
+"a": 0,
+"e": "Sodium chloride."
+},
+{
+"id": "ga-94c42e6c",
+"s": "ga",
+"t": "Science",
+"q": "Which gas do plants take in for photosynthesis?",
+"o": [
+"Carbon dioxide",
+"Oxygen",
+"Nitrogen",
+"Hydrogen"
+],
+"a": 0,
+"e": "CO2 + water + light → glucose + oxygen."
+},
+{
+"id": "ga-e9f8120b",
+"s": "ga",
+"t": "Science",
+"q": "The powerhouse of the cell is the:",
+"o": [
+"Mitochondria",
+"Nucleus",
+"Ribosome",
+"Golgi body"
+],
+"a": 0,
+"e": "It produces ATP."
+},
+{
+"id": "ga-91a4c13d",
+"s": "ga",
+"t": "Science",
+"q": "Vitamin C deficiency causes:",
+"o": [
+"Scurvy",
+"Rickets",
+"Beriberi",
+"Night blindness"
+],
+"a": 0,
+"e": "Scurvy: bleeding gums."
+},
+{
+"id": "ga-5ed3d45e",
+"s": "ga",
+"t": "Science",
+"q": "The pH of pure water is about:",
+"o": [
+"7",
+"0",
+"14",
+"1"
+],
+"a": 0,
+"e": "Neutral."
+},
+{
+"id": "ga-803a340a",
+"s": "ga",
+"t": "Science",
+"q": "Which is the lightest gas?",
+"o": [
+"Hydrogen",
+"Helium",
+"Oxygen",
+"Nitrogen"
+],
+"a": 0,
+"e": "Hydrogen is the lightest element."
+},
+{
+"id": "ga-fde57e54",
+"s": "ga",
+"t": "Science",
+"q": "The speed of light in vacuum is about:",
+"o": [
+"3 × 10^8 m/s",
+"3 × 10^6 m/s",
+"3 × 10^5 m/s",
+"3 × 10^10 m/s"
+],
+"a": 0,
+"e": "About 300,000 km/s."
+},
+{
+"id": "ga-07ad2481",
+"s": "ga",
+"t": "Science",
+"q": "Blood group considered the universal donor:",
+"o": [
+"O negative",
+"AB positive",
+"A positive",
+"B negative"
+],
+"a": 0,
+"e": "O negative red cells."
+},
+{
+"id": "ga-9c5ac039",
+"s": "ga",
+"t": "Science",
+"q": "The hardest natural substance is:",
+"o": [
+"Diamond",
+"Graphite",
+"Quartz",
+"Iron"
+],
+"a": 0,
+"e": "Carbon in a crystal lattice."
+},
+{
+"id": "ga-4a5aa383",
+"s": "ga",
+"t": "Science",
+"q": "Rusting of iron needs:",
+"o": [
+"Oxygen and moisture",
+"Oxygen only",
+"Moisture only",
+"Nitrogen"
+],
+"a": 0,
+"e": "Both are needed."
+},
+{
+"id": "ga-d5bb46a7",
+"s": "ga",
+"t": "Science",
+"q": "Which organ produces insulin?",
+"o": [
+"Pancreas",
+"Liver",
+"Kidney",
+"Stomach"
+],
+"a": 0,
+"e": "Beta cells of the pancreas."
+},
+{
+"id": "ga-050e15d6",
+"s": "ga",
+"t": "Science",
+"q": "Sound cannot travel through:",
+"o": [
+"Vacuum",
+"Water",
+"Steel",
+"Air"
+],
+"a": 0,
+"e": "It needs a medium."
+},
+{
+"id": "re-152ca774",
+"s": "reasoning",
+"t": "Statement & Conclusion",
+"q": "Statement: All books are pens. Some pens are pencils. Conclusion: Some books are pencils.",
+"o": [
+"Does not follow",
+"Follows",
+"Follows only partly",
+"Cannot say"
+],
+"a": 0,
+"e": "No link between books and pencils is certain."
+},
+{
+"id": "re-a3879fb2",
+"s": "reasoning",
+"t": "Statement & Conclusion",
+"q": "Statement: The government has banned plastic bags. Conclusion I: Plastic bags harm the environment. Conclusion II: People will stop using plastic.",
+"o": [
+"Neither follows",
+"Only I follows",
+"Only II follows",
+"Both follow"
+],
+"a": 0,
+"e": "Neither is stated or certain."
+},
+{
+"id": "re-8ef25521",
+"s": "reasoning",
+"t": "Statement & Conclusion",
+"q": "Statement: All doctors are graduates. Conclusion: Some graduates are doctors.",
+"o": [
+"Follows",
+"Does not follow",
+"Cannot say",
+"Opposite follows"
+],
+"a": 0,
+"e": "All A are B gives Some B are A."
+},
+{
+"id": "re-ccaf0276",
+"s": "reasoning",
+"t": "Statement & Conclusion",
+"q": "Statement: Some cars are red. Conclusion: All cars are red.",
+"o": [
+"Does not follow",
+"Follows",
+"Cannot say",
+"Always true"
+],
+"a": 0,
+"e": "\"Some\" never gives \"All\"."
+},
+{
+"id": "re-f002a23d",
+"s": "reasoning",
+"t": "Statement & Conclusion",
+"q": "Statement: No fish is a bird. Conclusion: No bird is a fish.",
+"o": [
+"Follows",
+"Does not follow",
+"Cannot say",
+"Only partly"
+],
+"a": 0,
+"e": "No A is B converts to No B is A."
+},
+{
+"id": "re-2e1c5088",
+"s": "reasoning",
+"t": "Statement & Conclusion",
+"q": "Statement: Only students got the prize. Conclusion: Everyone who got the prize is a student.",
+"o": [
+"Follows",
+"Does not follow",
+"Cannot say",
+"Partly"
+],
+"a": 0,
+"e": "\"Only students\" means all winners are students."
+},
+{
+"id": "re-75ee5bb4",
+"s": "reasoning",
+"t": "Statement & Assumptions",
+"q": "Statement: \"Use ABC soap for a glowing skin.\" Assumption: People want glowing skin.",
+"o": [
+"Is implicit",
+"Is not implicit",
+"Cannot say",
+"Is false"
+],
+"a": 0,
+"e": "An advert assumes the audience wants the benefit."
+},
+{
+"id": "re-37ccce3c",
+"s": "reasoning",
+"t": "Statement & Assumptions",
+"q": "Statement: \"Please do not park here.\" Assumption: People may park there otherwise.",
+"o": [
+"Is implicit",
+"Is not implicit",
+"Cannot say",
+"Is false"
+],
+"a": 0,
+"e": "The request assumes parking is possible."
+},
+{
+"id": "re-2a16fba9",
+"s": "reasoning",
+"t": "Statement & Assumptions",
+"q": "A valid assumption is something that is",
+"o": [
+"Taken as true for the statement to make sense",
+"Stated in the statement",
+"Opposite to the statement",
+"Proved by the statement"
+],
+"a": 0,
+"e": "An assumption is unstated but needed."
+},
+{
+"id": "re-f4f783b6",
+"s": "reasoning",
+"t": "Statement & Assumptions",
+"q": "Statement: \"Take an umbrella; it may rain.\" Assumption: An umbrella protects from rain.",
+"o": [
+"Is implicit",
+"Is not implicit",
+"Cannot say",
+"Is false"
+],
+"a": 0,
+"e": "The advice relies on it."
+},
+{
+"id": "re-4eda9788",
+"s": "reasoning",
+"t": "Statement & Assumptions",
+"q": "Statement: \"The school will give a prize to the best student.\" Assumption: All students are equal.",
+"o": [
+"Is not implicit",
+"Is implicit",
+"Cannot say",
+"Is true"
+],
+"a": 0,
+"e": "Choosing the best requires differences."
+},
+{
+"id": "re-67f8e43e",
+"s": "reasoning",
+"t": "Statement & Assumptions",
+"q": "Words like \"all\", \"only\", \"always\" in an assumption often make it",
+"o": [
+"Too strong, so usually not implicit",
+"Always correct",
+"Always implicit",
+"Irrelevant"
+],
+"a": 0,
+"e": "Extreme words are risky."
+},
+{
+"id": "re-adf7ab0e",
+"s": "reasoning",
+"t": "Matrix",
+"q": "Find the missing number: row1 2 3 5; row2 4 6 10; row3 6 9 ?",
+"o": [
+"15",
+"12",
+"14",
+"16"
+],
+"a": 0,
+"e": "Third = sum of first two: 6 + 9 = 15."
+},
+{
+"id": "re-f94a77a8",
+"s": "reasoning",
+"t": "Matrix",
+"q": "Find the missing number: 3 9 27; 2 4 8; 5 25 ?",
+"o": [
+"125",
+"100",
+"75",
+"50"
+],
+"a": 0,
+"e": "Each row is x, x², x³: 5, 25, 125."
+},
+{
+"id": "re-96a62e51",
+"s": "reasoning",
+"t": "Matrix",
+"q": "Find the missing number: row1 1 4 9; row2 16 25 36; row3 49 64 ?",
+"o": [
+"81",
+"72",
+"90",
+"100"
+],
+"a": 0,
+"e": "Squares of 1 to 9."
+},
+{
+"id": "re-1ff8040f",
+"s": "reasoning",
+"t": "Matrix",
+"q": "Find the missing number: 2 3 6; 4 5 20; 6 7 ?",
+"o": [
+"42",
+"13",
+"36",
+"48"
+],
+"a": 0,
+"e": "Third = product: 6 × 7 = 42."
+},
+{
+"id": "re-d8e3d434",
+"s": "reasoning",
+"t": "Matrix",
+"q": "Find the missing number: 12 4 3; 18 6 3; 20 10 ?",
+"o": [
+"2",
+"5",
+"4",
+"10"
+],
+"a": 0,
+"e": "Row: a ÷ b = c: 20 ÷ 10 = 2."
+},
+{
+"id": "re-15997942",
+"s": "reasoning",
+"t": "Mirror & Water Images",
+"q": "The mirror image of a clock showing 3:00 looks like:",
+"o": [
+"9:00",
+"3:00",
+"6:00",
+"12:00"
+],
+"a": 0,
+"e": "Mirror time = 12:00 minus the shown time (11:60 − time). 11:60 − 3:00 = 8:60 = 9:00."
+},
+{
+"id": "re-05fbf65b",
+"s": "reasoning",
+"t": "Mirror & Water Images",
+"q": "The mirror image of a clock showing 4:00 looks like:",
+"o": [
+"8:00",
+"4:00",
+"6:00",
+"10:00"
+],
+"a": 0,
+"e": "11:60 − 4:00 = 7:60 = 8:00."
+},
+{
+"id": "re-31633d4c",
+"s": "reasoning",
+"t": "Mirror & Water Images",
+"q": "In a vertical mirror, the left side of an object appears on the",
+"o": [
+"Right side",
+"Left side",
+"Top",
+"Bottom"
+],
+"a": 0,
+"e": "A vertical mirror flips left and right."
+},
+{
+"id": "re-3de3b533",
+"s": "reasoning",
+"t": "Mirror & Water Images",
+"q": "In a water image (reflection in water below), the top of the figure appears at the",
+"o": [
+"Bottom",
+"Top",
+"Left",
+"Right"
+],
+"a": 0,
+"e": "Water image flips top and bottom."
+},
+{
+"id": "re-1c23cbb1",
+"s": "reasoning",
+"t": "Mirror & Water Images",
+"q": "The mirror image of the word \"MOM\" (vertical mirror at the right) reads:",
+"o": [
+"MOM",
+"WOW",
+"OMO",
+"MWM"
+],
+"a": 0,
+"e": "M, O are symmetric about a vertical axis, so MOM reads the same (reversed order is MOM)."
+},
+{
+"id": "re-46a3a664",
+"s": "reasoning",
+"t": "Mirror & Water Images",
+"q": "Which letter looks the same in a vertical mirror?",
+"o": [
+"A",
+"B",
+"F",
+"R"
+],
+"a": 0,
+"e": "A is symmetric about a vertical axis."
+},
+{
+"id": "re-8f5372dd",
+"s": "reasoning",
+"t": "Figure Counting",
+"q": "How many triangles are in a triangle with one line from the apex to the base?",
+"o": [
+"3",
+"2",
+"4",
+"5"
+],
+"a": 0,
+"e": "Two small plus one whole."
+},
+{
+"id": "re-e226e1d9",
+"s": "reasoning",
+"t": "Figure Counting",
+"q": "How many triangles are in a triangle with 2 lines from the apex to the base?",
+"o": [
+"6",
+"4",
+"5",
+"8"
+],
+"a": 0,
+"e": "3 lines make 3 + 2 + 1 = 6."
+},
+{
+"id": "re-0e6d9b72",
+"s": "reasoning",
+"t": "Figure Counting",
+"q": "How many squares in a 2 × 2 grid?",
+"o": [
+"5",
+"4",
+"6",
+"8"
+],
+"a": 0,
+"e": "4 small + 1 large."
+},
+{
+"id": "re-bbcce875",
+"s": "reasoning",
+"t": "Figure Counting",
+"q": "How many squares in a 3 × 3 grid?",
+"o": [
+"14",
+"9",
+"10",
+"13"
+],
+"a": 0,
+"e": "9 + 4 + 1 = 14."
+},
+{
+"id": "re-7f508fa9",
+"s": "reasoning",
+"t": "Figure Counting",
+"q": "How many rectangles in a 2 × 2 grid?",
+"o": [
+"9",
+"4",
+"6",
+"8"
+],
+"a": 0,
+"e": "3 × 3 = 9."
 }
 ]
 }

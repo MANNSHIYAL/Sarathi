@@ -21,3 +21,9 @@
 - Step 2 DONE: AI tutor (#/tutor, js/views/tutor.js, aiChat in js/ai.js, 'Ask AI tutor' button in each lesson part, More menu entry, sw v6).
 - Step 3 DONE: free-resource chips (video/notes/practice/NCERT, search links) + 'My links' add/remove per lesson part and per plan week (js/books.js freeLinks, myLinksHtml, bindMyLinks; stored in 'mylinks'). Existing Buy/Borrow links unchanged. sw v7.
 - Then lessons p1-w6.. onward.
+
+## Request 5: AI tutor live-feed mode DONE (#/tutor/live/<feed>, Brief me / Next / Read aloud, Tutor button on Live tab, sw v8).
+- Next: lessons p1-w6..w8, p2, p3, p4.
+
+## Step B2: p1-w6, w7, w8 lessons DONE (phase 1 complete). Bank +Sentence Improvement, Para Jumbles, RC, Cloze, Statement & Conclusion/Assumptions, Matrix, Mirror, Figure Counting, Economy, Science, Geography. sw v9.
+- Next: p2-w1..w8 (phase 2), then p3, p4. Add bank topics first, then tools/lessons/p2_wN.py.
